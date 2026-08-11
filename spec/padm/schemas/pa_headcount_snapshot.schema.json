@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_headcount_snapshot.schema.json",
+  "title": "pa_headcount_snapshot",
+  "description": "Derived: one row per person per period, produced by workforce::wf_snapshot() from pa_assignment. Never a source table.",
+  "type": "object",
+  "x-padm-derived": true,
+  "x-padm-grain": ["person_id", "period"],
+  "properties": {
+    "person_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "period": { "type": "string", "format": "date", "x-padm-tier": 0, "x-padm-required": true, "description": "period start, e.g. first-of-month" },
+    "is_active": { "type": "boolean", "x-padm-tier": 0, "x-padm-required": true },
+    "org_unit_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "job_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "fte": { "type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 1, "x-padm-tier": 1 }
+  },
+  "required": ["person_id", "period", "is_active"]
+}

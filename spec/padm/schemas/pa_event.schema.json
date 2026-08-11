@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_event.schema.json",
+  "title": "pa_event",
+  "description": "One row per workforce event. The event-sourced spine of padm.",
+  "type": "object",
+  "x-padm-grain": ["event_id"],
+  "x-padm-conformance": "core",
+  "properties": {
+    "event_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "person_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "event_date": { "type": "string", "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "event_type": {
+      "type": "string",
+      "x-padm-tier": 0,
+      "x-padm-required": true,
+      "enum": ["hire", "rehire", "transfer", "promotion", "demotion", "lateral_move",
+               "manager_change", "org_change", "fte_change", "pay_change",
+               "leave_start", "leave_end", "exit"]
+    },
+    "event_subtype": {
+      "type": ["string", "null"],
+      "x-padm-tier": 0,
+      "enum": [null, "voluntary", "involuntary", "retirement", "end_of_contract", "death"]
+    },
+    "is_regretted": { "type": ["boolean", "null"], "x-padm-tier": 1 },
+    "org_unit_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "job_id": { "type": ["string", "null"], "x-padm-tier": 0, "x-padm-conformance": "extended" },
+    "manager_person_id": { "type": ["string", "null"], "x-padm-tier": 1 },
+    "fte": { "type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 1, "x-padm-tier": 1 },
+    "base_pay_amount": { "type": ["number", "null"], "x-padm-tier": 1, "x-padm-conformance": "extended" },
+    "base_pay_currency": { "type": ["string", "null"], "pattern": "^[A-Z]{3}$", "x-padm-tier": 1, "x-padm-conformance": "extended" },
+    "source_system": { "type": ["string", "null"], "x-padm-tier": 0 }
+  },
+  "required": ["event_id", "person_id", "event_date", "event_type"],
+  "x-padm-conditional-required": [
+    { "if_event_type": "exit", "requires": ["event_subtype"] },
+    { "if_column_present": "base_pay_amount", "requires": ["base_pay_currency"] }
+  ]
+}

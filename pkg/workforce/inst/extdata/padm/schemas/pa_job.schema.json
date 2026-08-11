@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_job.schema.json",
+  "title": "pa_job",
+  "description": "One row per job code.",
+  "type": "object",
+  "x-padm-grain": ["job_id"],
+  "x-padm-conformance": "extended",
+  "properties": {
+    "job_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "job_title": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "job_family": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "job_level": { "type": "integer", "x-padm-tier": 0, "x-padm-required": true, "description": "ordinal; used to derive promotion/demotion/lateral" }
+  },
+  "required": ["job_id", "job_title", "job_level"]
+}

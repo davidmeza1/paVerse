@@ -1,0 +1,12 @@
+project:
+  type: default
+
+format:
+  html:
+    self-contained: true
+    toc: true
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+    fig-width: 8
+    fig-height: 4.5

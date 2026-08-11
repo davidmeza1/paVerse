@@ -1,0 +1,273 @@
+---
+title: "paVerse: From a Messy HRIS Export to a Standardized Attrition Report"
+subtitle: "A reference pipeline built on `padm`, `pa.synthetic`, `workforce`, and `attrition`"
+date: today
+---
+
+```{r setup}
+#| message: false
+#| warning: false
+library(pa.synthetic)
+library(workforce)
+library(attrition)
+library(dplyr)
+library(gt)
+library(ggplot2)
+library(scales)
+
+source("standardize.R")
+theme_set(theme_minimal(base_size = 11))
+```
+
+## Why this exists
+
+Every pharma company runs `admiral` on the same CDISC data model and gets interoperable analysis
+pipelines for free. Every HR analytics team reinvents headcount, tenure, and turnover logic from
+scratch — usually with a different, unstated denominator for "turnover rate" every time. This
+report is a runnable proof that the same trick pharmaverse plays works here: one shared data model
+(`padm`), pure derivation functions built on it (`workforce`), and standardized metrics on top
+(`attrition`), all validated against synthetic data with a documented reconciliation invariant.
+
+Nothing in this report is real HR data. `pa.synthetic` generates a seeded, reproducible synthetic
+organization — including a deliberately messy raw export and a documented, deliberate
+adverse-impact signal in one job family, so downstream fairness tooling has something real to
+find later.
+
+## 1. Ingest: a messy vendor export
+
+Real HRIS exports are never `padm`-shaped. `pa.synthetic::pa_synth_raw()` takes a clean event
+stream and re-renders it the way a Workday extract actually arrives: renamed columns, three
+different date formats mixed row by row, inconsistent casing on the event reason text, and stray
+padding whitespace. No information is lost — every quirk is a format problem, not a data-quality
+problem — but it has to be handled before anything downstream can trust it.
+
+```{r ingest}
+raw <- padm_demo_raw
+glimpse_cols <- c("Worker ID", "Effective Date", "Event Reason", "Supervisory Org", "FTE %")
+raw[1:8, glimpse_cols] |>
+  gt() |>
+  tab_header(title = "Raw export (first 8 rows, subset of columns)") |>
+  tab_style(style = cell_text(font = "monospace"), locations = cells_body())
+```
+
+Three date formats and three casing styles appear in just the first few rows — that's the point.
+
+## 2. Standardize to `padm`
+
+`demo/standardize.R` parses the three date formats, normalizes the event-reason text back to the
+controlled vocabulary in `spec/padm/vocab/event-types.csv`, converts `"100%"` strings to numeric
+`fte`, and maps vendor column names to `padm` names. This is the one piece of code in this whole
+pipeline that's specific to "Workday" as a source system — everything after this line only ever
+sees `pa_event`.
+
+```{r standardize}
+event <- standardize_workday(raw)
+
+event[1:8, c("person_id", "event_date", "event_type", "event_subtype", "org_unit_id", "fte")] |>
+  gt() |>
+  tab_header(title = "Standardized pa_event (same 8 rows)")
+```
+
+## 3. Validate against `padm`
+
+`padm_validate()` checks required tables, required columns at the requested conformance level, the
+controlled vocabulary, and the two conditional rules in the `pa_event` schema (`event_subtype`
+required on `exit`; `base_pay_currency` required whenever `base_pay_amount` is present). The org
+and job catalogs are supplied separately from the events extract, as they would be in a real
+integration.
+
+```{r validate}
+tables <- list(
+  pa_person = padm_demo_person,
+  pa_event = event,
+  pa_org_unit = padm_demo_org_unit,
+  pa_job = padm_demo_job
+)
+validation <- padm_validate(tables, level = "extended")
+validation
+```
+
+```{r validate-check}
+#| echo: false
+if (!validation$ok) stop("padm_validate() failed -- the standardized export doesn't conform")
+```
+
+Conformance achieved: **`r validation$achieved_level`**. No failures.
+
+## 4. Derive assignments
+
+`wf_assignments()` folds the event stream into `pa_assignment`: one row per person per
+uninterrupted assignment interval, SCD-2 style. This is the only place in the pipeline where
+"who was where, doing what job, reporting to whom, for how long" gets materialized — and it's a
+pure function of `pa_event`, so it can always be rebuilt.
+
+```{r assignments}
+assignments <- wf_assignments(event)
+cat(sprintf(
+  "%s assignment intervals across %s persons (%.1f intervals/person on average)\n",
+  format(nrow(assignments), big.mark = ","),
+  format(length(unique(assignments$person_id)), big.mark = ","),
+  nrow(assignments) / length(unique(assignments$person_id))
+))
+```
+
+## 5. Headcount and the reconciliation invariant
+
+`wf_snapshot()` produces a dense person-by-month grid; `wf_reconcile()` checks the one invariant
+that matters — `opening + hires − exits == closing` — for every period. Because `pa_assignment`
+and `pa_headcount_snapshot` are both derived from the same `pa_event` stream, this can only fail if
+the derivation logic itself has a bug, never because two independently-maintained tables drifted
+apart.
+
+```{r reconcile}
+snapshot <- wf_snapshot(assignments, period = "month")
+reconcile <- wf_reconcile(snapshot, event, period = "month")
+
+checked <- reconcile$reconciled[!is.na(reconcile$reconciled)]
+cat(sprintf("%d / %d monthly periods reconciled exactly\n", sum(checked), length(checked)))
+if (!all(checked)) stop("reconciliation invariant failed")
+
+reconcile |>
+  tail(12) |>
+  gt() |>
+  tab_header(title = "Reconciliation, last 12 months") |>
+  fmt_integer(columns = c(opening, hires, exits, expected_closing, closing)) |>
+  cols_label(reconciled = "opening + hires − exits == closing")
+```
+
+```{r headcount-plot}
+#| fig-cap: "Total headcount by month, derived entirely from pa_event"
+reconcile |>
+  ggplot(aes(period, closing)) +
+  geom_line(color = "#2c3e50", linewidth = 0.8) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  labs(x = NULL, y = "Headcount")
+```
+
+## 6. Turnover rate under three definitions — the punchline
+
+This is the sharpest concrete argument for a shared standard: computed on the **identical**
+assignments and events, over the **identical** twelve-month window, "turnover rate" produces three
+different numbers depending on an unstated denominator choice. `padm` makes `exposure` the
+canonical default (`spec/padm/padm-v0.md` §7) precisely because it is the only one that is
+mathematically consistent with the event-sourced spine — but `attr_rate()` requires the definition
+be named explicitly every time, so a reported number is never ambiguous about what it measures.
+
+```{r turnover}
+win_from <- as.Date("2025-01-01")
+win_to <- as.Date("2026-01-01")
+
+rates <- bind_rows(lapply(
+  c("exposure", "avg_headcount", "beginning_headcount"),
+  function(d) attr_rate(assignments, event, win_from, win_to, definition = d)
+))
+
+rates |>
+  gt() |>
+  tab_header(title = "Calendar-year 2025 turnover, three ways") |>
+  fmt_number(columns = denominator, decimals = 1) |>
+  fmt_percent(columns = rate, decimals = 1) |>
+  cols_label(
+    definition = "Denominator definition", exits = "Exits",
+    denominator = "Denominator", rate = "Turnover rate"
+  )
+```
+
+```{r rolling}
+#| fig-cap: "Trailing 12-month exposure-based turnover rate, monthly"
+period_ends <- seq(as.Date("2021-01-31"), as.Date("2025-12-31"), by = "month")
+rolling <- attr_rate_rolling(assignments, event, period_ends, window_months = 12, definition = "exposure")
+
+rolling |>
+  ggplot(aes(to, rate)) +
+  geom_line(color = "#c0392b", linewidth = 0.8) +
+  scale_y_continuous(labels = percent_format(accuracy = 1)) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  labs(x = NULL, y = "Trailing 12-month turnover (exposure)")
+```
+
+## 7. Retention curves by hire cohort
+
+A single point-in-time rate can't answer "are recent hires retaining better or worse than people
+hired three years ago at the same point in their tenure?" A Kaplan-Meier curve, grouped by
+hire-year cohort, can.
+
+```{r curve}
+#| fig-cap: "Kaplan-Meier retention by hire-year cohort, censored at 36 months"
+tenure <- wf_tenure(assignments, as_of = win_to - 1)
+curve <- attr_curve(tenure, cohort = "hire_year", max_months = 36)
+
+curve |>
+  ggplot(aes(time_months, survival, color = group)) +
+  geom_step(linewidth = 0.7) +
+  scale_y_continuous(labels = percent_format(accuracy = 1), limits = c(0, 1)) +
+  labs(x = "Tenure (months)", y = "Retained", color = "Hire year")
+```
+
+## 8. Cohort retention table
+
+The table form of the same idea: fraction of each cohort retained to fixed tenure checkpoints,
+correctly excluding people who haven't had the chance to reach a checkpoint yet rather than
+counting them as churn.
+
+```{r cohort-table}
+attr_cohort(tenure, checkpoints_months = c(3, 6, 12, 24)) |>
+  gt(groupname_col = "cohort") |>
+  tab_header(title = "Retention by hire-year cohort") |>
+  fmt_percent(columns = retention, decimals = 0) |>
+  sub_missing(columns = retention, missing_text = "n/a (nobody observable yet)") |>
+  cols_label(checkpoint_months = "Tenure checkpoint (months)", n = "Cohort size",
+             n_observable = "Observable", retention = "Retained")
+```
+
+## 9. Org-unit breakdown, with small-cell suppression
+
+`spec/padm/padm-v0.md` §5 tags every column with a sensitivity tier so a future `pa.privacy`
+package can enforce suppression automatically. There's no such package yet, but the reporting
+discipline it's meant to enforce is cheap to apply by hand today: any org unit too small to report
+on without risking re-identification is suppressed rather than shown.
+
+```{r org-breakdown}
+org_lookup <- unique(padm_demo_org_unit[, c("org_unit_id", "org_unit_name")])
+units <- unique(assignments$org_unit_id)
+
+by_unit <- bind_rows(lapply(units, function(u) {
+  asn_u <- assignments[assignments$org_unit_id == u, ]
+  ev_u <- event[event$org_unit_id == u, ]
+  size <- attr_rate(asn_u, ev_u, win_from, win_to, "avg_headcount")$denominator
+  exp <- attr_rate(asn_u, ev_u, win_from, win_to, "exposure")
+  data.frame(org_unit_id = u, avg_headcount = size, exits = exp$exits, rate = exp$rate)
+}))
+
+SUPPRESSION_THRESHOLD <- 11 # common small-cell suppression convention
+
+by_unit |>
+  left_join(org_lookup, by = "org_unit_id") |>
+  mutate(
+    suppressed = avg_headcount < SUPPRESSION_THRESHOLD,
+    exits = ifelse(suppressed, NA_integer_, exits),
+    rate = ifelse(suppressed, NA_real_, rate)
+  ) |>
+  arrange(desc(avg_headcount)) |>
+  select(org_unit_name, avg_headcount, exits, rate) |>
+  gt() |>
+  tab_header(title = "2025 turnover (exposure) by org unit",
+             subtitle = sprintf("Units with average headcount below %d are suppressed", SUPPRESSION_THRESHOLD)) |>
+  fmt_number(columns = avg_headcount, decimals = 1) |>
+  fmt_percent(columns = rate, decimals = 1) |>
+  sub_missing(columns = c(exits, rate), missing_text = "suppressed") |>
+  cols_label(org_unit_name = "Org unit", avg_headcount = "Avg. headcount",
+             exits = "Exits", rate = "Turnover rate")
+```
+
+## Reproducibility
+
+Everything above is generated from `pa.synthetic`'s cached demo dataset (`seed = 42`, 600-person
+hiring cohort, 2019–2025). Re-running `quarto render demo/attrition-report.qmd` from a clean
+checkout reproduces this document exactly. `demo/run.R` runs the same pipeline headless as a CI
+smoke test.
+
+```{r versions}
+#| echo: false
+sessioninfo::package_info(c("pa.synthetic", "workforce", "attrition"), dependencies = FALSE)
+```

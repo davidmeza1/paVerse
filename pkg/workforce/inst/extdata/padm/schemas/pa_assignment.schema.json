@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_assignment.schema.json",
+  "title": "pa_assignment",
+  "description": "Derived: one row per person per uninterrupted assignment interval, folded from pa_event by workforce::wf_assignments().",
+  "type": "object",
+  "x-padm-derived": true,
+  "x-padm-grain": ["person_id", "valid_from"],
+  "properties": {
+    "person_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_from": { "type": "string", "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_to": { "type": ["string", "null"], "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "org_unit_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "job_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "manager_person_id": { "type": ["string", "null"], "x-padm-tier": 1 },
+    "fte": { "type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 1, "x-padm-tier": 1 },
+    "is_on_leave": { "type": "boolean", "x-padm-tier": 0 },
+    "exit_type": { "type": ["string", "null"], "x-padm-tier": 0, "description": "populated only on the terminal row when the interval ends in exit" }
+  },
+  "required": ["person_id", "valid_from", "valid_to"]
+}

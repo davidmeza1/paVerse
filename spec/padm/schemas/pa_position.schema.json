@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_position.schema.json",
+  "title": "pa_position",
+  "description": "One row per funded position per SCD-2 validity interval. Only required for full conformance.",
+  "type": "object",
+  "x-padm-grain": ["position_id", "valid_from"],
+  "x-padm-conformance": "full",
+  "properties": {
+    "position_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_from": { "type": "string", "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_to": { "type": ["string", "null"], "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "job_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "org_unit_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "is_filled": { "type": "boolean", "x-padm-tier": 0, "x-padm-required": true }
+  },
+  "required": ["position_id", "valid_from", "valid_to", "job_id", "org_unit_id", "is_filled"]
+}

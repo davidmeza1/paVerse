@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+
+# renv (if/when a project lockfile is added)
+renv/library/
+renv/staging/
+
+# Quarto build artifacts (demo/attrition-report.html is committed deliberately)
+demo/.quarto/
+demo/*_files/
+demo/*.knit.md
+demo/*_cache/
+
+# OS
+.DS_Store

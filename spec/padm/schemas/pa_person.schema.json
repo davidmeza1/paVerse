@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_person.schema.json",
+  "title": "pa_person",
+  "description": "One row per person; time-invariant attributes only.",
+  "type": "object",
+  "x-padm-grain": ["person_id"],
+  "x-padm-conformance": "core",
+  "properties": {
+    "person_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "birth_date": { "type": ["string", "null"], "format": "date", "x-padm-tier": 2, "x-padm-conformance": "extended" },
+    "gender": { "type": ["string", "null"], "x-padm-tier": 2, "x-padm-conformance": "extended" },
+    "ethnicity": { "type": ["string", "null"], "x-padm-tier": 2, "x-padm-conformance": "extended" },
+    "hire_date_original": { "type": ["string", "null"], "format": "date", "x-padm-tier": 0, "x-padm-conformance": "extended" }
+  },
+  "required": ["person_id"]
+}

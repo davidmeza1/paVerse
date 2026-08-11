@@ -1,0 +1,23 @@
+Package: pa.synthetic
+Title: Synthetic HR Datasets Conforming to padm
+Version: 0.0.0.9000
+Authors@R: person("paVerse", "Contributors", role = c("aut", "cre"), email = "noreply@example.com")
+Description: Generates seeded, reproducible synthetic people-analytics datasets
+    (org structure, hires, events) conforming to the padm data model, for use in
+    examples, tests, and teaching without any real PII. Includes a deliberately
+    messy raw-export generator that mimics common HRIS vendor export shapes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1)
+Imports:
+    stats,
+    utils,
+    withr
+Suggests:
+    testthat (>= 3.0.0),
+    devtools,
+    usethis
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
+LazyData: true

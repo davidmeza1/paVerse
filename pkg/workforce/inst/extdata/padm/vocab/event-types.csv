@@ -1,0 +1,18 @@
+event_type,event_subtype,category,description,affects_assignment,affects_headcount
+hire,,accession,"First entry into the organization for a given person_id",TRUE,TRUE
+rehire,,accession,"Re-entry after a prior exit event for the same person_id",TRUE,TRUE
+transfer,,movement,"Change of org_unit_id without a change in job_id level",TRUE,FALSE
+promotion,,movement,"Change of job_id to a higher job_level",TRUE,FALSE
+demotion,,movement,"Change of job_id to a lower job_level",TRUE,FALSE
+lateral_move,,movement,"Change of job_id at the same job_level",TRUE,FALSE
+manager_change,,movement,"Change of manager_person_id with no other assignment change",TRUE,FALSE
+org_change,,movement,"Org unit restructure applied to an existing assignment (unit renamed/moved, not the person)",TRUE,FALSE
+fte_change,,movement,"Change in fte allocation",TRUE,FALSE
+pay_change,,compensation,"Change in base_pay_amount, currency, or pay_frequency",FALSE,FALSE
+leave_start,,leave,"Start of an approved leave of absence",TRUE,FALSE
+leave_end,,leave,"Return from an approved leave of absence",TRUE,FALSE
+exit,voluntary,separation,"Employee-initiated departure",TRUE,TRUE
+exit,involuntary,separation,"Employer-initiated departure (performance, layoff, misconduct)",TRUE,TRUE
+exit,retirement,separation,"Departure classified as retirement",TRUE,TRUE
+exit,end_of_contract,separation,"Fixed-term or contract engagement ending on schedule",TRUE,TRUE
+exit,death,separation,"Departure due to death",TRUE,TRUE

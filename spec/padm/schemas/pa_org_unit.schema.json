@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://paverse.dev/schemas/padm/v0/pa_org_unit.schema.json",
+  "title": "pa_org_unit",
+  "description": "One row per org unit per SCD-2 validity interval.",
+  "type": "object",
+  "x-padm-grain": ["org_unit_id", "valid_from"],
+  "x-padm-conformance": "core",
+  "properties": {
+    "org_unit_id": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_from": { "type": "string", "format": "date", "x-padm-tier": 0, "x-padm-required": true },
+    "valid_to": { "type": ["string", "null"], "format": "date", "x-padm-tier": 0, "x-padm-required": true, "description": "null/NA means currently open" },
+    "org_unit_name": { "type": "string", "x-padm-tier": 0, "x-padm-required": true },
+    "parent_org_unit_id": { "type": ["string", "null"], "x-padm-tier": 0 },
+    "org_unit_level": { "type": ["integer", "null"], "minimum": 1, "x-padm-tier": 0 }
+  },
+  "required": ["org_unit_id", "valid_from", "valid_to", "org_unit_name"]
+}

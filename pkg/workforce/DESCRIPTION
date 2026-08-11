@@ -1,0 +1,23 @@
+Package: workforce
+Title: Derive padm Assignments, Headcount, and Tenure from an Event Stream
+Version: 0.0.0.9000
+Authors@R: person("paVerse", "Contributors", role = c("aut", "cre"), email = "noreply@example.com")
+Description: The admiral analogue for the padm data model. Folds a padm
+    event stream into derived SCD-2 assignment intervals, headcount
+    snapshots, and tenure, validates source tables against padm conformance
+    levels, and reconciles derived headcount against raw hire/exit counts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Config/roxygen2/version: 8.0.0
+Depends: R (>= 4.1)
+Imports:
+    stats,
+    utils,
+    jsonlite,
+    lubridate
+Suggests:
+    testthat (>= 3.0.0),
+    pa.synthetic
+Config/testthat/edition: 3
