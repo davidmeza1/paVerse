@@ -17,3 +17,8 @@ demo/*_cache/
 
 # OS
 .DS_Store
+
+.databricks
+
+# Local reference material not meant for the public repo
+/reference/

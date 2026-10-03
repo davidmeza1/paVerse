@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.29">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>peopleverse-strategy-plan</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="peopleverse-strategy-plan_files/libs/clipboard/clipboard.min.js"></script>
+<script src="peopleverse-strategy-plan_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="peopleverse-strategy-plan_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="peopleverse-strategy-plan_files/libs/quarto-html/popper.min.js"></script>
+<script src="peopleverse-strategy-plan_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="peopleverse-strategy-plan_files/libs/quarto-html/anchor.min.js"></script>
+<link href="peopleverse-strategy-plan_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="peopleverse-strategy-plan_files/libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="building-a-pharmaverse-for-people-analytics" class="level1">
+<h1>Building a “pharmaverse for People Analytics”</h1>
+<section id="a-strategy-and-development-plan-for-a-curated-community-governed-open-source-ecosystem" class="level3">
+<h3 class="anchored" data-anchor-id="a-strategy-and-development-plan-for-a-curated-community-governed-open-source-ecosystem">A strategy and development plan for a curated, community-governed open-source ecosystem</h3>
+<p><em>Draft v0.2 — August 2026 · Working name: <strong>peopleverse</strong> (placeholder; <strong>paverse</strong> recommended, see Appendix A)</em></p>
+<p><strong>Status:</strong> <code>padm</code> v0 (spec + schemas), <code>pa.synthetic</code>, <code>workforce</code>, and <code>attrition</code> are built and passing, and a working raw-export → attrition-report demo runs end to end on synthetic data — see <a href="spec/padm/">spec/padm/</a>, <a href="pkg/">pkg/</a>, and <a href="demo/">demo/</a>. This is a solo proof, not yet a community project. §12 has been rewritten to reflect what’s actually been built and what a sequenced path forward looks like from here.</p>
+<hr>
+</section>
+<section id="executive-summary" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary">1. Executive summary</h2>
+<p>Pharmaverse succeeded by turning a fragmented, siloed, duplicative problem space (clinical reporting in pharma) into a <strong>curated network of interoperable open-source packages</strong> backed by a light-touch charter, a contribution model, shared data standards, and neutral hosting. People analytics sits in an almost identical position today: every company rebuilds the same headcount, attrition, and reporting logic privately, in incompatible ways, on incompatible data models.</p>
+<p>This plan proposes an equivalent ecosystem for people analytics, built primarily on the <strong>Posit open-source and professional stack</strong> (R and Python), governed by a community council, and delivered through a curated package library, a public website, and reproducible reference workflows. We start narrow — <strong>data standards, core/attrition metrics, and reproducible reporting</strong> — and grow the network from there.</p>
+<p>The single biggest difference from pharmaverse, and the one that shapes every design decision below, is <strong>data sensitivity</strong>: HR data is personal, regulated (GDPR, EEOC, pay-transparency laws), and rarely “post-competitive” in the way anonymized clinical trial standards are. The ecosystem therefore leads with privacy-preserving design, synthetic data, and governance rather than treating them as afterthoughts.</p>
+<hr>
+</section>
+<section id="vision" class="level2">
+<h2 class="anchored" data-anchor-id="vision">2. Vision</h2>
+<blockquote class="blockquote">
+<p>A connected network of practitioners and organizations collaboratively developing curated, interoperable open-source R and Python packages for people analytics — so teams stop rebuilding the same headcount, attrition, and reporting logic in silos, and instead share validated, reproducible building blocks.</p>
+</blockquote>
+<p><strong>What “good” looks like in 3 years:</strong></p>
+<ul>
+<li>A practitioner can install a handful of interoperable packages and go from raw HRIS export to a validated attrition model and a stakeholder-ready report in a reproducible pipeline.</li>
+<li>A common, documented <strong>people-analytics data model</strong> exists that packages read and write, the way pharmaverse packages share CDISC SDTM/ADaM.</li>
+<li>New contributors have a clear, low-friction path from “I built a useful function” to “it’s a recommended package in the ecosystem.”</li>
+<li>Organizations trust the ecosystem enough to adopt it internally because of transparent governance, validation tooling, and privacy-first defaults.</li>
+</ul>
+<section id="the-pharmaverse-analogy-and-where-it-breaks" class="level3">
+<h3 class="anchored" data-anchor-id="the-pharmaverse-analogy-and-where-it-breaks">The pharmaverse analogy (and where it breaks)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pharmaverse element</th>
+<th>People-analytics equivalent</th>
+<th>Notes / divergence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Post-competitive clinical reporting</td>
+<td>Post-competitive HR reporting (headcount, attrition, standard metrics)</td>
+<td>Weaker “post-competitive” consensus; must be built deliberately</td>
+</tr>
+<tr class="even">
+<td>CDISC SDTM / ADaM data standards</td>
+<td>A shared people-analytics data model (proposed)</td>
+<td><strong>Does not exist yet — must be created.</strong> Biggest foundational gap</td>
+</tr>
+<tr class="odd">
+<td><code>admiral</code> (derived datasets)</td>
+<td>Attrition / movement / tenure derivation package</td>
+<td>Core early package</td>
+</tr>
+<tr class="even">
+<td><code>teal</code> / <code>rtables</code> (reporting)</td>
+<td>Shiny/Quarto reporting + workforce table packages</td>
+<td>Leverage Posit stack directly</td>
+</tr>
+<tr class="odd">
+<td>Synthetic data (<code>pharmaversesdtm</code>)</td>
+<td>Synthetic HR datasets</td>
+<td><strong>Essential</strong> — enables open dev without exposing PII</td>
+</tr>
+<tr class="even">
+<td>Validation working group (<code>riskmetric</code>, <code>valtools</code>)</td>
+<td>Validation + fairness/bias assessment tooling</td>
+<td>Add algorithmic-fairness dimension</td>
+</tr>
+<tr class="odd">
+<td>R-universe hosting</td>
+<td>R-universe + PyPI + Posit Package Manager</td>
+<td>Dual-language from day one</td>
+</tr>
+<tr class="even">
+<td>Charter + council governance</td>
+<td>Charter + council governance</td>
+<td>Adopt closely</td>
+</tr>
+<tr class="odd">
+<td>PHUSE industry backing</td>
+<td>An anchor community body (see §8)</td>
+<td>Need an equivalent neutral home</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="landscape-and-rationale" class="level2">
+<h2 class="anchored" data-anchor-id="landscape-and-rationale">3. Landscape and rationale</h2>
+<p><strong>What already exists (point solutions, not an ecosystem):</strong></p>
+<ul>
+<li><code>hR</code> (CRAN) — HR-specific data-engineering helpers.</li>
+<li><code>vivainsights</code> / <code>wpa</code> (Microsoft) — analysis of Viva Insights / Workplace Analytics data; ~100+ curated functions, ONA, clustering, churn.</li>
+<li>General-purpose modeling stacks used ad hoc: <code>tidymodels</code>, <code>survival</code>, <code>lme4</code>, <code>igraph</code>/<code>tidygraph</code> for ONA.</li>
+<li>Strong learning resources — <em>The Fundamentals of People Analytics (R)</em>, <em>R for HR</em>, the Big Book of R people-analytics chapter — but no coordinating package layer.</li>
+</ul>
+<p><strong>The gap:</strong> these are isolated, mostly single-vendor or single-author, and share no common data model or interoperability contract. Nobody plays the curating/standard-setting role pharmaverse plays. That coordinating layer — standards + interoperability + governance + curation — is the opportunity.</p>
+<p><strong>Why now:</strong> mature Posit tooling for reproducibility and deployment; rising regulatory pressure (pay transparency, AI-in-HR audit requirements) that rewards transparent, auditable methods; and a large, R/Python-literate people-analytics community actively looking for shared standards.</p>
+<p><strong>Why not adopt an existing HR data standard?</strong> <a href="https://www.hropenstandards.org/">HR Open Standards</a> (the modern continuation of the earlier HR-XML Consortium work) already defines XML/JSON payloads for candidate, job, and worker data — but it’s aimed at <em>system-to-system integration</em> (ATS ↔︎ HRIS ↔︎ payroll), not analytics. It solves a different problem than <code>padm</code>: HROS is a wire format for point-in-time interchange, with no native concept of an immutable event stream, a <code>[valid_from, valid_to)</code> assignment interval, or a controlled attrition-event taxonomy — the things that make derived views (headcount, tenure, attrition) reconstructable and reconcilable rather than approximated. Profiling HROS would import its deeply-nested, transaction-oriented shape without buying interoperability, since no <code>padm</code> consumer needs HROS wire compatibility in Phase 1. <code>padm</code> v0 is therefore greenfield: a tidy, analysis-first schema, expressed as language-neutral JSON Schema so an adapter <em>from</em> HROS or a specific HRIS export shape is possible later without having constrained v0’s design today (see §6, “padm design decisions”).</p>
+<hr>
+</section>
+<section id="design-principles" class="level2">
+<h2 class="anchored" data-anchor-id="design-principles">4. Design principles</h2>
+<ol type="1">
+<li><strong>Privacy and ethics first.</strong> Synthetic data for all examples/tests; no PII in any repo; privacy-preserving defaults (k-anonymity/aggregation thresholds); fairness and adverse-impact tooling as first-class, not bolt-on.</li>
+<li><strong>Interoperable by contract.</strong> Packages agree on a shared data model and column conventions so outputs of one are inputs to the next (the <code>admiral</code>→<code>teal</code> pattern).</li>
+<li><strong>Dual-language, tidy-idiomatic.</strong> R and Python treated as equal citizens; R packages follow tidyverse design principles, Python packages follow a documented equivalent (pandas/polars-friendly, typed).</li>
+<li><strong>Reproducible end to end.</strong> <code>renv</code>/<code>venv</code>, Quarto, and pipeline tooling (<code>targets</code>) so any published result can be regenerated.</li>
+<li><strong>Curated, not centralized.</strong> Packages can live in any org’s GitHub; the ecosystem curates and cross-links rather than owning all code (pharmaverse model).</li>
+<li><strong>Validated and documented.</strong> Every recommended package meets minimum bars for tests, docs (pkgdown/Quarto sites), and a documented validation/risk posture.</li>
+<li><strong>Low friction to contribute.</strong> Clear inclusion criteria, issue templates, and a public Slack/Discourse.</li>
+</ol>
+<hr>
+</section>
+<section id="architecture-on-the-posit-stack" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-on-the-posit-stack">5. Architecture on the Posit stack</h2>
+<p><strong>Development &amp; authoring</strong> - <strong>Posit Workbench</strong> (or open-source RStudio / VS Code) as the reference IDE. - <strong>Quarto</strong> for all documentation, reports, examples, and the ecosystem website. - <code>renv</code> (R) and <code>venv</code>/<code>uv</code> (Python) for reproducible environments.</p>
+<p><strong>Package build &amp; distribution</strong> - <strong>R-universe</strong> as the CRAN-like community registry (as pharmaverse does), plus CRAN for stable releases. - <strong>PyPI</strong> for Python packages; optional conda-forge later. - <strong>Posit Package Manager</strong> as the recommended way for organizations to mirror/pin a validated internal snapshot.</p>
+<p><strong>Modeling &amp; pipelines</strong> - <code>tidymodels</code> (R) / <code>scikit-learn</code> (Python) for modeling. - <code>targets</code> (R) / equivalent for reproducible pipelines. - <code>pointblank</code> / <code>pandera</code> for data validation against the shared data model.</p>
+<p><strong>Deployment &amp; apps</strong> - <strong>Shiny</strong> (R and Python) for interactive apps; <strong>Quarto dashboards</strong> for lighter reporting. - <strong>Posit Connect</strong> as the recommended publishing/hosting layer for internal deployment. - <code>vetiver</code> + <code>plumber</code>/<code>FastAPI</code> for deploying and versioning any predictive models (e.g., attrition risk) with monitoring.</p>
+<p><strong>The reference pipeline the ecosystem makes easy:</strong></p>
+<pre><code>Raw HRIS export
+   → [ingest/standardize pkg] → shared People-Analytics Data Model
+   → [derivation pkg: tenure, movement, attrition flags]
+   → [metrics pkg: headcount, turnover, retention curves]
+   → [modeling: survival / tidymodels attrition risk]
+   → [fairness/validation checks]
+   → [reporting pkg: Quarto/Shiny] → Posit Connect</code></pre>
+<hr>
+</section>
+<section id="proposed-package-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-package-portfolio">6. Proposed package portfolio</h2>
+<p>Organized in four layers. Names are placeholders. This was originally a twelve-package v0.1 wishlist with six items flagged “Phase 1 priority.” <strong>v0.2 trims Phase 1 down to the four items actually built in this proof</strong> (marked ✅); everything else here is v0.1’s longer-term portfolio, kept for context but explicitly not started — see §12 for why the rest waits.</p>
+<section id="layer-0-foundation-standards" class="level3">
+<h3 class="anchored" data-anchor-id="layer-0-foundation-standards">Layer 0 — Foundation &amp; standards</h3>
+<ul>
+<li><strong><code>padm</code> — People-Analytics Data Model.</strong> ✅ v0 shipped (<a href="spec/padm/">spec/padm/</a>): event-sourced spine, JSON Schema per table, controlled event vocabulary, sensitivity tiers, conformance levels. See “padm design decisions” below.</li>
+<li><strong><code>pa.synthetic</code> — synthetic HR datasets.</strong> ✅ shipped (<a href="pkg/pa.synthetic/">pkg/pa.synthetic/</a>): seeded generators (org, jobs, hiring cohort, hazard-based event stream), a deliberately messy raw-export simulator, and a documented adverse-impact signal for future fairness tooling.</li>
+<li><code>pa.connect</code> — connectors/adapters for common HRIS exports (Workday, SuccessFactors, BambooHR CSV shapes) → <code>padm</code>. <em>Not started.</em></li>
+</ul>
+</section>
+<section id="layer-1-core-metrics-derivations" class="level3">
+<h3 class="anchored" data-anchor-id="layer-1-core-metrics-derivations">Layer 1 — Core metrics &amp; derivations</h3>
+<ul>
+<li><strong><code>workforce</code> — derivation engine.</strong> ✅ shipped (<a href="pkg/workforce/">pkg/workforce/</a>): assignments, headcount snapshots, tenure, <code>padm_validate()</code>, and the <code>opening + hires − exits == closing</code> reconciliation check (the <code>admiral</code> analogue).</li>
+<li><strong><code>attrition</code> — turnover &amp; retention metrics.</strong> ✅ shipped (<a href="pkg/attrition/">pkg/attrition/</a>): turnover rate under three explicit denominator definitions, rolling rates, Kaplan-Meier retention curves, cohort tables.</li>
+<li><code>movement</code> — internal mobility, promotion velocity, org network flows. <em>Not started.</em></li>
+</ul>
+</section>
+<section id="layer-2-modeling-assessment-not-started-deferred-past-the-proof-phase" class="level3">
+<h3 class="anchored" data-anchor-id="layer-2-modeling-assessment-not-started-deferred-past-the-proof-phase">Layer 2 — Modeling &amp; assessment <em>(not started; deferred past the proof phase)</em></h3>
+<ul>
+<li><code>attritionmodels</code> — opinionated survival + <code>tidymodels</code>/<code>scikit-learn</code> recipes for turnover risk, with <code>vetiver</code> deployment templates.</li>
+<li><code>pa.fairness</code> — adverse-impact (4/5ths rule), representation, and pay-equity/statistical- fairness testing. (<code>pa.synthetic</code>’s documented adverse-impact signal exists specifically to give this package something real to detect, whenever it’s built.)</li>
+<li><code>pa.survey</code> — survey scale construction, reliability, driver analysis (eNPS/engagement).</li>
+</ul>
+</section>
+<section id="layer-3-reporting-delivery-not-started-as-packages-demo-is-a-one-off-proof-not-a-package" class="level3">
+<h3 class="anchored" data-anchor-id="layer-3-reporting-delivery-not-started-as-packages-demo-is-a-one-off-proof-not-a-package">Layer 3 — Reporting &amp; delivery <em>(not started as packages; <code>demo/</code> is a one-off proof, not a package)</em></h3>
+<ul>
+<li><code>pareport</code> — reproducible reporting templates (Quarto) for standard HR packs: headcount, attrition, DEI representation.</li>
+<li><code>workforcetables</code> — standardized workforce tables (headcount by dimension, movement tables) built on <code>gt</code>/<code>great_tables</code>.</li>
+<li><code>pa.shiny</code> — reusable Shiny modules/components (filters, org-hierarchy pickers, privacy- threshold guards) for building dashboards on Posit Connect.</li>
+</ul>
+</section>
+<section id="cross-cutting-utilities-not-started" class="level3">
+<h3 class="anchored" data-anchor-id="cross-cutting-utilities-not-started">Cross-cutting utilities <em>(not started)</em></h3>
+<ul>
+<li><code>pa.privacy</code> — aggregation thresholds, k-anonymity/suppression helpers, PII scrubbing. <code>padm</code>’s sensitivity tiers (see below) are the hook this package will eventually read.</li>
+<li><code>pa.validate</code> — package validation/risk metadata (a <code>riskmetric</code>/<code>valtools</code> analogue) tailored to HR.</li>
+</ul>
+</section>
+<section id="padm-design-decisions-v0" class="level3">
+<h3 class="anchored" data-anchor-id="padm-design-decisions-v0">padm design decisions (v0)</h3>
+<p><code>spec/padm/padm-v0.md</code> is the ratified-for-now RFC. The decisions worth surfacing here because they shape every package built on top of it:</p>
+<ul>
+<li><strong>Event-sourced spine, derived snapshots.</strong> <code>pa_event</code> is the only source of truth; <code>pa_assignment</code> and <code>pa_headcount_snapshot</code> are always derived, never stored independently. This is what makes <code>opening + hires − exits == closing</code> a checkable invariant (<code>workforce::wf_reconcile()</code>) instead of an approximation — verified with zero mismatches across 30+ independently-seeded synthetic datasets plus the large cached demo dataset.</li>
+<li><strong>Conformance levels</strong> (<code>core</code> / <code>extended</code> / <code>full</code>) let a dataset or package declare the minimum shape it needs, checked by <code>padm_validate()</code>, without forcing every organization to supply position-management data on day one.</li>
+<li><strong>Sensitivity tiers</strong> (0 structural, 1 restricted, 2 protected-class) are tagged in every JSON Schema now, with no enforcement yet — the hook for a future <code>pa.privacy</code> package exists before the reporting layer does, rather than being retrofitted later.</li>
+<li><strong>Turnover denominator: <code>exposure</code> is canonical.</strong> Beginning headcount, average headcount, and exposure-time produce three different numbers on identical data — <code>attr_rate()</code>’s three- definition comparison in <code>demo/attrition-report.qmd</code> (§6 of the report) is the concrete proof. <code>padm</code> mandates <code>exposure</code> as the default specifically because it’s the only definition that’s mathematically consistent with an event-sourced spine.</li>
+<li><strong>Greenfield over profiling an existing standard</strong> — see §3 for why HR Open Standards / hrXML wasn’t adopted as a starting point.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="governance-and-the-charter" class="level2">
+<h2 class="anchored" data-anchor-id="governance-and-the-charter">7. Governance and the charter</h2>
+<p>Adopt the pharmaverse model closely, adapted for HR sensitivities.</p>
+<p><strong>Charter (to be drafted first):</strong> states the high-level objective (curated, interoperable, privacy-first open-source people analytics), scope (what’s in/out), and non-endorsement disclaimer (listing ≠ warranty; users assess fitness and license themselves).</p>
+<p><strong>Council (5–9 people):</strong> cross-organizational, adjudicates contentious inclusion/removal decisions and stewards the charter. Seek diversity across employers, geographies, and R/Python. Rotate seats.</p>
+<p><strong>Package inclusion criteria (public checklist):</strong> - Conforms to the <code>padm</code> data model (or is a foundational/standards package). - Open-source license, public repo, passing CI. - Tests + documented coverage; a pkgdown/Quarto documentation site. - Uses synthetic data only in examples/tests (no PII). - Passes a privacy/ethics review (aggregation defaults, no re-identification risk in examples). - Named maintainer and a stated support/validation posture.</p>
+<p><strong>Decision process (pharmaverse-style):</strong> anyone opens a “new package request” issue → community comment window on Slack/Discourse → website team actions if uncontested → council adjudicates if contested. Same lightweight path for removals.</p>
+<hr>
+</section>
+<section id="infrastructure-and-community" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure-and-community">8. Infrastructure and community</h2>
+<p><strong>Website</strong> (Quarto or Hugo, like pharmaverse.org): package library with searchable tags (e.g., <code>standards</code>, <code>attrition</code>, <code>reporting</code>, <code>fairness</code>, <code>python</code>), charter, contribute, support, examples, blog. Static, cheap to host (GitHub Pages / Netlify).</p>
+<p><strong>Package hosting:</strong> R-universe org for R, PyPI for Python, docs auto-built via GitHub Actions. A “get packages” page mirroring pharmaverse’s R-universe instructions.</p>
+<p><strong>Reference examples:</strong> an <code>examples</code> repo showing the full raw-export→report pipeline on synthetic data — the single most persuasive artifact for adoption.</p>
+<p><strong>Community:</strong> Slack or Discourse; a LinkedIn presence (the PA community lives there); a recurring community call; talks at people-analytics and R/Python conferences.</p>
+<p><strong>Anchor/neutral home:</strong> pharmaverse leans on PHUSE. Identify an equivalent — options include partnering with an existing PA community/association, a vendor-neutral foundation, or standing up a lightweight independent entity. Neutrality matters for multi-employer trust.</p>
+<hr>
+</section>
+<section id="phased-roadmap" class="level2">
+<h2 class="anchored" data-anchor-id="phased-roadmap">9. Phased roadmap</h2>
+<p><strong>Phase 0 — Foundations (Months 0–3)</strong> - Draft and publish the charter; recruit an initial council/steering group. - Register the GitHub org, R-universe, PyPI namespace; stand up a minimal website. - Ship <code>pa.synthetic</code> (synthetic data) and a first <code>padm</code> draft spec (RFC for comment). - Publish one end-to-end example notebook on synthetic data to demonstrate intent. - <em>Milestone: charter live, synthetic data + data-model RFC public, first contributors engaged.</em></p>
+<p><strong>Phase 1 — Core value (Months 3–9)</strong> <em>(the chosen focus areas)</em> - Ratify <code>padm</code> v1; ship reference implementations in R and Python. - Ship <code>workforce</code> (derivations) and <code>attrition</code> (metrics) with full tests/docs. - Ship <code>pareport</code> + <code>workforcetables</code> reporting templates; deploy the reference report to Posit Connect. - Ship <code>pa.privacy</code> defaults used across all packages. - <em>Milestone: a practitioner can go raw export → attrition report reproducibly using only ecosystem packages.</em></p>
+<p><strong>Phase 2 — Modeling, fairness, adoption (Months 9–18)</strong> - Ship <code>attritionmodels</code> (+ <code>vetiver</code> deployment) and <code>pa.fairness</code>. - Add <code>pa.connect</code> adapters for 2–3 major HRIS export shapes. - Publish <code>pa.validate</code> and a validation/risk posture per package. - Formalize inclusion process; onboard first externally-authored packages. - <em>Milestone: multiple organizations piloting; first third-party package admitted.</em></p>
+<p><strong>Phase 3 — Network effects (Months 18–36)</strong> - Broaden portfolio (survey, mobility, ONA, comp) via community contributions. - Mature governance (elections, working groups: standards, validation, privacy). - Conference presence, published case studies, a stable release cadence. - <em>Milestone: self-sustaining, multi-employer contributor base.</em></p>
+<hr>
+</section>
+<section id="risks-and-mitigations" class="level2">
+<h2 class="anchored" data-anchor-id="risks-and-mitigations">10. Risks and mitigations</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Why it matters here</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Data privacy / PII exposure</strong></td>
+<td>HR data is personal and regulated</td>
+<td>Synthetic-data-only policy; <code>pa.privacy</code> defaults; privacy review in inclusion criteria</td>
+</tr>
+<tr class="even">
+<td><strong>Weak “post-competitive” consensus</strong></td>
+<td>Firms may see PA methods as proprietary edge</td>
+<td>Lead with clearly non-differentiating primitives (headcount, standard turnover defs); let firms keep secret sauce private</td>
+</tr>
+<tr class="odd">
+<td><strong>No shared standard exists yet</strong></td>
+<td>Interop is impossible without one</td>
+<td>Treat <code>padm</code> as the keystone deliverable; run it as an open RFC to build buy-in</td>
+</tr>
+<tr class="even">
+<td><strong>Regulatory/fairness liability</strong></td>
+<td>AI-in-HR is increasingly audited</td>
+<td><code>pa.fairness</code> + documentation; position transparency as a compliance asset</td>
+</tr>
+<tr class="odd">
+<td><strong>Single-vendor capture / neutrality</strong></td>
+<td>Trust requires vendor neutrality</td>
+<td>Cross-org council; neutral home; open governance</td>
+</tr>
+<tr class="even">
+<td><strong>Dual-language fragmentation</strong></td>
+<td>R and Python communities diverge</td>
+<td>Shared spec (<code>padm</code>) as the contract both sides implement; parity requirement</td>
+</tr>
+<tr class="odd">
+<td><strong>Sustainability / maintainer burnout</strong></td>
+<td>OSS commons problem</td>
+<td>Council + working groups; corporate sponsorship of maintainer time; clear contribution ladder</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="success-metrics" class="level2">
+<h2 class="anchored" data-anchor-id="success-metrics">11. Success metrics</h2>
+<ul>
+<li><strong>Adoption:</strong> package installs/downloads (R-universe, PyPI, CRAN); GitHub stars/forks; organizations publicly using it.</li>
+<li><strong>Ecosystem health:</strong> number of recommended packages; number of distinct contributing orgs; external (non-founder) packages admitted.</li>
+<li><strong>Interoperability:</strong> % of packages conforming to <code>padm</code>; end-to-end examples that run green in CI.</li>
+<li><strong>Community:</strong> Slack/Discourse members; community-call attendance; conference talks.</li>
+<li><strong>Trust:</strong> packages with a documented validation posture; privacy reviews completed.</li>
+</ul>
+<hr>
+</section>
+<section id="status-and-next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="status-and-next-steps">12. Status and next steps</h2>
+<p>v0.1 listed six unsequenced “first 30 days” items, several of which (charter, infrastructure, founding collaborators) assumed a community before any artifact existed to organize one around. Pharmaverse had <code>admiral</code> working before it had a council; this plan now follows the same order.</p>
+<p><strong>What’s built (this proof, as of August 2026):</strong> <code>padm</code> v0 (spec + JSON schemas + event vocabulary), <code>pa.synthetic</code>, <code>workforce</code>, and <code>attrition</code> — all passing <code>devtools::check()</code> clean (0 errors/warnings/notes) — plus <code>demo/attrition-report.qmd</code>, a working raw-export → standardize → validate → derive → reconcile → attrition-report pipeline on synthetic data that renders to a self-contained HTML report. This was built solo and has not yet been shared for outside feedback.</p>
+<p><strong>Sequenced next steps</strong> — deliberately not parallel; each assumes the previous one is real:</p>
+<ol type="1">
+<li><strong>Get outside feedback on the artifact, not the idea.</strong> Share <code>spec/padm/padm-v0.md</code> and the rendered demo report with a handful of practicing people-analytics folks. The spec is versioned as an RFC specifically so this feedback can still change it cheaply.</li>
+<li><strong>Python parity for <code>padm</code>.</strong> The schemas are already language-neutral JSON Schema; write a Python reference implementation of at least <code>padm_validate()</code> against the same schemas as a concrete parity check, before claiming “dual-language” anywhere public.</li>
+<li><strong>Widen the synthetic-data and package surface only if step 1’s feedback calls for it</strong> — e.g. a second HRIS export vendor shape, <code>pa.connect</code> adapters, or the Layer 2/3 packages in §6 — rather than building ahead of demonstrated need.</li>
+<li><strong>Only once the above produces something worth governing:</strong> settle the ecosystem name (Appendix A), draft the charter, recruit founding collaborators, and stand up infrastructure (GitHub org, R-universe, PyPI namespace, website).</li>
+</ol>
+<p>Name, charter, council, neutral home, website, and R-universe/PyPI registration (§7, §8) are deliberately <strong>not</strong> near-term work — they describe what governance looks like once step 4 above is reached, not what to do next.</p>
+<hr>
+</section>
+<section id="appendix-a-open-decisions" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-open-decisions">Appendix A — Open decisions</h2>
+<ul>
+<li><strong>Ecosystem name and brand.</strong> Recommend settling on <strong><code>paverse</code></strong> — it matches this repo’s directory name, keeps the <code>pa.</code>-prefix convention the packages themselves already use, and costs nothing to change since nothing has been published externally yet. Still open, not yet acted on.</li>
+<li>Neutral governing home (partner body vs.&nbsp;independent entity).</li>
+<li>License policy (recommend permissive: MIT/Apache-2.0 for broad adoption).</li>
+<li>R-first, Python-first, or strict parity for Phase 1.</li>
+<li>Depth of Posit <em>professional</em> dependence (Workbench/Connect/Package Manager) vs.&nbsp;keeping the core fully open-source-installable.</li>
+</ul>
+</section>
+<section id="appendix-b-reference-models-to-study" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-b-reference-models-to-study">Appendix B — Reference models to study</h2>
+<ul>
+<li>pharmaverse.org — charter, curation model, R-universe hosting, inclusion process.</li>
+<li>tidyverse / tidymodels — design principles and package cohesion.</li>
+<li>CDISC (SDTM/ADaM) — how a data standard enables an ecosystem.</li>
+<li>ROpenSci — peer-review model for package quality (a possible inclusion-review template).</li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
