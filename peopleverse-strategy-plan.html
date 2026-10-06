@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>peopleverse-strategy-plan</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -30,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="peopleverse-strategy-plan_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="peopleverse-strategy-plan_files/libs/quarto-html/anchor.min.js"></script>
 <link href="peopleverse-strategy-plan_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="peopleverse-strategy-plan_files/libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="peopleverse-strategy-plan_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="peopleverse-strategy-plan_files/libs/bootstrap/bootstrap-1e17af285d77143dbb5dd7954765174f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -51,14 +57,14 @@ ul.task-list li input[type="checkbox"] {
 <h1>Building a “pharmaverse for People Analytics”</h1>
 <section id="a-strategy-and-development-plan-for-a-curated-community-governed-open-source-ecosystem" class="level3">
 <h3 class="anchored" data-anchor-id="a-strategy-and-development-plan-for-a-curated-community-governed-open-source-ecosystem">A strategy and development plan for a curated, community-governed open-source ecosystem</h3>
-<p><em>Draft v0.2 — August 2026 · Working name: <strong>peopleverse</strong> (placeholder; <strong>paverse</strong> recommended, see Appendix A)</em></p>
+<p><em>Draft v0.3 — October 2026 · Working name: <strong>peopleverse</strong> (placeholder; <strong>paverse</strong> recommended, see Appendix A)</em></p>
 <p><strong>Status:</strong> <code>padm</code> v0 (spec + schemas), <code>pa.synthetic</code>, <code>workforce</code>, and <code>attrition</code> are built and passing, and a working raw-export → attrition-report demo runs end to end on synthetic data — see <a href="spec/padm/">spec/padm/</a>, <a href="pkg/">pkg/</a>, and <a href="demo/">demo/</a>. This is a solo proof, not yet a community project. §12 has been rewritten to reflect what’s actually been built and what a sequenced path forward looks like from here.</p>
 <hr>
 </section>
 <section id="executive-summary" class="level2">
 <h2 class="anchored" data-anchor-id="executive-summary">1. Executive summary</h2>
 <p>Pharmaverse succeeded by turning a fragmented, siloed, duplicative problem space (clinical reporting in pharma) into a <strong>curated network of interoperable open-source packages</strong> backed by a light-touch charter, a contribution model, shared data standards, and neutral hosting. People analytics sits in an almost identical position today: every company rebuilds the same headcount, attrition, and reporting logic privately, in incompatible ways, on incompatible data models.</p>
-<p>This plan proposes an equivalent ecosystem for people analytics, built primarily on the <strong>Posit open-source and professional stack</strong> (R and Python), governed by a community council, and delivered through a curated package library, a public website, and reproducible reference workflows. We start narrow — <strong>data standards, core/attrition metrics, and reproducible reporting</strong> — and grow the network from there.</p>
+<p>This plan proposes an equivalent ecosystem for people analytics, built on <strong>open-source tooling</strong> (R and Python, with Posit’s open-source stack as the reference environment; Posit’s commercial products are optional conveniences, never requirements), governed by a community council, and delivered through a curated package library, a public website, and reproducible reference workflows. We start narrow — <strong>data standards, core/attrition metrics, and reproducible reporting</strong> — and grow the network from there.</p>
 <p>The single biggest difference from pharmaverse, and the one that shapes every design decision below, is <strong>data sensitivity</strong>: HR data is personal, regulated (GDPR, EEOC, pay-transparency laws), and rarely “post-competitive” in the way anonymized clinical trial standards are. The ecosystem therefore leads with privacy-preserving design, synthetic data, and governance rather than treating them as afterthoughts.</p>
 <hr>
 </section>
@@ -169,10 +175,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="architecture-on-the-posit-stack" class="level2">
 <h2 class="anchored" data-anchor-id="architecture-on-the-posit-stack">5. Architecture on the Posit stack</h2>
-<p><strong>Development &amp; authoring</strong> - <strong>Posit Workbench</strong> (or open-source RStudio / VS Code) as the reference IDE. - <strong>Quarto</strong> for all documentation, reports, examples, and the ecosystem website. - <code>renv</code> (R) and <code>venv</code>/<code>uv</code> (Python) for reproducible environments.</p>
-<p><strong>Package build &amp; distribution</strong> - <strong>R-universe</strong> as the CRAN-like community registry (as pharmaverse does), plus CRAN for stable releases. - <strong>PyPI</strong> for Python packages; optional conda-forge later. - <strong>Posit Package Manager</strong> as the recommended way for organizations to mirror/pin a validated internal snapshot.</p>
+<p><strong>Open-source first.</strong> Every package and the full reference pipeline must install and run from open-source components alone (R/Python, Quarto, RStudio or VS Code, R-universe/CRAN/PyPI). Posit’s professional products (Workbench, Connect, Package Manager) are supported deployment options for organizations that already use them, but nothing in the core may require them.</p>
+<p><strong>Development &amp; authoring</strong> - <strong>RStudio (open source) or VS Code</strong> as the reference IDE; Posit Workbench works equally well. - <strong>Quarto</strong> for all documentation, reports, examples, and the ecosystem website. - <code>renv</code> (R) and <code>venv</code>/<code>uv</code> (Python) for reproducible environments.</p>
+<p><strong>Package build &amp; distribution</strong> - <strong>R-universe</strong> as the CRAN-like community registry (as pharmaverse does), plus CRAN for stable releases. - <strong>PyPI</strong> for Python packages; optional conda-forge later. - <strong>Posit Package Manager</strong> (optional) for organizations that want to mirror/pin a validated internal snapshot; open-source alternatives (e.g.&nbsp;an internal CRAN mirror, <code>renv</code> lockfiles) work equally well.</p>
 <p><strong>Modeling &amp; pipelines</strong> - <code>tidymodels</code> (R) / <code>scikit-learn</code> (Python) for modeling. - <code>targets</code> (R) / equivalent for reproducible pipelines. - <code>pointblank</code> / <code>pandera</code> for data validation against the shared data model.</p>
-<p><strong>Deployment &amp; apps</strong> - <strong>Shiny</strong> (R and Python) for interactive apps; <strong>Quarto dashboards</strong> for lighter reporting. - <strong>Posit Connect</strong> as the recommended publishing/hosting layer for internal deployment. - <code>vetiver</code> + <code>plumber</code>/<code>FastAPI</code> for deploying and versioning any predictive models (e.g., attrition risk) with monitoring.</p>
+<p><strong>Deployment &amp; apps</strong> - <strong>Shiny</strong> (R and Python) for interactive apps; <strong>Quarto dashboards</strong> for lighter reporting. - <strong>Posit Connect</strong> (optional) as one supported publishing/hosting layer for internal deployment; static Quarto output and self-hosted Shiny need no commercial product. - <code>vetiver</code> + <code>plumber</code>/<code>FastAPI</code> for deploying and versioning any predictive models (e.g., attrition risk) with monitoring.</p>
 <p><strong>The reference pipeline the ecosystem makes easy:</strong></p>
 <pre><code>Raw HRIS export
    → [ingest/standardize pkg] → shared People-Analytics Data Model
@@ -258,10 +265,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="phased-roadmap" class="level2">
 <h2 class="anchored" data-anchor-id="phased-roadmap">9. Phased roadmap</h2>
-<p><strong>Phase 0 — Foundations (Months 0–3)</strong> - Draft and publish the charter; recruit an initial council/steering group. - Register the GitHub org, R-universe, PyPI namespace; stand up a minimal website. - Ship <code>pa.synthetic</code> (synthetic data) and a first <code>padm</code> draft spec (RFC for comment). - Publish one end-to-end example notebook on synthetic data to demonstrate intent. - <em>Milestone: charter live, synthetic data + data-model RFC public, first contributors engaged.</em></p>
-<p><strong>Phase 1 — Core value (Months 3–9)</strong> <em>(the chosen focus areas)</em> - Ratify <code>padm</code> v1; ship reference implementations in R and Python. - Ship <code>workforce</code> (derivations) and <code>attrition</code> (metrics) with full tests/docs. - Ship <code>pareport</code> + <code>workforcetables</code> reporting templates; deploy the reference report to Posit Connect. - Ship <code>pa.privacy</code> defaults used across all packages. - <em>Milestone: a practitioner can go raw export → attrition report reproducibly using only ecosystem packages.</em></p>
-<p><strong>Phase 2 — Modeling, fairness, adoption (Months 9–18)</strong> - Ship <code>attritionmodels</code> (+ <code>vetiver</code> deployment) and <code>pa.fairness</code>. - Add <code>pa.connect</code> adapters for 2–3 major HRIS export shapes. - Publish <code>pa.validate</code> and a validation/risk posture per package. - Formalize inclusion process; onboard first externally-authored packages. - <em>Milestone: multiple organizations piloting; first third-party package admitted.</em></p>
-<p><strong>Phase 3 — Network effects (Months 18–36)</strong> - Broaden portfolio (survey, mobility, ONA, comp) via community contributions. - Mature governance (elections, working groups: standards, validation, privacy). - Conference presence, published case studies, a stable release cadence. - <em>Milestone: self-sustaining, multi-employer contributor base.</em></p>
+<p><em>Revised in v0.3 to match §12. The v0.1/v0.2 roadmap opened with charter, council, and infrastructure; this version follows the order the proof actually supports: artifact → evidence → parity → community → governance. Phases are gated by evidence, not calendar dates.</em></p>
+<p><strong>Phase 0 — Proof (done)</strong> - <code>padm</code> v0, <code>pa.synthetic</code>, <code>workforce</code>, <code>attrition</code>, and the end-to-end demo, all on synthetic data. - <em>Milestone (met): a raw export → validated, reconciled attrition report runs reproducibly from a clean checkout.</em></p>
+<p><strong>Phase 1 — Evidence (next)</strong> - Run the pipeline on at least one <strong>real, anonymized HRIS export</strong> from a willing practitioner and log everything the spec fails to model (retroactive corrections, backdated effective dates, rehires, concurrent assignments, leaves, contingent workers). Decide whether <code>padm</code> needs an effective-date vs.&nbsp;recorded-date (bitemporal) distinction. - Share <code>padm-v0.md</code> and the demo report with a handful of practitioners and collect structured feedback against the go/no-go criteria in <code>TODO.md</code>. - Publish the “your turnover rate depends on an unstated denominator” argument as a short standalone piece, using the demo as evidence; treat the response as a cheap test of demand. - <em>Gate: practitioners say they would run this on their own data, and the real-data run surfaces no unfixable flaw in the event model. If not, revise <code>padm</code> before building anything further.</em></p>
+<p><strong>Phase 2 — Parity and revision</strong> - Revise <code>padm</code> to v1 from Phase 1 findings. - Python reference implementation of <code>padm_validate()</code> <strong>and</strong> the core derivations, held to the same numbers as the R implementation on the same datasets, before anyone calls the project “dual-language”. - <em>Gate: R and Python produce identical headcount, tenure, and exposure results on shared fixtures.</em></p>
+<p><strong>Phase 3 — Widen, only where Phase 1 demand points</strong> - Candidates (each pulled forward only on demonstrated need): additional HRIS export shapes and <code>pa.connect</code> adapters; <code>pa.privacy</code>; <code>pareport</code>/<code>workforcetables</code>; <code>attritionmodels</code>; <code>pa.fairness</code>; <code>pa.validate</code>; and the rest of the §6 portfolio. - <em>Gate: at least one person or organization outside the author is using a package for real work.</em></p>
+<p><strong>Phase 4 — Governance and community (only once the above produces something worth governing)</strong> - Settle the name, draft the charter, recruit a cross-organizational council, register the GitHub org / R-universe / PyPI namespaces, and stand up a minimal website (§7, §8). - Formalize the inclusion process; onboard the first externally-authored package. - <em>Milestone: first third-party package admitted; contributors from more than one employer.</em></p>
+<p><strong>Later — Network effects</strong> - Broader portfolio via community contributions, working groups, conference presence, case studies, and a stable release cadence.</p>
 <hr>
 </section>
 <section id="risks-and-mitigations" class="level2">
@@ -284,6 +294,16 @@ ul.task-list li input[type="checkbox"] {
 <td><strong>Data privacy / PII exposure</strong></td>
 <td>HR data is personal and regulated</td>
 <td>Synthetic-data-only policy; <code>pa.privacy</code> defaults; privacy review in inclusion criteria</td>
+</tr>
+<tr class="even">
+<td><strong>No forcing function for adoption</strong></td>
+<td>Pharmaverse’s data standard is effectively mandatory (regulators require CDISC formats); nothing compels an HR team to adopt <code>padm</code>, and HRIS/analytics vendors have their own canonical models</td>
+<td>Win on value, not mandate: lead with the metric-definition argument (§6), keep adoption cheap (adapters, an installable core, no vendor lock-in), and test demand with practitioners before building further (§12 step 1)</td>
+</tr>
+<tr class="odd">
+<td><strong>Spec only validated on synthetic data</strong></td>
+<td>The generator and the derivations share the author’s assumptions, so passing tests prove consistency, not fit; real HRIS data is messier (backdating, rehires, concurrent assignments)</td>
+<td>Run on a real anonymized export in Phase 1; treat spec gaps found there as expected, and revise <code>padm</code> before v1</td>
 </tr>
 <tr class="even">
 <td><strong>Weak “post-competitive” consensus</strong></td>
@@ -351,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Neutral governing home (partner body vs.&nbsp;independent entity).</li>
 <li>License policy (recommend permissive: MIT/Apache-2.0 for broad adoption).</li>
 <li>R-first, Python-first, or strict parity for Phase 1.</li>
-<li>Depth of Posit <em>professional</em> dependence (Workbench/Connect/Package Manager) vs.&nbsp;keeping the core fully open-source-installable.</li>
+<li><del>Depth of Posit <em>professional</em> dependence</del> — <strong>Decided:</strong> the core is fully open-source-installable. Posit’s professional products (Workbench/Connect/Package Manager) are optional, supported deployment targets only (§5).</li>
 </ul>
 </section>
 <section id="appendix-b-reference-models-to-study" class="level2">
@@ -418,13 +438,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

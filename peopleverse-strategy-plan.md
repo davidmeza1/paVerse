@@ -1,7 +1,7 @@
 # Building a "pharmaverse for People Analytics"
 ### A strategy and development plan for a curated, community-governed open-source ecosystem
 
-*Draft v0.2 — August 2026 · Working name: **peopleverse** (placeholder; **paverse** recommended, see Appendix A)*
+*Draft v0.3 — October 2026 · Working name: **peopleverse** (placeholder; **paverse** recommended, see Appendix A)*
 
 **Status:** `padm` v0 (spec + schemas), `pa.synthetic`, `workforce`, and `attrition` are built and
 passing, and a working raw-export → attrition-report demo runs end to end on synthetic data — see
@@ -15,7 +15,7 @@ sequenced path forward looks like from here.
 
 Pharmaverse succeeded by turning a fragmented, siloed, duplicative problem space (clinical reporting in pharma) into a **curated network of interoperable open-source packages** backed by a light-touch charter, a contribution model, shared data standards, and neutral hosting. People analytics sits in an almost identical position today: every company rebuilds the same headcount, attrition, and reporting logic privately, in incompatible ways, on incompatible data models.
 
-This plan proposes an equivalent ecosystem for people analytics, built primarily on the **Posit open-source and professional stack** (R and Python), governed by a community council, and delivered through a curated package library, a public website, and reproducible reference workflows. We start narrow — **data standards, core/attrition metrics, and reproducible reporting** — and grow the network from there.
+This plan proposes an equivalent ecosystem for people analytics, built on **open-source tooling** (R and Python, with Posit's open-source stack as the reference environment; Posit's commercial products are optional conveniences, never requirements), governed by a community council, and delivered through a curated package library, a public website, and reproducible reference workflows. We start narrow — **data standards, core/attrition metrics, and reproducible reporting** — and grow the network from there.
 
 The single biggest difference from pharmaverse, and the one that shapes every design decision below, is **data sensitivity**: HR data is personal, regulated (GDPR, EEOC, pay-transparency laws), and rarely "post-competitive" in the way anonymized clinical trial standards are. The ecosystem therefore leads with privacy-preserving design, synthetic data, and governance rather than treating them as afterthoughts.
 
@@ -79,15 +79,20 @@ The single biggest difference from pharmaverse, and the one that shapes every de
 
 ## 5. Architecture on the Posit stack
 
+**Open-source first.** Every package and the full reference pipeline must install and run from
+open-source components alone (R/Python, Quarto, RStudio or VS Code, R-universe/CRAN/PyPI). Posit's
+professional products (Workbench, Connect, Package Manager) are supported deployment options for
+organizations that already use them, but nothing in the core may require them.
+
 **Development & authoring**
-- **Posit Workbench** (or open-source RStudio / VS Code) as the reference IDE.
+- **RStudio (open source) or VS Code** as the reference IDE; Posit Workbench works equally well.
 - **Quarto** for all documentation, reports, examples, and the ecosystem website.
 - `renv` (R) and `venv`/`uv` (Python) for reproducible environments.
 
 **Package build & distribution**
 - **R-universe** as the CRAN-like community registry (as pharmaverse does), plus CRAN for stable releases.
 - **PyPI** for Python packages; optional conda-forge later.
-- **Posit Package Manager** as the recommended way for organizations to mirror/pin a validated internal snapshot.
+- **Posit Package Manager** (optional) for organizations that want to mirror/pin a validated internal snapshot; open-source alternatives (e.g. an internal CRAN mirror, `renv` lockfiles) work equally well.
 
 **Modeling & pipelines**
 - `tidymodels` (R) / `scikit-learn` (Python) for modeling.
@@ -96,7 +101,7 @@ The single biggest difference from pharmaverse, and the one that shapes every de
 
 **Deployment & apps**
 - **Shiny** (R and Python) for interactive apps; **Quarto dashboards** for lighter reporting.
-- **Posit Connect** as the recommended publishing/hosting layer for internal deployment.
+- **Posit Connect** (optional) as one supported publishing/hosting layer for internal deployment; static Quarto output and self-hosted Shiny need no commercial product.
 - `vetiver` + `plumber`/`FastAPI` for deploying and versioning any predictive models (e.g., attrition risk) with monitoring.
 
 **The reference pipeline the ecosystem makes easy:**
@@ -223,32 +228,47 @@ Adopt the pharmaverse model closely, adapted for HR sensitivities.
 
 ## 9. Phased roadmap
 
-**Phase 0 — Foundations (Months 0–3)**
-- Draft and publish the charter; recruit an initial council/steering group.
-- Register the GitHub org, R-universe, PyPI namespace; stand up a minimal website.
-- Ship `pa.synthetic` (synthetic data) and a first `padm` draft spec (RFC for comment).
-- Publish one end-to-end example notebook on synthetic data to demonstrate intent.
-- *Milestone: charter live, synthetic data + data-model RFC public, first contributors engaged.*
+*Revised in v0.3 to match §12. The v0.1/v0.2 roadmap opened with charter, council, and
+infrastructure; this version follows the order the proof actually supports: artifact → evidence →
+parity → community → governance. Phases are gated by evidence, not calendar dates.*
 
-**Phase 1 — Core value (Months 3–9)** *(the chosen focus areas)*
-- Ratify `padm` v1; ship reference implementations in R and Python.
-- Ship `workforce` (derivations) and `attrition` (metrics) with full tests/docs.
-- Ship `pareport` + `workforcetables` reporting templates; deploy the reference report to Posit Connect.
-- Ship `pa.privacy` defaults used across all packages.
-- *Milestone: a practitioner can go raw export → attrition report reproducibly using only ecosystem packages.*
+**Phase 0 — Proof (done)**
+- `padm` v0, `pa.synthetic`, `workforce`, `attrition`, and the end-to-end demo, all on synthetic data.
+- *Milestone (met): a raw export → validated, reconciled attrition report runs reproducibly from a clean checkout.*
 
-**Phase 2 — Modeling, fairness, adoption (Months 9–18)**
-- Ship `attritionmodels` (+ `vetiver` deployment) and `pa.fairness`.
-- Add `pa.connect` adapters for 2–3 major HRIS export shapes.
-- Publish `pa.validate` and a validation/risk posture per package.
-- Formalize inclusion process; onboard first externally-authored packages.
-- *Milestone: multiple organizations piloting; first third-party package admitted.*
+**Phase 1 — Evidence (next)**
+- Run the pipeline on at least one **real, anonymized HRIS export** from a willing practitioner and log
+  everything the spec fails to model (retroactive corrections, backdated effective dates, rehires,
+  concurrent assignments, leaves, contingent workers). Decide whether `padm` needs an
+  effective-date vs. recorded-date (bitemporal) distinction.
+- Share `padm-v0.md` and the demo report with a handful of practitioners and collect structured
+  feedback against the go/no-go criteria in `TODO.md`.
+- Publish the "your turnover rate depends on an unstated denominator" argument as a short standalone
+  piece, using the demo as evidence; treat the response as a cheap test of demand.
+- *Gate: practitioners say they would run this on their own data, and the real-data run surfaces no
+  unfixable flaw in the event model. If not, revise `padm` before building anything further.*
 
-**Phase 3 — Network effects (Months 18–36)**
-- Broaden portfolio (survey, mobility, ONA, comp) via community contributions.
-- Mature governance (elections, working groups: standards, validation, privacy).
-- Conference presence, published case studies, a stable release cadence.
-- *Milestone: self-sustaining, multi-employer contributor base.*
+**Phase 2 — Parity and revision**
+- Revise `padm` to v1 from Phase 1 findings.
+- Python reference implementation of `padm_validate()` **and** the core derivations, held to the same
+  numbers as the R implementation on the same datasets, before anyone calls the project "dual-language".
+- *Gate: R and Python produce identical headcount, tenure, and exposure results on shared fixtures.*
+
+**Phase 3 — Widen, only where Phase 1 demand points**
+- Candidates (each pulled forward only on demonstrated need): additional HRIS export shapes and
+  `pa.connect` adapters; `pa.privacy`; `pareport`/`workforcetables`; `attritionmodels`;
+  `pa.fairness`; `pa.validate`; and the rest of the §6 portfolio.
+- *Gate: at least one person or organization outside the author is using a package for real work.*
+
+**Phase 4 — Governance and community (only once the above produces something worth governing)**
+- Settle the name, draft the charter, recruit a cross-organizational council, register the GitHub
+  org / R-universe / PyPI namespaces, and stand up a minimal website (§7, §8).
+- Formalize the inclusion process; onboard the first externally-authored package.
+- *Milestone: first third-party package admitted; contributors from more than one employer.*
+
+**Later — Network effects**
+- Broader portfolio via community contributions, working groups, conference presence, case studies,
+  and a stable release cadence.
 
 ---
 
@@ -257,6 +277,8 @@ Adopt the pharmaverse model closely, adapted for HR sensitivities.
 | Risk | Why it matters here | Mitigation |
 |---|---|---|
 | **Data privacy / PII exposure** | HR data is personal and regulated | Synthetic-data-only policy; `pa.privacy` defaults; privacy review in inclusion criteria |
+| **No forcing function for adoption** | Pharmaverse's data standard is effectively mandatory (regulators require CDISC formats); nothing compels an HR team to adopt `padm`, and HRIS/analytics vendors have their own canonical models | Win on value, not mandate: lead with the metric-definition argument (§6), keep adoption cheap (adapters, an installable core, no vendor lock-in), and test demand with practitioners before building further (§12 step 1) |
+| **Spec only validated on synthetic data** | The generator and the derivations share the author's assumptions, so passing tests prove consistency, not fit; real HRIS data is messier (backdating, rehires, concurrent assignments) | Run on a real anonymized export in Phase 1; treat spec gaps found there as expected, and revise `padm` before v1 |
 | **Weak "post-competitive" consensus** | Firms may see PA methods as proprietary edge | Lead with clearly non-differentiating primitives (headcount, standard turnover defs); let firms keep secret sauce private |
 | **No shared standard exists yet** | Interop is impossible without one | Treat `padm` as the keystone deliverable; run it as an open RFC to build buy-in |
 | **Regulatory/fairness liability** | AI-in-HR is increasingly audited | `pa.fairness` + documentation; position transparency as a compliance asset |
@@ -318,7 +340,7 @@ is reached, not what to do next.
 - Neutral governing home (partner body vs. independent entity).
 - License policy (recommend permissive: MIT/Apache-2.0 for broad adoption).
 - R-first, Python-first, or strict parity for Phase 1.
-- Depth of Posit *professional* dependence (Workbench/Connect/Package Manager) vs. keeping the core fully open-source-installable.
+- ~~Depth of Posit *professional* dependence~~ — **Decided:** the core is fully open-source-installable. Posit's professional products (Workbench/Connect/Package Manager) are optional, supported deployment targets only (§5).
 
 ## Appendix B — Reference models to study
 
