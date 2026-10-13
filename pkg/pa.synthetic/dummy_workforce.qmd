@@ -1,0 +1,30 @@
+---
+title: "Workforce Requirments for Synthetic Data"
+format: html
+---
+
+Your are developing an employee data set of a fictional company to be used for people analytics analysis. I will provide you with a csv file that contains the variables. Below is a desription of the variables that may be confusing, the remaining I assume you will understand. I will also provide you with how I would like to see the distribution of the variable. This is a world wide company servicing multiple regions. I want 25 years of data starting in 2002. There is a 5% growth rate with standard deviation of 2. Attrition rate is 6% with a standard deviation of 2.5. The retiremenet rate starts at 2% in year five and peaks at 15% in year 15, then stabalizes at 5%. The retirement eligible age is 65, early retiremet is acceptable at 60 years of age. 
+
+
+- business area text:  equivalent to a department. create 9 departments, one top level and tbe rest under that.
+- business area key:  unique key of the business area or department.
+- region key: identifier for the regions the company services
+- region text: the regions the company services. Create 6 world wide regions
+- current pay period: the pay period, the first 4 numbers represent the year and the last two are the pay period, of which there is 26
+- date accession: is the employee's start date
+- date retirement early out: date the employee is eleigibel to take early retirement
+- date retirement eligible: date the employee is eligible to retire
+-  email address work: employee's email address, use 'first name.lastname' pattern and change to end in '@paverse.ai'
+-  grade: this is the level of the employee from 1 - 15, 1 being the lowest and 15 the highest.
+- organization title: these are divisions or groups under the departments. randomly create between 2 and 5 under each business area with the exception of the top level which is just one.
+- position class code key: unique identifier for position class code 
+- postion class code text: this is the positon type. make sure they represent the orgainzation you created and align with occupational series. the same position can be in different busniess areas and/or organizations. 
+- supervisory status text: is the employee a supervisor or not, 20% of the worlforce are supervisors with a standard deviation of 3.
+- time in grade: time the employee has been in there current grade
+- emp_id: unique identifier of the employee, cannot repeat.
+- year: calendar year of the employee
+- date effective: the date the gain of loss was effective
+- type of gain: types of gains are new hire, term hire, reassignment, intern. Reassignment means it was an internal move. 15% term hire, 12% reassignment, 5% interns the rest new hires, per year.
+- type of loss: Resign, Terminated, retired, reassignment. I gave you the retirement rate alredy. termination is 3% reassignment matches gains, and the rest resign. 
+
+Do your best to keep the logic sound, you are clear to increase devation from these numbers in order to make the math work
