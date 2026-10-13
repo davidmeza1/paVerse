@@ -27,4 +27,4 @@ Your are developing an employee data set of a fictional company to be used for p
 - type of gain: types of gains are new hire, term hire, reassignment, intern. Reassignment means it was an internal move. 15% term hire, 12% reassignment, 5% interns the rest new hires, per year.
 - type of loss: Resign, Terminated, retired, reassignment. I gave you the retirement rate alredy. termination is 3% reassignment matches gains, and the rest resign. 
 
-Do your best to keep the logic sound, you are clear to increase devation from these numbers in order to make the math work
+Do your best to keep the logic sound, you are clear to increase devation from these numbers in order to make the math work. Give me suggestions as needed. Remember this is to create a dummy workforc to use for different types of Human Capital analysis.
