@@ -1,0 +1,363 @@
+---
+title: "The Metrics Standard: Training Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 209-232"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `011-209-232.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The category divider page is not in this extract, so the heading "Training" is inferred from the measures.
+:::
+
+# Training [209-232]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Average Training Class Size (left page not in extract) | 209 |
+| E-Learning Abandonment Rate | 210 |
+| Employee Satisfaction with Training | 212 |
+| Training Channel Delivery Mix | 214 |
+| Training Course Content Breakdown | 216 |
+| Training Expense per Employee | 218 |
+| Training Hours per FTE | 220 |
+| Training Hours per Occurrence | 222 |
+| Training Penetration Rate | 224 |
+| Training Quality (title line lost in OCR; inferred) | 226 |
+| Training Staff Ratio | 228 |
+| Training Total Compensation Expense Rate | 230 |
+
+: Measure index for this extract {.striped}
+
+## Average Training Class Size [208-209]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-M, Data-M |
+| Application | Left-hand page (application, description, formula) is not in this extract. |
+| Description | Not in extract |
+| Formula | Not in extract |
+| Sourcing | Not in extract |
+
+: Profile summary {.striped}
+
+**Reading it.** Not in extract (only the facing right-hand page was supplied).
+
+**Analysis.** By course content and delivery channel, to judge whether class sizes are optimal. Multi-site organizations can also analyze by geography, to see the experience at training hubs versus remote locations.
+
+**Limitations.** Says nothing about course quality, participant satisfaction, training cost, or the cost benefits of larger classes. Ignores demand, so it cannot show whether limited class sizes cause waiting lists or whether classes are small because demand is low.
+
+**Targets.** Set within the context of the type of training, its costs, and its delivery method (onsite versus specialized facility, computer-based versus lecture). Employers often target the benchmark median (around the 50th percentile) to balance cost-efficiency against personal attention.
+
+**Variations.** Branch Location; Customer Service; Headquarters; Leadership Development; Managerial Skills; Orientation; Technical.
+
+**Related measures.** Employee Satisfaction with Training; HR Expense Breakdown—Function; Staffing Rate—< 1-Year Tenure; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Hours per Occurrence; Training Penetration Rate; Training Quality; Training Staff Ratio; Tuition Reimbursement Request Rate.
+
+## E-Learning Abandonment Rate [210-211]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-H |
+| Application | Organizations that use e-learning in their delivery mix or focus on the effectiveness of learning technologies. |
+| Description | Percentage of courses begun but not completed using learning technologies |
+| Formula | E-Learning Courses Initiated.Abandoned / E-Learning Courses Initiated × 100 |
+| Sourcing | Login history, cookies or similar tracking for online courses; CD-ROM is harder to track unless completion is signaled by a test or automated e-mail |
+
+: Profile summary {.striped}
+
+$$
+\text{E-Learning Abandonment Rate} = \frac{\text{E-Learning Courses Initiated.Abandoned}}{\text{E-Learning Courses Initiated}} \times 100
+$$
+
+**Reading it.** Tracks course instances started but not finished. Many e-learning courses are estimated to see abandonment of 70% or more. High results suggest low motivation, too little time, or weak engagement. Remedies include changing the course, better communication and time-management support, or tests and other completion incentives. Where learners may log out and return, a logout alone is not an abandonment. The measure also works as a supplement to training quality measures.
+
+**Analysis.** By course, to find poorly structured ones. Where possible, by geography, business unit, job type, or position to find root causes.
+
+**Limitations.** Only a proxy for quality or effectiveness; does not capture participant satisfaction or whether all eligible or mandatory participants finished. Employees who never began are omitted.
+
+**Targets.** Set overall and per course or category. Mandatory training: at or near zero. Discretionary training: somewhere between zero and 50%, depending on the course and module design.
+
+**Variations.** Customer Service; Headquarters (OCR unclear on this and one other item); Leadership Development; Managerial Skills; Mandatory; Optional; Orientation (OCR partly garbled); Technical.
+
+**Related measures.** Employee Engagement Index; Employee Satisfaction with Training; HR Expense Breakdown—Function; Manager Instability Rate; Manager Quality Index; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Penetration Rate; Training Quality.
+
+## Employee Satisfaction with Training [212-213]
+
+| Item | Summary |
+|---|---|
+| Icons | Index; Bench-M, Data-H (partly garbled in OCR; Bench/Data grades OCR unclear) |
+| Application | Organizations that value upskilling and treat employee development as part of their employment brand. |
+| Description | Relative measure of employees' satisfaction with the training function |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or question set on satisfaction with training quality and effectiveness. Questions may cover particular courses, curriculum areas, delivery types, or the function as a whole. Results blend perceptions of quality, instructors, breadth, convenience, and value. Surveys run at course end or within an HR or general employee survey. It complements Kirkpatrick-style and quantitative measures and informs how training supports or hurts the employment brand.
+
+**Analysis.** By function, business unit, and geography (especially in decentralized training), by employee level, pay grade, gender, age, tenure, and job title, and by course content and whether mandatory or voluntary.
+
+**Limitations.** Depends on survey design and delivery. Reveals nothing about operational efficiency or cost. A point-in-time view that can reflect temporary events (for example, number of courses attended that year).
+
+**Targets.** Depend on the scale used. Benchmarks apply only if survey questions and methods are comparable. Aim as high as reasonably achievable.
+
+**Variations.** Customer Service; Exempt; High Performers; Leadership Development; Managerial Skills; Managers; Non-Exempt; Technical (final item OCR unclear).
+
+**Related measures.** Average Training Class Size; Development Program Penetration Rate; Customer Satisfaction (OCR unclear on exact title); HR Expense Breakdown—Function; Manager Quality Index; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Hours per Occurrence; Training Quality; Training Staff Ratio; Training Total Compensation Expense Rate; Tuition Reimbursement Request Rate.
+
+## Training Channel Delivery Mix [214-215]
+
+| Item | Summary |
+|---|---|
+| Icons | Composition; Bench/Data grades OCR unclear |
+| Application | Organizations with goals or philosophies on delivery methods, or using nonclassroom delivery. |
+| Description | Breakdown of course offerings by delivery type (classroom, e-learning, etc.) |
+| Formula | Distinct Courses Offered.[Delivery Type] / Distinct Courses Offered × 100 |
+| Sourcing | Curriculum data on distinct courses offered in the period; optionally weight each course by its hours |
+
+: Profile summary {.striped}
+
+$$
+\text{Delivery Mix}_{t} = \frac{\text{Distinct Courses Offered.[Delivery Type]}}{\text{Distinct Courses Offered}} \times 100
+$$
+
+**Reading it.** Shows the percentage of distinct courses delivered by each channel, typically as a stacked bar. The mix balances subject fit, trainer skills, budget, geographic dispersion, and time away from work. It indicates the relative resource intensity of internal and external sources. A cost-cutting organization might raise e-learning share; one surprised by a high e-learning share should check completion and retention. Hour-weighting makes a four-hour classroom course count twice a two-hour online course.
+
+**Analysis.** By any dimension on which curricula vary (geography, job level, job family), and by content, internal versus external development, and mandatory versus voluntary.
+
+**Limitations.** Silent on quality, effectiveness, channel appropriateness, cost, or satisfaction. Counts distinct courses, not occurrences, so a yearly and a weekly course weigh the same.
+
+**Targets.** As a breakdown, targets go on components, or on a grouped nonclassroom share (for example, 30% nonclassroom). Benchmark targets should apply to channels that differentiate the organization (for example, the 75th percentile for experiential learning).
+
+**Variations.** Branch Location; Customer Service; Headquarters; Leadership Development; Managerial Skills; Orientation; Technical.
+
+**Related measures.** Average Training Class Size; E-Learning Abandonment Rate; Function Staffing Breakdown; HR Expense Breakdown—Function; HR Expense Breakdown—Type; Organization Tenure Staffing Breakdown; Staffing Rate—Corporate; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Hours per Occurrence; Training Quality; Training Staff Ratio.
+
+## Training Course Content Breakdown [216-217]
+
+| Item | Summary |
+|---|---|
+| Icons | Composition; Bench-M, Data-M |
+| Application | Organizations linking curricula to human capital strategy or monitoring their mix of course types. |
+| Description | Distribution of training courses by content type |
+| Formula | Distinct Courses Offered.[Content Type] / Distinct Courses Offered × 100 |
+| Sourcing | Curriculum data on distinct courses offered in the period plus a categorization schema; optionally hour-weighted |
+
+: Profile summary {.striped}
+
+$$
+\text{Content Mix}_{t} = \frac{\text{Distinct Courses Offered.[Content Type]}}{\text{Distinct Courses Offered}} \times 100
+$$
+
+**Reading it.** Percentages of courses by type (technical, managerial, customer service, orientation, product, leadership development, etc.), usually a stacked bar. It shows where training resources are focused. A fast-growing organization may emphasize orientation and product knowledge; one with a leadership initiative will stress managerial and communication courses.
+
+**Analysis.** By any dimension on which curricula vary (geography, job level, job family), and by internal versus external development and mandatory versus voluntary.
+
+**Limitations.** No information on cost, quality, effectiveness, or fit with strategy. Counts distinct courses, not occurrences.
+
+**Targets.** Set on individual components as absolute targets tied to strategic priorities (for example, 10% leadership development, 20% product/process). Benchmark targets only for content types common across organizations.
+
+**Variations.** Branch Location? (OCR garbled on first items); Classroom; E-Learning; Headquarters; Other Channel.
+
+**Related measures.** Age Staffing Breakdown; Employee Satisfaction with Training; Employment Level Staffing Breakdown; Function Staffing Breakdown; New Products & Services Revenue per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Staffing Rate—Customer Facing; Staffing Rate—Managerial; Training Channel Delivery Mix; Training Expense per Employee; Training Hours per FTE; Training Staff Ratio.
+
+## Training Expense per Employee [218-219]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations that see training as an investment in future skills and want to track it over time. |
+| Description | Average training expense per employee |
+| Formula | Training Expense / Average Headcount |
+| Sourcing | Financial ledgers, learning management systems, or outsourced providers; decentralized functions need unique cost centers or expense codes |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Expense per Employee} = \frac{\text{Training Expense}}{\text{Average Headcount}}
+$$
+
+**Reading it.** An input measure of commitment to training, not of outcome. Expense includes variable costs (materials, catering, registration, trainer preparation, external instructor fees) and function operating costs (staff salaries, overhead, facilities). High values mean greater investment but may also signal inefficiency, overstaffing, or poor cost control, so pair with training quality and satisfaction. Fixed overheads can give economies of scale as headcount grows.
+
+**Analysis.** By organizational unit and geography when decentralized, and by expense type (instructor fees, materials, overhead).
+
+**Limitations.** Does not show quality, return on investment, volume of training, or types of training.
+
+**Targets.** Depend on structure (centralized versus decentralized, which may duplicate staff and materials), learning strategy (heavy investors may aim for the 75th percentile, others the median), and organization size.
+
+**Variations.** Classroom; E-Learning; Mandatory; Optional; Other Channel; Outsourced.
+
+**Related measures.** Employee Engagement Index; Employee Satisfaction with Training; Function Staffing Breakdown; HR Expense Breakdown—Function; HR Expense Breakdown—Type; Organization Tenure Staffing Breakdown; Training Channel Delivery Mix; Training Course Content Breakdown; Training Hours per FTE; Training Quality; Training Staff Ratio; Training Total Compensation Expense Rate; Work Units per FTE.
+
+## Training Hours per FTE [220-221]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Time, Ratio; Bench-M, Data-M |
+| Application | Organizations that link training hours to learning or want to track time away from regular work. |
+| Description | Average training hours per full-time equivalent employee |
+| Formula | Total Training Hours / FTE |
+| Sourcing | Learning management system or similar database tracking each course run and its length |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Hours per FTE} = \frac{\text{Total Training Hours}}{\text{FTE}}
+$$
+
+**Reading it.** Time an FTE spends in training in a period, most often formal training only (informal or on-the-job hours if tracked). Topics may be general skills, mandatory information, job-specific skills, or leadership. To the extent training raises productivity, higher values mean more learning and investment. FTE is the denominator because a half-time employee would expect about half the hours; for equal hours regardless of part-time status, use Training Hours per Employee.
+
+**Analysis.** Most useful split by course type or topic and by any curriculum dimension (geography, job level, channel, job family). Isolate high performers and high potentials to track development.
+
+**Limitations.** Accuracy as an indicator of learning depends on the effectiveness of those hours. Does not weigh benefits against direct and indirect costs.
+
+**Targets.** Frequently benchmarked, but curricula and formal/informal mixes vary widely. A common absolute benchmark is 40 hours per year; others use 8, 20, or 80. Targets by course type (leadership, customer service, job skills) track learning strategy better.
+
+**Variations.** Training Days per FTE; Training Hours per Employee; Customer Service; Exempt; High Potential; High Tenure; Leadership Development; Low Tenure; Managerial Skills; Mid Tenure; Non-Exempt; Technical.
+
+**Related measures.** Employee Satisfaction with Training; Employment Level Staffing Breakdown; Function Staffing Breakdown; Manager Instability Rate; Organization Tenure Staffing Breakdown; Promotion Speed Ratio; Return on Human Investment Ratio; Staffing Rate—High Potential; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per Occurrence; Training Quality.
+
+## Training Hours per Occurrence [222-223]
+
+| Item | Summary |
+|---|---|
+| Icons | Time, Ratio (grades OCR unclear) |
+| Application | Organizations that set targets for session length (for example, shift-based scheduling) or want to understand curricula and impact on employees. |
+| Description | Average training hours per training occurrence |
+| Formula | Total Training Hours / Training Occurrences |
+| Sourcing | Learning management system tracking each course run and its length |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Hours per Occurrence} = \frac{\text{Total Training Hours}}{\text{Training Occurrences}}
+$$
+
+**Reading it.** Average session length across all occurrences of all courses, so frequently run short courses pull the average down. High values suggest complex or experiential training needing advance planning; low values suggest narrow, simpler, lecture-based training. Longer sessions mean more time away from work and potential overtime and scheduling costs, to be balanced against benefits.
+
+**Analysis.** By any curriculum dimension (geography, job level, job family), and by course content and mandatory versus voluntary.
+
+**Limitations.** Silent on number of courses, frequency, delivery channel, travel time, coverage of duties, and quality.
+
+**Targets.** Hard to benchmark. Best set by course type (for example, customer service at two hours, managerial skills at eight hours), reflecting strategy, skill levels, and content.
+
+**Variations.** Customer Service; Leadership Development; Managerial Skills; Orientation; Technical.
+
+**Related measures.** Average Training Class Size; Employee Satisfaction with Training; Organization Tenure Staffing Breakdown; Staffing Rate—Corporate; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Penetration Rate; Training Quality.
+
+## Training Penetration Rate [224-225]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench/Data grades OCR unclear |
+| Application | Organizations with required training for some or all employees, or wanting a course or curriculum to reach a large share of the population. |
+| Description | Percentage of employees completing specific course or content training |
+| Formula | Employees Completing Course(s) / Total Employees to Be Trained × 100 |
+| Sourcing | Learning management system for completions; HRIS for the eligible audience |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Penetration Rate} = \frac{\text{Employees Completing Course(s)}}{\text{Total Employees to Be Trained}} \times 100
+$$
+
+**Reading it.** Share of the eligible audience completing a course or content area (for example, 80% means 80% of eligible employees took management development). Content areas include technical or job-specific certification, fundamentals (customer service, health and safety, diversity, values), and optional development (supervisory, leadership, analytical, presentation skills). For required courses it monitors compliance; for optional ones it shows the effect of awareness efforts or needed curriculum changes.
+
+**Analysis.** Usually per course, curriculum, or content type. Also by unit, geography, function, job family, level, tenure, age, and performance rating, and by course traits (internal/external, channel, mandatory/voluntary).
+
+**Limitations.** Participation only: no information on course types, training volume, cost, or effectiveness.
+
+**Targets.** Informed by track record, course nature, and logistics (dispersion, capacity, frequency, duration). Near 100% is desired for required courses but rarely reached. Absolute targets commonly 100% for required and 50 to 100% for other courses.
+
+**Variations.** Branch Location; Customer Service; Headquarters; Leadership Development (OCR partly garbled); Managerial Skills; Onboarding; Orientation; Technical.
+
+**Related measures.** Average Training Class Size; E-Learning Abandonment Rate; Employee Satisfaction with Training; Function Staffing Breakdown; H&S Incidents per 100 FTEs; Manager Instability Rate; Staffing Rate—< 1-Year Tenure; Staffing Rate—Corporate; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Quality.
+
+## Training Quality [226-227]
+
+The measure title line is lost in OCR; the name is taken from the text, the variations, and related-measure lists.
+
+| Item | Summary |
+|---|---|
+| Icons | Index; Bench-H, Data-H |
+| Application | Organizations whose training is critical to developing skills and knowledge for strong job performance. |
+| Description | Relative measure of the effectiveness of training courses |
+| Formula | Survey results |
+| Sourcing | Participant surveys or tests and assessments of participants or their managers; later-level results may arrive months after the course, so reporting can be retroactive |
+
+: Profile summary {.striped}
+
+**Reading it.** Often built on Kirkpatrick's four levels, used alone or in combination per course (for example, Level One for onboarding, Level Three for supervisory skills):
+
+1. Reaction: satisfaction with topic, speaker, schedule.
+2. Learning: knowledge, skills, and attitudes gained (for example, before-and-after tests).
+3. Behavior: on-the-job change resulting from training.
+4. Results: productivity, quality, sales, profit, turnover, and cost effects.
+
+**Analysis.** By course type, course, channel, class size, and instructor to find quality drivers; and by unit, geography, function, job family, level, tenure, age, and performance rating to find dissatisfied segments.
+
+**Limitations.** Low-level (satisfaction) assessments say little about long-term impact. Higher levels struggle to tie training to behavior and organizational performance. Ignores cost and number of attendees.
+
+**Targets.** Depend on the scale used; benchmarks only for comparable instruments. Aim as high as resources and capabilities allow.
+
+**Variations.** Branch Location; Customer Service; Headquarters; Leadership Development; Managerial Skills; Orientation; Technical.
+
+**Related measures.** Average Training Class Size; Employee Satisfaction with Training; HR Customer Satisfaction; New Hire Performance Satisfaction; Organization Tenure Staffing Breakdown; Training Channel Delivery Mix; Training Course Content Breakdown; Training Hours per FTE; Training Hours per Occurrence; Training Staff Ratio; Training Total Compensation Expense Rate.
+
+## Training Staff Ratio [228-229]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-M, Data-M |
+| Application | Organizations that do not outsource training and staff it according to workforce size. |
+| Description | Number of employees for every FTE in the training function |
+| Formula | Average Headcount / FTE.Training Function |
+| Sourcing | Functional tag on jobs in HRIS tables, or approximated from organizational assignment (for example, all Learning and Development staff) |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Staff Ratio} = \frac{\text{Average Headcount}}{\text{FTE.Training Function}}
+$$
+
+**Reading it.** A result of 1,000 means 1,000 employees per training FTE, the span of coverage per trainer. High values suggest leaner, cheaper training but less coverage. The right level depends on the balance of coverage and cost, outsourcing, central versus deployed staff, assignment to business partners or course areas, training types, and need for specialist staff.
+
+**Analysis.** By organizational unit or geography to gauge adequacy and intensity; by staff characteristics such as tenure, pay grade, gender, ethnic background, and age.
+
+**Limitations.** Does not show effectiveness or strength of staff; cost is only indirectly captured; offering effectiveness is not measured.
+
+**Targets.** Depend on staffing model, structure, emphasis on learning, and size (economies of scale). Typically the benchmark median for similar-sized, similarly structured organizations; heavy investors target the 25th percentile, lean operators the 75th.
+
+**Variations.** Corporate; Field.
+
+**Related measures.** Average Training Class Size; Employee Satisfaction with Training; HR Expense Breakdown—Function; HR Expense Breakdown—Type; HR Staffing Coverage Ratio; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Hours per Occurrence; Training Quality; Training Total Compensation Expense Rate.
+
+## Training Total Compensation Expense Rate [230-231]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench/Data grades OCR unclear |
+| Application | Organizations treating training and compensation as ways to invest in employees and balancing forms of human capital investment. |
+| Description | Training expense as a percentage of total compensation expense |
+| Formula | Training Expense / Total Compensation Expense × 100 |
+| Sourcing | Training expense from financial ledgers (harder if decentralized without unique cost codes); compensation from payroll tables or ledgers |
+
+: Profile summary {.striped}
+
+$$
+\text{Training Total Compensation Expense Rate} = \frac{\text{Training Expense}}{\text{Total Compensation Expense}} \times 100
+$$
+
+**Reading it.** Training spend relative to direct (cash) and benefits compensation. A high rate does not necessarily mean high spending per employee or relative to operating expense. Compares investment through training with investment through pay, benefits, and safety. Very low may mean hiring experienced, expensive talent or under-investing in development; high may mean heavy talent development or an inefficient or overresourced function.
+
+**Analysis.** By subgroups with markedly different compensation or training, such as job family, geography, function, pay band, manager level, and tenure.
+
+**Limitations.** Does not show whether either expense is high or low versus peers, nor training effectiveness or curriculum appropriateness.
+
+**Targets.** Assuming no inefficiency, organizations making learning a differentiator or strongly upskilling might aim for the 75th percentile; those with minimal learning functions might target the 25th.
+
+**Variations.** Mandatory (partly garbled in OCR); Optional; Outsourced.
+
+**Related measures.** Employee Satisfaction with Training; HR Expense Breakdown—Function; Market Compensation Ratio; Offer Fit Index; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Total Compensation Expense per FTE; Training Channel Delivery Mix; Training Course Content Breakdown; Training Expense per Employee; Training Hours per FTE; Training Quality; Training Staff Ratio.

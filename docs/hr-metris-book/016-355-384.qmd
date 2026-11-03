@@ -1,0 +1,359 @@
+---
+title: "The Metrics Standard: HR Profile, HR Expense, and HRIT Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 355-384"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `016-355-384.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Where text was not legible, this is marked "OCR unclear".
+:::
+
+# HR Profile [355-367]
+
+HR Profile measures relate to the volume of HR staff, their functional assignments, and their movement and dispersion. This extract begins with the right-hand page of HR Customer Satisfaction (its left page is in the previous file) and continues through the remaining HR Profile measures.
+
+## HR Customer Satisfaction (continued) [355]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction, Index; Bench-H, Data-M |
+
+: Profile summary {.striped}
+
+**Analysis.** By function, business unit, and geography to find high- and low-satisfaction areas; by respondent characteristics such as employment level, pay grade, gender, age, tenure, and job title.
+
+**Limitations.** Like all survey measures, value depends on survey design and delivery. It is subjective and should be supplemented by objective performance measures. It does not show HR's operational efficiency or cost.
+
+**Targets.** Depend on the scale used. Benchmarks apply only if other organizations use comparable questions and methods. Aim as high as reasonably achievable.
+
+**Variations.** Corporate; Development; Field; High Tenure; Low Tenure; Payroll; Performance Management; Staffing; Training.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Satisfaction Index; Contact Center Satisfaction; Grievance Rate; HR Expense Breakdown—Function; HR Staffing Breakdown; HR Staffing Coverage Ratio; New Hire Satisfaction with Recruiting; On-Time Talent Delivery Factor; Payroll Error Rate; Return on Human Investment Ratio; Training Quality.
+
+## HR Mobility Rate [356-357]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations with HR strategies for using internal talent to improve development opportunities |
+| Description | Transfers and promotions of HR employees as a percentage of the HR workforce |
+| Sourcing | HRIS job table; HR employees identified by a functional tag on jobs (less accurately, by organizational assignment) |
+
+: Profile summary {.striped}
+
+$$\text{HR Mobility Rate} = \frac{\text{HR Promotions} + \text{HR Transfers}}{\text{HR Average Headcount}} \times 100$$
+
+**Reading it.** Share of HR staff who moved by transfer or promotion, within HR or between HR and other units; 40% means 40% of HR staff moved in the period. It resembles Internal Hire Rate but covers only promotions and transfers within HR. Internal movement is generally seen as supporting development (upward or lateral) and lowering cost where staff who might leave find new roles internally. A high rate may show HR develops people well, but excessive movement, especially out of HR, can cause vacancy and replacement costs and loss of functional knowledge.
+
+**Analysis.** By demographic or positional characteristics tied to development: tenure, age, ethnic background, gender, supervisor, HR functional area, job family.
+
+**Limitations.** Does not show how HR roles are filled (internal versus external), mixes upward and lateral moves, and does not show whether internal filling is more or less effective than external.
+
+**Targets.** Depend on strategy. Heavy users of internal movement for development move toward the 75th percentile of a benchmark group; those seeking stability target the median or lower.
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Cross-Function Mobility; Employee Engagement Index; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Recruitment Source Ratio; HR Staffing Breakdown; Internal Hire Rate; Promotion Speed Ratio.
+
+## HR Professional Staffing Mix Ratio [358-359]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Organizations aiming to streamline HR administration and emphasize consultative work |
+| Description | HR clerical and operative FTEs for every one HR managerial and professional FTE |
+| Sourcing | HR identified by functional tag in HRIS tables (or by organizational assignment); job category data such as US EEO categories from an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{HR Professional Staffing Mix Ratio} = \frac{\text{HR FTE (Clerical \& Operative)}}{\text{HR FTE (Managerial \& Professional)}}$$
+
+**Reading it.** Shows whether HR is weighted toward clerical or professional positions, a way to track HR's move from service provider to strategic partner. Few professionals suggest mostly transactional work or unrealized efficiency. Few clerical staff may mean administration is outsourced or well automated. Job families, functions, or bands may give a clearer picture than clerical/professional categories, and may be used as a variation; the formula uses the categories most commonly reported to regulators.
+
+**Analysis.** By HR functional area (recruiting, payroll, learning, etc.) to see where to automate or streamline; by organizational unit or geography in decentralized models.
+
+**Limitations.** Does not show how much administration is outsourced. It is only an indirect measure of administrative versus strategic work, and having many professionals does not by itself make HR a strategic partner.
+
+**Targets.** Depend on staffing model, structure, outsourcing and automation, and size (economies of scale). Within a comparable benchmark group, some organizations target above the median, meaning more professional staff and potentially less transactional focus.
+
+**Variations.** Benefits; Compensation; Development; Line Support; Management/Administration; Payroll; Staffing; Training.
+
+**Related measures.** EEO Job Category Staffing Breakdown; Employment Level Staffing Breakdown; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Expense per FTE; HR Mobility Rate; HR Recruitment Source Ratio; HR Staffing Breakdown.
+
+## HR Recruitment Source Ratio [360-361]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Organizations that often fill HR roles with internal candidates or have strategies for using internal talent for development |
+| Description | Ratio of internal hires to external hires into the HR function |
+| Sourcing | HRIS job table for external hires and internal movements; an alternative counts only internal hires documented as filling a requisition in a recruitment system |
+
+: Profile summary {.striped}
+
+$$\text{HR Recruitment Source Ratio} = \frac{\text{HR Internal Hires}}{\text{HR External Hires}}$$
+
+**Reading it.** A ratio of four means four internal appointments per external hire in HR. It parallels Recruitment Source Ratio but is limited to HR. A high result may show strong internal skills for HR's needs; a low one may mean such skills are absent or not used. Internal hiring aids development and efficiency, but too much may forgo better external talent and long-term productivity in exchange for faster ramp-up.
+
+**Analysis.** By HR function, job family, employment level, pay grade, managerial level, or organizational unit.
+
+**Limitations.** Shows internal and external hires only relative to each other, not relative to HR headcount. Does not show hiring cost or hire quality.
+
+**Targets.** Depend on whether HR is growing or shrinking and on internal-movement policy. Slow-growth HR functions favoring internal hires target the 75th percentile of a benchmark group; those hiring externally for skills fall between the 25th percentile and median.
+
+**Variations.** Development; Exempt; Line Support; Management/Administration; Managers; Non-Exempt; Staffing; Training.
+
+**Related measures.** Cross-Function Mobility; Employee Engagement Index; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Mobility Rate; HR Staffing Breakdown; Internal Hire Rate; Promotion Speed Ratio; Recruitment Source Ratio.
+
+## HR Staffing Breakdown [362-363]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-M, Data-M |
+| Application | Organizations wanting to understand HR's functional focus |
+| Description | Percentage breakdown of HR employees by HR functional area |
+| Sourcing | Functional tag on jobs in HRIS tables (or organizational assignment); HR areas identified by org structures, HR charts, or HRIS tags |
+
+: Profile summary {.striped}
+
+$$\text{HR Staffing Breakdown}_{\text{Function}} = \frac{\text{HR End of Period Headcount}_{\text{Function}}}{\text{HR End of Period Headcount}} \times 100$$
+
+**Reading it.** Gives each HR function's (recruitment, compensation and benefits, learning and development, payroll, generalist/line support, and so on) share of the HR workforce, typically as a stacked bar. Function reflects the work supported, not necessarily the organizational unit. It shows which functions are heavily or thinly staffed and where emphasis lies in relation to strategy: for example, recruiting in a fast-growing firm, organization effectiveness during change, or learning during skills transformation. Outsourcing, centralization, business-partner assignment, and strategic versus transactional balance also affect it.
+
+**Analysis.** By tenure grouping, pay grade, employment level, educational level, and performance rating.
+
+**Limitations.** A snapshot only. Does not show skill levels, effectiveness or efficiency of functions, or the absolute size of any function.
+
+**Targets.** Set per component; depends on staffing model, structure, strategic emphasis, and organization size.
+
+**Variations.** Corporate; Exempt; Field; High Performers; High Tenure; Low Tenure; Managers; Non-Exempt.
+
+**Related measures.** Grievance Rate; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Rate; On-Time Talent Delivery Factor; Operating Profit per FTE; Return on Human Investment Ratio; Training Quality.
+
+## HR Staffing Coverage Ratio [364-365]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Organizations monitoring HR staffing presence |
+| Description | Total organization employees per HR FTE |
+| Sourcing | Functional tag on jobs in HRIS tables (or organizational assignment) |
+
+: Profile summary {.striped}
+
+$$\text{HR Staffing Coverage Ratio} = \frac{\text{Average Headcount}}{\text{HR FTE}}$$
+
+**Reading it.** A result of 100 means 100 employees per HR FTE. It shows HR's relative presence and the organization's investment in it, balancing enough staff for strategic goals against lean operation. Interpretation should consider outsourcing, centralization, assignment of HR staff to business partners, strategic versus transactional balance, and size (economies of scale). A decentralized HR with generalists and training staff at each site would have a higher HR presence (and so a lower ratio) than an organization that outsources most HR. It is the inverse view of HR Staffing Rate, which gives HR as a share of the workforce.
+
+*Note on wording:* the source text says a decentralized function would expect a "higher" Coverage Ratio; read literally, more HR staff per worksite lowers employees per HR FTE. This is reproduced as an apparent source inconsistency.
+
+**Analysis.** By organizational unit or geography; by tenure, pay grade, gender, ethnic background, and age to compare HR staff with others.
+
+**Limitations.** Does not show which functions HR staff are assigned to in decentralized models, HR cost or effectiveness, or staff capability and performance.
+
+**Targets.** Depend on staffing model, structure, emphasis on human capital investment, and size. Many target the median of a similar-size, similar-structure group; heavy investors target the 75th and lean HR functions the 25th percentile.
+
+**Variations.** Corporate; Field; Learning and Development; Line Support; Staffing/Recruiting.
+
+**Related measures.** Grievance Rate; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; On-Time Talent Delivery Factor; Operating Profit per FTE; Return on Human Investment Ratio; Training Quality; Training Staff Ratio.
+
+## HR Staffing Rate [366-367]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations monitoring HR staffing presence |
+| Description | HR FTEs as a percentage of total organization FTEs |
+| Sourcing | Functional tag on jobs in HRIS tables (or organizational assignment) |
+
+: Profile summary {.striped}
+
+$$\text{HR Staffing Rate} = \frac{\text{HR FTE}}{\text{FTE}} \times 100$$
+
+**Reading it.** A result of 1% means one in every hundred FTEs works in HR. It shows HR's relative presence and the investment in it, with the same balance and interpretation factors as HR Staffing Coverage Ratio (outsourcing, centralization, business-partner assignment, strategic versus transactional work, size). The two measures differ in framing: this one gives HR's share of the workforce, the other gives employees supported per HR staff member.
+
+**Analysis.** By organizational unit or geography; by tenure, pay grade, gender, ethnic background, and age.
+
+**Limitations.** Does not show which functions HR staff are assigned to, or which are outsourced; no cost, effectiveness, or capability information.
+
+**Targets.** As for HR Staffing Coverage Ratio: median of a comparable group, 75th percentile for heavy HR investment, 25th for a lean HR function.
+
+**Variations.** Corporate; Field; Learning and Development; Line Support; Staffing/Recruiting.
+
+**Related measures.** Grievance Rate; HR Corporate Staffing Ratio; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; On-Time Talent Delivery Factor; Operating Profit per FTE; Return on Human Investment Ratio; Training Quality; Training Staff Ratio.
+
+# HR Expense [369-381]
+
+HR expense measures relate to the costs of operating the HR function and any revenues associated with the organization's functional model.
+
+## HR Expense Breakdown—Function [370-371]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Composition; Bench-M, Data-M |
+| Application | Organizations wanting to understand HR's functional investment and focus |
+| Description | Distribution of HR expense by HR function |
+| Sourcing | Financial ledger tables; functional expenses identified by cost center or line-item identifier; overhead may be allocated |
+
+: Profile summary {.striped}
+
+$$\text{HR Expense Breakdown—Function}_{\text{Function}} = \frac{\text{HR Expense}_{\text{Function}}}{\text{HR Expense}} \times 100$$
+
+**Reading it.** Composition of HR operating expenses by functional area (staff pay and benefits, travel, technology, training, other), typically as a stacked bar, including functions with an identifiable organizational link to HR. Core functions: compensation and benefits; staffing/recruiting; learning and development; generalists/line support; industrial and employee relations; HR policy, strategy, and organization development; HR function management and administration. Noncore functions, often reporting elsewhere: payroll, diversity, performance management, HR information management, and occupational health and safety. It shows where investment lies and whether it supports strategy (for instance recruiting in a growth phase, learning in a skills transformation). Efficiency, centralization, and strategic/transactional balance also matter.
+
+**Analysis.** By organizational unit or geography; by expense type to see the nature of investments.
+
+**Limitations.** Does not show the value received from any function or how HR expense compares with other operating expenses.
+
+**Targets.** Set per component; depend on staffing model, structure, strategic emphasis, and size.
+
+**Variations.** Outsourcing/Consulting; Overhead; Staff Costs; Technology.
+
+**Related measures.** Average Termination Value; Employee Retention Index; Employment Brand Strength; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Type; HR Expense per FTE; HR Operating Expense Rate; HR Revenue Expense Rate; HR Staffing Breakdown; HR Staffing Coverage Ratio; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Return on Human Investment Ratio; Training Quality; Work Units per FTE.
+
+## HR Expense Breakdown—Type [372-373]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Composition; Bench-M, Data-M |
+| Application | Organizations wanting to understand HR's functional investment and focus |
+| Description | Distribution of HR expense by expense type |
+| Sourcing | Financial ledger tables; some types (HR staff training, technology) are hard to assign, so allocation methods may be needed |
+
+: Profile summary {.striped}
+
+$$\text{HR Expense Breakdown—Type}_{\text{Type}} = \frac{\text{HR Expense}_{\text{Expense Type}}}{\text{HR Expense}} \times 100$$
+
+**Reading it.** Composition of HR operating expenses by type, usually as a stacked bar: compensation and benefits of HR staff; training investment for HR staff; facilities and overhead; travel; technology; and outsourcing, consultancy, and agency costs. Examples: a centralized HR across a dispersed organization may have high travel; a self-service initiative may raise technology cost; outsourcing may raise outsourcing cost while HR staff pay falls.
+
+**Analysis.** By organizational unit or geography; by function to see how expense types differ across HR areas.
+
+**Limitations.** Does not show value received or comparison to other operating expenses.
+
+**Targets.** Set per component; depend on staffing model, structure, initiatives (such as outsourcing or cost containment), and size.
+
+**Variations.** The first several entries are garbled in OCR (OCR unclear). Legible: Line Support; Management/Administration; OH&S; Staffing/Recruiting.
+
+**Related measures.** Average Termination Value; Employee Retention Index; Employment Brand Strength; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Operating Expense Rate; HR Revenue Expense Rate; HR Staffing Breakdown; HR Staffing Coverage Ratio; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Return on Human Investment Ratio; Training Quality; Work Units per FTE.
+
+## HR Expense per FTE [374-375]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (not captured on the right page) |
+| Application | Widely applicable across all organizations |
+| Description | HR expense per FTE |
+| Sourcing | Financial ledger tables; HR expenses often identified by HR organizational units, though recruiting and training may sit in non-HR budgets |
+
+: Profile summary {.striped}
+
+$$\text{HR Expense per FTE} = \frac{\text{HR Expense}}{\text{FTE}}$$
+
+**Reading it.** HR operating cost (including outsourcing) relative to workforce size; for example, \$5,000 means HR costs \$5,000 per FTE. It shows relative investment in HR. High results may mean growth or human capital transformation, or excess HR resources and inefficiency. Low results may mean efficiency or little investment in the workforce. Interpretation needs analysis of HR processes and programs.
+
+**Analysis.** By HR functional area to see where spending is heaviest or most or least efficient; by organizational unit or geography.
+
+**Limitations.** Does not show the value received from human capital investment or how HR expense compares with other operating expense.
+
+**Targets.** Depend on HR structure (centralized or decentralized), human capital philosophy, and size. Heavy human capital investors might target the 75th percentile; others the median.
+
+**Variations.** Learning and Development; Line Support; OH&S; Staffing/Recruiting.
+
+**Related measures.** Average Termination Value; Employee Retention Index; Employment Brand Strength; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense Breakdown—Type; HR Operating Expense Rate; HR Revenue Expense Rate; HR Staffing Breakdown; HR Staffing Coverage Ratio; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Return on Human Investment Ratio; Training Quality; Work Units per FTE.
+
+## HR Operating Expense Rate [376-377]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations monitoring investment in HR relative to other functions |
+| Description | HR expense as a percentage of all operating expenses |
+| Sourcing | Financial ledger tables; HR expenses often identified by HR organizational units, though some (recruiting, training) may sit in non-HR budgets |
+
+: Profile summary {.striped}
+
+$$\text{HR Operating Expense Rate} = \frac{\text{HR Expense}}{\text{Operating Expense}} \times 100$$
+
+**Reading it.** HR's share of total operating expense; 1% means HR is 1% of operating cost. High results may reflect growth or transformation (with resources redirected from other functions) or excess HR resources; low results may reflect efficiency or little workforce investment.
+
+**Analysis.** By organizational unit or geography.
+
+**Limitations.** Does not show value received from human capital or other operating spending, the actual volumes (only the comparison), or how operating expense compares to revenue.
+
+**Targets.** As for HR Expense per FTE: depend on HR structure, human capital strategy, and size; heavy investors target the 75th percentile, others the median.
+
+**Variations.** Learning and Development; Line Support; OH&S; Staffing/Recruiting.
+
+**Related measures.** Average Termination Value; Employee Retention Index; Employment Brand Strength; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense Breakdown—Type; HR Expense per FTE; HR Revenue Expense Rate; HR Staffing Breakdown; HR Staffing Coverage Ratio; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Return on Human Investment Ratio; Training Quality; Work Units per FTE.
+
+## HR Revenue Expense Rate [378-379]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations that run HR as a "profit center" |
+| Description | HR revenue as a proportion of total HR expenses |
+| Sourcing | Financial ledger tables; HR expenses often identified by HR organizational units, though some may sit in non-HR budgets |
+
+: Profile summary {.striped}
+
+$$\text{HR Revenue Expense Rate} = \frac{\text{HR Revenue}}{\text{HR Expense}} \times 100$$
+
+**Reading it.** Internal revenue earned by HR for its services versus its operating cost; 60% means revenue covers 60% of expenses. In a profit-center model business units buy HR services and can go outside if value is not perceived, which keeps HR focused on high-value services. Internal models may limit HR's ability to cover costs, and many are not expected to fully fund themselves.
+
+**Analysis.** By HR functional area to see contribution to covering expenses; by organizational unit or geography in decentralized HR.
+
+**Limitations.** Only an indirect indicator of value to business partners. HR may be forced to charge below market rates, and units may be compelled to buy services they do not value if alternatives are unavailable or costlier.
+
+**Targets.** Based on which services are charged and at what amounts. Some expect full cost coverage; others subsidize HR. Some activities may be beneficial before units will pay for them. Benchmark targets are unlikely to be useful given wide variation in models.
+
+**Variations.** Learning and Development; Line Support; Organization Effectiveness; Staffing/Recruiting.
+
+**Related measures.** Applicant Ratio; Development Program Penetration Rate; Employee Turnaround Rate; External Hire Rate; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Revenue per HR Employee; HR Staffing Breakdown; HR Staffing Coverage Ratio; Return on Human Investment Ratio; Training Hours per FTE.
+
+## HR Revenue per HR Employee [380-381]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-H, Data-E |
+| Application | Organizations that run HR as a "profit center" |
+| Description | Average revenue per HR FTE |
+| Sourcing | HR revenue from financial ledger tables; HR employees by functional tag in HRIS tables (or organizational assignment) |
+
+: Profile summary {.striped}
+
+$$\text{HR Revenue per HR Employee} = \frac{\text{HR Revenue}}{\text{HR FTE}}$$
+
+**Reading it.** Internal revenue produced per HR employee. Same profit-center logic as HR Revenue Expense Rate. Even where revenue cannot exceed costs, it can be used to monitor whether HR's revenue is rising or falling over time.
+
+**Analysis.** By HR functional area, to see which functions earn the most and least per head; by organizational unit or geography in decentralized HR.
+
+**Limitations.** Only an indirect indicator of value to business partners; same pricing and captive-demand caveats as HR Revenue Expense Rate.
+
+**Targets.** Based on services charged and amounts charged; some expect full cost coverage, others subsidize. Benchmark targets are unlikely to be useful.
+
+**Variations.** Learning and Development; Line Support; Organization Effectiveness; Staffing/Recruiting.
+
+**Related measures.** Applicant Ratio; Development Program Penetration Rate; Employee Turnaround Rate; External Hire Rate; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Revenue Expense Rate; HR Staffing Breakdown; HR Staffing Coverage Ratio; Return on Human Investment Ratio; Training Hours per FTE.
+
+# HRIT [383-384]
+
+HRIT measures relate to the timeliness and quality of data entry in HR information systems and to the level of investment in HR technology.
+
+## HR Technology Expense Rate [384]
+
+Only the left page is in this extract; the right-hand page is in the next file.
+
+| Item | Summary |
+|---|---|
+| Application | Organizations that monitor technology spending by function to weigh investment priorities |
+| Description | HR technology expense as a percentage of total organization technology expense |
+| Sourcing | Financial ledger data; software used by HR staff but not directly supporting HR (travel planning, e-mail) is not counted; shared systems (ERP with HRIS component, intranet with HR portal) may be allocated |
+
+: Profile summary {.striped}
+
+$$\text{HR Technology Expense Rate} = \frac{\text{HR Expense (Technology)}}{\text{Technology Expense}} \times 100$$
+
+**Reading it.** HR's share of technology spend; 10% means HR is 10% of technology expense. Covers HRIS, performance management, compensation tools, workforce planning and scheduling, recruiting systems, and similar. It is a cost but also an investment in efficiency, decisions, and engagement. A high result may mean a push to improve HR technology, inefficient development and maintenance, or poor cost management; a low result may mean little need, tight cost control, or withheld investment.

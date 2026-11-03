@@ -1,0 +1,431 @@
+---
+title: "The Metrics Standard: Establishing Standards for 200 Core Human Capital Measures"
+subtitle: "Corporate Leadership Council, December 2005 (front matter, Sections I-II, start of Section III)"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from a scanned PDF (`01-start-26.pdf`) by OCR and then cleaned by hand. Diagrams are rebuilt as lists and tables. Items marked "(OCR unclear)" could not be read reliably. Blank divider pages and the confidentiality and legal notices are omitted. Book page numbers appear in brackets.
+:::
+
+# Front matter
+
+*The Metrics Standard* is published by the Corporate Leadership Council (CLC), part of the Corporate Executive Board. The book is copyright 2005 and carries a member-confidentiality notice.
+
+## Table of contents
+
+| Part | Book page |
+|---|---|
+| Special Thanks | iv |
+| Letter to the Membership | v |
+| Section I: A Foundation of Standards | 1 |
+| Section II: Using Measure Profiles | 9 |
+| Section III: Measure Profiles | 23 |
+| A Framework for Human Capital Measurement | 24 |
+
+: Main parts {.striped}
+
+Section III organizes the 200 measures into the categories below.
+
+| Category | Topic | Book page |
+|---|---|---|
+| Staffing | Recruitment | 31 |
+| | Internal Movement | 49 |
+| | Staffing Effectiveness | 69 |
+| Retention | Turnover | 111 |
+| | Employee Engagement | 127 |
+| | Cost of Turnover | 139 |
+| Capability | Performance Management | 153 |
+| | Education and Development | 177 |
+| | Management and Leadership | 189 |
+| | Training | 207 |
+| Compensation and Benefits | Compensation | 237 |
+| | Benefits | 271 |
+| | Equity | 283 |
+| Environment | Absence/Attendance | 299 |
+| | Employee Relations | 317 |
+| | Health and Safety | 329 |
+| HR Service Delivery | HR Profile | 351 |
+| | HR Expense | 369 |
+| | HRIT | 383 |
+| | Contact Center | 393 |
+| | Payroll | 405 |
+| Workforce | Demographic | 421 |
+| | Structural | 441 |
+| | Tenure | 469 |
+| Organizational Effectiveness | Productivity | 481 |
+| | Structure | 497 |
+| | Innovation | 507 |
+| Measure Indexes | Index of Measures by Name | 514 |
+| | Index of Measures by Category | 520 |
+
+: Section III categories {.striped}
+
+## Special thanks
+
+The CLC thanks the following people at InfoHRM (Brisbane, Australia) for their contributions:
+
+- Peter Howes, CEO
+- Anastasia Ellerby, Managing Director
+- Tony Ashton, Manager
+- Melita Henderson, Consultant
+- Darren Shearer, Team Leader
+
+InfoHRM was founded in 1981 as a human capital management consulting firm. It built a data-staging and publishing capability in 1996 and launched Version 9 of its Strategic Human Capital Management Dashboard in 2004.
+
+## Letter to the membership [v]
+
+### The occasion for our work
+
+The HR measurement space has evolved rapidly over the past several years. Tools are more sophisticated, there are new frameworks, HR needs a broader range of talent, and there are more chances to affect the business directly. Most organizations now measure "something" in HR. What was missing was a definitive standard for defining, selecting, analyzing, and acting on HR metrics. This guide provides those standards.
+
+### The scope of the guide
+
+The book teaches members to interpret and use more than 200 individual measures across core HR topics. It does this in three parts:
+
+1. It defines what a "standard" for measures is and how standards support an organization's measurement capability.
+2. It explains how to use the Measure Profiles.
+3. It gives two-page Measure Profiles for 200 core human capital metrics.
+
+Each profile gives the core formula, advice on interpreting results, considerations for setting targets, and other context for implementation. The measures fall into eight categories:
+
+- Staffing
+- Retention
+- Capability
+- Compensation and Benefits
+- Environment
+- HR Service Delivery
+- Workforce
+- Organizational Effectiveness
+
+Organizations may use measures not in the book, or variations on these 200, as their needs and context require. The Council welcomes feedback.
+
+*Corporate Leadership Council, Washington, D.C., December 2005*
+
+# Section I: A Foundation of Standards
+
+## From service provider to business driver [2]
+
+HR functions are trying to move their generalists and other line advisors out of transactional work and into strategic work. Making that shift from Service Provider to Business Driver takes a more sophisticated measurement capability, so decisions can be data-driven more easily and more often.
+
+CLC members want to move the HR function from data-enabled service providers to strategic business consultants. The book describes four stages. Required sophistication of measurement capability rises from one stage to the next, and the move runs from the current state toward a future state.
+
+| Stage | Role of HR | Typical measurement activity |
+|---|---|---|
+| Service Provider | Builds data repositories and provides information to support the line as requested | Responds to ad hoc requests for data and information; prepares unidimensional reports of past performance; maintains databases that capture human capital history |
+| Business Enabler | Provides tools and services that enable real-time, consistent support to line customers, which raises the organization's overall efficiency | Provides multidimensional, automated human capital reports; educates the organization about human capital trends; ensures consistent measurement across the organization; supports data self-service within and outside HR |
+| Business Partner | Educates the organization on the impact of human capital performance on organizational success | Identifies problematic human capital trends; defines the opportunity associated with human capital interventions |
+| Business Driver | Consults with the line, giving direction on how to manage and use talent to drive business success | Defines human capital drivers of organization success; models the impact of human capital interventions on organization goals; provides a human capital perspective in strategic planning |
+
+: Stages of HR evolution {.striped}
+
+## Measurement standards underpin the capability pyramid [3]
+
+Any measurement capability needs agreed-upon measurement standards. Solid standards let an organization build solid reporting, analysis, and decision-making. The levels of a measurement capability are built up from data:
+
+1. **Data**
+2. **Measurement standards:** agreeing on how human capital items will be defined, measured, and interpreted
+3. **Data distribution and reporting:** extracting data from its sources, manipulating and integrating it as needed, and delivering prepared data to its consumers
+4. **Data analysis:** translating data into information, finding connections, testing hypotheses, and identifying root causes
+5. **Modeling and forecasting:** developing models of workforce behavior and forecasting internal and external needs and capabilities
+6. **Strategic decision making:** using analysis in program design, business decisions, and process improvement
+
+Sophistication varies across organizations, but all of them build on a set of measurement standards for definition and understanding.
+
+## A world without standards [4]
+
+Without a solid foundation of standards, the higher capabilities become less reliable. The root issues are inconsistent application of formulas or reporting rules, and inappropriate interpretation of results.
+
+| Symptoms | Root issue | Organizational impact |
+|---|---|---|
+| Reports from different preparers, or from different points in time, conflict with one another. Debates arise over whether the "right" data was used. Questions keep coming up about how data was derived. | **Inconsistency** of measure construction | Mistrust of reports and analysis; analyses that can't be repeated; loss of credibility for the data, analysts, and HR; inefficiency from debates |
+| Consumers misinterpret results. Data consumers over-rely on particular measures without understanding their scope. Consumers can't connect measure results appropriately. Debates arise over whether results are "good" or "bad". | **Lack of understanding** of results | Hesitancy to act or intervene; delayed decisions; inappropriate action; missed opportunities for improvement |
+
+: Common issues where measure standards are not used {.striped}
+
+Standards address both root problems through agreed-upon formulas and a shared understanding of what each measure means.
+
+## What is a standard? [5]
+
+A measurement standard documents a formula to be used consistently and establishes a shared understanding of what the measure means. The Measure Profiles supply both parts, through explanatory text and formulas with their variations.
+
+| Component | What it is | Sample questions addressed |
+|---|---|---|
+| Agreed-upon formula | A formula used consistently across the organization when reporting results | Are we including the right parameters in the numerator and denominator? What headcount should we use in our formula? Should we use a rate or a ratio to measure a particular topic? |
+| Shared understanding | Comprehension of what the measure means, so results can be interpreted in the organization's context | What does the measure tell us about our performance? Is our result good or bad? What does the measure not tell me about our performance? |
+
+: The two components of a standard {.striped}
+
+## A process for tracking a measure [6]
+
+A standard is only the first step in putting a measure into practice. The process starts with selecting and understanding a measure. The organization then agrees on a specific formula (core or variation) and sets out the source data specifications before the measure is calculated and reported. Implementing a measure means understanding and documenting formulas, systems, and processing rules, and then monitoring it over time.
+
+1. **Understand measure definition and purpose.** Review the profile to make sure the formula and interpretive text are understood and that the measure's purpose matches the organization's need. Weigh the benefits and drawbacks of alternate measures.
+2. **Understand variations and their implications.** If a variation of the core measure will be used, define its formula and say exactly what changes from the core. Identify any negative effects on the organization's ability to source the data or benchmark results.
+3. **Identify relevant data sources.** Work with technical contacts (for example IT, HRIT, Payroll) to find the systems and tables that hold the formula inputs. Learn who controls and updates them, how often they are updated, and how they relate to other systems.
+4. **Define fields and rules.** Work with the technical contacts and staff who enter or query data to document which fields hold the relevant data. Document the rules applied when the data is processed, and how codes, dates, and other data are interpreted to form the measure inputs.
+5. **Put the measure into production.** Develop a procedure for regularly pulling the data, calculating results, and reporting them. Assign accountability for each step. Monitor changes over time in data accuracy, in the rules applied, and in how well the data fits the organization's measurement need.
+
+## Ways measures drive decisions [7]
+
+Implemented measures, together with reporting and analysis processes, add up to the organization's human capital measurement capability. Results improve decisions in three ways, and these are how HR can move from Service Provider to Business Driver (see [2]).
+
+| Use | Description | Examples |
+|---|---|---|
+| Recurring projects | For decisions that recur regularly, data can be built into the decision process. | Assess training penetration for annual curriculum updates; identify hiring trends for recruiting forecasts; report on health and safety incidents for an annual status update |
+| Ad hoc projects | For one-off projects, large or small, an end-to-end analytic process can be used: define the topic for analysis and the scope of the final deliverable, outline hypotheses, investigate them and form insights, communicate results, and define action steps. | Analyze the impact of a recent downsizing on managerial levels; analyze employee pulse data before and after an employee value proposition campaign |
+| Foundational knowledge | Measurement also builds a baseline understanding of the workforce and of HR's impact, which helps HR serve as a strategic partner to the line. It covers process outcomes, HR process characteristics, employee behaviors, employee preferences, and workforce composition. | Understand workforce tenure composition to better assess local training needs; understand business-unit survey results to coach local managers on retention |
+
+: Three uses of human capital measurement {.striped}
+
+# Section II: Using Measure Profiles
+
+## Anatomy of a Measure Profile [10]
+
+Each profile has the parts below, shown here with the Termination Rate profile as the example. The book points to the page where each part is explained.
+
+| Part | Purpose | Explained on |
+|---|---|---|
+| Measure Construction | Expresses the measure as a formula. A "dot" convention marks formula inputs that are a subset of a data item. Formulas can be rates, ratios, indexes, or compositions (breakdowns). | [13] |
+| Interpretation | Gives context by translating the formula, describing what high or low results mean, and identifying the measure's importance and relevance in human capital management. | [14] |
+| Data Sourcing | Identifies likely sources of the formula inputs, with extra considerations or decision points where needed. | [15] |
+| Analysis Dimensions | Suggests ways to analyze the measure beyond an organization-wide result, to understand what drives results and to target interventions. | [16] |
+| Limitations | Describes what the measure does not address, or the assumptions behind interpreting it. | [17] |
+| Related Measures | Lists measures often tracked alongside this one to give other perspectives. | [17] |
+| Targets | Gives considerations for setting absolute and relative targets. | [18] |
+| Variations | Lists variations on the core measure, made by narrowing its scope or by changing an input of the formula. | [19] |
+| Measure icons | Give an at-a-glance summary of content type, formula type, and the difficulty of sourcing data and benchmarking. | [20-21] |
+
+: Parts of a profile {.striped}
+
+### Example: Termination Rate
+
+The sample profile is mostly legible, so its main points are summarized here.
+
+- **Application.** Broadly useful for monitoring how well the employment "offer" is working and how much strain turnover puts on the organization.
+- **Description.** Terminations during the reporting period as a percentage of average headcount.
+- **Formula.** $$\text{Termination Rate} = \frac{\text{Terminations}}{\text{Average Headcount}} \times 100$$
+- **Interpretation.** The measure shows the percentage of employees who left during the period, both voluntary and involuntary. A result of 20% means terminations equaled 20% of the average workforce. A result above 100% means terminations exceeded the average size of the workforce during the period.
+- **Consequences of high turnover.** It affects cost, efficiency, productivity, and customer service. It creates departure costs (for example accrued vacation), vacancy costs (lost productivity, recruitment advertising), and new-hire costs (screening, relocation, ramp-up productivity losses). It also loses organizational knowledge and can hurt the morale and workload of remaining employees.
+- **Consequences of very low turnover.** It can foster insularity and stagnation of skills and ideas. It may also point to performance management that encourages complacency or fails to manage out poor performers.
+- **Use.** The measure gives an overall view of turnover and an indirect indication of its costs. Action planning should split it into voluntary and involuntary components. Voluntary Termination Rate can show gaps in the organization's "offer" of employment. Involuntary Termination Rate can show gaps in hiring, onboarding, and performance management.
+- **Data sourcing.** Terminations usually come from an action reason or termination date field in an HRIS job table.
+- **Analysis dimensions.** Organizational unit, tenure, performance rating, grade, job family, job function, employment level, ethnic background, age, and gender.
+- **Limitations.** The measure does not separate employee-initiated from organization-initiated exits, and it does not give reasons for leaving. It doesn't fully measure "churn", because it ignores terminations replaced with new hires. It gives only an indirect view of turnover's financial and productivity effects.
+- **Targets.** Targets are most useful for the related Voluntary and Involuntary Termination Rates, which separate resignations and retirements from firings and layoffs. Organizations often aim for the 25th percentile or lower within a relevant benchmark group. Depending on industry and labor market, this often means an absolute 5-10%. Higher targets may suit temporary events such as reorganizations.
+- **Variations.** About twenty population variations, for example by tenure (under 30 days, 90 days, or 1 year), age (40+), exempt or non-exempt status, gender, managers, minority status, high performers, and high-potential employees. There is also a Voluntary Termination Rate.
+- **Related measures.** Average Termination Value, Compensation Satisfaction Index, Employee Retention Index, External Hire Rate, Involuntary Termination Rate, Manager Quality Index, Market Opportunity Index, Offer Acceptance Rate, Operating Expense per FTE, Organization Tenure Staffing Breakdown, Return on Human Investment Ratio, and Termination Breakdown by Performance Rating.
+
+## Measure construction [13]
+
+Members routinely say they want "one version of the truth". Different units should not report the same metric using inconsistent formulas. Each profile gives a core formula that can be applied wherever the measure is reported. Organizations should tell data consumers which formula is used and make sure they understand the formula type, for example a part of a whole versus a breakdown of all its parts.
+
+**Notation.**
+
+- A *dot* marks a subset of a data item. For example, `External Hires.Sign-On Bonus` means only external hires who received a sign-on bonus.
+- Some formulas are multiplied by 100 to give a percentage. A result that would otherwise be 0.5 is shown as 50%.
+- *Brackets* mark all subsets of a data item along some dimension. For example, `End of Period Headcount.[Function]` means a breakdown of headcount by every function.
+
+Examples:
+
+$$\text{Sign-On Bonus Rate} = \frac{\text{External Hires.Sign-On Bonus}}{\text{External Hires}} \times 100$$
+
+$$\text{Function Staffing Breakdown} = \frac{\text{End of Period Headcount.[Function]}}{\text{End of Period Headcount}} \times 100$$
+
+| Formula type | Meaning | Sample measures |
+|---|---|---|
+| Rate | Proportion of one or more parts to a whole of 100% | Staffing Rate--Managerial; Termination Rate; Performance Appraisal Participation Rate |
+| Ratio | One number relative to another, often written as a reduced fraction | Operating Profit per FTE; Average Span of Control; Market Compensation Ratio |
+| Composition | Breakdown of a whole into its parts, with the number or percentage allocated to each | Organization Tenure Staffing Breakdown; Performance Rating Distribution; Termination Reason Breakdown |
+| Index | Weighted combination of disparate data into one number, relative to a scale or anchor | Employee Engagement Index; Contact Center Satisfaction; New Hire Performance Satisfaction |
+
+: Formula types {.striped}
+
+## Interpretation [14]
+
+To act on results, executives, managers, and analysts must all interpret them appropriately. That means knowing exactly what the formula measures, judging whether results are good or bad in the organization's context, and giving results the right weight for the business issue at hand. Interpretation has three components:
+
+| Component | Questions |
+|---|---|
+| **Translate the formula** | What does the measure indicate? What does the formula measure? What does a result of XX% tell me? |
+| **Contextualize results** | What do measure results mean? What do high versus low results indicate? How does our interpretation depend on our organizational context? |
+| **Identify relevance** | Why is this topic important to measure? Why are employers interested in it? What impact does it have on human capital management? |
+
+: Components of interpretation {.striped}
+
+## Data sourcing [15]
+
+Data sourcing both bounds and opens up what an organization can measure. Implementing any formula means identifying the data fields, and the rules applied to them, that feed the calculation. Gaps in availability or quality hinder accuracy in the near term. Gaps in key performance indicators can also guide data quality and IT development work. To avoid "measuring what's easy rather than what's important", measurement and IT staff can work together to improve quality over time for critical data elements.
+
+The book gives a sample data sourcing evaluation worksheet. Its example data element is *Development Program Participants*.
+
+| Field | Content |
+|---|---|
+| Data element | Development Program Participants |
+| System source | Spreadsheet maintained by the OE group |
+| Table/field location | Employee_ID, Course_Date, Course_Name |
+| Subject matter experts | Jane Fielding (HRIS Analyst); Arnold Brown (Manager, Performance and Organizational Effectiveness) |
+| Accuracy | Rated 1-10 (low to high) |
+| Consistency of data entry | Rated 1-10 (low to high) |
+| Timeliness | Percent entered by period close date, on a scale from under 50% to 100% |
+| Linkable to HRIS/financial organization structure? | Yes / Yes, with difficulty / No |
+| Linkable to employee-level job data? | Yes / Yes, with difficulty / No |
+
+: Sample data sourcing worksheet {.striped}
+
+Linkages that can be made within or between systems open up more analysis and modeling of the measures once implemented.
+
+## Analysis dimensions [16]
+
+Analyzing results by employee population or business unit can make a measure far more relevant and useful. Seeing how results differ across groups helps to isolate high-impact targets for intervention and to reveal behavior patterns across the workforce.
+
+**Example: Termination Rate by age.** The company average is 10.5%. Analysis by age shows that the rate for employees aged 60 and over is considerably higher than for the company as a whole.
+
+| Age group | Termination Rate |
+|---|---|
+| Under 20 | 22.1% |
+| 20-29 | OCR unclear (printed as "198%") |
+| 30-39 | 8.3% |
+| 40-49 | 6.7% |
+| 50-59 | 11.6% |
+| 60+ | 18.2% |
+
+: Termination Rate by age {.striped}
+
+The 22.1% figure is $\text{Terminations}_{<20} / \text{Average Headcount}_{<20} \times 100$, the termination rate within the population under age 20.
+
+| Dimension group | Dimensions |
+|---|---|
+| Organization structure (hierarchies for reporting or organizing departments and business units) | Financial reporting; supervisory reporting; HR responsibility; location |
+| Demographics | Age; ethnicity; gender; education level |
+| Employment levels (segment by seniority) | Employment level (exempt/non-exempt, salaried/hourly); EEO job category; compensation band; manager level; annual salary |
+| Function (segment by type of job) | Function; job family; job title; employment type (regular/temporary) |
+| Employment experience (an individual's history at the organization) | Organization tenure; position tenure; performance rating; benefit participation |
+
+: Sample analysis dimensions {.striped}
+
+## Limitations and related measures [17]
+
+Knowing what a measure does *not* show is as important as knowing what it does. It stops consumers using results inappropriately and points to complementary measures that give a fuller view. The "right" set of related measures depends on the issue and on what is available.
+
+**Example: Average Time to Fill.**
+
+| This measure tells me | This measure does not tell me |
+|---|---|
+| The elapsed time between requisition date and the date the offer was accepted (TIME) | How many candidates we're processing to fill positions (VOLUME); how many positions we have to fill (VOLUME); whether positions were filled with high-quality candidates (QUALITY); how much it costs to fill positions in this time frame (COST); how satisfied new hires and hiring managers are with the recruiting process (SATISFACTION) |
+
+: Limitations of Average Time to Fill {.striped}
+
+Related measures for the Staffing Effectiveness category are grouped by process dimension.
+
+| Dimension | Example measures |
+|---|---|
+| Volume | External Hire Rate; Referral Rate; Applicant Ratio |
+| Cost | Recruitment Cost per Hire; Recruitment Expense Breakdown; Sign-On Bonus Rate |
+| Time | Average Time to Fill; On-Time Talent Delivery Factor; Average Interviews per Hire |
+| Quality | Offer Acceptance Rate; New Hire Failure Factor; Employment Brand Strength |
+| Satisfaction | New Hire Satisfaction with Recruiting; Employee Engagement Index--< 1-Year Tenure; Compensation Satisfaction Index--< 1-Year Tenure |
+
+: Related measures by dimension {.striped}
+
+## Defining targets [18]
+
+A target answers the question "What should our results be?" For most measures the answer is not simple. Desired results differ by industry, location, forecasts, and above all by organizational context. Executives should draw on a range of data sources and target types.
+
+| Source | Question it answers |
+|---|---|
+| Past performance | How have we performed in the past? This may affect how fast we can move to intermediate targets and reach the end target over time. |
+| Internal benchmarks | How have different workforce populations performed? We may want different targets over time for units at different performance levels. |
+| External benchmarks | How does our performance compare to others'? Where benchmarks are relevant, they can point toward needed improvements. |
+| Forecasts | What do we expect our future context to be? Past performance, internal and external, must be weighed against expectations for the future. |
+| Executive-team-mandated goals | What goals have been passed down to us? Mandated goals on this or other metrics may influence desired results. |
+
+: Data sources for target definition {.striped}
+
+Participants in target definition differ by organization and may change metric by metric. The book lists senior line managers, corporate HR, business-unit HR, and finance as possible participants. The process should weigh all of the inputs above to reach an agreed set of targets.
+
+| Type | Example |
+|---|---|
+| Absolute target | Company X sets a target of 30 days to fill for 2006. Absolute targets stay fixed until the organization decides to change them. |
+| Relative target | Company X specifies that its time to fill be between the 25th and 50th percentiles of the benchmark group. Relative targets change quarterly as benchmark data is recalculated. |
+
+: Absolute versus relative targets {.striped}
+
+## Variations on core measures [19]
+
+Business units must all use a consistent formula. But that formula need not be the profiled "core" measure. An organization can use a variation that is more meaningful to its data consumers. Variations are either *population or type variations*, which narrow the measure's focus, or *formula variations*, which substitute one input for another.
+
+Which formula an organization uses matters less than using it consistently across everyone who reports and uses the data. Nearly unlimited variations are possible for most measures, but organizations should limit them to keep things simple. A variation may fit better than the core measure, for example when an employer is driving a key initiative to improve customer service.
+
+**Example: Training Hours per FTE.**
+
+| Variation | Type | Formula | Meaning |
+|---|---|---|---|
+| Training Hours per FTE--High Potential | Population | Training Hours.High Potential / FTE.High Potential | Average training hours per full-time-equivalent high-potential employee |
+| Training Hours per FTE--Customer Service | Population | Training Hours.Customer Service / FTE.Customer Service | Average customer service training hours per full-time-equivalent employee |
+| Training Days per FTE | Formula | Training Days / FTE | Training volume in days rather than hours |
+| Training Hours per Employee | Formula | Training Hours / Average Headcount | Training volume per employee, regardless of part-time or full-time status |
+
+: Variations on Training Hours per FTE {.striped}
+
+Other population variations in the book include Managerial Skills, High Tenure, and Low Tenure.
+
+## Measure icons [20-21]
+
+For interpreting results, users should first understand what the formula measures (the content type) and how it presents that content (the formula type). Content-type icons also help executives select groups of metrics around a business issue. For example, assessing leadership development would call for volume, quality, cost, and satisfaction measures, not quality or volume alone.
+
+| Icon group | Value | Meaning |
+|---|---|---|
+| Content type | Volume | Number of people or units with a characteristic, or occurrences of an event |
+| | Cost | Organizational expenses, revenues, profits, or value |
+| | Time | Process cycle time, time invested, or timeliness of events |
+| | Quality | Performance of people, processes, or systems |
+| | Satisfaction | Participants' subjective perceptions of a process, program, or experience |
+| Formula type | Rate | Proportion of one or more parts to a whole of 100% |
+| | Ratio | One number relative to another, often a reduced fraction |
+| | Composition | Breakdown of a whole into its parts, with the number or percentage allocated to each |
+| | Index | Weighted combination of disparate data into one number, relative to a scale or anchor |
+
+: Content and formula icons {.striped}
+
+A content-type icon may appear more than once, because a measure can cover several dimensions.
+
+### Ease of implementation
+
+Implementation difficulty is another common selection criterion. Each profile carries a Benchmarking Rating, which shows how likely it is that reliable benchmark data exists. It also carries a Data Rating, which shows how easy it is to source the data, based on members' experience. The real ease of data sourcing depends on an organization's own systems, data definitions, and data entry practices.
+
+| Rating | Code | Meaning |
+|---|---|---|
+| Benchmarking--Easy | Bench-E | Relevant benchmark data is easy to develop. Data is readily accessible and processing is easily standardized in most situations. |
+| Benchmarking--Medium | Bench-M | Benchmark data is harder to develop, because data is less accessible or organizations don't track it consistently. Likely to need a significant audit effort to ensure consistency. |
+| Benchmarking--Hard | Bench-H | Benchmark data is extremely hard to develop, because the data is unavailable or highly organization-specific. Survey data can overcome this if benchmarked against organizations taking the same survey. |
+| Data--Easy | Data-E | Data is easily sourced at most organizations. |
+| Data--Medium | Data-M | Data is harder to source, because many organizations don't track it or it is hard to isolate or define from existing sources. |
+| Data--Hard | Data-H | Data is extremely hard to source, because it is rarely tracked or nearly impossible to isolate or define from existing sources. |
+
+: Benchmarking and data ratings {.striped}
+
+# Section III: Measure Profiles
+
+## A framework for human capital measurement [24-25]
+
+Two pages arrange all 200 measures by category and sub-category. The category structure matches the table of contents above, with these additions that are not in the ToC.
+
+| Category | Sub-categories |
+|---|---|
+| Staffing | Recruitment; Internal Movement; Staffing Effectiveness |
+| Retention | Turnover; Employee Engagement; Cost of Turnover |
+| Capability | Performance Management; Education and Development; Management and Leadership; Training |
+| Compensation and Benefits | Compensation; Benefits; Equity |
+| Environment | Absence/Attendance; Employee Relations; Health and Safety |
+| HR Service Delivery | HR Profile; HR Expense; HRIT; Contact Center; Payroll |
+| Workforce | Demographic; Structural; Tenure |
+| Organizational Effectiveness | Productivity; Structure; Innovation |
+
+: Framework categories {.striped}
+
+::: {.callout-warning}
+The framework pages list the individual measures in several narrow columns that run into each other, and the OCR scrambled them. The per-category measure lists are therefore not reproduced here, to avoid mis-assigning measures. Re-OCR the two pages column by column, or work from the Section III profiles, if you need them.
+:::

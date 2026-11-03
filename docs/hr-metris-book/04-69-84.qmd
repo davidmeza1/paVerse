@@ -1,0 +1,211 @@
+---
+title: "The Metrics Standard: Staffing Effectiveness Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 69-84"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `04-69-84.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The right-hand page of Interviewee Ratio (book page 85) is outside this extract.
+:::
+
+# Staffing Effectiveness [69-84]
+
+Staffing Effectiveness covers the mechanics of recruiting (screening, interviewing, making offers) and the delivery of candidates to hiring managers. The measures here are in alphabetical order.
+
+| Measures (book page) |
+|---|
+| Applicant Interview Rate (70); Applicant Ratio (72); Average Interviews per Hire (74); Average Sign-On Bonus Expense (76); Average Time to Fill (78); Average Time to Start (80); Interviewee Offer Rate (82); Interviewee Ratio (84) |
+
+: Measure index for this extract {.striped}
+
+## Applicant Interview Rate [70-71]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-M |
+| Application | Organizations balancing interviewing enough candidates to sample the qualified pool against straining the recruiting process with too many interviews |
+| Description | Percentage of applicants interviewed during a period |
+| Sourcing | Recruiting system or HRIS recruiting table. Résumé banks complicate counting, so organizations must decide how to identify distinct applicants. |
+
+: Profile summary {.striped}
+
+$$\text{Applicant Interview Rate} = \frac{\text{Applicants Interviewed}}{\text{Applicants}} \times 100$$
+
+**Reading it.** Counts distinct interviewed applicants as a share of all applicants (20% means one in five is interviewed), not the number of interviews each receives. A high result may mean a small pool, a well-targeted and qualified pool, or weak screening. Interviewing enough candidates builds confidence in offer decisions, but interviewing costs time, can blur distinctions between candidates, and can lengthen Time to Fill. Staged interviewing (recruiters first, then low-level managers, and so on) can add time but cuts demands on senior managers.
+
+**Analysis.** By organizational unit, geography, job function, employment level, or job family. Also by gender, age, ethnic background, and education level, and by application method (Web site, agencies, advertisements) as a proxy for pool quality.
+
+**Limitations.** Says nothing about how well screening selects the right people for interview, how many times each person is interviewed, or the cost of interviewing.
+
+**Targets.** Usually absolute rather than relative, though benchmarks help compare process structures. Driven by application volume versus interviewing capacity. Wide advertising (e.g., Internet job sites) lowers the rate. Tiered interviewing processes tend to justify a higher target.
+
+**Variations.** Agency; Exempt; External; Female; Internal; Internet; Managers; Minority; Newspaper; Non-Exempt; Referral; University.
+
+**Related measures.** Applicant Ratio; Average Interviews per Hire; Average Time to Fill; External Hire Rate; Interviewee Offer Rate; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Referral Rate; Termination Rate (< 1-Year Tenure variation).
+
+## Applicant Ratio [72-73]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-M, Data-M |
+| Application | Widely applicable to organizations tracking the screening resources an applicant pool requires |
+| Description | Average number of applicants for each internal and external hire |
+| Sourcing | Recruiting system or HRIS recruiting table. Hires from a job table can replace the denominator, but accepted offers match the numerator better. Résumé banks require a rule for identifying distinct applicants. |
+
+: Profile summary {.striped}
+
+$$\text{Applicant Ratio} = \frac{\text{Applicants}}{\text{Offers Accepted}}$$
+
+**Reading it.** Compares total applicants (internal and external) to total hires, and is one of a series showing how candidates pass through recruiting gates. A rising ratio means more résumés to review per opening. Online application tools have greatly increased volumes, while screening and résumé bank technology has not always kept pace, so results should be read against application methods and screening tools.
+
+**Analysis.** By organizational unit, geography, job function, employment level, or job family to gauge labor demand. Also by gender, age, ethnic background, education level, and recruitment method (Web site, agencies, newspaper advertisements).
+
+**Limitations.** Does not show applicant quality or suitability, which sources applications came from (without more analysis), volume relative to screening capacity, or screening cost.
+
+**Targets.** Depend on the type and extent of advertising, whether some positions are internal-only, and available screening technology. Because these vary widely, benchmarks are not typically useful.
+
+**Variations.** Agency; Exempt; External; Female; Internal; Internet; Managers; Minority; Newspaper; Non-Exempt; Referral; University.
+
+**Related measures.** Applicant Interview Rate; Average Interviews per Hire; Average Time to Fill; External Hire Rate; Interviewee Ratio; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Recruitment Expense Breakdown; Referral Rate.
+
+## Average Interviews per Hire [74-75]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Time, Ratio; Bench-E, Data-M |
+| Application | Organizations worried about new hire performance and fit, repeatedly losing top recruits to other offers, or seeing low candidate satisfaction with recruiting |
+| Description | Average number of interviews held with the hired candidate for each internal and external hire |
+| Sourcing | Recruiting system or HRIS recruiting table. Hires from a job table can replace the denominator, but accepted offers match the numerator better. |
+
+: Profile summary {.striped}
+
+$$\text{Average Interviews per Hire} = \frac{\text{Interviews of Applicants with Offers Accepted}}{\text{Applicants with Offers Accepted}}$$
+
+**Reading it.** A result of 5.5 means hires had 5.5 interviews on average. It indicates interviewing efficiency. A very high figure may signal bureaucratic multi-approver processes, or candidate fit that is hard to judge, pointing to a weak pool or ineffective screening. Many interviews can frustrate candidates, cost productivity, and push candidates toward faster competitors. A very low figure may reflect a strong pool, easy fit judgments, little bureaucracy, or hasty offers. Read alongside new hire fit measures (New Hire Performance Satisfaction Rate, New Hire Failure Factor) and pipeline volume measures.
+
+**Analysis.** By organizational unit, geography, job function, employment level, or job family, and by application method (Web site, agencies, newspaper advertisements).
+
+**Limitations.** Does not show interview duration, type (phone, in-person, behavioral), interviewer type or level, candidate satisfaction, or candidates lost through delays.
+
+**Targets.** Typically based on the number of people required to approve a candidate (three approvers means at least three interviews), with allowance for peer or subordinate interviews. Consider candidate satisfaction and new hire fit. "Interview day" round-robin approaches tend to raise the figure.
+
+**Variations.** Agency; Customer Facing; Executives; Exempt; External; Internal; Managers; Non-Agency; Non-Exempt; Referral; Rehire.
+
+**Related measures.** Applicant Interview Rate; Average Time to Fill; Interviewee Offer Rate; Interviewee Ratio; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Recruitment Expense Breakdown; Referral Rate; Sign-On Bonus Rate; Termination Rate (< 1-Year Tenure variation).
+
+## Average Sign-On Bonus Expense [76-77]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-E, Data-E |
+| Application | Organizations that already use sign-on bonuses as a recruiting tool or run university recruiting programs |
+| Description | Average sign-on bonus received by external hires who were given one |
+| Sourcing | Recruitment system, or payroll tables that itemize bonus payments |
+
+: Profile summary {.striped}
+
+$$\text{Average Sign-On Bonus} = \frac{\text{Sign-On Bonus Expense}}{\text{External Hires with Sign-On Bonus}}$$
+
+**Reading it.** Sign-on bonuses are a direct recruitment cost, used to tempt top talent and common in university recruiting. The measure does not show effectiveness but helps monitor program cost. A very low result may mean bonuses are too small to work, warranting an effectiveness review. A very high one may mean spending beyond what is needed to convert offers.
+
+**Analysis.** Bonuses are localized to certain candidate groups, so analyze by age, job family, job function, pay grade, and education level.
+
+**Limitations.** Does not show how many bonuses were offered or accepted, or whether bonuses work as a recruitment tool.
+
+**Targets.** Based on candidate salary levels, market comparisons, strategy on matching market bonuses, and budget. Employers aiming to match competitors would move toward the median of a relevant benchmark group.
+
+**Variations.** Agency; Executives; Exempt; Internet; Managers; Newspaper; Non-Exempt; Referral; University (Bachelors); University (Graduate).
+
+**Related measures.** Average Annual Salary per FTE; External Hire Rate; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; Recruitment Cost per Hire; Recruitment Expense Breakdown; Sign-On Bonus Rate; Total Compensation Expense per FTE.
+
+## Average Time to Fill [78-79]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-M, Data-M |
+| Application | Organizations measuring the efficiency and timeliness of recruiting, especially those with many hires needed for near-term rather than long-term requisitions |
+| Description | Average days between requisition date and offer acceptance for internal and external hires |
+| Sourcing | Requisition dates and offer acceptance data from a recruiting system or HRIS recruiting table |
+
+: Profile summary {.striped}
+
+$$\text{Average Time to Fill} = \frac{\text{Total Days to Fill}}{\text{Offers Accepted}}$$
+
+**Reading it.** Measures time from requisition opening to offer acceptance, an efficiency indicator because open requisitions usually mean a vacancy and lost productivity. It suits "asap" hires. For requisitions opened weeks or months ahead (long-term hires), recruiters may take more time, and On-Time Talent Delivery Factor is more accurate. Results are affected by earlier steps (planning, needs definition, requisition design) and by résumé collection and selection steps. Average Time to Start is similar but includes the gap between acceptance and actual start, which can range from a day to months.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, job title, or job family. Also break the cycle into components such as advertising, screening, and interviewing.
+
+**Limitations.** Ignores the mix of short- and long-term requisitions and the delay between acceptance and start. Does not reflect hire quality, recruitment cost, or candidate volumes.
+
+**Targets.** Consider the usual mix of requisitions (levels, skills, share of asap hires). Benchmarks are relevant only for organizations with similar hiring needs. Within a relevant group, move toward the 25th percentile for high efficiency, provided hire quality holds.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Newspaper; Non-Exempt; Referral; Rehire.
+
+**Related measures.** Applicant Interview Rate; Applicant Ratio; Average Interviews per Hire; Average Time to Start; External Hire Rate; Internal Hire Rate; Interviewee Offer Rate; Interviewee Ratio; New Position Recruitment Rate; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Expense Breakdown; Recruitment Cost per Hire; Recruitment Source Breakdown.
+
+## Average Time to Start [80-81]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-M, Data-M |
+| Application | Organizations measuring the efficiency and timeliness of recruiting, especially those with many hires needed for near-term rather than long-term requisitions |
+| Description | Average days between requisition date and start date for internal and external hires |
+| Sourcing | Requisition dates from a recruiting system or HRIS recruiting table. Start dates may be in recruiting tables, or in an HRIS job table if linkable to the recruitment system. |
+
+: Profile summary {.striped}
+
+$$\text{Average Time to Start} = \frac{\text{Total Days to Start}}{\text{Hires}}$$
+
+**Reading it.** Measures time from requisition opening to the hire's start date. The same logic as Average Time to Fill applies: it suits asap hires, On-Time Talent Delivery Factor is better for long-term requisitions, and earlier process steps influence it. Compared with Average Time to Fill, it better shows how quickly hires are in seat for vacant positions, since it includes the acceptance-to-start delay.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, job title, or job family. Also by recruiting process component such as advertising, screening, and interviewing.
+
+**Limitations.** Ignores the mix of short- and long-term requisitions. Does not reflect hire quality, recruitment cost, or candidate volumes.
+
+**Targets.** Consider the usual mix of requisitions (levels, skills, share of asap hires). Benchmarks are relevant only for organizations with similar hiring needs. Within a relevant group, move toward the 25th percentile for high efficiency, provided hire quality holds.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Newspaper; Non-Exempt; Referral; Rehire.
+
+**Related measures.** Applicant Interview Rate; Applicant Ratio; Average Interviews per Hire; Average Time to Fill; External Hire Rate; Internal Hire Rate; Interviewee Offer Rate; Interviewee Ratio; New Position Recruitment Rate; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Expense Breakdown; Recruitment Cost per Hire; Recruitment Source Breakdown.
+
+## Interviewee Offer Rate [82-83]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-M |
+| Application | Organizations examining their recruiting process (e.g., because of low offer acceptances) to see the rate at which applicants pass each gate |
+| Description | Offers extended as a percentage of distinct applicants interviewed during the period |
+| Sourcing | Recruiting system or HRIS recruiting table. Interviewees considered for several positions or given several offers complicate counts, so some organizations count an interviewee once per position considered. |
+
+: Profile summary {.striped}
+
+$$\text{Interviewee Offer Rate} = \frac{\text{Offers Extended}}{\text{Applicants Interviewed}} \times 100$$
+
+**Reading it.** A result of 10% means 10% of interviewees received offers (assuming at most one each). It is one of a series showing the proportion of candidates passing each gate, and roughly indicates fit between interviewees and job requirements. A high rate often means qualified candidates were easy to identify and cycles were short, but may also mean managers favor speed over fit. A low rate may mean few interviewees are qualified, or that many are interviewed for a wider sample.
+
+**Analysis.** By organizational unit, geography, job function, employment level, or job family. Also by gender, age, ethnic background, education level, and application method (Web site, agencies) as a proxy for pool quality.
+
+**Limitations.** Does not show whether the right candidates or offers were chosen, the size of the interviewee pool, or interviews per candidate. Less useful where offers are made only after the applicant has signaled intent to accept.
+
+**Targets.** Usually absolute rather than relative, though benchmarks help compare process structures. Informed by Applicant Interview Rate, Interviewee Ratio, and past Offer Acceptance Rate (how many offers fill a position), plus planned process changes.
+
+**Variations.** Agency; Disability; Executives; External; Female; Internal; Internet; Managers; Minority; Newspaper; Referral; University.
+
+**Related measures.** Applicant Interview Rate; Average Interviews per Hire; Average Time to Fill; External Hire Rate; Interviewee Ratio; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Termination Rate (< 1-Year Tenure variation).
+
+## Interviewee Ratio [84]
+
+| Item | Summary |
+|---|---|
+| Icons | Not on this page (right-hand page 85 outside extract; OCR unclear) |
+| Application | Organizations balancing interviewing enough candidates to sample the qualified pool against straining the recruiting process with too many interviews |
+| Description | Average number of applicants interviewed for each internal and external hire |
+| Sourcing | Recruiting system or HRIS recruiting table. Hires from a job table can replace the denominator, but accepted offers match the numerator better. |
+
+: Profile summary {.striped}
+
+$$\text{Interviewee Ratio} = \frac{\text{Applicants Interviewed}}{\text{Offers Accepted}}$$
+
+**Reading it.** Compares distinct interviewed applicants (internal and external) to hires, not counting repeat interviews of the same person. A higher ratio means more applicants interviewed per opening, which can raise confidence in the offer decision but costs interviewer time, blurs distinctions between candidates, and can extend Time to Fill. A very low ratio may mean the organization samples the pool too narrowly or that few candidates are qualified. Staged interviewing can balance the two by reducing demands on senior managers, at some cost in time.

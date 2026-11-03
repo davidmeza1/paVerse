@@ -1,0 +1,399 @@
+---
+title: "The Metrics Standard: Compensation and Benefits Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 233-262"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `012-233-262.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The last profile (Overtime Expense per FTE) continues on book page 263, in the next extract.
+:::
+
+# Compensation and Benefits [233-237]
+
+Compensation and Benefits is the payment of compensation to employees, including cash, benefits, and equity compensation. The category has three groups.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Compensation | The volume of wages, bonuses, and other amounts paid to employees, and employees' satisfaction with them | Wages and salaries; bonus payouts; overtime |
+| Benefits | Organization costs of health, welfare, and other benefits, and employees' satisfaction with them | Benefits expenses; benefits satisfaction |
+| Equity | Stock options and other incentives granted to and exercised by employees as part of compensation packages | Equity granted; equity eligibility; option exercising |
+
+: Compensation and Benefits groups {.striped}
+
+The category contents page lists five Benefits measures: Benefits Expense per FTE; Benefits Expense Type Breakdown; Benefits Operating Expense Rate; Benefits Satisfaction Index; Benefits Total Compensation Rate. Their page numbers are OCR unclear. The Benefits and Equity profiles are not in this extract; the Compensation divider page follows.
+
+# Compensation [237]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Average Annual Salary per FTE | 238 |
+| Average Cost Rate of Contractors | 240 |
+| Average Hourly Rate | 242 |
+| Bonus Actual to Potential Rate | 244 |
+| Bonus Compensation Rate | 246 |
+| Bonus Eligibility Rate | 248 |
+| Bonus Receipt Rate | 250 |
+| Compensation Satisfaction Index | 252 |
+| Direct Comp Operating Expense Rate | 254 |
+| Direct Compensation Breakdown | 256 |
+| Direct Compensation Expense per FTE | 258 |
+| Market Compensation Ratio | 260 |
+| Overtime Expense per FTE | 262 (continues 263) |
+
+: Measure index for this extract {.striped}
+
+## Average Annual Salary per FTE [238-239]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-E, Data-E |
+| Application | Organizations where compensation is a primary operating expense, that run cost containment, or that monitor salary by job family for recruitment. |
+| Description | Average annual salary, excluding bonuses and other nonwage pay, per FTE |
+| Formula | Total Annual Salary / FTE |
+| Sourcing | HRIS base-salary field, or payroll tables by salary compensation codes |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Annual Salary per FTE} = \frac{\text{Total Annual Salary}}{\text{FTE}}
+$$
+
+**Reading it.** Average base salary of an FTE, excluding bonuses and commissions: a general indicator of salary levels and trends. Compensation is usually a major operating expense, and employees rate base pay as the most important part of the offer, so employers watch for "expense creep". Rising salaries are expected when hiring more experienced staff or in tightening labor markets; otherwise they may signal poor expense management. Base salary is universally understood and can be more practical for managers than total compensation.
+
+**Analysis.** By job family or type (key skills, talent competition, highly paid areas) and by organizational unit for policy compliance. Also by tenure, performance rating, age, gender, and ethnic background to check variation and diversity goals.
+
+**Limitations.** Does not show market match or satisfaction with salary, or how compensation compares with other operating spend.
+
+**Targets.** Consider compensation philosophy, labor trends, workforce mix, and workforce planning. An employer wanting to pay well above competitors might aim for the 75th percentile; one shifting offices to low-cost locations might aim below the median.
+
+**Variations.** Executives; Exempt; Female (partly OCR unclear); High Potential; High Tenure; Low Tenure; Managers; Minority; Non-Exempt; Part Time.
+
+**Related measures.** Bonus Compensation Rate; Compensation Satisfaction Index; Direct Comp Operating Expense Rate; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Employment Level Staffing Breakdown; Function Staffing Breakdown; Market Compensation Ratio; Organization Tenure Staffing Breakdown; Overtime Expense per FTE; Return on Human Investment Ratio; Upward Salary Change Rate.
+
+## Average Cost Rate of Contractors [240-241]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost) |
+| Application | Organizations that use contractors often or for which contractor expense is significant. |
+| Description | Average contracting cost per contractor in the reporting period |
+| Formula | Total Contractor Expense / Average Contractor Count |
+| Sourcing | Contract labor cost from financial ledgers; contractor count from internal lists or staffing agencies, ideally with dates and hours. Hard to collect completely because data are dispersed |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Cost Rate of Contractors} = \frac{\text{Total Contractor Expense}}{\text{Average Contractor Count}}
+$$
+
+**Reading it.** Average operating expense per contractor. Contract labor offers resources in high growth, rare skills, quick size changes, and a way to retain retirees part time. It can also be costly because contractors command a premium for lacking benefits and job security. Use to compare contractor costs with regular employee compensation.
+
+**Analysis.** By division, business unit, geography, function, or job family; for retiree arrangements, by age or retirement status.
+
+**Limitations.** Does not show contractor cost relative to other compensation or contractor headcount relative to the regular workforce. Ignores hours worked; using contractor work hours as the denominator gives an hourly-cost variation.
+
+**Targets.** Follow contractor strategy and labor conditions. Use for rare, costly skills: expect results near the 75th percentile. Use for flexibility with tight cost management: aim between the 25th percentile and the median.
+
+**Variations.** Hourly Rate; Long Term; Part Time; Salaried; Short Term.
+
+**Related measures.** Average Annual Salary per FTE; Average Hourly Rate; On-Time Talent Delivery Factor; Operating Expense per FTE; Other Labor Rate; Recruitment Cost per Hire.
+
+## Average Hourly Rate [242-243]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations that track revenue, output, or expense hourly (manufacturers, professional services). |
+| Description | Average total compensation expense (direct, benefits, equity) per working hour |
+| Formula | Total Compensation Expense / Work Hours |
+| Sourcing | Benefits and equity from financial ledgers; direct compensation from payroll tables by pay code; work hours from payroll or timekeeping. Approximation from salary and bonus-potential fields if needed |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Hourly Rate} = \frac{\text{Total Compensation Expense}}{\text{Work Hours}}
+$$
+
+**Reading it.** Total compensation paid per hour worked. Gives a truer hourly cost than annual salary or base hourly rate, though benefits and bonuses make it harder to populate. Suits firms setting billing rates or adding labor to hourly machinery costs. Use to test effects of overtime, part-time use, and bonus and benefit eligibility.
+
+**Analysis.** By plant, division, and job family against hourly revenue, expense, or output; by tenure, pay band, or revenue-generating role.
+
+**Limitations.** Does not show overall compensation cost, comparison to other costs, or output in the hours measured. Few organizations track true hours for salaried staff, so it is less useful with large salaried populations.
+
+**Targets.** Absolute targets from desired hourly revenue, output, or operating expense. Relative targets: service firms with high billing rates may aim for the 75th percentile; low-cost manufacturers for the 25th.
+
+**Variations.** Direct Compensation; Executives; Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers; Minority; Non-Exempt; Part Time.
+
+**Related measures.** Average Annual Salary per FTE; Average Workweek; Average Workforce Age; Average Workforce Tenure; Compensation Satisfaction Index; Direct Comp Operating Expense Rate; Direct Compensation Expense per FTE; Market Compensation Ratio; Overtime Rate; Return on Human Investment Ratio; Staffing Rate—Part Time.
+
+## Bonus Actual to Potential Rate [244-245]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate (OCR; icon row partly garbled); Bench-M, Data-M |
+| Application | Organizations with bonus packages for some groups, especially where bonuses are a key performance driver. |
+| Description | Average actual bonus received as a percentage of total potential bonus |
+| Formula | Direct Compensation Expense.Bonus / Bonus Potential × 100 |
+| Sourcing | Potential bonus from job records or a compensation table; actual payouts from payroll |
+
+: Profile summary {.striped}
+
+$$
+\text{Bonus Actual to Potential Rate} = \frac{\text{Direct Compensation Expense.Bonus}}{\text{Bonus Potential}} \times 100
+$$
+
+**Reading it.** Share of potential bonus actually paid; 70% means eligible employees received 70% of maximum on average. Bonuses are "at risk" on firm, unit, or individual criteria. Two structures: All or Nothing, and Sliding Scale. The measure is most useful with Sliding Scale. It indicates how far criteria were met (so productivity and firm performance) and may lead satisfaction, though employees value base pay, manager quality, health benefits, and external pay equity more. A low rate may mean poor performance or unrealistic goals; a high one, strong performance or easy goals.
+
+**Analysis.** By employment level, function, job family, tenure, pay grade, and performance rating; by unit or geography when criteria are divisional.
+
+**Limitations.** Covers only actual versus potential; says nothing about overall bonus volume or how widespread bonuses are.
+
+**Targets.** Usually absolute, since structures differ. Some aim toward 100%; if potentials are intentionally unrealistic, target an expected payout such as 80%.
+
+**Variations.** Executives; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Non-Exempt.
+
+**Related measures.** Average Performance Appraisal Rating; Bonus Compensation Rate; Bonus Eligibility Rate; Bonus Receipt Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Equity Incentive Value per Employee; Operating Profit per FTE; Operating Revenue per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Return on Human Investment Ratio.
+
+## Bonus Compensation Rate [246-247]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations with bonus packages for some groups, especially where bonuses are a key performance driver. |
+| Description | Bonus compensation as a percentage of all direct (cash) compensation |
+| Formula | Direct Compensation Expense.Bonus / Direct Compensation Expense × 100 |
+| Sourcing | Payroll data of actual payments, with pay codes split into bonus and other direct pay |
+
+: Profile summary {.striped}
+
+$$
+\text{Bonus Compensation Rate} = \frac{\text{Direct Compensation Expense.Bonus}}{\text{Direct Compensation Expense}} \times 100
+$$
+
+**Reading it.** A result of 10% means 10% of cash pay comes from bonuses. Employers balance the security of base pay against the motivation of variable pay. High bonus reliance is seen as less stable, with employees expecting more upside; bonuses beyond about 20% of base pay add only marginal perceived value. High results may reflect met goals, many sales jobs, or a risk-bearing culture; low results, little emphasis on variable pay or unmet goals.
+
+**Analysis.** By employment level, function, job family, tenure, pay grade, and performance rating.
+
+**Limitations.** Does not show whether bonuses drive performance or satisfaction, how widespread eligibility is, or the potential bonuses available.
+
+**Targets.** Usually absolute. Little variable pay: zero to 10%. Significant emphasis: 20% or higher. Sales or similar families may be much higher.
+
+**Variations.** Executives; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Non-Exempt.
+
+**Related measures.** Average Performance Appraisal Rating; Bonus Actual to Potential Rate; Bonus Eligibility Rate; Bonus Receipt Rate; Compensation Satisfaction Index; Direct Compensation Expense per FTE; Equity Incentive Value per Employee; Operating Profit per FTE; Operating Revenue per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Return on Human Investment Ratio.
+
+## Bonus Eligibility Rate [248-249]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Rate; Bench-M, Data-M |
+| Application | Organizations with bonus packages for some groups, especially where bonuses are a key performance driver. |
+| Description | Percentage of employees eligible to receive a bonus |
+| Formula | End of Period Headcount.Bonus Eligible / End of Period Headcount × 100 |
+| Sourcing | Employee-level eligibility indicator, likely in payroll tables, viewed by calendar or fiscal year |
+
+: Profile summary {.striped}
+
+$$
+\text{Bonus Eligibility Rate} = \frac{\text{End of Period Headcount.Bonus Eligible}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce eligible for bonuses tied to individual, unit, or organizational objectives (often paid quarterly to annually), not small spot awards. It shows how widespread the pay-for-goals link is. Closely related to Performance-Based Pay Prevalence, which covers only variable pay tied to individual performance (a Capability measure); this covers all bonuses regardless of basis.
+
+**Analysis.** By employment level, function, job family, tenure, pay grade, and performance rating.
+
+**Limitations.** Shows the proportion of employees affected, not the share of pay from bonuses or payment amounts.
+
+**Targets.** Organizations using bonus pay as a brand differentiator or performance driver aim between the median and 75th percentile. Absolute targets may seek 100% penetration in given units, functions, or titles.
+
+**Variations.** Executives; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Non-Exempt.
+
+**Related measures.** Bonus Actual to Potential Rate; Bonus Compensation Rate; Bonus Receipt Rate; Compensation Satisfaction Index; Equity Incentive Value per Employee; Market Compensation Ratio; Operating Profit per FTE; Operating Revenue per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Staffing Rate—Revenue Generating; Stock Incentive Eligibility Rate.
+
+## Bonus Receipt Rate [250-251]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Rate; Bench-M, Data-M |
+| Application | Organizations with bonus packages for some groups, especially where bonuses are a key performance driver. |
+| Description | Employees receiving a bonus as a percentage of employees eligible for one |
+| Formula | End of Period Headcount.Receiving Bonus / End of Period Headcount.Bonus Eligible × 100 |
+| Sourcing | Individual-level compensation or payroll data with bonus pay codes and eligibility flags, viewed by calendar or fiscal year |
+
+: Profile summary {.striped}
+
+$$
+\text{Bonus Receipt Rate} = \frac{\text{End of Period Headcount.Receiving Bonus}}{\text{End of Period Headcount.Bonus Eligible}} \times 100
+$$
+
+**Reading it.** Share of eligible employees actually paid a bonus. Most useful with All or Nothing structures or sliding scales that allow zero payout. It indicates how far criteria were met, so productivity and firm performance, and may lead satisfaction (employees value base pay, manager quality, and health benefits more). A low rate may mean poor performance or unrealistic goals; a high one, strong performance or easy goals. Compare with Organization Effectiveness measures.
+
+**Analysis.** By employment level, function, job family, tenure, pay grade, and performance rating; by unit or geography when criteria are divisional.
+
+**Limitations.** Shows only whether eligible employees were paid, not amounts, effectiveness of the packages, or their pervasiveness.
+
+**Targets.** Usually absolute; some organizations aim toward 100%, reasoning that more recipients means goals are closer to being met.
+
+**Variations.** Executives; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Non-Exempt.
+
+**Related measures.** Average Performance Appraisal Rating; Bonus Actual to Potential Rate; Bonus Compensation Rate; Bonus Eligibility Rate; Compensation Satisfaction Index; Market Compensation Ratio; Operating Profit per FTE; Operating Revenue per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Stock Incentive Eligibility Rate.
+
+## Compensation Satisfaction Index [252-253]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction, Index; Bench-M, Data-M |
+| Application | Organizations in shifting or competitive labor markets, or where compensation is a major source of dissatisfaction. |
+| Description | Relative measure of employees' satisfaction with compensation |
+| Formula | Survey results |
+| Sourcing | Usually survey results; without surveys, build a similar index from Market Compensation Ratio and exit interview results |
+
+: Profile summary {.striped}
+
+**Reading it.** Subjective satisfaction with base, variable, overtime, and other cash pay (sign-on, relocation). Employees weight base pay highest, then external equity, bonuses, and internal equity. Satisfaction is often low, so track by division, location, job family, and age group, and over time. For especially satisfied or dissatisfied groups, break the index into component questions (base salary, bonus eligibility, merit raises, pay frequency) to target drivers.
+
+**Analysis.** By age, gender, tenure, pay grade, employment type and level; by compensation type, geography, business unit, union agreement, or other structural dimension with separate pay structures.
+
+**Limitations.** Only as accurate as survey perceptions. Gives no information on the nature, cost, or effectiveness of programs.
+
+**Targets.** Depend on indexing method and questions; benchmarks need comparable surveys. Targets often follow compensation positioning (slightly below, at, or slightly above market). Aim as high as reasonably achievable.
+
+**Variations.** Bonus; Executives; Exempt; High Performers; High Potential; High Tenure; Managers; Mid Performers; Non-Exempt; Part Time; Successors; Wages.
+
+**Related measures.** Benefits Satisfaction Index; Bonus Actual to Potential Rate; Bonus Eligibility Rate; Direct Comp Operating Expense Rate; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Equity Incentive Value per Employee; Market Compensation Ratio; Offer Fit Index; Operating Expense per FTE; Performance-Based Pay Differential; Return on Human Investment Ratio; Total Compensation per FTE.
+
+## Direct Comp Operating Expense Rate [254-255]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations where compensation is a significant operating expense, especially with loose controls over pay structures. |
+| Description | Direct compensation expense as a percentage of operating expense |
+| Formula | Direct Compensation / Operating Expense × 100 |
+| Sourcing | Direct compensation from payroll tables by pay code (or approximated from ledgers or job-table salary and bonus fields); operating expense from financial ledgers |
+
+: Profile summary {.striped}
+
+$$
+\text{Direct Comp Operating Expense Rate} = \frac{\text{Direct Compensation}}{\text{Operating Expense}} \times 100
+$$
+
+**Reading it.** A result of 40% means direct pay is 40% of operating expense. Comparing it with total expenses reveals "expense creep," where pay slowly rises relative to other costs. Intentional creep may reflect upskilling, labor inflation, or better market ratios; unintentional creep, loose controls. Trends can also come from other expenses changing (for example, falling faster than pay).
+
+**Analysis.** By organizational unit and geography; by subcomponent (base, variable, etc.).
+
+**Limitations.** Does not show market match, satisfaction, the absolute size of expense, or absolute pay change over time.
+
+**Targets.** Relative: match talent competitors (median) or manage tightly (25th percentile). Absolute targets from common-sized income statements, budgets, and forecasts; ranges vary widely by industry.
+
+**Variations.** Base Pay; Commission; Overtime; Relocation; Sign On; Variable.
+
+**Related measures.** Average Hourly Rate; Benefits Expense per FTE; Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Market Compensation Ratio; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; Operating Expense per FTE; Operating Profit per FTE; Other Labor Rate; Performance-Based Pay Differential; Return on Human Investment Ratio.
+
+## Direct Compensation Breakdown [256-257]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Composition; Bench-M, Data-M |
+| Application | Organizations where compensation is a primary operating expense, running cost containment, or monitoring pay by job family. |
+| Description | Distribution of direct compensation by type (base, overtime, bonus, incentives, etc.) |
+| Formula | Direct Compensation Expense.[Compensation Type] / Direct Compensation Expense × 100 |
+| Sourcing | Payroll data by pay code (base, variable, overtime, other); approximate from salary and bonus-potential fields; estimate overtime from hours and average overtime wage |
+
+: Profile summary {.striped}
+
+$$
+\text{Direct Compensation Mix}_{type} = \frac{\text{Direct Compensation Expense.[Compensation Type]}}{\text{Direct Compensation Expense}} \times 100
+$$
+
+**Reading it.** Percentages of cash pay by type, shown as a stacked bar. Direct pay covers base, variable, overtime, and other cash such as sign-on and relocation, but not benefits or equity. Organizations look at the base-to-variable balance, and at overtime, which can sometimes be cut through staffing levels, fast recruiting, scheduling tools, and fewer unscheduled absences.
+
+**Analysis.** By geography, job family, and job type; by unit for policy compliance.
+
+**Limitations.** Does not show the total level of direct pay, market match, satisfaction, or comparison with other operating costs.
+
+**Targets.** Set per component. Overtime: often the 25th percentile of a benchmark, unless the staffing model is unusual. Bonus: zero to 10% for little variable pay; 20% or higher for heavy emphasis (most positions).
+
+**Variations.** Executives; Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers; Non-Exempt; Part Time; Total Compensation Breakdown.
+
+**Related measures.** Age Staffing Breakdown; Average Hourly Rate; Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Expense per FTE; Market Compensation Ratio; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; Operating Profit per FTE; Organization Tenure Staffing Breakdown; Performance-Based Pay Differential; Return on Human Investment Ratio.
+
+## Direct Compensation Expense per FTE [258-259]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations where compensation is a primary operating expense, running cost containment, or monitoring pay by job family. |
+| Description | Average direct compensation (wages, bonus, other cash) per FTE |
+| Formula | Direct Compensation Expense / FTE |
+| Sourcing | Payroll data by pay code; approximate from salary and bonus-potential fields; estimate overtime from hours and average overtime wage |
+
+: Profile summary {.striped}
+
+$$
+\text{Direct Compensation Expense per FTE} = \frac{\text{Direct Compensation Expense}}{\text{FTE}}
+$$
+
+**Reading it.** Average cash pay per FTE in the period, an investment expected to yield productivity. As with salary, employers watch for expense creep, with rises justified by hiring more skilled staff or a tighter labor market. Excluding benefits and equity, it tracks take-home dollars; Total Compensation Expense per FTE better tracks total cost of human capital.
+
+**Analysis.** By geography, job family, and job type; by unit for policy compliance; by subcomponent (base, variable, etc.).
+
+**Limitations.** Does not show market match or satisfaction; excludes benefits and equity; no comparison with other operating spend.
+
+**Targets.** Consider compensation philosophy, labor trends, workforce mix, and planning. Pay well above competitors: aim toward the 75th percentile. Shifting to low-cost locations: below the median.
+
+**Variations.** Bonus; Executives; Exempt; High Performers; High Tenure; Low Tenure (list partly OCR unclear: items shown include "Managers" and further entries lost).
+
+**Related measures.** Age Staffing Breakdown; Average Hourly Rate; Benefits Expense per FTE; Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Market Compensation Ratio; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; Operating Profit per FTE; Organization Tenure Staffing Breakdown; Other Labor Rate; Performance-Based Pay Differential; Return on Human Investment Ratio.
+
+## Market Compensation Ratio [260-261]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations with market compensation data, especially in highly competitive labor industries or reliant on volatile or high-demand skills. |
+| Description | Ratio of employees' direct compensation to market-comparable direct compensation |
+| Formula | Direct Compensation Expense / Market Comparable Direct Compensation |
+| Sourcing | Direct compensation from payroll by pay code (or approximated from salary and bonus-potential fields); market data purchased from a compensation survey vendor |
+
+: Profile summary {.striped}
+
+$$
+\text{Market Compensation Ratio} = \frac{\text{Direct Compensation Expense}}{\text{Market Comparable Direct Compensation}}
+$$
+
+**Reading it.** An 80% result means offerings are 80% of the comparison group's. Market data may cover only some components (for example, base and bonus) and not all positions. Employers aim for pay high enough to attract and retain talent but low enough not to hurt profitability; that level varies by job, industry, region, and the rest of the offer. Useful for tracking labor market shifts and position against talent competitors.
+
+**Analysis.** Most practical by job and geography, the two main determinants of pay, though aggregate monitoring supports strategy.
+
+**Limitations.** Only an indirect measure of satisfaction. Does not show whether pay is enough to attract and retain, how much is spent, or how it compares with other costs. Depends on accuracy and timeliness of vendor data.
+
+**Targets.** Much higher than competitors: toward the 75th percentile; on par: the median. May be set separately by job family or location.
+
+**Variations.** Executives; Exempt; Female; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Minority; Non-Exempt; Part Time; Successors.
+
+**Related measures.** Average Annual Salary per FTE; Average Hourly Rate; Average Workweek; Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Expense per FTE; Employment Brand Strength; HR Customer Satisfaction; Offer Acceptance Rate; Offer Fit Index; Performance-Based Pay Differential; Return on Human Investment Ratio; Upward Salary Change Rate; Voluntary Termination Rate.
+
+## Overtime Expense per FTE [262-263]
+
+Left-hand page only; the facing page (263: icons, analysis, limitations, targets, variations, related measures) is in the next extract.
+
+| Item | Summary |
+|---|---|
+| Icons | On page 263 (see next extract) |
+| Application | Organizations that use overtime fairly regularly or have significant hourly workforces. |
+| Description | Average overtime cash compensation per FTE |
+| Formula | Overtime Expense / FTE |
+| Sourcing | Payroll records of overtime dollars paid; otherwise estimate from overtime hours and average overtime hourly wage |
+
+: Profile summary {.striped}
+
+$$
+\text{Overtime Expense per FTE} = \frac{\text{Overtime Expense}}{\text{FTE}}
+$$
+
+**Reading it.** Overtime dollars per FTE in a period. Organizations expect some overtime to cover busy periods and absences without extra hires, balancing understaffing costs (overtime) against overstaffing costs (wages and benefits). Low results suggest steady demand, low absence, or few overtime-eligible employees; in industries like manufacturing, very low can mean overstaffing. Excessive overtime may signal volatile demand, planning errors, absences, or understaffing, and can hurt profit and morale.

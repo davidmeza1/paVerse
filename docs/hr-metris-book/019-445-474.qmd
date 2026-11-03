@@ -1,0 +1,420 @@
+---
+title: "The Metrics Standard: Workforce (Structural and Tenure) Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 445-474"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `019-445-474.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Where an icon line or word was unreadable, it is marked "OCR unclear".
+:::
+
+# Workforce: Structural (continued) [445-467]
+
+This extract opens mid-way through the Structural group, which began earlier in the book. Page 468 is blank.
+
+| Measure | Book page |
+|---|---|
+| Customer-Facing Time Rate (second page only) | 444-445 |
+| EEO Job Category Staffing Breakdown | 446 |
+| Employee Ownership Rate | 448 |
+| Employment Level Staffing Breakdown | 450 |
+| Function Staffing Breakdown | 452 |
+| Staffing Rate—Corporate | 454 |
+| Staffing Rate—Customer Facing | 456 |
+| Staffing Rate—Managerial | 458 |
+| Staffing Rate—Part Time | 460 |
+| Staffing Rate—Revenue Generating | 462 |
+| Staffing Rate—Temporary | 464 |
+| Staffing Rate—Union Employees | 466 |
+
+: Structural measures in this extract {.striped}
+
+## Customer-Facing Time Rate [444-445]
+
+Only the right-hand page (445) is in this extract. The left page (444) is not included, so application, description, interpretation, and sourcing are not available here.
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Not in this extract (page 444) |
+| Description | Not in this extract (page 444) |
+| Formula | Taken from the book's category index |
+| Sourcing | Not in this extract (page 444) |
+
+: Profile summary {.striped}
+
+$$\text{Customer-Facing Time Rate} = \frac{\text{Workdays.Customer Facing}}{\text{Workdays}} \times 100$$
+
+**Analysis.** Useful by organization unit or location when similar product divisions or sites offering the same products can be compared. Comparing very different product lines is less useful because they need different levels of customer interaction. Within a unit, also cut by job family, pay grade, gender, tenure, language abilities, and performance rating.
+
+**Limitations.** It does not show how many employees interact with customers, or how customer-facing time is spread across employees. It is only an indirect gauge of efficiency and customer focus: an organization can score high and still have excessive overhead or weak customer focus.
+
+**Targets.** An organization building customer focus or customer-centric process design as a differentiator may aim for the 75th percentile among peers with similar customer-facing models.
+
+**Variations.** Contact Center; Corporate; Exempt; Field; High Tenure; Low Tenure; Managers; Non-Exempt; Revenue Generating.
+
+**Related measures.** Average Workweek; Cross-Function Mobility; EEO Job Category Staffing Breakdown; Function Staffing Breakdown; New Products & Services Revenue per FTE; Operating Revenue per FTE; Return on Human Investment Ratio; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Multilingual; Staffing Rate—Revenue Generating; Training Course Content Breakdown; Work Units per FTE.
+
+## EEO Job Category Staffing Breakdown [446-447]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line not captured on page 447) |
+| Application | Organizations with goals for the job-category mix of their workforce, and those that cannot easily measure job families, levels, or functions |
+| Description | Distribution of headcount by EEO Job Category at period end |
+| Sourcing | An EEO job category field in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{EEO Job Category Staffing Breakdown} = \frac{\text{End of Period Headcount.[EEO Job Category]}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Gives each EEO category's share of the workforce, for US employers who report to the Equal Employment Opportunity Commission. It is usually shown as a stacked bar. It is a simple view of hierarchy and skill mix. Other countries use similar schemes (for example Canadian NOC codes). Officials and Managers approximates Staffing Rate—Managerial. Office and Clerical approximates an hourly workforce or hourly overhead roles. Categories differ in career, pay, and work-environment expectations, so the measure can guide HR program design. It can also track initiatives that change workforce makeup, such as fewer sales roles or more managerial roles.
+
+**Analysis.** Gender and ethnic makeup of each category, to see diversity effects. Also by business unit, since business lines need different job mixes.
+
+**Limitations.** Job families, functions, or bands often give a clearer picture. EEO categories are still the most commonly available and easiest to benchmark within a country. The measure does not show headcount, hiring or turnover trends within a category, or whether the mix suits strategy.
+
+**Targets.** Targets must be set per component and depend on industry norms and strategy. Example: an employer automating clerical work might aim for the 25th percentile for Office and Clerical.
+
+**Variations.** Corporate; Female; Field; High Performer; High Potential; Minority.
+
+**Related measures.** Average Span of Control; Corporate Expense Rate; Cross-Function Mobility; Direct Compensation Expense per FTE (OCR unclear, partly garbled); Function Staffing Breakdown; Internal Placement Rate; Organization Tenure Staffing Breakdown; Promotion Speed Ratio; Staffing Rate—Corporate; Job Family Staffing Breakdown; NOC Category Staffing Breakdown.
+
+## Employee Ownership Rate [448-449]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Organizations that let employees buy equity, especially those with ownership targets or goals to raise employee equity ownership |
+| Description | Employees who own company equity as a share of period-end headcount |
+| Sourcing | Third-party or plan-administrator data, if the company does not track equity owners itself |
+
+: Profile summary {.striped}
+
+$$\text{Employee Ownership Rate} = \frac{\text{End of Period Headcount.Equity Owners}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 20% means one in five employees owns some company equity. Ownership is seen as a lever for engagement, on the reasoning that employees with a stake in the stock price act to raise it. Stock ownership plans, option bonuses, and retirement plans have widened access. This measure shows the breadth of ownership, not its depth. Employee Stock Ownership Percentage (Organizational Effectiveness) tracks depth. Both help judge progress toward ownership goals.
+
+**Analysis.** By tenure, age, performance rating, pay grade, employment level, employment type, function, job family, location, and organizational unit.
+
+**Limitations.** It does not link ownership to stock price or financial results, and is at best an indirect measure of engagement. Supplement it with direct engagement measures.
+
+**Targets.** Depend on emphasis on ownership. Companies with high-ownership objectives should aim for the 75th percentile of a benchmark group. Others may aim for the median or lower.
+
+**Variations.** Executives; Exempt; High Performer; High Potential; High Tenure; Low Tenure; Managers; Non-Exempt; Revenue Generating.
+
+**Related measures.** Average Number of Options per Employee; Compensation Satisfaction Index; Employee Commitment Index; Employee Engagement Index; Employee Stock Ownership Percentage; Employment Brand Strength; Market Capitalization per FTE; Operating Profit per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Stock Incentive Eligibility Rate; Total Compensation Expense per FTE.
+
+## Employment Level Staffing Breakdown [450-451]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-E, Data-E |
+| Application | Organizations whose mix of exempt/non-exempt or salaried/hourly roles is shifting, intentionally or not |
+| Description | Distribution of headcount by employment level (for example exempt/non-exempt or salaried/hourly) at period end |
+| Sourcing | An employment-level flag in an HRIS job table. US jobs must be classed exempt or non-exempt for overtime rules. Outside the US, salaried/hourly may be used instead or as well |
+
+: Profile summary {.striped}
+
+$$\text{Employment Level Staffing Breakdown} = \frac{\text{End of Period Headcount.[Employment Level]}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Gives each level's share of the workforce, usually shown as a stacked bar. Exempt and non-exempt (or salaried and hourly) groups often differ in career, pay, and work-environment expectations, so the measure informs pay, benefit, training, and engagement design. It can also track efforts to change workforce makeup. Example: cutting clerical roles and adding skilled roles should shift the mix toward exempt (salaried).
+
+**Analysis.** Job families or pay bands within each level give a richer view for program design.
+
+**Limitations.** It is a snapshot. It does not show headcount, hiring and turnover trends by level, whether the mix fits strategy, or skill and performance by level.
+
+**Targets.** Set per component, depending on industry norms and strategy. Example: a workforce already weighted to non-exempt that is cutting managerial levels might aim for the 25th percentile for exempt.
+
+**Variations.** Corporate; Field; High Performer; High Potential; High Tenure; Low Performer; Low Tenure; Minority. The OCR of this list is partly garbled, so one or two entries may be missing (OCR unclear).
+
+**Related measures.** Bonus Eligibility Rate; Customer-Facing Time Rate; EEO Job Category Staffing Breakdown; Function Staffing Breakdown; Internal Placement Rate; Organization Tenure Staffing Breakdown; Overtime Rate; Return on Human Investment Ratio; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Total Compensation Expense per FTE; Training Course Content Breakdown.
+
+## Function Staffing Breakdown [452-453]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-H, Data-M |
+| Application | Organizations that rely on key functions for strategy, or whose skill areas are at risk of poaching or labor shortages |
+| Description | Distribution of headcount by function at period end |
+| Sourcing | A function tag on each job in HRIS tables. Less accurate: infer function from organizational assignment (for example, all Investor Relations staff tagged Finance) |
+
+: Profile summary {.striped}
+
+$$\text{Function Staffing Breakdown} = \frac{\text{End of Period Headcount.[Function]}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Gives each function's share of the workforce (sales, finance, IT, engineering, manufacturing, and so on), usually as a stacked bar. Function follows the nature of the work, not the unit a person is assigned to. It shows how allocation matches key skill areas, which functions may be under- or overstaffed, and how varied skills are. It is one data point for monitoring at-risk functions.
+
+**Analysis.** By tenure, age, pay grade, educational level, and performance rating.
+
+**Limitations.** A snapshot only. It does not show headcount, hiring or turnover trends by function, operating expense by function, or skill levels.
+
+**Targets.** Set per component, and mostly for functions central to strategy. Example: a major sales push might aim for the 75th percentile for sales. A cost-cutting effort might aim for the 25th to 50th percentile for overhead functions.
+
+**Variations.** Corporate; Customer Facing; Executives; Field; High Performer; High Potential; High Tenure; Low Performer; Low Tenure; Managers; Successors.
+
+**Related measures.** Average Span of Control; Corporate Expense Rate; Cross-Function Mobility; Organization Tenure Staffing Breakdown; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Managerial; Training Course Content Breakdown.
+
+## Staffing Rate—Corporate [454-455]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations balancing overhead cost against support to business lines |
+| Description | Corporate FTEs as a share of total FTEs |
+| Sourcing | Based on a person's function, not location. Includes support staff co-located with business lines or otherwise decentralized |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Corporate} = \frac{\text{FTE.Corporate}}{\text{FTE}} \times 100$$
+
+**Reading it.** A result of 30% means 30% of staff are in shared staff functions (HR, finance, legal, IT, marketing, investor relations, communications, facilities, real estate, procurement) rather than line units. There is no "right" mix, so organizations aim to balance overhead cost against adequate support. Where it approximates decentralization, it informs HR design. A centralized organization may need one training center and can reach staff easily. A dispersed one needs training in many locations and road shows or video communications. Non-corporate entities may rename it Staffing Rate—Headquarters, —Main Campus, or —Administration.
+
+**Analysis.** Break down by corporate function or job type (clerical, managerial) to see the level and nature of support.
+
+**Limitations.** Staffing levels are only an indirect gauge of function cost, quality, or efficiency. It shows staff allocation, not expense allocation, and does not show staffing driven by a decentralized structure.
+
+**Targets.** Many aim for the median of a comparable group. Strict cost-containment strategies may aim for the 25th percentile. Heavy investment in a function (for example IT) may aim for the 75th.
+
+**Variations.** Staffing Rate—Corporate—Exempt; —High Performers; —High Potential; —Managers; —Non-Exempt; —Successors.
+
+**Related measures.** Corporate Staffing Rate (as printed); Customer-Facing Time Rate; Function Staffing Breakdown; HR Expense Breakdown—Function; HR Staffing Breakdown; Operating Expense per FTE; Staffing Rate—Customer Facing; Staffing Rate—Revenue Generating; Training Channel Delivery Mix; Training Staff Ratio.
+
+## Staffing Rate—Customer Facing [456-457]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations where direct customer interaction drives performance or that have many customer-facing staff (sales force, contact center) |
+| Description | FTEs in customer-facing roles as a share of all FTEs |
+| Sourcing | Organizational units, job titles, or job families from HRIS job tables or org trees |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Customer Facing} = \frac{\text{FTE.Customer Facing}}{\text{FTE}} \times 100$$
+
+**Reading it.** A result of 20% means one in five employees deals directly with customers. Lean-minded organizations treat a higher share as lower overhead and a more efficient design. Others tie it to customer focus: more customer contact means more customer needs feed into service, product development, and distribution. It suits organizations with customer contact beyond sales (contact centers, customer relations, consultants, underwriters, service reps), such as financial services, retail, professional services, and some technology and consumer-goods firms. Customer-Facing Time Rate is more accurate about contact but much harder to track. This measure shows how much of the workforce has customer contact at all.
+
+**Analysis.** By division, geography, job function, and job family. To profile customer-facing staff, also by tenure, age, gender, ethnicity, language abilities, and performance rating.
+
+**Limitations.** Roles are tagged by job, not activity, so it does not show time spent with customers or relationship depth. It is only an indirect gauge of efficiency and customer focus. A high result can coexist with high overhead or weak customer focus.
+
+**Targets.** An organization building customer focus or a customer-centric design may aim for the 75th percentile among peers with similar customer-facing models.
+
+**Variations.** Staffing Rate—Customer Facing—Contact Center; —Corporate; —Exempt; —Field; —High Tenure; —Low Tenure; —Managers; —Non-Exempt; —Revenue Generating.
+
+**Related measures.** Cross-Function Mobility; Customer-Facing Time Rate; EEO Job Category Staffing Breakdown; Function Staffing Breakdown; New Products & Services Revenue per FTE; Operating Revenue per FTE; Return on Human Investment Ratio; Staffing Rate—Corporate; Staffing Rate—Multilingual; Staffing Rate—Revenue Generating; Training Course Content Breakdown; Work Units per FTE.
+
+## Staffing Rate—Managerial [458-459]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line garbled on page 459) |
+| Application | Organizations concerned about hierarchical balance, for cost containment, people management, or career paths |
+| Description | Managers as a share of period-end headcount |
+| Sourcing | A managerial/non-managerial column in an HRIS table, the EEO category Officials and Managers, or a supervisory hierarchy |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Managerial} = \frac{\text{End of Period Headcount.Manager}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 14% means 14% of employees hold managerial positions. Managerial usually means a managerial title, whether or not the role supervises anyone. A high share suggests a tall structure with many levels, which can bring higher salary costs, harder top-down communication, and slower decisions. A low share suggests a flat structure. Risks there are managers stretched thin, diluted people management and planning, and a thin internal pool for succession. Results run lower in labor-intensive industries such as manufacturing and higher in professional sectors such as financial services, IT, and professional services.
+
+**Analysis.** By function or organizational unit. Also by tenure, gender, ethnic background, and other traits to see diversity and career-path effects.
+
+**Limitations.** Only a two-way view of hierarchy. It does not separate levels or titles, count hierarchy levels, describe career paths, or show manager quality, experience, or stability.
+
+**Targets.** Depend on design, industry, job mix, and career-path strategy. To cut salary cost or levels, aim toward the 25th percentile of a relevant group. To offer many managerial roles for career pathing or retention, aim toward the 75th.
+
+**Variations.** Staffing Rate—Executive; Staffing Rate—Managerial—Contact Center (variation); —Corporate; —Female; —Field; —High Performers; —High Potential; —LDP Participants; —Minority; —Revenue Generating; Staffing Rate—VP and Above.
+
+**Related measures.** Average Span of Control; Average Workforce Tenure—Managers (variation); Cross-Function Mobility—Managers; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Manager Quality Index; Positions Without Ready Candidates Rate; Promotion Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Successor Pool Coverage; Upward Review Rate; Voluntary Termination Rate—Managers (variation).
+
+## Staffing Rate—Part Time [460-461]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Organizations that use part-time work often or manage it as part of a flexible-work portfolio |
+| Description | Part-time employees as a share of the workforce |
+| Sourcing | A full-time/part-time indicator in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Part Time} = \frac{\text{End of Period Headcount.Part Time}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 3% means three in every hundred employees are part time. Part-time work is often a desirable work-life benefit. It can keep skilled people who cannot work full time and allow gradual retirement while knowledge stays. Part-timers often get fewer benefits, which can save cost. Drawbacks: availability limited to certain hours can interrupt other staff or processes, and extra payroll processing costs. Very low results suggest checking whether more part-time work would help retention and knowledge management. High results call for checking productivity and processing costs against the benefits.
+
+**Analysis.** By organizational unit, job family, function, tenure, age, gender, pay grade, employment level, and performance rating. If part-time work serves groups such as working parents or students, also by demographics to judge success.
+
+**Limitations.** Does not show hours worked, productivity, cost or savings, or effects on retention, engagement, or productivity.
+
+**Targets.** Start from stated goals (accommodating exceptional staff, a flexible-work option, gradual retirement) and weigh costs and benefits such as pay, benefits, productivity, and culture. Employers using part-time work as a differentiator may aim for the 75th percentile. Others are likely to target the median.
+
+**Variations.** Staffing Rate—Job Sharing; Staffing Rate—Part Time—Customer Facing; —Exempt; —Female; —High Performers; —Managers; —Non-Exempt; —Revenue Generating; Staffing Rate—Remote.
+
+**Related measures.** Absence Rate; Age Staffing Breakdown; Average Workweek; Average Workforce Tenure; Benefits Expense per FTE; Benefits Satisfaction Index; Gender Staffing Breakdown; Offer Fit Index; Return on Human Investment Ratio; Schedule Flexibility Rate; Total Compensation Expense per FTE; Work Units per FTE.
+
+## Staffing Rate—Revenue Generating [462-463]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations that see a solid link between revenue-generating positions and revenue results |
+| Description | FTEs in revenue-generating roles as a share of all FTEs |
+| Sourcing | Organizational units, job titles, or job families from HRIS job tables or org trees |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Revenue Generating} = \frac{\text{FTE.Revenue Generating}}{\text{FTE}} \times 100$$
+
+**Reading it.** A result of 20% means one in five employees is in a role that creates revenue. Lean-minded organizations read a higher share as better focus on top-line growth and closer contact with market needs. It resembles Staffing Rate—Customer Facing but is narrower: customer-facing includes service and support roles, while this counts only revenue roles. It may be easier to implement where revenue roles can be found from job families or units but customer-facing roles are hard to identify.
+
+**Analysis.** By division, geography, job function, and job family. To profile revenue staff, also by tenure, age, pay grade, employment level, employment type, and performance rating.
+
+**Limitations.** Roles are tagged by job, not activity, so it does not show time spent on revenue work, revenue volume, or profitability.
+
+**Targets.** An organization building lean design or revenue focus as a differentiator may aim for the 75th percentile among peers with similar revenue-role models.
+
+**Variations.** Staffing Rate—Revenue Generating—Contact Center; —Corporate; —Exempt; —Field; —High Tenure; —Low Tenure; —Managers; —Non-Exempt; —Successors.
+
+**Related measures.** Bonus Actual to Potential Rate; Bonus Compensation Rate; Corporate Expense Rate; Customer-Facing Time Rate; EEO Job Category Staffing Breakdown; Function Staffing Breakdown; New Products & Services Revenue per FTE; Operating Revenue per FTE; Return on Human Investment Ratio; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Multilingual; Work Units per FTE.
+
+## Staffing Rate—Temporary [464-465]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-E |
+| Application | Organizations that use temporary resources often or expect to in future periods |
+| Description | Temporary employees as a share of the FTE workforce |
+| Sourcing | HRIS or payroll tables, or third-party agencies. Temporary staff outside payroll are hard to capture accurately |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Temporary} = \frac{\text{FTE.Temporary}}{\text{FTE}} \times 100$$
+
+**Reading it.** Temporary workers are hired for a limited duration or sourced from a temp agency for short-term needs. Uses include covering vacancies or absences, filling gaps during hiring freezes, trialing candidates before a regular offer, and seasonal swings (track monthly or quarterly to plan). A high result may mean trial hiring is working. It may instead mean managers are using temps to get around restrictive hiring policies, or that recruiting is weak at planning and filling vacancies. Temps can cost less and be released faster, so a high rate may signal cost-cutting. Weigh the productivity cost of cycling through temps who must learn the processes, rules, and culture.
+
+**Analysis.** By organizational unit, function, or location to see heavy use. By job family or title to see which positions temps fill, which can expose recruitment gaps.
+
+**Limitations.** Does not show why temps are used (vacancies, temp-to-hire, seasonality), the cost versus regular staff, or the productivity impact.
+
+**Targets.** Set against stated goals for temporary resources (for example covering vacant administrative roles or seasonal unskilled work), weighing costs and benefits. Employers using temps as a differentiator may aim for the 75th percentile. Others are likely to target the median.
+
+**Variations.** Staffing Rate—Temporary—Corporate; —Customer Facing; —Exempt; —Field; —Managers; —Non-Exempt; —Revenue Generating.
+
+**Related measures.** Absence Rate; Age Staffing Breakdown; Average Workweek; Average Workforce Tenure; Benefits Expense per FTE; Benefits Satisfaction Index; Gender Staffing Breakdown; Offer Fit Index; Return on Human Investment Ratio; Schedule Flexibility Rate; Staffing Rate—Temporary (as printed; likely Staffing Rate—Part Time, OCR unclear); Total Compensation Expense per FTE; Work Units per FTE.
+
+## Staffing Rate—Union Employees [466-467]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line garbled on page 467) |
+| Application | Organizations with collective bargaining agreements or in industries where they are common |
+| Description | Union employees as a share of period-end headcount |
+| Sourcing | A union flag or bargaining unit name in an employee job record or compensation table |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Union Employees} = \frac{\text{End of Period Headcount.Union}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 40% means 40% of employees are affiliated with a union. It shows how much of the workforce falls under collective bargaining, which affects year-to-year flexibility of pay, benefits, and other policies. It also gives context for staffing models and training programs.
+
+**Analysis.** By segments considered in designing pay, benefit, staffing, and training programs: organizational unit, function, job family, pay grade, organization tenure, age, and employment level.
+
+**Limitations.** Does not show which agreements or unions apply, which job families could be covered, the cost of operating under agreements, or the relationship with unions.
+
+**Targets.** The Corporate Leadership Council recommends no target, since any target could be read as trying to limit employees' right to bargain collectively.
+
+**Variations.** Staffing Rate—Union Employees—Corporate; —Field; —High Tenure; —Low Tenure.
+
+**Related measures.** Average Annual Salary per FTE; Average Hourly Rate; Average Workweek; Benefits Expense per FTE; Benefits Operating Expense Rate; Benefits Total Compensation Rate; Employment Brand Strength; Grievance Rate; Industrial Dispute Absence Days per FTE; Overtime Expense per FTE; Overtime Rate; Return on Human Investment Ratio; Termination Rate.
+
+# Workforce: Tenure [469-474]
+
+Page 468 is blank and page 469 is the Tenure category divider. Related tenure measures: Average Workforce Tenure, Organization Tenure Staffing Breakdown, and Staffing Rate—< 1-Year Tenure.
+
+| Measure | Book page |
+|---|---|
+| Average Workforce Tenure | 470 |
+| Organization Tenure Staffing Breakdown | 472 |
+| Staffing Rate—< 1-Year Tenure | 474 |
+
+: Tenure measures {.striped}
+
+## Average Workforce Tenure [470-471]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-E, Data-E |
+| Application | Organizations that see very low or very high tenure, or expect knowledge drain from retiring high-tenure baby boomers |
+| Description | Average tenure of the workforce at period end |
+| Sourcing | Hire date, though most organizations use an adjusted hire date that includes earlier periods of employment |
+
+: Profile summary {.striped}
+
+$$\text{Average Workforce Tenure} = \frac{\text{Total Workforce Tenure}}{\text{End of Period Headcount}}$$
+
+**Reading it.** A result of 7.2 means the average employee has 7.2 years of tenure. High tenure means deep knowledge of processes and history and helps sustain culture, but very high tenure can mean stagnant culture and innovation. Low tenure can come from high turnover or fast growth. It need not mean little work experience, but it does mean limited organizational context. Tenure informs workforce strategy: low-tenure workforces need onboarding and process knowledge, and high-tenure ones need leadership development or continuing technical education. Organization Tenure Staffing Breakdown and Staffing Rate—< 1-Year Tenure also measure tenure. A single average is simple to communicate but hides the spread around it.
+
+**Analysis.** Within key skill areas, job functions, and managerial groups. For diversity, by gender and ethnic background.
+
+**Limitations.** A single average hides the range. Tenure is not a direct gauge of general experience, skill, or functional knowledge. It covers tenure with the organization only, not in the current position or as a manager.
+
+**Targets.** Balance retained knowledge against fresh outside ideas, usually the median of industry peers or talent competitors. Productivity data may support an absolute target for some job families, for example a call center job whose productivity peaks at an average tenure of three years.
+
+**Variations.** Average Workforce Tenure—Customer Facing; —Executives; —Exempt; —High Performers; —High Potential; —Managers; —Non-Exempt; —Revenue Generating; —Successors.
+
+**Related measures.** Age Staffing Breakdown; Average Annual Salary per FTE; Average Termination Value; Employee Retention Index; External Hire Rate; Manager Quality Index; Market Opportunity Index; Organization Tenure Staffing Breakdown; Termination Rate; Termination Reason Breakdown; Total Compensation Expense per FTE; Training Course Content Breakdown; Work Units per FTE.
+
+## Organization Tenure Staffing Breakdown [472-473]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-E, Data-E |
+| Application | Organizations with tenure imbalances or tenure shifts from high turnover, reorganizations, or a retiring workforce |
+| Description | Distribution of headcount by organizational tenure at period end |
+| Sourcing | Hire date, though most organizations use an adjusted hire date that includes earlier periods of employment |
+
+: Profile summary {.striped}
+
+$$\text{Organization Tenure Staffing Breakdown} = \frac{\text{End of Period Headcount.[Tenure]}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Gives the share of the workforce in each tenure band, usually as a stacked bar. The interpretation of high and low tenure matches Average Workforce Tenure. High tenure brings deep knowledge but risks stagnation. Low tenure reflects turnover or growth and limited organizational context. It is more complex than the other tenure measures but gives the most detailed view of tenure across the organization.
+
+**Analysis.** Within key skill areas, job functions, and managerial groups. For diversity, by gender and ethnic background.
+
+**Limitations.** Shows the resulting tenure mix, not the tenure profile of leavers. Tenure is not a direct gauge of general experience, skill, or functional knowledge, and it covers tenure with the organization only, not in position or as a manager.
+
+**Targets.** Set per component. Targets are most often for the share of very low-tenure staff (for example under one year) or larger bands (over three or over five years). They typically balance retained knowledge against fresh outside ideas.
+
+**Variations.** Organization Tenure Staffing Breakdown—Customer Facing; —Executives; —Exempt; —High Potential; —Managers; —Non-Exempt; —Revenue Generating; —Successors. The first entries of the printed list are garbled (OCR unclear).
+
+**Related measures.** Age Staffing Breakdown; Average Annual Salary per FTE; Average Termination Value; Average Workforce Tenure; Employee Retention Index; External Hire Rate; Manager Quality Index; Market Opportunity Index; Termination Rate; Termination Reason Breakdown; Total Compensation Expense per FTE; Training Course Content Breakdown; Work Units per FTE.
+
+## Staffing Rate—< 1-Year Tenure [474-475]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Organizations with a low-tenure workforce, tenure targets, or concern about high turnover |
+| Description | Share of period-end employees with under one year of tenure |
+| Sourcing | Hire date, though most organizations use an adjusted hire date that includes earlier periods of employment |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—<1-Year Tenure} = \frac{\text{End of Period Headcount.<1-Year Tenure}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A high share is often tied to high turnover. An organization with 20% annual turnover and flat headcount should have roughly 20% of staff under one year. It answers "what share of people I pass in the halls are new?" New staff bring fresh views, skills, and practices but little knowledge of history, culture, relationships, and processes, and they need onboarding time to reach full productivity. The measure can flag turnover problems and inform onboarding and training. Low tenure may be acceptable in some job families (call center reps, bank tellers) but a concern in others (engineering, investor relations). Of the tenure measures, it is best suited to simply gauging the share of newer employees.
+
+**Analysis.** Across key skill areas, job functions, customer-facing roles, and managerial groups. For diversity, by gender and ethnic background.
+
+**Limitations.** Says nothing about staff with more than a year of tenure. Tenure is not a direct gauge of general experience, skill, or functional knowledge, and it covers tenure with the organization only, not in position or as a manager.
+
+**Targets.** Usually absolute (for example 20% of the workforce). Relative to a benchmark group, most aim between the 25th and 50th percentiles, treating low tenure as a cost of turnover. Newer organizations, or those that value outside perspectives, might target the 50th percentile or higher.
+
+**Variations.** Staffing Rate—< 1-Year Tenure—Customer Facing; —Executives; —Exempt; —Managers; —Non-Exempt; —Revenue Generating; —Successors.
+
+**Related measures.** Average Termination Value; Employee Retention Index; External Hire Rate; Manager Quality Index; Market Opportunity Index; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Termination Rate; Total Compensation Expense per FTE; Training Course Content Breakdown; Work Units per FTE.

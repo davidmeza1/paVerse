@@ -1,0 +1,383 @@
+---
+title: "The Metrics Standard: Environment Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 295-324"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `014-295-324.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The last profile (Grievance Time to Resolve) continues on book page 325, in the next extract.
+:::
+
+# Environment [295-297]
+
+Environment is the maintenance of a working environment for employees to perform their duties. The category has three groups.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Absence/Attendance | Scheduled and unscheduled absences, the reasons for them, and employee work hours and schedules | Unscheduled absences; scheduled absences; work schedules |
+| Employee Relations | Grievance procedures and labor relations with the workforce | Grievances; labor disputes; alternative dispute resolution |
+| Health and Safety | Volume, costs, and severity of health and safety incidents, and the types of incident | H&S incidents; H&S expenses; workers' compensation |
+
+: Environment groups {.striped}
+
+The category contents page also lists Industrial Dispute Absence Days per FTE (page 326), in the next extract. Page numbers for the Absence/Attendance and Health and Safety entries on that page are OCR unclear.
+
+# Absence/Attendance [299]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Absence Rate | 300 |
+| Average Work Week | 302 |
+| Compensation Value of Unscheduled Absences per FTE | 304 |
+| PTO Utilization Rate | 306 |
+| Schedule Flexibility Rate | 308 |
+| Unscheduled Absence Breakdown | 310 |
+| Unscheduled Absence Days per Employee | 312 |
+| Unscheduled Absence Rate | 314 |
+
+: Measure index for this section {.striped}
+
+## Absence Rate [300-301]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost on page 301) |
+| Application | Organizations whose staffing and operations may be significantly affected by absences. |
+| Description | Total days of employee absence as a percentage of total expected workdays |
+| Formula | Absence Days / Workdays × 100 |
+| Sourcing | Absence tables in timekeeping or payroll systems, or separate databases |
+
+: Profile summary {.striped}
+
+$$
+\text{Absence Rate} = \frac{\text{Absence Days}}{\text{Workdays}} \times 100
+$$
+
+**Reading it.** Share of work time lost to absence for any reason (illness, no-shows, vacation, jury duty, etc.). A 3% result means 3 of every 100 employees are absent on an average day. Overall rates help anticipate staffing needs and timing, such as concentration around holidays or summer, which may call for contingent staffing or vacation scheduling policies. Absences carry direct costs (vacation or overtime wages, temporary workers) and productivity losses (finding replacements, line stoppages, onboarding, peers covering).
+
+**Analysis.** By age, tenure, level, pay grade, job family, performance rating, geography, and unit; by absence type.
+
+**Limitations.** Does not directly show cost, length of absences, or reasons without more analysis; does not separate scheduled from unscheduled absences or uncontrollable from discretionary ones.
+
+**Targets.** Absolute: allow a reasonable level of scheduled absence (vacation, expected leave use) and minimal unscheduled absence. Relative: typically between the 25th percentile and the median. Relative targets suit Unscheduled Absence Rate better because leave policies vary.
+
+**Variations.** Corporate; Exempt; Field; (one item OCR unclear); High Performer; Low Tenure; Low Performer; Non-Exempt; Plant; Union.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Value of Unscheduled Absences per FTE; Employee Engagement Index; H&S Incidents per 100 FTEs; Manager Quality Index; Operating Expense per FTE; Overtime Expense per FTE; Overtime Rate; Staffing Rate—Temporary; Unscheduled Absence Breakdown; Unscheduled Absence Rate; Voluntary Termination Rate; Work Units per FTE.
+
+## Average Work Week [302-303]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-H |
+| Application | Organizations with significant part-time populations or that track hours worked for many or all employees. |
+| Description | Average number of hours worked per week per employee |
+| Formula | (Hours Worked / Number of Weeks) / Average Headcount |
+| Sourcing | Standard hours fields in HRIS job tables, or hour-tracking systems (punch cards, electronic timesheets) |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Workweek} = \frac{\text{Hours Worked} / \text{Number of Weeks}}{\text{Average Headcount}}
+$$
+
+**Reading it.** A result of 37 means the average employee worked 37 hours a week. Interpretation depends on tracking practice. With standard hours only, it shows the part-time/full-time makeup and the time available to train employees, the difficulty of managing part-timers, and service consistency. With actual hours, it can show whether employees reach standard hours or approach burnout, support workforce planning for over- or under-resourced areas, and reveal seasonality.
+
+**Analysis.** By job family, function, title, pay grade, level, and performance rating; by unit and geography to see where culture and norms drive hours.
+
+**Limitations.** Not a direct productivity measure (longer hours are not necessarily more effective). Does not show the cost of regular or overtime hours, or the range around the average.
+
+**Targets.** For part-time dynamics, based on the target part-time share and desired hours (considering training, culture, spans of control). For actual hours, consider burnout, absence and overtime rates, and productivity. Most aim for the benchmark median; high-exempt, performance-driven cultures might aim higher.
+
+**Variations.** Billable Employees; Customer Service; Exempt; Full Time; High Performer; High Potential; Low Performer; Managers; Non-Exempt; Part Time; Sales.
+
+**Related measures.** Absence Rate; Average Hourly Rate; Bonus Actual to Potential Rate; Employee Engagement Index; Employment Brand Strength; Manager Quality Index; Offer Acceptance Rate; Performance Rating Distribution; Promotion Speed Ratio; PTO Utilization Rate; Return on Human Investment Ratio; Voluntary Termination Rate; Work Units per FTE.
+
+## Compensation Value of Unscheduled Absences per FTE [304-305]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost) |
+| Application | Organizations with populations that unscheduled absences can disrupt, or that incur significant costs from them. |
+| Description | Average compensation cost of unscheduled absences per FTE |
+| Formula | Unscheduled Absence Days × Direct Compensation.Daily / FTE |
+| Sourcing | Absence tables in timekeeping or payroll systems; compensation from payroll, or approximated from annual salary or hourly wage fields in HRIS |
+
+: Profile summary {.striped}
+
+$$
+\text{Compensation Value of Unscheduled Absences per FTE} = \frac{\text{Unscheduled Absence Days} \times \text{Direct Compensation.Daily}}{\text{FTE}}
+$$
+
+**Reading it.** A proxy for the financial cost of unscheduled absences: daily pay of absent employees times days absent, spread across all FTEs. A result of \$500 means \$500 per FTE was paid in compensation for unscheduled absences. Real costs include overtime, temporary workers, finding replacements, line stoppages, onboarding replacements, and lost peer productivity, which are hard to quantify. Caveat: absence costs do not track pay. Highly paid employees often do work that "waits for them," while line, call center, and other operational roles may cause severe disruption.
+
+**Analysis.** By age, tenure, level, pay grade, job family, performance rating, geography, and unit.
+
+**Limitations.** Only an approximate cost measure; no average absence length or reasons.
+
+**Targets.** Absolute targets near zero, though zero is unrealistic (sick leave and some leave types cannot be eliminated); set on a realistic expectation. Relative: toward the 25th percentile, assuming the proxy is adequate.
+
+**Variations.** Corporate; (one item OCR unclear); Exempt; High Performer; Low Performer; Non-Exempt; Plant; Revenue Generating.
+
+**Related measures.** Absence Rate; Average Hourly Rate; Benefits Satisfaction Index; Employee Engagement Index; H&S Incidents per 100 FTEs; Operating Expense per FTE; Overtime Expense per FTE; Overtime Rate; Schedule Flexibility Rate; Staffing Rate—Temporary; Unscheduled Absence Breakdown; Unscheduled Absence Days per Employee; Unscheduled Absence Rate. (Two items near the middle are OCR unclear.)
+
+## PTO Utilization Rate [306-307]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-E |
+| Application | Organizations providing personal time off or vacation that employees may not fully use. |
+| Description | Paid time off hours taken as a percentage of hours earned in the period |
+| Formula | PTO Hours.Used / PTO Hours.Accrued × 100 |
+| Sourcing | Payroll or other timekeeping tables |
+
+: Profile summary {.striped}
+
+$$
+\text{PTO Utilization Rate} = \frac{\text{PTO Hours.Used}}{\text{PTO Hours.Accrued}} \times 100
+$$
+
+**Reading it.** Share of accrued PTO actually taken; 80% means 8 of every 10 accrued hours are used. PTO is allotted for work-life balance and productivity, is an important benefit, and tends to grow with tenure and level. PTO usually includes vacation, sick time, floating holidays, and similar; a variation could cover vacation only. Non-use may be acceptable (reserved sick time not needed, plans that fell through, allowed carryover) or a concern (pressure not to take time, large carryover).
+
+**Analysis.** By age, tenure, level, title, job family, pay grade, and performance rating; by unit or geography to find internal pressure. For scheduling and planning, view monthly to see seasonal patterns.
+
+**Limitations.** Does not show allotment levels, PTO cost, or the engagement or productivity effects of accruing or using PTO.
+
+**Targets.** With no carryover and allowances set to prevent burnout, near 100%. If PTO is deliberately higher than can be practically used, a lower percentage.
+
+**Variations.** Corporate; Executives; Exempt; Field; High Performer; High Tenure (OCR partly garbled); Low Performer; Low Tenure; Managers; Non-Exempt; Part Time; Revenue Generating; Vacation Utilization Rate.
+
+**Related measures.** Average Workweek; Benefits Expense per FTE; Benefits Satisfaction Index; Employee Engagement Index; Manager Quality Index; Organization Tenure Staffing Breakdown; Overtime Expense per FTE; Performance Rating Distribution; Return on Human Investment Ratio; Unscheduled Absence Rate; Voluntary Termination Rate; Work Units per FTE.
+
+## Schedule Flexibility Rate [308-309]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost) |
+| Application | Organizations allowing flexible arrangements such as 10x4 schedules or telecommuting. |
+| Description | Employees with a flexible work schedule as a percentage of total employees |
+| Formula | End of Period Headcount.Flexible Work Schedule / End of Period Headcount × 100 |
+| Sourcing | Payroll tables, timekeeping databases, or HRIS job or personal-characteristics tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Schedule Flexibility Rate} = \frac{\text{End of Period Headcount.Flexible Work Schedule}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce on flexible arrangements, working outside standard hours: for example, 10 hours over four days, nine-hour days over nine days, early shifts for traffic or day care, or regular telecommuting. These are seen as work-life benefits that can aid retention, attract working parents, and extend coverage of systems or client work. Drawbacks include interrupted productivity, higher operating costs, and personnel processing costs, so monitor which groups have high or low shares and assess impact.
+
+**Analysis.** By job family, function, title, pay grade, level, and performance rating; by unit and geography to see where flexibility is more practical, accepted, or allowed.
+
+**Limitations.** Without more analysis, does not show the types of arrangement, effects on commitment, engagement, or productivity, or cost.
+
+**Targets.** Depend on the share of employees eligible to elect them, and on potential harm to client relationships, service, and work-unit productivity. Benchmark targets are unlikely to be useful because policies vary widely, though general benchmark data show how others structure hours.
+
+**Variations.** Corporate; Customer Facing; Exempt; Field; High Performer; High Tenure; Low Tenure; Managers; Non-Exempt; Revenue Generating (some entries OCR garbled).
+
+**Related measures.** Age Staffing Breakdown; Average Workweek; Benefits Satisfaction Index; Employee Engagement Index; Employment Brand Strength; Manager Quality Index; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Staffing Rate—Part Time; Unscheduled Absence Rate; Voluntary Termination Rate; Work Units per FTE.
+
+## Unscheduled Absence Breakdown [310-311]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost) |
+| Application | Organizations with populations that unscheduled absences can disrupt, or that incur significant costs from them. |
+| Description | Distribution of unscheduled absences by type (sick leave, workplace injury, family leave, industrial dispute, etc.) |
+| Formula | Unscheduled Absence Days.[Type] / Unscheduled Absence Days × 100 |
+| Sourcing | Absence tables in timekeeping or payroll systems, or separate databases |
+
+: Profile summary {.striped}
+
+$$
+\text{Unscheduled Absence Mix}_{type} = \frac{\text{Unscheduled Absence Days.[Type]}}{\text{Unscheduled Absence Days}} \times 100
+$$
+
+**Reading it.** Composition of unscheduled absence days by type, usually a stacked bar. Knowing the types helps find root causes: many on-the-job injuries point to health and safety programs; many child care emergencies suggest flexible arrangements or onsite day care. Costs and disruption vary by role (overtime and temporary pay, replacement time, line stoppages, peer coverage).
+
+**Analysis.** By age, tenure, level, pay grade, job family, performance rating, geography, and unit.
+
+**Limitations.** Does not show the volume of absences, their direct or indirect costs, or average length.
+
+**Targets.** Set per absence type. Behavioral reasons (no-shows, sick-outs) near zero; zero is unrealistic for others because sick leave and some leave types cannot be eliminated.
+
+**Variations.** Corporate; Exempt; Field; High Performer; High Tenure; Low Performer; Low Tenure; Non-Exempt; Plant; Union.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Value of Unscheduled Absences per FTE; Employee Engagement Index; H&S Incidents per 100 FTEs; Manager Quality Index; Operating Expense per FTE; Overtime Expense per FTE; Overtime Rate; Staffing Rate—Temporary; Unscheduled Absence Days per Employee; Unscheduled Absence Rate; Voluntary Termination Rate; Work Units per FTE.
+
+## Unscheduled Absence Days per Employee [312-313]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost) |
+| Application | Organizations with populations that unscheduled absences can disrupt, or that incur significant costs from them. |
+| Description | Average days of unscheduled absence per employee in the period |
+| Formula | Unscheduled Absence Days / Average Headcount |
+| Sourcing | Absence tables in timekeeping or payroll systems, or separate databases |
+
+: Profile summary {.striped}
+
+$$
+\text{Unscheduled Absence Days per Employee} = \frac{\text{Unscheduled Absence Days}}{\text{Average Headcount}}
+$$
+
+**Reading it.** A result of 1.5 means each employee missed one and a half days for unscheduled reasons. An alternative to Unscheduled Absence Rate, viewed per employee rather than per day worked. Indicates disruption and cost (overtime, temporary pay, lost productivity) and may signal health and safety, leave-policy, labor-relations, engagement, or morale issues. It can lead morale and turnover concerns.
+
+**Analysis.** By age, tenure, level, pay grade, job family, performance rating, geography, and unit; by absence type.
+
+**Limitations.** Does not directly show cost, absence length or reasons, or separate uncontrollable illness from discretionary absence.
+
+**Targets.** Absolute near zero (not realistically zero). Relative: toward the 25th percentile.
+
+**Variations.** Corporate; High Performer; High Tenure; Low Performer; Low Tenure; Non-Exempt; Plant.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Value of Unscheduled Absences per FTE; Employee Engagement Index; H&S Incidents per 100 FTEs; Manager Quality Index; Operating Expense per FTE; Overtime Expense per FTE; Overtime Rate; Staffing Rate—Temporary; Unscheduled Absence Breakdown; Unscheduled Absence Rate; Voluntary Termination Rate; Work Units per FTE.
+
+## Unscheduled Absence Rate [314-315]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Organizations with populations that unscheduled absences can disrupt, or that incur significant costs from them. |
+| Description | Unscheduled absence days as a percentage of total workdays |
+| Formula | Unscheduled Absence Days / Workdays × 100 |
+| Sourcing | Absence tables in timekeeping or payroll systems, or separate databases |
+
+: Profile summary {.striped}
+
+$$
+\text{Unscheduled Absence Rate} = \frac{\text{Unscheduled Absence Days}}{\text{Workdays}} \times 100
+$$
+
+**Reading it.** A 3% result means 3 of every 100 employees are absent for an unscheduled reason on an average day. An alternative to Unscheduled Absence Days per Employee, viewed by days worked. Indicates disruption and cost, and may signal health and safety, leave-policy, labor-relations, engagement, or morale issues. It can lead morale and turnover concerns.
+
+**Analysis.** By age, tenure, level, pay grade, job family, performance rating, geography, and unit; by absence type.
+
+**Limitations.** Does not directly show cost, absence length or reasons, or separate uncontrollable illness from discretionary absence.
+
+**Targets.** Absolute near zero (not realistically zero). Relative: toward the 25th percentile, for lower absence and higher productivity, all else equal.
+
+**Variations.** Corporate; Exempt; Field; High Performer; High Tenure; Low Performer; Low Tenure; Non-Exempt; Plant; Union.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Value of Unscheduled Absences per FTE; Employee Engagement Index; H&S Incidents per 100 FTEs; Manager Quality Index; Operating Expense per FTE; Overtime Expense per FTE; Overtime Rate; Staffing Rate—Temporary; Unscheduled Absence Breakdown; Unscheduled Absence Days per Employee; Voluntary Termination Rate; Work Units per FTE.
+
+# Employee Relations [317]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| ADR Success Rate | 318 |
+| External Complaint Factor | 320 |
+| Grievance Rate | 322 |
+| Grievance Time to Resolve (left page only; continues 325) | 324 |
+
+: Measure index for this section {.striped}
+
+## ADR Success Rate [318-319]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-H, Data-M |
+| Application | Organizations using an alternative dispute resolution (ADR) process for employee grievances. |
+| Description | Percentage of resolved internal grievances settled through ADR |
+| Formula | Grievances.Resolved.ADR Process / Grievances.Resolved × 100 |
+| Sourcing | Employee relations data tables |
+
+: Profile summary {.striped}
+
+$$
+\text{ADR Success Rate} = \frac{\text{Grievances.Resolved.ADR Process}}{\text{Grievances.Resolved}} \times 100
+$$
+
+**Reading it.** A 25% result means one in four resolved grievances was settled through ADR. Employers add ADR to grievance policies for speedy, mutually satisfactory resolution that can shorten costly investigations, negotiations, or lawsuits. ADR may not suit some grievance types, and employees may resist it if they fear a negotiating disadvantage or inadequate hearing.
+
+**Analysis.** Especially by grievance type, to see where ADR works best.
+
+**Limitations.** Does not show how often grievances occur, satisfaction with resolution, cost, or effects on morale, commitment, and productivity.
+
+**Targets.** Depend on typical grievance types and where ADR is meant to apply. Benchmark targets are hard to set given differing policies.
+
+**Variations.** Compensation Dispute; Contract Dispute; Corporate; Discrimination; Exempt; Field; Harassment; Manager Dispute; Managers; Non-Exempt; Mediation Success Rate.
+
+**Related measures.** Employee Commitment Index; Employee Satisfaction with Leadership; External Complaint Factor; Grievance Rate; Grievance Time to Resolve; Manager Quality Index; Operating Expense per FTE.
+
+## External Complaint Factor [320-321]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-M, Data-M |
+| Application | Organizations with established grievance procedures, or that see external employee complaints relatively often. |
+| Description | Average number of complaints to external agencies per employee |
+| Formula | External Agency Complaints / Average Headcount × 100 |
+| Sourcing | Employee relations data tables or documentation kept by outside counsel |
+
+: Profile summary {.striped}
+
+$$
+\text{External Complaint Factor} = \frac{\text{External Agency Complaints}}{\text{Average Headcount}} \times 100
+$$
+
+**Reading it.** External complaints are those filed with agencies (in the U.S., for example OSHA or a state equal employment opportunity department) and employee lawsuits against the employer. Most organizations treat them as a failure of internal grievance policies and procedures, since grievance processes aim to settle matters without costly external involvement; this holds whether or not a complaint began internally.
+
+**Analysis.** Look for patterns by unit, manager, location, tenure, level, and job family, and by complaint type to find problem characteristics of the work environment.
+
+**Limitations.** Without more analysis, does not show complaint type or the agency or court involved, time to resolve, cost, or effects on morale, commitment, and productivity.
+
+**Targets.** Zero or very near zero. Relative to similar workforces: typically the 25th percentile.
+
+**Variations.** Compensation Dispute; Contract Dispute; Corporate; Discrimination; Exempt; Field; Harassment; Manager Dispute; Managers; Non-Exempt.
+
+**Related measures.** ADR Success Rate; Employee Commitment Index; Employee Satisfaction with Leadership; Grievance Rate; Grievance Time to Resolve; Manager Quality Index; Operating Expense per FTE.
+
+## Grievance Rate [322-323]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-M, Data-M |
+| Application | Organizations that experience employee lawsuits, grievance-related turnover, or workplace security incidents. |
+| Description | Average number of grievances filed internally per employee |
+| Formula | Grievances / Average Headcount × 100 |
+| Sourcing | Employee relations data tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Grievance Rate} = \frac{\text{Grievances}}{\text{Average Headcount}} \times 100
+$$
+
+**Reading it.** A 1% result means one grievance per 100 employees. Internal grievances indicate workplace quality and pockets of dissatisfaction, and can foreshadow lawsuits or workplace incidents when grievances go unresolved. Fewer grievances can defuse harmful situations, reduce turnover and lawsuit risk, and improve the employment brand. Results can signal needed training, communication, process redesign (or creation), or legal counsel.
+
+**Analysis.** For patterns by unit, manager, location, tenure, level, and job family; by grievance type, which is especially helpful.
+
+**Limitations.** Without more analysis, does not show grievance type, share successfully resolved, share that become external complaints, time to resolve, cost, or effects on morale, commitment, and productivity.
+
+**Targets.** Ideally eliminate grievances through good policies and management, yet organizations prefer an effective internal process to employees going to external agencies, courts, or destructive acts. Most target very near zero. Relative to similar workforces: typically the 25th percentile.
+
+**Variations.** Compensation Dispute; Contract Dispute; Corporate; Discrimination; Exempt; Field; Harassment; Manager Dispute; Managers; Non-Exempt.
+
+**Related measures.** ADR Success Rate; Employee Commitment Index; Employee Satisfaction with Leadership; External Complaint Factor; Grievance Time to Resolve; Manager Quality Index; Operating Expense per FTE.
+
+## Grievance Time to Resolve [324-325]
+
+Left-hand page only; the facing page (325: icons, analysis, limitations, targets, variations, related measures) is in the next extract.
+
+| Item | Summary |
+|---|---|
+| Icons | On page 325 (see next extract) |
+| Application | Organizations that experience employee lawsuits, grievance-related turnover, or workplace security incidents. |
+| Description | Average time required to satisfactorily resolve an employee grievance |
+| Formula | Days to Resolve / Grievances |
+| Sourcing | Employee relations data tables. Grievances closed and reopened over time are generally counted at full elapsed time, including temporary closure, unless they are distinct enough to be separate grievances |
+
+: Profile summary {.striped}
+
+$$
+\text{Grievance Time to Resolve} = \frac{\text{Days to Resolve}}{\text{Grievances}}
+$$
+
+**Reading it.** Average calendar days from filing to resolution; 60 means an average of 60 days. Like Grievance Rate, internal grievances signal workplace quality and potential for lawsuits or incidents. It is a key test of the grievance process: employees file only when very dissatisfied and want quick action, so overly long times raise the likelihood of incidents, turnover, or lawsuits. But a very low result could mean complaints are not investigated thoroughly or from multiple perspectives.

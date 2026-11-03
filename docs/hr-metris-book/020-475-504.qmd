@@ -1,0 +1,312 @@
+---
+title: "The Metrics Standard: Organizational Effectiveness (Productivity and Structure) Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 475-504"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `020-475-504.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The right-hand page of Staffing Rate—< 1-Year Tenure (page 475) is summarized in the previous extract (`019-445-474`). The right-hand page of Market Capitalization per FTE (page 505) is included here from the next extract.
+:::
+
+# Organizational Effectiveness [477-479]
+
+Organizational effectiveness is the outcome of employees acting as an organization in a competitive marketplace. The category has three groups.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Productivity | Top- and bottom-line output of the workforce, and the link between pay and the financial output it produces | Profitability; Compensation Returns; Work Units (one more theme in the diagram is OCR unclear) |
+| Structure | Financial structure of the organization and the output of workforce effort in capital markets | Market Capitalization; Employee Ownership; Corporate Expenses |
+| Innovation | Organizational inputs to and outputs of investment in new products and services | Research and Development; New Products |
+
+: Organizational Effectiveness groups {.striped}
+
+The measures list on page 479 is partly garbled. The full measure list below follows the book's category index.
+
+| Group | Measures (book page) |
+|---|---|
+| Productivity | Human Investment Ratio (482); Operating Expense per FTE (484); Operating Profit per FTE (486); Operating Revenue per FTE (488); Other Labor Rate (490); Return on Human Investment Ratio (492); Work Units per FTE (494) |
+| Structure | Corporate Expense Rate (498); Employee Stock Ownership Percentage (500); Intangible Asset Value per FTE (502); Market Capitalization per FTE (504) |
+| Innovation (in the next extract) | New Products & Services Revenue per FTE (508); R&D Expense Rate (510) |
+
+: Measure index for this extract {.striped}
+
+# Organizational Effectiveness: Productivity [481]
+
+## Human Investment Ratio [482-483]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Broadly applicable. Less useful where reliance on outsourced labor is rising sharply |
+| Description | Operating profit, with total compensation expense added back, returned per dollar invested in employee compensation and benefits |
+| Sourcing | Compensation from payroll tables, with pay codes grouped into direct, benefits, and equity pay. If not available per employee, use financial ledger items. Operating profit usually comes from financial ledgers |
+
+: Profile summary {.striped}
+
+$$\text{Human Investment Ratio} = \frac{\text{Operating Profit} + \text{Total Compensation Expense}}{\text{Total Compensation Expense}}$$
+
+**Reading it.** Compares profit to the compensation spent to produce it, answering "how many profit dollars do we earn per dollar invested in the people doing the work?" Compensation covers cash pay, benefits, and equity. The book's worked example of .5 (one dollar of profit per two dollars of compensation) appears to be carried over from the Return version of the measure. Unlike Operating Profit per FTE, it relates profit to payroll, not headcount, so it gauges productivity regardless of talent price. If a workforce shifts to higher-priced talent, it gives a truer view of productivity gains or losses. Using it over time requires knowing pay trends, since market adjustments or pay freezes move results in the near term. Its human-capital use is debated because individual contribution is only loosely tied to organizational results, but it captures productivity at the broadest level, including all HR systems. It is very similar to Return on Human Investment Ratio. Here compensation is added back to profit so that it does not sit in both numerator and denominator.
+
+**Analysis.** By organizational unit and geography. Also split into direct compensation, benefits expense, and so on.
+
+**Limitations.** Some employers prefer Operating Cash Flow or Net Cash Flow to accrual-based income figures. As a high-level measure, it does not pinpoint interventions. Further analysis is needed to find what drives the trend.
+
+**Targets.** Higher means more productive, so most aim for the 75th percentile. An excessively high result may mean overstretched staff and burnout. During retrenching or heavy operational investment, the median or below may be reasonable.
+
+**Variations.** Human Investment Ratio—Benefits; —Direct Compensation; —Executives; —Managers; —Overtime.
+
+**Related measures.** Average Annual Salary per FTE; Average Termination Value; Benefits Expense per FTE; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Net Hire Ratio; Operating Profit per FTE; Termination Rate; Termination Value per FTE; Total Compensation Expense per FTE; Upward Salary Change Rate; Work Units per FTE.
+
+## Operating Expense per FTE [484-485]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Broadly applicable. Especially for small-margin industries, or those with stable expenses but widely varying revenue |
+| Description | Average operating expense per full-time equivalent employee |
+| Sourcing | Financial statements prepared under generally accepted accounting principles, ledger accounts, or electronic versions of statements filed publicly or internally |
+
+: Profile summary {.striped}
+
+$$\text{Operating Expense per FTE} = \frac{\text{Operating Expense}}{\text{FTE}}$$
+
+**Reading it.** A broad productivity measure from the expense side. Each employee adds expense through pay, goods consumed, and support. Lower expense per FTE leaves less revenue to cover costs and possibly more profit. Along with Operating Revenue per FTE and Operating Profit per FTE, its human-capital use is debated, but all three show the effectiveness of the whole HR "super-system". Individual HR systems (for example recruiting) can be tracked at the same time to find what drives trends. Of the three, focus on this one for very thin margins, or for revenue that fluctuates while expenses are stable, because it trends better period to period.
+
+**Analysis.** Break into component expenses (compensation, raw materials, production, advertising). Also by product line, organizational unit, or geography where expenses are allocated that way. Internal benchmarking is less relevant when organization-wide expense items sit with one or a few units.
+
+**Limitations.** Some employers prefer Operating Cash Flow or Net Cash Flow to accrual-based figures. It is a high-level measure and does not pinpoint interventions.
+
+**Targets.** Lower expense per person means higher productivity, so many aim toward the 25th percentile. Too low a result may mean overstretched staff, burnout, or lack of resources. During heavy investment in operations or technology, the median or above may be reasonable.
+
+**Variations.** Net Cash Flow per FTE; Operating Cash Flow per FTE; Operating Expense per FTE—Corporate; —Exempt; —Fixed; —Managers; —Non-Exempt; —Variable.
+
+**Related measures.** Average Cost Rate of Contractors; Corporate Expense Rate; Function Staffing Breakdown; Market Compensation Ratio; Operating Profit per FTE; Operating Revenue per FTE; Other Labor Rate; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Revenue Generating; Termination Value per FTE; Total Compensation Expense per FTE; Work Units per FTE.
+
+## Operating Profit per FTE [486-487]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Broadly applicable. Especially where income statement profit is the main productivity yardstick |
+| Description | Average operating profit (before tax, interest, and depreciation) per FTE |
+| Sourcing | Financial statements under generally accepted accounting principles, ledger accounts, or electronic versions of statements |
+
+: Profile summary {.striped}
+
+$$\text{Operating Profit per FTE} = \frac{\text{Operating Profit}}{\text{FTE}}$$
+
+**Reading it.** A broad bottom-line productivity measure. Higher profit per FTE gives more funds to reinvest or pay owners. The same debate and super-system rationale as for Operating Expense per FTE applies. Focus on this one for bottom-line performance covering both revenue and expense, particularly where revenue and expenses do not swing widely between periods.
+
+**Analysis.** By product line, organizational unit, or geography where profit is captured that way. Internal benchmarking is less relevant when revenue or expense is allocated to one or a few units.
+
+**Limitations.** Some employers prefer Operating Cash Flow or Net Cash Flow. High-level, so it does not pinpoint interventions.
+
+**Targets.** Higher means more productive, so many aim toward the 75th percentile. An excessively high result may mean burnout. During retrenching or heavy operational investment, the median or below may be reasonable.
+
+**Variations.** Net Cash Flow per FTE; Net Profit per FTE; Operating Cash Flow per FTE; Operating Profit per FTE—Exempt; —Managers; —Non-Exempt.
+
+**Related measures.** Customer-Facing Time Rate; Employee Commitment Index; Employee Satisfaction with Leadership; Manager Instability Rate; Market Compensation Ratio; Operating Expense per FTE; Operating Revenue per FTE; Organization Tenure Staffing Breakdown; Other Labor Rate; Positions Without Ready Candidates Rate; Staffing Rate—Revenue Generating; Termination Value per FTE; Work Units per FTE.
+
+## Operating Revenue per FTE [488-489]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line not captured on page 489) |
+| Application | Broadly applicable. Especially for organizations pursuing growth, or with stable revenue but widely varying expenses |
+| Description | Average operating revenue per FTE |
+| Sourcing | Financial statements under generally accepted accounting principles, ledger accounts, or electronic versions of statements |
+
+: Profile summary {.striped}
+
+$$\text{Operating Revenue per FTE} = \frac{\text{Operating Revenue}}{\text{FTE}}$$
+
+**Reading it.** A broad top-line productivity measure. Even staff who do not sell help revenue-producing staff earn revenue. Greater revenue per FTE leaves more to pay expenses and possibly earn profit. The same debate and super-system rationale apply. It is best for year-on-year performance with a fairly static customer base, for judging growth, cross-selling, or market-expansion initiatives, and where expenses fluctuate but revenue is stable.
+
+**Analysis.** By product line, organizational unit, or geography where revenue is captured that way. Internal benchmarking is less relevant when revenue is allocated to one or a few units.
+
+**Limitations.** Some employers prefer Operating Cash Flow or Net Cash Flow. High-level, so it does not pinpoint interventions.
+
+**Targets.** Many aim toward the 75th percentile. An excessively high result may mean burnout. During retrenching, product redirection, or target-market shifts, the median or below may be reasonable.
+
+**Variations.** Operating Revenue per FTE—Contact Center; —Corporate; —Field; —Managers; —Revenue Generating Employees; —Sales Staff; Operating Revenue per Work Unit.
+
+**Related measures.** Average Time to Fill; Bonus Compensation Rate; Bonus Eligibility Rate; Cross-Function Mobility; Customer-Facing Time Rate; Employee Engagement Index; Function Staffing Breakdown; Overtime Expense per FTE; R&D Expense Rate; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Revenue Generating; Termination Rate; Work Units per FTE.
+
+## Other Labor Rate [490-491]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations making significant or growing use of contingent labor: temps, contractors, third-party outsourcing |
+| Description | Other labor cost as a share of total operating expense |
+| Sourcing | Financial ledger items for payments to contractors or third parties for labor. Operating expense also comes from ledgers |
+
+: Profile summary {.striped}
+
+$$\text{Other Labor Rate} = \frac{\text{Other Labor Expense}}{\text{Operating Expense}} \times 100$$
+
+**Reading it.** "Other labor" (contingent labor) is the workforce that generates revenue and profit but is not tracked as employees in a system such as an HRIS. It includes temps and contractors not paid through the employer's payroll, and outsourced labor from third parties. Staff tracked and paid in-house are the "core" workforce. Tracking other labor matters for productivity assessment and for understanding the true workforce mix and its effect on core staff and the organization.
+
+**Analysis.** By organizational unit and geography. Also split into outsourcing, temporary arrangements, and so on.
+
+**Limitations.** Does not show the number or personal and job traits of contingent workers, or their effect on core-workforce productivity, culture, or morale.
+
+**Targets.** Usually absolute, based on workforce strategy. Heavy users of contingent labor or outsourcing will set higher targets than traditional core-workforce employers.
+
+**Variations.** Other Labor Rate—Contractors; —Retiree Contractors; —Seasonal; —Temporary.
+
+**Related measures.** Average Cost Rate of Contractors; Total Compensation Expense per FTE; Benefits Expense per FTE; Average Hourly Rate; On-Time Talent Delivery Factor; Internal Hire Rate; Staffing Rate—Temporary; Operating Expense per FTE; Operating Profit per FTE.
+
+## Return on Human Investment Ratio [492-493]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Broadly applicable. Less useful where reliance on outsourced labor is rising sharply |
+| Description | Operating profit returned per dollar invested in employee compensation plus benefits |
+| Sourcing | Compensation from payroll tables, with pay codes grouped into direct, benefits, and equity pay. If not available per employee, use ledger items. Operating profit usually comes from ledgers |
+
+: Profile summary {.striped}
+
+$$\text{Return on Human Investment Ratio} = \frac{\text{Operating Profit}}{\text{Total Compensation Expense}}$$
+
+**Reading it.** Compares profit to compensation spent to produce it. A result of .5 means one dollar of profit per two dollars of total compensation (cash, benefits, equity). It relates profit to payroll, not headcount, so it gauges productivity regardless of talent price and is truer than Operating Profit per FTE when the workforce shifts to higher-priced talent. Over time it needs knowledge of pay trends. Its human-capital use is debated but it captures productivity at the broadest level. It is very similar to Human Investment Ratio, which adds compensation back into profit so it is not in both numerator and denominator.
+
+**Analysis.** By organizational unit and geography. Also split into direct compensation, benefits expense, and so on.
+
+**Limitations.** Some employers prefer Operating Cash Flow or Net Cash Flow. High-level, so it does not pinpoint interventions.
+
+**Targets.** Higher means more productive, so most aim for the 75th percentile. An excessively high result may mean burnout. During retrenching or heavy operational investment, the median or below may be reasonable.
+
+**Variations.** Return on Human Investment Ratio—Benefits; —Direct Compensation; —Executives; —Managers; —Overtime.
+
+**Related measures.** Average Annual Salary per FTE; Average Termination Value; Benefits Expense per FTE; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Net Hire Ratio; Operating Profit per FTE; Termination Rate; Termination Value per FTE; Total Compensation Expense per FTE; Upward Salary Change Rate; Work Units per FTE.
+
+## Work Units per FTE [494-495]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line not captured on page 495) |
+| Application | Broadly applicable. Easier for organizations with pure-play or simple product lines |
+| Description | Number of relevant work units produced per FTE in the period |
+| Sourcing | Operations databases, inventory tracking systems, client billing systems, or other tables that track work units |
+
+: Profile summary {.striped}
+
+$$\text{Work Units per FTE} = \frac{\text{Work Units}}{\text{FTE}}$$
+
+**Reading it.** A basic volume measure of productivity. Work units differ by industry and organization. Examples: cars, pipe fittings, reams of paper or cans of paint for a manufacturer, and loans originated, policies issued, hours billed, or contracts written for a services firm. Unlike other productivity measures, it counts output units, not revenue or profit. It leaves out pricing, overhead, and other financial factors, which suits both looking back and workforce planning. Higher is generally better, but an excessively high result can mean lower quality, thinly stretched staff, and high inventories or other costs. Its human-capital use is debated, but it is a broad productivity view including all HR systems.
+
+**Analysis.** By organizational unit, product line, geography, and manager. With individual-level data, also by job title, tenure, performance rating, and annual salary, to find the most and least productive groups.
+
+**Limitations.** Does not show output against customer demand, quality or customer satisfaction, or theoretical capacity at 100% utilization.
+
+**Targets.** Benchmark comparisons must allow for product-line differences. Employers generally aim for the 75th percentile. They may also set absolute targets from past performance, desired productivity, reasonable workloads, and budgets.
+
+**Variations.** Customers Served per FTE; Hours Billed per FTE; Service Contracts Signed per FTE; Units Sold per FTE; Work Units per FTE—Contact Center; —Executives; —High Performer; —High Tenure; —Low Performer; —Low Tenure; —Managers; —Plants.
+
+**Related measures.** Absence Rate; Average Workweek; Average Workforce Tenure; Bonus Eligibility Rate; Employee Engagement Index; Manager Instability Rate; New Products & Services Revenue per FTE; Operating Profit per FTE; Operating Revenue per FTE; Overtime Expense per FTE; Return on Human Investment Ratio; Staffing Rate—Corporate; Staffing Rate—Temporary; Termination Rate.
+
+# Organizational Effectiveness: Structure [497]
+
+## Corporate Expense Rate [498-499]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-H, Data-M |
+| Application | Organizations with a centralized corporate office alongside field offices, plants, or other business-line areas |
+| Description | Corporate operating expense as a share of total operating expense |
+| Sourcing | Financial ledgers, with expenses allocated to corporate organizational units, corporate functions within functional structures, or cost codes tied to corporate functions |
+
+: Profile summary {.striped}
+
+$$\text{Corporate Expense Rate} = \frac{\text{Operating Expense.Corporate}}{\text{Operating Expense}} \times 100$$
+
+**Reading it.** Shows how much of operating expense goes to corporate functions (HR, finance, legal, IT, marketing, investor relations, communications, facilities, real estate, procurement) shared by business lines. There is no "right" mix, so organizations balance overhead cost against adequate support. The decentralization and HR design points match Staffing Rate—Corporate. Non-corporate entities may rename it Headquarters Expense Rate, Main Campus Expense Rate, or Administration Expense Rate.
+
+**Analysis.** Break into corporate functions or expense types (salaries, facilities) to see the investment in each area.
+
+**Limitations.** Does not show the quality or efficiency of support, the allocation of staff (only expense), or expense caused by a decentralized structure.
+
+**Targets.** Depend on corporate support strategy. Strict cost containment may aim for the 25th percentile. Heavy investment in a function (for example IT) may aim for the 75th. Widely dispersed organizations may expect higher results, since facilities, IT, and HR need built-in duplication.
+
+**Variations.** Corporate Expense Rate—Administration; —Compensation/Benefits; —Facilities and Overhead; —Finance; —Information Technology; —Marketing.
+
+**Related measures.** Average Span of Control; Cross-Function Mobility; Employment Level Staffing Breakdown; Function Staffing Breakdown; HR Expense per FTE; Operating Expense per FTE; Operating Profit per FTE; Staffing Rate—Corporate; Staffing Rate—Customer Facing; Total Compensation Expense per FTE; Training Channel Delivery Mix; Training Staff Ratio.
+
+## Employee Stock Ownership Percentage [500-501]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line not captured on page 501) |
+| Application | Organizations that let employees buy equity, especially those with ownership targets or goals to raise it |
+| Description | Share of company stock owned by employees |
+| Sourcing | Third-party or plan-administrator data, if the company does not track equity owners itself |
+
+: Profile summary {.striped}
+
+$$\text{Employee Stock Ownership Percentage} = \frac{\text{Shares Outstanding.Employee Owned}}{\text{Shares Outstanding}} \times 100$$
+
+**Reading it.** A result of 10% means employees hold 10% of outstanding shares. Ownership is seen as an engagement lever, since employees with a stake may act to raise the stock price. Stock ownership plans, option bonuses, and retirement plans have widened access. This measure assesses the depth of ownership, not its breadth. Employee Ownership Rate (Workforce) tracks the share of employees owning any equity. Both help judge progress on ownership goals.
+
+**Analysis.** Hard to cut by dimensions, since outstanding shares do not split easily, unless the organization has several listed entities or multiple stock classes.
+
+**Limitations.** Does not link ownership to stock price or results, and is only an indirect gauge of engagement. It counts outstanding shares only, not options or other stock incentives that may change ownership later.
+
+**Targets.** Depend on emphasis on ownership, major shareholders, shares outstanding, and public trading patterns. Companies with high-ownership objectives should aim for the 75th percentile of a group with a similar ownership structure (widely or closely held). Others might target the median or lower.
+
+**Variations.** Employee Stock Ownership Percentage—Board Members; —Executive; —Non-Executive.
+
+**Related measures.** Age Staffing Breakdown; Average Number of Options per Employee; Average Workforce Tenure; Benefits Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Retention Index; Employee Satisfaction with Leadership; Equity Incentive Value per Employee; Intangible Asset Value per FTE; Market Capitalization per FTE; Stock Incentive Eligibility Rate.
+
+## Intangible Asset Value per FTE [502-503]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon line not captured on page 503) |
+| Application | Publicly traded organizations that value market capitalization and intangible assets as estimates of firm value |
+| Description | Average intangible market value per FTE |
+| Sourcing | Market capitalization from equity market data recorded by investor relations or finance, or an external vendor. Book value from finance calculations |
+
+: Profile summary {.striped}
+
+$$\text{Intangible Asset Value per FTE} = \frac{\text{Market Capitalization} - \text{Book Value}}{\text{FTE}}$$
+
+**Reading it.** The gap between market value and the book value of assets stands for off-balance-sheet intangibles: product and employment brand, workforce skills, and intellectual property. Because market valuation can swing monthly or even hourly, analyze it as a long-run trend and against close competitors. It then gives the investors' view of effectiveness and productivity. A result above direct competitors means the market sees more off-balance-sheet value being created. Since stock price reflects future prospects, it can serve as a leading indicator.
+
+**Analysis.** Hard to cut by dimensions, since market value does not split easily, unless the organization has several listed companies.
+
+**Limitations.** Values can swing sharply, so a point-in-time reading is less useful than a series. It is only as accurate as the market's assessment through share price.
+
+**Targets.** Absolute targets are hard to set. If used, set them broadly over a long period from forward-looking stock price and valuation goals. Targets are more often relative to similar competitors, commonly above the median.
+
+**Variations.** Intangible Asset Value per FTE—Stock Company (OCR partly unclear); Intangible Asset Value per FTE—Stock Company, second entry garbled (OCR unclear).
+
+**Related measures.** Applicant Ratio; Educational Attainment Breakdown; Employee Engagement Index; Employment Brand Strength; Manager Quality Index; Market Capitalization per FTE; Market Compensation Ratio; Offer Acceptance Rate; Operating Profit per FTE; R&D Expense Rate; Termination Rate; Training Quality; Work Units per FTE.
+
+## Market Capitalization per FTE [504-505]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-H, Data-E |
+| Application | Publicly traded organizations that value market capitalization as one estimate of firm value |
+| Description | Average market capitalization per FTE |
+| Sourcing | Equity market data recorded by investor relations or finance, or an external vendor |
+
+: Profile summary {.striped}
+
+$$\text{Market Capitalization per FTE} = \frac{\text{Market Capitalization}}{\text{FTE}}$$
+
+**Reading it.** Market capitalization is share price times shares outstanding. It is the value the market places on the company, tangible assets plus intangibles such as brand and talent. Because it can swing monthly or hourly, read it as a long-run trend and against close competitors, as the investors' view of effectiveness and productivity. A result above direct competitors means the market sees more value created. Since stock price reflects future prospects, it can serve as a leading indicator.
+
+**Analysis.** Hard to cut by dimensions, since market capitalization does not split unless the organization has several listed companies.
+
+**Limitations.** Stock prices can swing sharply, so a point-in-time reading is less useful than a series. It is only as accurate as the market's assessment through share price.
+
+**Targets.** Absolute targets are hard to set. If used, set them broadly over a long period from forward-looking stock price goals. Targets are more often relative to similar competitors, commonly above the median.
+
+**Variations.** Market Capitalization per FTE—Stock Company; Market Capitalization per FTE—Stock Company Intangible Asset Value per FTE (as printed; the second entry is OCR unclear).
+
+**Related measures.** Employee Engagement Index; Employee Satisfaction with Leadership; New Products & Services Revenue per FTE; Operating Profit per FTE; R&D Expense Rate; Return on Human Investment Ratio; Termination Rate; Work Units per FTE.

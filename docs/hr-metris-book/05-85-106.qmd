@@ -1,0 +1,284 @@
+---
+title: "The Metrics Standard: Staffing Effectiveness Measure Profiles (continued)"
+subtitle: "Corporate Leadership Council (2005), book pages 85-106"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `05-85-106.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The extract begins on the right-hand page of Interviewee Ratio; its left-hand page (header, formula, interpretation) is outside this extract.
+:::
+
+# Staffing Effectiveness [85-105]
+
+## Interviewee Ratio [85]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Left-hand page not in this extract (OCR unclear) |
+| Description | Left-hand page not in this extract (OCR unclear) |
+| Sourcing | Left-hand page not in this extract (OCR unclear) |
+
+: Profile summary {.striped}
+
+**Analysis.** By organizational unit, geography, job function, employment level, or job family, to assess the qualified labor pool for various jobs. To monitor the personal characteristics of incoming hires and applicants, also by gender, age, ethnic background, and education level. Also by application method (organization Web site, agencies, etc.).
+
+**Limitations.** Does not show the quality of interviewees or their fit with the jobs they interview for. Does not show the interviewee pool relative to applications received, how many times each person is interviewed, or the cost of the interviewing process.
+
+**Targets.** Usually set on an absolute rather than a relative basis, though benchmarks help compare recruiting process structures. Targets draw on experience with past requisitions where interviewers felt there were too many or too few applicants, and on how interviews are tiered (recruiter, then low-level manager, then middle managers). Tiered processes, all else equal, tend to target a higher ratio.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Minority; Newspaper; Non-Exempt; Referral; Rehire; University.
+
+**Related measures.** Applicant Interview Rate; Applicant Ratio; Average Interviews per Hire; Average Time to Fill; External Hire Rate; Interviewee Offer Rate; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Termination Rate—< 1-Year Tenure (variation).
+
+## New Hire Failure Factor [86-87]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-E, Data-E |
+| Application | Organizations focused on how well recruiting hires people who will not leave within a very short time |
+| Description | Terminations of low-tenure employees as a percentage of total hires in the period |
+| Sourcing | Hire and termination data from HRIS job tables; tenure of current employment preferred over adjusted service tenure |
+
+: Profile summary {.striped}
+
+$$\text{New Hire Failure Factor} = \frac{\text{Terminations}_{\text{Short Tenure}}}{\text{External Hires}} \times 100$$
+
+**Reading it.** One view of turnover among new external hires. Instead of termination rates by tenure band, it compares short-tenure terminations with hires made in the period. Early exits can stem from poor fit, misunderstanding of the role, weak onboarding, or inadequate qualifications. Many of these are partly controllable in recruiting (for example, a job description that misled the applicant), so the measure signals recruiting effectiveness. It resembles Termination Rate—< 1-Year Tenure, but that measure divides by average headcount rather than hires.
+
+"Short tenure" must be defined. It is often the point at which an employee's contribution has not yet exceeded hiring and training investment. Common definitions: 30 days (non-exempt) and 90 days (exempt), or 90 days (non-exempt) and six months (exempt).
+
+**Analysis.** By many subgroups to find high- or low-result pockets and probe recruiting and onboarding gaps: age, job family, job function, organizational unit, employment level, ethnic background, gender.
+
+**Limitations.** Terminations and hires in a period are not the same group, so numerator and denominator are not perfectly matched in time. Recruiting failures cannot be cleanly separated from onboarding or management failures. The measure does not distinguish reasons for leaving without further analysis.
+
+**Targets.** Most organizations aim for the 25th percentile or lower of a relevant benchmark group. Higher targets may suit temporary disruption (e.g., reorganizations) or a gradual move down from a very high level.
+
+**Variations.** Exempt; Involuntary; Managers; Minority; Non-Exempt; Voluntary.
+
+**Related measures.** Average Interviews per Hire; Average Termination Value; Employee Retention Index; Interviewee Offer Rate; Market Compensation Ratio; Market Opportunity Index; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; New Hire Turnover Contribution; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Recruitment Cost per Hire; Termination Rate—< 1-Year Tenure (variation); Turnover Cost Rate—< 1-Year Tenure.
+
+## New Hire Performance Satisfaction [88-89]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Satisfaction, Index; Bench-M, Data-M |
+| Application | Organizations with relatively high turnover among low-tenure employees, or those feeding back on hiring to improve recruiting |
+| Description | How well recent hires are performing in their positions |
+| Formula | Survey results |
+| Sourcing | Survey questions put to managers of new employees, ideally at a consistent point such as three to six months |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or question set asking managers of recent hires about their performance. It gauges whether recruiting delivers high-quality, well-fitting candidates. Waiting for the first appraisal is possible, but earlier feedback (three to six months) is more useful for adjusting process and more directly tied to recruiting; a rating a year in is shaped by many other factors. Questions typically cover meeting expectations, adapting to culture, whether skills match what the interview described, and likelihood of success.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, or job family, to compare recruiting effectiveness across job categories.
+
+**Limitations.** Subjective: only as accurate as managers' perceptions and the survey design. True performance or fit can take months or years to show, so termination data at all tenure levels should also be reviewed.
+
+**Targets.** Depend on the response scale. Benchmarks apply only if other organizations use comparable questions and methods. Aim as high as reasonably achievable.
+
+**Variations.** Agency; Exempt; Internet; Managers; New Position; Newspaper; Non-Exempt; Referral; Replacement Position; University.
+
+**Related measures.** Average Interviews per Hire; Average Time to Fill; Manager Instability Index; Manager Quality Index; New Hire Failure Factor; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Performance Rating Distribution; Termination Rate—< 1-Year Tenure (variation); Training Course Content Breakdown; Training Penetration Rate—Onboarding.
+
+## New Hire Satisfaction with Recruiting [90-91]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Satisfaction, Index; Bench-M, Data-M |
+| Application | Organizations with relatively high turnover among low-tenure employees, or those feeding back on hiring to improve recruiting |
+| Description | How satisfied recent hires were with the recruiting process |
+| Formula | Survey results |
+| Sourcing | Surveys of recently hired employees, best early in tenure (e.g., first two months); results usually anonymous |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or question set for recent hires. They offer a fresh view that complements recruiters and hiring managers, and can expose gaps that cause top candidates to accept other offers. Applicants who rejected offers or withdrew can add perspective. Questions typically cover reaction to the process and the people involved, responsiveness of recruiting staff, delivery of the offer, and how accurate a picture of the position the hire formed, which can strongly affect low-tenure turnover in some roles.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, or job family.
+
+**Limitations.** Subjective; effective only if the survey elicits real perceptions. Some aspects of satisfaction may not form in a very short tenure. In its primary form it surveys only applicants who accepted offers.
+
+**Targets.** Depend on the scale used. Benchmarks apply only with comparable survey questions and method. Aim as high as reasonably achievable.
+
+**Variations.** Agency; Exempt; Internet; Managers; Newspaper; Non-Exempt; Referral; University; Non-Hired Applicant Satisfaction with Recruiting (listed as a related variation).
+
+**Related measures.** Applicant Ratio; Average Interviews per Hire; Average Sign-On Bonus Expense; Average Time to Fill; External Hire Rate; HR Staffing Breakdown; HR Staffing Rate; Interviewee Ratio; New Hire Failure Factor; New Hire Performance Satisfaction; Offer Acceptance Rate; Recruitment Cost per Hire; Recruitment Expense Breakdown; Sign-On Bonus Rate; Termination Rate—< 1-Year Tenure (variation).
+
+## Offer Acceptance Rate [92-93]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-M |
+| Application | Broadly applicable; especially useful in highly competitive talent markets |
+| Description | Offers accepted as a percentage of offers extended |
+| Sourcing | Recruiting system or an HRIS recruiting table |
+
+: Profile summary {.striped}
+
+$$\text{Offer Acceptance Rate} = \frac{\text{Offers Accepted}}{\text{Offers Extended}} \times 100$$
+
+**Reading it.** Gauges recruiting effectiveness and the strength of the offer, which includes work environment and development opportunities as well as the offer letter's terms. Candidate conversion strongly influences hire quality. A high result may reflect a strong employment brand, good candidate identification, or an offer better than competitors'. A very high result can also arise when offers go out only after acceptance is signaled, which is mostly seen for managerial and executive roles. A low result may point to offer adequacy, brand, or process issues, or a highly competitive market and the need to redefine target candidates.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, or job family, and by demographic dimensions such as gender, age, ethnic background, and education level.
+
+**Limitations.** Covers only offer conversion, not screening, interviewing, or onboarding. Says nothing about hire quality, volume of offers, or the cost of issuing and converting offers.
+
+**Targets.** Partly informed by applicant and interviewee volume relative to open positions, and by effects on recruitment cost and cycle time (see Recruitment Cost per Hire, Average Time to Fill). Relative targets usually aim toward the 75th percentile of a benchmark group.
+
+**Variations.** Agency; Executives; Exempt; External; Female; Internal; Internet; Managers; Minority; Newspaper; Non-Exempt; Referral; Rehire; University.
+
+**Related measures.** Applicant Interview Rate; Average Interviews per Hire; Average Sign-On Bonus Expense; Average Time to Fill; Interviewee Offer Rate; Interviewee Ratio; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; New Position Recruitment Ratio; On-Time Talent Delivery Factor; Referral Conversion Rate; Sign-On Bonus Rate; Termination Rate—< 1-Year Tenure (variation).
+
+## On-Time Talent Delivery Factor [94-95]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-H, Data-M |
+| Application | Organizations measuring the efficiency and timeliness of recruiting |
+| Description | Average number of days hires' start dates differ from requisition need-by dates |
+| Sourcing | Desired start dates per requisition plus actual start dates, from recruiting tables and HRIS job tables |
+
+: Profile summary {.striped}
+
+$$\text{On-Time Talent Delivery Factor} = \frac{\text{Total Days Deviation from Need-By Date}}{\text{Offers Accepted}}$$
+
+**Reading it.** Starts before the need-by date count as negative, starts after as positive. A result of -2.5 means hires start two and a half days early on average; 4.0 means four days late. Negative can show efficient processing, or flexible or overly generous need-by dates. Positive can show recruiting inefficiency, short lead times, or unrealistic dates. Both carry costs: late delivery risks missed opportunities and overtime or cover; early delivery means paying two people for one job and interim workspace. It can be preferable to Average Time to Fill and Average Time to Start, which ignore the long-term nature of some requisitions and so can look poor even when business expectations are met.
+
+**Analysis.** By organizational unit, geography, job function, pay grade, employment level, job title, or job family.
+
+**Limitations.** Gives only a net sum of requisition results, so early and late hires offset one another. It does not show counts of early versus late hires, average days late, or spread. Says nothing about hire quality, cost, or candidate volume.
+
+**Targets.** Typically zero or a slightly negative number of days. Influenced by lead time business partners usually give, the mix of positions, and how appropriate the desired start dates are.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Newspaper; Non-Exempt; Referral.
+
+**Related measures.** Applicant Interview Rate; Applicant Ratio; Average Interviews per Hire; Average Time to Fill; Average Time to Start; External Hire Rate; Internal Hire Rate; Interviewee Offer Rate; Interviewee Ratio; New Hire Satisfaction with Recruiting; New Position Recruitment Rate; Offer Acceptance Rate; Recruitment Expense Breakdown; Recruitment Cost per Hire; Recruitment Source Breakdown.
+
+## Recruitment Cost per Hire [96-97]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations with a centralized or easily identified recruiting function that have seen process inefficiencies |
+| Description | Recruitment expense per hire, internal and external hires |
+| Sourcing | Financial ledgers (some add a flat cost or markup for interviewer productivity); hires from a recruiting database if all jobs use requisitions, otherwise HRIS job table hire and internal movement actions |
+
+: Profile summary {.striped}
+
+$$\text{Recruitment Cost per Hire} = \frac{\text{Recruitment Expense}}{\text{Hires}}$$
+
+**Reading it.** The cost of filling a position internally or externally. Direct costs include advertising, agency fees, candidate and interviewer travel, screening tests, and relocation. Overhead includes recruiter salaries, résumé bank upkeep, communications, and collateral. Indirect costs include hiring-manager interviewing time, which is hard to quantify. High cost may reflect inefficiency, poor technology, ineffective advertising, or excessive relocation or travel, but may be worthwhile if it attracts high-value, high-retention hires. Low cost may be undesirable if fit is poor. Fixed overhead gives economies of scale at high hiring volume; variable items (tests, productivity losses, travel) do not scale.
+
+**Analysis.** By organizational unit or geography in decentralized functions. Also by job family, job function, job title, pay grade, employment type, recruitment source (referral, Internet, agency, internal) and expense type.
+
+**Limitations.** Says nothing about hire quality, only indirectly about timeliness, not about hiring volume (and so economies of scale), and not about participant satisfaction.
+
+**Targets.** Depend on expected hiring volume, the candidates and positions, and channels used. Many organizations set relative targets between the 25th percentile and the median of a benchmark group. Low targets must be weighed against quality of hire and retention.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Newspaper; Non-Exempt; Referral; Rehire; University.
+
+**Related measures.** Average Interviews per Hire; Average Sign-On Bonus Expense; Average Time to Fill; HR Expense Breakdown—Function; HR Staffing Breakdown; Internal Placement Rate; Interviewee Ratio; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Expense Breakdown; Sign-On Bonus Rate; Termination Rate—< 1-Year Tenure (variation).
+
+## Recruitment Expense Breakdown [98-99]
+
+| Item | Summary |
+|---|---|
+| Icons | Composition; Bench-M, Data-M |
+| Application | Organizations that can isolate recruiting costs and want to track the relative size of direct costs such as relocation and agency fees |
+| Description | Distribution of recruitment expenses by type (travel, advertising, compensation, etc.) |
+| Sourcing | Financial ledgers (some add a flat cost or markup for interviewer productivity) |
+
+: Profile summary {.striped}
+
+$$\text{Recruitment Expense Breakdown} = \frac{\text{Recruitment Expense}_{[\text{Type}]}}{\text{Recruitment Expense}} \times 100$$
+
+**Reading it.** Shows the composition of recruitment expense, typically as a stacked bar of percentages. Cost categories and their interpretation match Recruitment Cost per Hire (direct, overhead, and indirect costs). It helps spot areas of large or rising relative cost to decide whether to fund or cut. High relative cost can be a worthwhile investment; low cost can be undesirable if fit suffers. With rising hiring volume, fixed costs usually fall relative to variable costs.
+
+**Analysis.** By organizational unit or geography in decentralized functions. Also by job family, job function, job title, pay grade, employment type, and recruitment source.
+
+**Limitations.** Does not show cost relative to workforce size or hiring volume, hire quality, or participant satisfaction.
+
+**Targets.** Needed for each expense component. Consider expected hiring volume, candidates and positions, and channels. Relative benchmark targets add little because costs are shown only relative to one another.
+
+**Variations.** Agency; Executives; Exempt; External; Internal; Internet; Managers; Newspaper; Non-Exempt; Referral; University.
+
+**Related measures.** Average Interviews per Hire; Average Sign-On Bonus Expense; Average Time to Fill; External Hire Rate; HR Expense Breakdown—Type; HR Staffing Breakdown; Internal Hire Rate; Interviewee Ratio; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Sign-On Bonus Rate.
+
+## Referral Conversion Rate [100-101]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-M, Data-M |
+| Application | Organizations that value employee referrals as a source of well-fitting, highly qualified candidates |
+| Description | Referrals hired as a percentage of total referrals |
+| Sourcing | Recruitment system or HRIS recruitment table |
+
+: Profile summary {.striped}
+
+$$\text{Referral Conversion Rate} = \frac{\text{External Hires}_{\text{Referrals}}}{\text{Referrals}} \times 100$$
+
+**Reading it.** Many employers find referred hires fit better, perform better, or stay longer. The measure therefore reflects both referral program success and referred-candidate quality. A high result suggests a strong referral pool and efficient filling from it. Results depend on overall hiring volume and on whether the organization wants hires that mirror the current workforce; low-volume hirers will hire few referrals, and those seeking to change the workforce may find referrals too similar to it.
+
+**Analysis.** By employment level, job title, job function, organizational unit, geography, and pay grade. Also by characteristics of the referring employee (age, tenure, level, job family, job function) to judge referral quality across workforce segments.
+
+**Limitations.** Does not show referral volume relative to total hiring, cost or cycle time differences between referred and other candidates, or how referred hires perform once hired.
+
+**Targets.** Depend on hiring volume and the desire to mirror the existing workforce. Often set with reference to Applicant Ratio. A higher conversion than for other applicants is generally expected, assuming referral quality holds.
+
+**Variations.** Exempt; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Interviews per Hire; Average Time to Fill; Employee Commitment Index; Employee Retention Index; External Hire Rate; Interviewee Offer Rate; Net Hire Ratio; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; Recruitment Cost per Hire; Referral Rate; Termination Rate—< 1-Year Tenure (variation).
+
+## Referral Rate [102-103]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-E, Data-E |
+| Application | Organizations that value employee referrals as a source of well-fitting, highly qualified candidates |
+| Description | Candidate referrals as a percentage of average headcount |
+| Sourcing | Recruitment system or HRIS recruitment table |
+
+: Profile summary {.striped}
+
+$$\text{Referral Rate} = \frac{\text{Referrals}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** The average number of recruiting referrals each employee submitted in the period. Used to gauge referral volume or the impact of awareness and incentive campaigns. A rising rate means relatively more referrals, but compare it with overall hiring volume to see how much referrals contribute to hiring needs.
+
+**Analysis.** By employee subgroup to see where referrals come from: age, tenure, employment level, job family, job function.
+
+**Limitations.** Does not compare referral volume with overall hiring, show cost or cycle-time differences versus nonreferred candidates, or show the share of referrals hired or those hires' success.
+
+**Targets.** Usually absolute, based on past referral levels, incentive amounts, and expected hiring volume. High targets in growth periods; possibly lower during contractions.
+
+**Variations.** < 30 Years Old; Exempt; High Performers; High Tenure; Low Tenure; Managers; Mid Tenure; Minority; Non-Exempt.
+
+**Related measures.** Applicant Ratio; Average Interviews per Hire; Average Time to Fill; Employee Commitment Index; Employee Retention Index; External Hire Rate; Interviewee Offer Rate; Interviewee Ratio; Net Hire Ratio; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; Recruitment Cost per Hire; Referral Conversion Rate; Termination Rate—< 1-Year Tenure (variation).
+
+## Sign-On Bonus Rate [104-105]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-E, Data-M |
+| Application | Organizations using sign-on bonuses as a recruiting tool or running university recruiting programs |
+| Description | Percentage of external hires receiving a sign-on bonus |
+| Sourcing | Recruitment system or itemized bonus payments in payroll tables; hires from the HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{Sign-On Bonus Rate} = \frac{\text{External Hires}_{\text{Sign-On Bonus}}}{\text{External Hires}} \times 100$$
+
+**Reading it.** Sign-on bonuses entice top talent to choose one employer over others and are common in university recruiting. They are a direct recruitment cost. The measure shows how widespread bonuses are among hires, not how effective their size is. To judge conversion effectiveness, read it with the variation Sign-On Bonus Rate—All Offers. Aim high enough to show the tool works, but a very high rate may signal excessive recruiting cost.
+
+**Analysis.** Bonuses are localized to particular populations, so analyze by age, job family, job function, pay grade, and education level.
+
+**Limitations.** Does not show dollar amounts paid or whether bonuses influenced candidate decisions.
+
+**Targets.** Based on the share of offers that include bonuses, driven by talent-pool recruitment strategy, and on expected hiring of managers, executives, and university recruits, who are most often offered them. Strategies vary widely, so relative targets suit poorly, though benchmarks show usage versus talent competitors.
+
+**Variations.** Agency; All Offers; Exempt; Internet; Managers; Newspaper; Non-Exempt; Referral; University—Bachelors; University—Graduate.
+
+**Related measures.** Average Annual Salary per FTE; Average Sign-On Bonus Expense; External Hire Rate; Interviewee Offer Rate; New Hire Satisfaction with Recruiting; Offer Acceptance Rate; Recruitment Cost per Hire; Recruitment Expense Breakdown; Total Compensation Expense per FTE.

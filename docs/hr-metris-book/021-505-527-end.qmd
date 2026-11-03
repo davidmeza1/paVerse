@@ -1,0 +1,435 @@
+---
+title: "The Metrics Standard: Innovation Measure Profiles and Measure Indexes"
+subtitle: "Corporate Leadership Council (2005), book pages 505-527 (end)"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `021-505-527-end.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Page 505 completes the Market Capitalization per FTE profile, which is summarized in full in the previous extract (`020-475-504`). Index formulas are written in plain text with "×" for the book's multiplication sign and a period to mean "of which".
+:::
+
+# Organizational Effectiveness: Innovation [507]
+
+Page 507 is the Innovation divider. This group has two measures.
+
+| Measure | Book page |
+|---|---|
+| New Products & Services Revenue per FTE | 508 |
+| R&D Expense Rate | 510 |
+
+: Innovation measures {.striped}
+
+## New Products & Services Revenue per FTE [508-509]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-H, Data-H |
+| Application | Organizations trying to grow revenue or market share, or shift their customer base, through new products and services |
+| Description | Average operating revenue from new products and services per FTE |
+| Sourcing | Financial data assigned by product line. The product lines counted as "new" must be defined, and this varies with industry development cycles and product shelf lives |
+
+: Profile summary {.striped}
+
+$$\text{New Products \& Services Revenue per FTE} = \frac{\text{Operating Revenue.New Products \& Services}}{\text{FTE}}$$
+
+**Reading it.** Shows revenue from new products and services relative to workforce size, as a subset of operating revenue. It is a lagging indicator of how well product development and innovation work, and successes and failures give lessons for future launches. Comparing new-product revenue with other revenue also shows the learning curve for sales, customer service, and other staff. Some launches barely disturb customer-facing staff, while others need heavy training and disrupt productivity. Knowing the likely scale helps plan training, recruiting, pay, and engagement programs.
+
+**Analysis.** By individual new product or product area, to see where new revenue comes from. Also by organizational unit, division, or geography to compare launch success.
+
+**Limitations.** Does not show revenue from older products, the length of the development cycle, the investment needed for a launch, or market share and competitiveness.
+
+**Targets.** Based on product mix, how often new products launch, and adoption cycles in the industry. Targets may stay steady if launches are frequent, or spike and drop if rare. Benchmark targets depend on product-introduction strategy and the strength of existing products.
+
+**Variations.** New Products & Services Revenue per FTE—New Geographies; —New Markets; —New Products; —New Services.
+
+**Related measures.** Market Capitalization per FTE; Net Hire Ratio; New Position Recruitment Rate; Operating Profit per FTE; Operating Revenue per FTE; Organization Tenure Staffing Breakdown; R&D Expense Rate; Staffing Rate—Customer Facing; Staffing Rate—Multilingual; Staffing Rate—Revenue Generating; Staffing Rate—Temporary; Training Course Content Breakdown; Work Units per FTE.
+
+## R&D Expense Rate [510-511]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Industries that depend on research and development for long-term product viability, such as many technology and manufacturing sectors |
+| Description | Research and development (R&D) expense as a share of total operating expense |
+| Sourcing | Financial statements under generally accepted accounting principles, ledger accounts, or electronic versions of statements |
+
+: Profile summary {.striped}
+
+$$\text{R\&D Expense Rate} = \frac{\text{R\&D Expense}}{\text{Operating Expense}} \times 100$$
+
+**Reading it.** A result of 20% means R&D was 20% of operating expense. In some industries R&D is a leading indicator of future product lines. Some sectors must keep investing just to hold their position, while elsewhere it signals a temporary push on a new or updated line. Understanding R&D emphasis helps anticipate product and market change and plan the workforce. R&D spend should follow a product-improvement strategy, which drives human capital strategy, so the rate can signal workforce growth needs.
+
+**Analysis.** By product line, organizational unit, or geography, to see how R&D investment varies.
+
+**Limitations.** Does not show the total amount spent on R&D, only its share of expense. It does not show the quality or fit of R&D investment for future success, or the workforce needs it creates.
+
+**Targets.** Based on R&D strategy. Organizations using R&D as a competitive differentiator will likely aim for the 75th percentile of a group in similar industries. Others may aim for the median or lower. Absolute targets are also likely, based on budgets and product plans.
+
+**Variations.** R&D Expense Rate—New Products; R&D Expense Rate—Redesign.
+
+**Related measures.** Average Number of Options per Employee; Function Staffing Breakdown; Intangible Asset Value per FTE; Market Compensation Ratio; New Products & Services Revenue per FTE; Operating Expense per FTE; Operating Revenue per FTE; Organization Tenure Staffing Breakdown; Staffing Rate—Customer Facing; Staffing Rate—Graduate Degree; Training Course Content Breakdown; Training Hours per FTE; Work Units per FTE.
+
+# Measure Indexes [513]
+
+Pages 512 and 526 are blank. The book has two indexes.
+
+## Index of Measures by Name [514-519]
+
+An alphabetical list giving each measure's category, group, and page. In this scan the table text is too garbled to transcribe row by row (OCR unclear). The same fields (category, group, formula, and page) are given in the category index below, so look names up there.
+
+## Index of Measures by Category [520-527]
+
+Each table gives the measure, its formula, and its book page. Pages are as printed.
+
+### Staffing
+
+#### Recruitment
+
+| Measure | Formula | Page |
+|---|---|---|
+| Employment Brand Strength | Survey Results | 32 |
+| External Hire Rate | External Hires / Average Headcount × 100 | 34 |
+| Net Hire Ratio | External Hires / Terminations | 36 |
+| New Position Recruitment Rate | Hires.New Positions / Average Headcount × 100 | 38 |
+| New Position Recruitment Ratio | Hires.New Positions / Hires.Replacement Positions | 40 |
+| Recruitment Source Breakdown | External Hires.[Source Group] / External Hires × 100 | 42 |
+| Recruitment Source Ratio | Internal Hires / External Hires | 44 |
+| Rehire Rate | Rehires / External Hires × 100 | 46 |
+
+#### Internal Movement
+
+| Measure | Formula | Page |
+|---|---|---|
+| Career Path Ratio | Promotions / Transfers | 50 |
+| Cross-Function Mobility | Internal Movements.Function Change / Internal Movements × 100 | 52 |
+| Internal Hire Rate | Internal Movements / Average Headcount × 100 | 54 |
+| Internal Placement Rate | Internal Hires / (External Hires + Internal Hires) × 100 | 56 |
+| Lateral Mobility | Transfers / Internal Movements × 100 | 58 |
+| Promotion Rate | Promotions / Average Headcount × 100 | 60 |
+| Promotion Speed Ratio | Total Position Tenure Prior to Promotion / Promotions | 62 |
+| Transfer Rate | Transfers / Average Headcount × 100 | 64 |
+| Upward Mobility | Promotions / Internal Movements × 100 | 66 |
+
+#### Staffing Effectiveness
+
+| Measure | Formula | Page |
+|---|---|---|
+| Applicant Interview Rate | Applicants.Interviewed / Applicants × 100 | 70 |
+| Applicant Ratio | Applicants / Offers.Accepted | 72 |
+| Average Interviews per Hire | Interviews.Applicants.Offers.Accepted / Applicants.Offers.Accepted (OCR unclear in part) | 74 |
+| Average Sign-On Bonus Expense | Sign-On Bonus Expense / External Hires.Sign-On Bonus | 76 |
+| Average Time to Fill | Total Days to Fill / Offers.Accepted | 78 |
+| Average Time to Start | Total Days to Start / Hires | 80 |
+| Interviewee Offer Rate | Offers.Extended / Applicants.Interviewed × 100 | 82 |
+| Interviewee Ratio | Applicants.Interviewed / Offers.Accepted | 84 |
+| New Hire Failure Factor | Terminations.Short Tenure / External Hires × 100 | 86 |
+| New Hire Performance Satisfaction | Survey Results | 88 |
+| New Hire Satisfaction with Recruiting | Survey Results | 90 |
+| Offer Acceptance Rate | Offers.Accepted / Offers.Extended × 100 | 92 |
+| On-Time Talent Delivery Factor | Total Days Deviation from Need-By Date / Offers.Accepted | 94 |
+| Recruitment Cost per Hire | Recruitment Expense / Hires (page number cut off in the scan; 96 by sequence) | 96 |
+| Recruitment Expense Breakdown | Recruitment Expense.[Type] / Recruitment Expense × 100 | 98 |
+| Referral Conversion Rate | External Hires.Referrals / Referrals × 100 | 100 |
+| Referral Rate | Referrals / Average Headcount × 100 | 102 |
+| Sign-On Bonus Rate | External Hires.Sign-On Bonus / External Hires × 100 | 104 |
+
+### Retention
+
+#### Turnover
+
+| Measure | Formula | Page |
+|---|---|---|
+| Involuntary Termination Rate | Terminations.Involuntary / Average Headcount × 100 | 112 |
+| New Hire Turnover Contribution | Terminations.Short Tenure / Terminations × 100 | 114 |
+| Retention Rate | (Start of Period Headcount + External Hires − Terminations) / (Start of Period Headcount + External Hires). The first word is garbled in the scan | 116 |
+| Termination Breakdown by Performance Rating | Terminations.[Performance Rating] / Terminations × 100 | 118 |
+| Termination Rate | Terminations / Average Headcount × 100 | 120 |
+| Termination Reason Breakdown | Terminations.[Termination Reason] / Terminations × 100 | 122 |
+| Voluntary Termination Rate | Terminations.Voluntary / Average Headcount × 100 | 124 |
+
+#### Employee Engagement
+
+| Measure | Formula | Page |
+|---|---|---|
+| Employee Commitment Index | Survey Results | 128 |
+| Employee Engagement Index | Survey Results | 130 |
+| Employee Retention Index | Survey Results | 132 |
+| Market Opportunity Index | Survey Results | 134 |
+| Offer Fit Index | Survey Results | 136 |
+
+#### Cost of Turnover
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Termination Value | Total Termination Value / Terminations | 140 |
+| Average Voluntary Termination Value | Total Termination Value.Voluntary / Terminations.Voluntary | 142 |
+| Termination Value per FTE | Total Termination Value / FTE | 144 |
+| Turnover Cost Rate—< 1-Year Tenure | Total Termination Value.< 1-Year Tenure / Total Termination Value | 146 |
+
+### Capability
+
+#### Performance Management
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Performance Appraisal Rating | Total Performance Appraisal Rating / Performance Appraisal Occurrences | 154 |
+| Employee Turnaround Rate | Performance Appraisal Participants.Previous Rating Low.Rating Increase / Performance Appraisal Participants.Previous Rating Low × 100 | 156 |
+| Employee Upgrade Rate | Performance Appraisal Participants.Rating Increase / Performance Appraisal Participants × 100 | 158 |
+| High Performer Growth Rate | Performance Appraisal Participants.Rating High / Performance Appraisal Participants.Previous Rating Non-High × 100 | 160 |
+| Peer Review Rate | End of Period Headcount.Peer Review / End of Period Headcount.Eligible for Peer Review × 100 | 162 |
+| Performance Appraisal Participation Rate | End of Period Headcount.Appraisal Eligible.Performance Appraisal / End of Period Headcount.Appraisal Eligible × 100 | 164 |
+| Performance Rating Distribution | Performance Appraisal Occurrences.[Rating] / Performance Appraisal Occurrences × 100 | 166 |
+| Performance-Based Pay Differential | Average Direct Compensation.High Performers / Average Direct Compensation.Non-High Performers | 168 |
+| Performance Contingent Pay Prevalence | End of Period Headcount.Performance Contingent Compensation / End of Period Headcount × 100 | 170 |
+| Self Review Rate | End of Period Headcount.Self Reviews / End of Period Headcount.Eligible for Self Review × 100 | 172 |
+| Upward Review Rate | Managers.Upward Reviews / Managers.Eligible for Upward Review × 100 | 174 |
+
+#### Education and Development
+
+| Measure | Formula | Page |
+|---|---|---|
+| Development Program Penetration Rate | Development Program Participants / End of Period Headcount.Eligible for Development Programs × 100 | 178 |
+| Educational Attainment Breakdown | End of Period Headcount.[Degree Level] / End of Period Headcount × 100 | 180 |
+| Staffing Rate—Graduate Degree | End of Period Headcount.Graduate Degree / End of Period Headcount × 100 | 182 |
+| Staffing Rate—High Potential | End of Period Headcount.High Potential / End of Period Headcount × 100 | 184 |
+| Tuition Reimbursement Request Rate | Distinct Employees.Tuition Reimbursement Requests / Average Headcount × 100 | 186 |
+
+#### Management and Leadership
+
+| Measure | Formula | Page |
+|---|---|---|
+| Cross-Function Mobility—Managers | Internal Movements.Managers.Cross-Function / Internal Movements.Managers × 100 | 190 |
+| Employee Satisfaction with Leadership | Survey Results | 192 |
+| LDP Prevalence Rate | End of Period Headcount.Manager.LDP / End of Period Headcount.Manager × 100 | 194 |
+| Manager Instability Rate | End of Period Headcount.> 1 Supervisor in Previous 1-Year Period / End of Period Headcount × 100 | 196 |
+| Manager Quality Index | Survey Results | 198 |
+| Positions Without Ready Candidates Rate | End of Period Headcount.Manager.Succession-Applicable.No Ready Candidate / End of Period Headcount.Manager.Succession-Applicable × 100 | 200 |
+| Successor Pool Coverage | End of Period Headcount.Successor Pool / End of Period Headcount.Manager.Succession-Applicable × 100 | 202 |
+| Successor Pool Growth Rate | (Headcount.Successor Pool − Headcount.Successor Pool.Prior Year) / Headcount.Successor Pool.Prior Year × 100 | 204 |
+
+#### Training
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Training Class Size | Total Training Participants / Courses Conducted | 208 |
+| E-Learning Abandonment Rate | E-Learning Courses Initiated.Abandoned / E-Learning Courses Initiated × 100 | 210 |
+| Employee Satisfaction with Training | Survey Results | 212 |
+| Training Channel Delivery Mix | Distinct Courses Offered.[Delivery Type] / Distinct Courses Offered × 100 | 214 |
+| Training Course Content Breakdown | Distinct Courses Offered.[Content Type] / Distinct Courses Offered × 100 | 216 |
+| Training Expense per Employee | Training Expense / Average Headcount | 218 |
+| Training Hours per FTE | Total Training Hours / FTE | 220 |
+| Training Hours per Occurrence | Total Training Hours / Training Occurrences | 222 |
+| Training Penetration Rate | Employees Completing Course(s) / Total Employees to Be Trained × 100 | 224 |
+| Training Quality | Survey Results | 226 |
+| Training Staff Ratio | Average Headcount / FTE.Training Function | 228 |
+| Training Total Compensation Expense Rate | Training Expense / Total Compensation Expense × 100 | 230 |
+
+### Compensation and Benefits
+
+#### Compensation
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Annual Salary per FTE | Total Annual Salary / FTE | 238 |
+| Average Cost Rate of Contractors | Total Contractor Expense / Average Contractor Count | 240 |
+| Average Hourly Rate | Total Compensation Expense / Work Hours | 242 |
+| Bonus Actual to Potential Rate | Direct Compensation Expense.Bonus / Bonus Potential × 100 | 244 |
+| Bonus Compensation Rate | Direct Compensation Expense.Bonus / Direct Compensation Expense × 100 | 246 |
+| Bonus Eligibility Rate | End of Period Headcount.Bonus Eligible / End of Period Headcount × 100 | 248 |
+| Bonus Receipt Rate | End of Period Headcount.Receiving Bonus / End of Period Headcount.Bonus Eligible × 100 | 250 |
+| Compensation Satisfaction Index | Survey Results | 252 |
+| Direct Compensation Operating Expense Rate | Direct Compensation Expense / Operating Expense × 100 | 254 |
+| Direct Compensation Breakdown | Direct Compensation Expense.[Compensation Type] / Direct Compensation Expense × 100 | 256 |
+| Direct Compensation Expense per FTE | Direct Compensation Expense / FTE | 258 |
+| Market Compensation Ratio | Direct Compensation Expense / Market Comparable Direct Compensation | 260 |
+| Overtime Expense per FTE | Overtime Expense / FTE | 262 |
+| Overtime Rate | Overtime Expense / Direct Compensation Expense × 100 | 264 |
+| Total Compensation Expense per FTE | Total Compensation Expense / FTE | 266 |
+| Upward Salary Change Rate | End of Period Headcount.Base Salary Increase / End of Period Headcount × 100 | 268 |
+
+#### Benefits
+
+| Measure | Formula | Page |
+|---|---|---|
+| Benefits Expense per FTE | Benefits Expense / FTE | 272 |
+| Benefits Expense Type Breakdown | Benefits Expense.[Benefit Type] / Benefits Expense × 100 | 274 |
+| Benefits Operating Expense Rate | Benefits Expense / Operating Expense × 100 | 276 |
+| Benefits Satisfaction Index | Survey Results | 278 |
+| Benefits Total Compensation Rate | Benefits Expense / Total Compensation Expense × 100 | 280 |
+
+#### Equity
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Number of Options per Employee | Stock Options.Granted / Average Headcount.Stock Option Eligible × 100 | 284 |
+| Equity Incentive Value per Employee | Equity Incentive Value / Average Headcount.Equity Incentive Eligible | 286 |
+| Net Proceeds of Options per Employee Exercising | Stock Option Net Proceeds / Headcount.Stock Option Eligible.Exercised | 288 |
+| Number of Options Exercised per Employee | Stock Options.Exercised / End of Period Headcount.Stock Option Eligible | 290 |
+| Stock Incentive Eligibility Rate | End of Period Headcount.Stock Incentive Eligible / End of Period Headcount × 100 | 292 |
+
+### Environment
+
+#### Absence/Attendance
+
+| Measure | Formula | Page |
+|---|---|---|
+| Absence Rate | Absence Days / Workdays × 100 | 300 |
+| Average Workweek | (Hours Worked / Number of Weeks) / Average Headcount | 302 |
+| Compensation Value of Unscheduled Absences per FTE | Unscheduled Absence Days × Direct Compensation.Daily / FTE | 304 |
+| PTO Utilization Rate | PTO Hours.Used / PTO Hours.Accrued × 100 | 306 |
+| Schedule Flexibility Rate | End of Period Headcount.Flexible Work Schedule / End of Period Headcount × 100 | 308 |
+| Unscheduled Absence Breakdown | Unscheduled Absence Days.[Type] / Unscheduled Absence Days × 100 | 310 |
+| Unscheduled Absence Days per Employee | Unscheduled Absence Days / Average Headcount | 312 |
+| Unscheduled Absence Rate | Unscheduled Absence Days / Workdays × 100 | 314 |
+
+#### Employee Relations
+
+| Measure | Formula | Page |
+|---|---|---|
+| ADR Success Rate | Grievances.Resolved.ADR Process / Grievances.Resolved × 100 | 318 |
+| External Complaint Factor | External Agency Complaints / Average Headcount × 100 | 320 |
+| Grievance Rate | Grievances / Average Headcount × 100 | 322 |
+| Grievance Time to Resolve | Days to Resolve / Grievances | 324 |
+| Industrial Dispute Absence Days per FTE | Unscheduled Absence Days.Industrial Dispute / FTE | 326 |
+
+#### Health and Safety
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Time Lost per H&S Incident | Working Days Lost / H&S Incidents | 330 |
+| H&S Expense Breakdown | H&S Expense.[Type] / H&S Expense × 100 | 332 |
+| H&S Expense per FTE | H&S Expense / FTE | 334 |
+| H&S Incident Type Breakdown | H&S Incidents.[Type] / H&S Incidents × 100 | 336 |
+| H&S Incidents per 100 FTEs | H&S Incidents / 100 FTEs | 338 |
+| Lost Time Incident Rate | H&S Incidents.Lost Time / FTE | 340 |
+| Workers Compensation Premium per FTE | Workers Compensation Premium / FTE | 342 |
+| Work-Related Injury Return Ratio | Disability Returns / Disability Resignations | 344 |
+
+### HR Service Delivery
+
+#### HR Profile
+
+| Measure | Formula | Page |
+|---|---|---|
+| HR Corporate Staffing Ratio | Corporate HR FTE / Field HR FTE | 352 |
+| HR Customer Satisfaction | Survey Results | 354 |
+| HR Mobility Rate | (HR Promotions + HR Transfers) / HR Average Headcount × 100 | 356 |
+| HR Professional Staffing Mix Ratio | HR FTE.Clerical & Operative / HR FTE.Managerial & Professional | 358 |
+| HR Recruitment Source Ratio | HR Internal Hires / HR External Hires | 360 |
+| HR Staffing Breakdown | HR End of Period Headcount.[Function] / HR End of Period Headcount × 100 | 362 |
+| HR Staffing Coverage Ratio | Average Headcount / HR FTE | 364 |
+| HR Staffing Rate | HR FTE / FTE × 100 | 366 |
+
+#### HR Expense
+
+| Measure | Formula | Page |
+|---|---|---|
+| HR Expense Breakdown—Function | HR Expense.[HR Function] / HR Expense × 100 | 370 |
+| HR Expense Breakdown—Type | HR Expense.[Expense Type] / HR Expense × 100 | 372 |
+| HR Expense per FTE | HR Expense / FTE | 374 |
+| HR Operating Expense Rate | HR Expense / Operating Expense × 100 | 376 |
+| HR Revenue Expense Rate | HR Revenue / HR Expense × 100 | 378 |
+| HR Revenue per HR Employee | HR Revenue / HR FTE | 380 |
+
+#### HRIT
+
+| Measure | Formula | Page |
+|---|---|---|
+| HR Technology Expense Rate | HR Expense.Technology / Technology Expense × 100 | 384 |
+| HRIT Average Days to Entry | Total Days to Entry / HRIT Transactions | 386 |
+| HRIT Late Transaction Rate | Late HRIT Transactions / HRIT Transactions × 100 | 388 |
+| HRIT Transaction Error Rate | HRIT Transaction Errors / HRIT Transactions × 100 | 390 |
+
+#### Contact Center
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Handle Time | Total Work Time / Total Calls | 394 |
+| Contact Center Satisfaction | Survey Results | 396 |
+| One-Call Resolution Rate | Contacts Resolved in One Call / Total Contacts × 100 | 398 |
+| Self-Service Penetration Rate | HR Transactions Conducted via Self-Service / Number of HR Transactions × 100 | 400 |
+| Service Level | Calls Answered Within Specified Seconds / Total Calls × 100 | 402 |
+
+#### Payroll
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Overpayment Value | Total Value of Overpayments / Overpayments | 406 |
+| Direct Deposit Participation Rate | Payees Receiving Direct Deposits / Payees × 100 | 408 |
+| Overpayment Rate | Overpayments / Total Checks Processed × 100 | 410 |
+| Payroll Error Rate | Payroll Errors / Total Checks Processed × 100 | 412 |
+| Payroll Expense per Employee | Payroll Expense / Average Headcount | 414 |
+
+### Workforce
+
+#### Demographic
+
+| Measure | Formula | Page |
+|---|---|---|
+| Age Staffing Breakdown | End of Period Headcount.[Age] / End of Period Headcount × 100 | 422 |
+| Average Workforce Age | Total Workforce Age / End of Period Headcount | 424 |
+| Ethnic Background Staffing Breakdown | End of Period Headcount.[Ethnic Background] / End of Period Headcount × 100 | 426 |
+| Gender Staffing Breakdown | End of Period Headcount.[Gender] / End of Period Headcount × 100 | 428 |
+| Staffing Rate—50+ Years Old | End of Period Headcount.50+ Age / End of Period Headcount × 100 | 430 |
+| Staffing Rate—Disability | End of Period Headcount.Disability / End of Period Headcount × 100 | 432 |
+| Staffing Rate—Female | End of Period Headcount.Female / End of Period Headcount × 100 | 434 |
+| Staffing Rate—Minority | End of Period Headcount.Minority / End of Period Headcount × 100 | 436 |
+| Staffing Rate—Multilingual | End of Period Headcount.Multilingual / End of Period Headcount × 100 | 438 |
+
+#### Structural
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Span of Control | Total Span of Control.All Supervisors / End of Period Headcount.Supervisors | 442 |
+| Customer-Facing Time Rate | Workdays.Customer Facing / Workdays × 100 | 444 |
+| EEO Job Category Staffing Breakdown | End of Period Headcount.[EEO Job Category] / End of Period Headcount × 100 | 446 |
+| Employee Ownership Rate | End of Period Headcount.Equity Owners / End of Period Headcount × 100 | 448 |
+| Employment Level Staffing Breakdown | End of Period Headcount.[Employment Level] / End of Period Headcount × 100 | 450 |
+| Function Staffing Breakdown | End of Period Headcount.[Function] / End of Period Headcount × 100 | 452 |
+| Staffing Rate—Corporate | FTE.Corporate / FTE × 100 | 454 |
+| Staffing Rate—Customer Facing | FTE.Customer Facing / FTE × 100 | 456 |
+| Staffing Rate—Managerial | End of Period Headcount.Manager / End of Period Headcount × 100 | 458 |
+| Staffing Rate—Part Time | End of Period Headcount.Part Time / End of Period Headcount × 100 | 460 |
+| Staffing Rate—Revenue Generating | FTE.Revenue Generating / FTE × 100 | 462 |
+| Staffing Rate—Temporary | FTE.Temporary / FTE × 100 | 464 |
+| Staffing Rate—Union Employees | End of Period Headcount.Union / End of Period Headcount × 100 | 466 |
+
+#### Tenure
+
+| Measure | Formula | Page |
+|---|---|---|
+| Average Workforce Tenure | Total Workforce Tenure / End of Period Headcount | 470 |
+| Organization Tenure Staffing Breakdown | End of Period Headcount.[Tenure] / End of Period Headcount × 100 | 472 |
+| Staffing Rate—< 1-Year Tenure | End of Period Headcount.< 1-Year Tenure / End of Period Headcount × 100 | 474 |
+
+### Organizational Effectiveness
+
+#### Productivity
+
+| Measure | Formula | Page |
+|---|---|---|
+| Human Investment Ratio | (Operating Profit + Total Compensation Expense) / Total Compensation Expense | 482 |
+| Operating Expense per FTE | Operating Expense / FTE | 484 |
+| Operating Profit per FTE | Operating Profit / FTE | 486 |
+| Operating Revenue per FTE | Operating Revenue / FTE | 488 |
+| Other Labor Rate | Other Labor Expense / Operating Expense × 100 | 490 |
+| Return on Human Investment Ratio | Operating Profit / Total Compensation Expense | 492 |
+| Work Units per FTE | Work Units / FTE | 494 |
+
+#### Structure
+
+| Measure | Formula | Page |
+|---|---|---|
+| Corporate Expense Rate | Operating Expense.Corporate / Operating Expense × 100 | 498 |
+| Employee Stock Ownership Percentage | Shares Outstanding.Employee Owned / Shares Outstanding × 100 | 500 |
+| Intangible Asset Value per FTE | (Market Capitalization − Book Value) / FTE | 502 |
+| Market Capitalization per FTE | Market Capitalization / FTE | 504 |
+
+#### Innovation
+
+| Measure | Formula | Page |
+|---|---|---|
+| New Products & Services Revenue per FTE | Operating Revenue.New Products & Services / FTE | 508 |
+| R&D Expense Rate | R&D Expense / Operating Expense × 100 | 510 |

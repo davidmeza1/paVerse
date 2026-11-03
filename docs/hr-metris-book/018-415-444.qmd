@@ -1,0 +1,326 @@
+---
+title: "The Metrics Standard: Workforce (Demographic and Structural) Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 415-444"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `018-415-444.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Where text was not legible, this is marked "OCR unclear".
+:::
+
+# Payroll (continued) [415]
+
+## Payroll Expense per Employee (continued) [415]
+
+The left page is in the previous file.
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-E |
+
+: Profile summary {.striped}
+
+**Analysis.** Across payroll operations, using each operation's average payroll headcount as the denominator. Where data exist, by expense type to see efficiency gains and losses or economies of scale.
+
+**Limitations.** Does not show the quality or timeliness of payroll processes, the aptitude of payroll staff, or how thinly or heavily staffed payroll is.
+
+**Targets.** Lower generally means more efficient, so most organizations move toward the 25th percentile of a benchmark group of similar employee size. Set payroll quality targets at the same time so cost is not cut at the expense of quality.
+
+**Variations.** Materials; Outsourcing; Staff.
+
+**Related measures.** Average Overpayment Value; Bonus Receipt Rate; Direct Deposit Participation Rate; HR Customer Satisfaction; HR Expense Breakdown—Type; Overpayment Rate; Overtime Rate; Payroll Error Rate; Upward Salary Change Rate.
+
+# Workforce [417-419]
+
+Workforce is who the organization employs and the makeup of its workforce.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Demographic | Personal characteristics employees bring to the workplace | Gender mix; age mix; ethnicity mix |
+| Structural | The positions employees hold and the organizational structures that bind them | Job types; functional mix; managerial levels |
+| Tenure | Employees' length of service with the organization | Tenure mix; average tenure |
+
+: Workforce groups {.striped}
+
+## Measures in this section [419]
+
+The contents page is only partly legible, so page numbers are given where clear. The Structural entries after Function Staffing Breakdown show OCR-garbled page numbers (OCR unclear).
+
+| Group | Measures (book page) |
+|---|---|
+| Demographic (starts at 421) | Age Staffing Breakdown (422); Average Workforce Age (424); Ethnic Background Staffing Breakdown (426); Gender Staffing Breakdown (428); Staffing Rate—50+ Years Old (430); Staffing Rate—Disability (432); Staffing Rate—Female (434); Staffing Rate—Minority (436); Staffing Rate—Multilingual (438) |
+| Structural (starts at 441) | Average Span of Control (442); Customer-Facing Time Rate (444); EEO Job Category Staffing Breakdown (446); Employee Ownership Rate (448); Employment Level Staffing Breakdown (450); Function Staffing Breakdown (452); Staffing Rate—Corporate; Staffing Rate—Customer Facing; Staffing Rate—Managerial; Staffing Rate—Part Time; Staffing Rate—Revenue Generating; Staffing Rate—Temporary; Staffing Rate—Union Employees (466) |
+
+: Measure index for this extract {.striped}
+
+# Demographic [421]
+
+## Age Staffing Breakdown [422-423]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-E, Data-E |
+| Application | Organizations expecting knowledge drain from retirements, or whose labor flow is changing the age composition of the workforce |
+| Description | Distribution of headcount by age at period end |
+| Sourcing | Age calculated from date of birth in an HRIS personal data table |
+
+: Profile summary {.striped}
+
+$$\text{Age Staffing Breakdown}_{\text{Age}} = \frac{\text{End of Period Headcount}_{\text{Age}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Percentage of the workforce in each age group, usually as a stacked bar. Age matters for three reasons: preferences and behaviors (benefits wanted, reasons for joining and leaving) vary with age; experience varies, shaping development and recruiting strategies (not a predictor of performance); and age shows exposure to retirement cost and knowledge drain, notably the US baby boomer retirement wave. It gives the most detailed view of age among the age measures.
+
+**Analysis.** By organizational unit, job function, geography, job title, job family, managerial level, and employment level, to see differing preferences and retirement knowledge-loss risk in key areas.
+
+**Limitations.** Does not show the age profile of leavers and joiners, retirement costs, or skill, knowledge, or tenure of age groups. Any intervention must not discriminate against protected age groups.
+
+**Targets.** Set per component. Many organizations prefer a fairly even distribution not heavily weighted to one age group, set with care to avoid discriminatory impact.
+
+**Variations.** Customer Facing; Exempt; High Performers; High Potential; Managers; Non-Exempt; Revenue Generating; Successors.
+
+**Related measures.** Average Workforce Age; Benefits Satisfaction Index; Educational Attainment Breakdown; Employee Engagement Index; External Hire Rate; Organization Tenure Staffing Breakdown; Successor Pool Coverage; Termination Rate; Training Course Content Breakdown.
+
+## Average Workforce Age [424-425]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-E, Data-E |
+| Application | Organizations expecting knowledge drain from retirements, or whose labor flow is changing the age composition |
+| Description | Average age of the workforce at period end |
+| Sourcing | Age calculated from date of birth in an HRIS personal data table |
+
+: Profile summary {.striped}
+
+$$\text{Average Workforce Age} = \frac{\text{Total Workforce Age}}{\text{End of Period Headcount}}$$
+
+**Reading it.** The arithmetic mean age, one number for quick gauging and simple communication. The same three reasons for caring about age apply as for Age Staffing Breakdown (preferences, experience, retirement exposure). Its key weakness is that it hides the dispersion of ages around the average.
+
+**Analysis.** By organizational unit, job function, geography, job title, job family, managerial level, and employment level.
+
+**Limitations.** Gives no age dispersion, profile of leavers and joiners, retirement cost, or skill, knowledge, or tenure information. Interventions must not discriminate against protected age groups.
+
+**Targets.** Typically the median of a benchmark group of industry or talent competitors, so the organization is not unusually exposed to inexperience or retirement drain. Set with care to avoid discriminatory impact.
+
+**Variations.** Customer Facing; Exempt; High Performers; High Potential; Managers; Non-Exempt; Revenue Generating; Successors.
+
+**Related measures.** Age Staffing Breakdown; Benefits Satisfaction Index; Educational Attainment Breakdown; Employee Engagement Index; External Hire Rate; Organization Tenure Staffing Breakdown; Successor Pool Coverage; Termination Rate; Training Course Content Breakdown.
+
+## Ethnic Background Staffing Breakdown [426-427]
+
+| Item | Summary |
+|---|---|
+| Icons | Composition; Bench-E, Data-E (first icon cut off in OCR; OCR unclear) |
+| Application | Organizations that track the ethnic diversity of their workforce |
+| Description | Distribution of headcount by ethnic background at period end |
+| Sourcing | HRIS personal data table; accuracy depends on self-identification or other methods. Reporting such data may be unlawful in some countries, so check local rules and consult legal counsel. |
+
+: Profile summary {.striped}
+
+$$\text{Ethnic Background Staffing Breakdown}_{\text{Ethnic Background}} = \frac{\text{End of Period Headcount}_{\text{Ethnic Background}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Percentage of the workforce in each ethnic group, usually as a stacked bar. Helps monitor ethnic balance, promote diversity, and help ensure absence of bias. HR can guide hiring and retention, training, diversity-sensitive policies, and grievance procedures. Organizations usually also track hiring and turnover by group, and may use group-specific attraction, retention, or mentoring strategies. Staffing Rate—Minority is similar, but this measure shows each group individually.
+
+**Analysis.** By business unit, job function, and EEO job category (and for regulatory reporting); by location and job family against the local labor market; by hierarchical level and promotion rates to detect "glass ceilings".
+
+**Limitations.** Does not show comparison with the relevant labor market and does not explain imbalances by itself; hiring, movement, termination, and pay analysis is needed for root causes.
+
+**Targets.** Set per component. Most organizations target a mix comparable to the labor markets they hire from; against a benchmark group, the median. Interventions must not have discriminatory impact. Some also target the potential customer base to show they value the market segment and use employee insight to serve it.
+
+**Variations.** Customer Facing; Executives; Exempt; High Potential; Managers; Non-Exempt; Successors.
+
+**Related measures.** Employee Engagement Index—Minority (variation); Grievance Rate; Net Hire Ratio—Minority (variation); Performance Rating Distribution; Performance-Based Pay Differential—Minority (variation); one entry garbled (OCR unclear); Promotion Rate—Minority (variation); Promotion Speed Ratio—Minority (variation); Staffing Rate—Managerial; Staffing Rate—Minority; Voluntary Termination Rate—Minority (variation).
+
+## Gender Staffing Breakdown [428-429]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-E, Data-E |
+| Application | Organizations that track gender diversity of the workforce |
+| Description | Distribution of headcount by gender at period end |
+| Sourcing | HRIS personal data table |
+
+: Profile summary {.striped}
+
+$$\text{Gender Staffing Breakdown}_{\text{Gender}} = \frac{\text{End of Period Headcount}_{\text{Gender}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** Percentage of the workforce by gender, usually as a stacked bar. Used to monitor gender balance, promote diversity, and help ensure absence of bias; HR roles and companion hiring and turnover tracking mirror those for ethnic background. Staffing Rate—Female is very similar, but this measure shows both genders at once.
+
+**Analysis.** By business unit and job function; by location and job family against the local labor market; by hierarchical level and promotion rates to detect "glass ceilings".
+
+**Limitations.** Does not show comparison with the relevant labor market and does not explain imbalances by itself; hiring, movement, termination, and pay analysis is needed for root causes.
+
+**Targets.** Set per component. Most organizations target a mix comparable to their labor markets; against a benchmark group, the median. Interventions must not have discriminatory impact.
+
+**Variations.** Customer Facing; Executives; Exempt; High Potential; Managers; Non-Exempt; Successors.
+
+**Related measures.** Employee Engagement Index—Female (variation); Grievance Rate; Net Hire Ratio—Female (variation); Performance Rating Distribution; Performance-Based Pay Differential—Female (variation); Promotion Rate—Female (variation); Promotion Speed Ratio—Female (variation); Staffing Rate—Female; Staffing Rate—Managerial; Voluntary Termination Rate—Female (variation).
+
+## Staffing Rate—50+ Years Old [430-431]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Organizations with a moderate or heavy share of employees nearing retirement age, overall or in key functions or skills, or with heavy retirement cost burdens (defined benefit, retiree medical) |
+| Description | Percentage of employees at period end aged 50 or older |
+| Sourcing | Age from date of birth in an HRIS personal data table |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—50+ Years Old} = \frac{\text{End of Period Headcount}_{50+\ \text{Age}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 20% means one in five employees is 50 or older. Shows exposure from approaching retirements: retirement costs (defined benefit payments, retiree medical) and loss of knowledge and experience over the next 10 to 15 years, notably in the US. Read it with leadership ranks and the succession pool, since managers and executives skew older. Of the three age measures it most simply captures retirement exposure in one percentage.
+
+**Analysis.** Further split the 50+ group by years from normal retirement age (one, three, five years); by managerial level, organizational unit, tenure, job function, and job family to find the pockets most exposed.
+
+**Limitations.** Does not show the age profile of leavers and joiners, average retirement age or years to retirement, retirement cost, or skills, knowledge, or tenure of the 50+ group. Interventions must not discriminate against protected age groups.
+
+**Targets.** Typically the median of a benchmark group of industry or talent competitors, set with care to avoid discriminatory impact.
+
+**Variations.** Customer Facing; Executives; Exempt; High Performers; High Potential; Managers; Non-Exempt; Revenue Generating (partly cut off in OCR); Successors.
+
+**Related measures.** Age Staffing Breakdown; Average Workforce Age; Employee Engagement Index; External Hire Rate; Manager Instability Rate; Organization Tenure Staffing Breakdown; Positions Without Ready Candidates Rate; Successor Pool Coverage; Termination Rate; Termination Reason Breakdown (partly garbled in OCR); Voluntary Termination Rate.
+
+## Staffing Rate—Disability [432-433]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations able to track disability characteristics of the workforce |
+| Description | Percentage of employees at period end who have disabilities |
+| Sourcing | HRIS personal data table; depends on self-identification or other methods. Reporting may be unlawful in some countries, so check local rules and consult legal counsel. |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Disability} = \frac{\text{End of Period Headcount}_{\text{Disability}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 1% means 1 in 100 employees self-identifies as having a disability. A staffing profile that reflects the working population helps ensure merit-based hiring and retention. Useful to gauge EEO/equity strategies and guide attraction, retention, and accommodation.
+
+**Analysis.** Best combined with an external analysis of the disability profile of relevant labor markets; analysis by type of disability may guide accommodation investment and benefit programs.
+
+**Limitations.** Does not show comparison with the relevant labor market and does not explain imbalances by itself; hiring, movement, termination, and pay analysis is needed for root causes.
+
+**Targets.** A profile comparable to labor markets by geography and trade or skill; against a benchmark group, the median. Interventions must not have discriminatory impact.
+
+**Variations.** Corporate; Exempt; Field; Managers; Non-Exempt.
+
+**Related measures.** Employee Engagement Index; Employment Brand Strength; HR Customer Satisfaction; New Hire Satisfaction with Recruiting; Termination Reason Breakdown.
+
+## Staffing Rate—Female [434-435]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (right-page icon strip garbled) |
+| Application | Organizations that track gender diversity of the workforce |
+| Description | Percentage of employees at period end who are female |
+| Sourcing | HRIS personal data table |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Female} = \frac{\text{End of Period Headcount}_{\text{Female}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 30% means 30% of employees are female. Purpose, HR role, and companion hiring and turnover tracking are as for Gender Staffing Breakdown. This measure suits organizations that want to focus on female representation and communicate it as a single percentage.
+
+**Analysis.** By business unit and job function; by location and job family against the local labor market; by hierarchical level and promotion rates to detect "glass ceilings".
+
+**Limitations.** Does not show comparison with the relevant labor market and does not explain imbalances by itself.
+
+**Targets.** A mix comparable to labor markets by geography and trade or skill; against a benchmark group, the median. Interventions must not have discriminatory impact.
+
+**Variations.** Customer Facing; Executives; Exempt; High Potential; Managers; Non-Exempt; Successors.
+
+**Related measures.** Employee Engagement Index—Female (variation); Gender Staffing Breakdown; Grievance Rate; Net Hire Ratio—Female (variation); Performance Rating Distribution; Performance-Based Pay Differential—Female (variation); Promotion Rate—Female (variation); Promotion Speed Ratio—Female (variation); Staffing Rate—Managerial; Voluntary Termination Rate—Female (variation).
+
+## Staffing Rate—Minority [436-437]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E (garbled in OCR; OCR unclear) |
+| Application | Organizations that strive for ethnic diversity of the workforce |
+| Description | Percentage of employees at period end who represent ethnic minorities |
+| Sourcing | HRIS personal data table; depends on self-identification or other methods. Reporting may be unlawful in some countries, so check local rules and consult legal counsel. |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Minority} = \frac{\text{End of Period Headcount}_{\text{Minority}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 30% means 30% of employees belong to an ethnic minority group (usually all non-Caucasian groups). Purpose, HR role, and companion hiring and turnover tracking are as for Ethnic Background Staffing Breakdown. This measure suits organizations wanting to focus on minority representation as one percentage rather than every group individually.
+
+**Analysis.** By business unit, job function, and EEO job category (and for regulatory reporting); by location and job family against the local labor market; by hierarchical level and promotion rates to detect "glass ceilings".
+
+**Limitations.** Does not show comparison with the relevant labor market and does not explain imbalances by itself.
+
+**Targets.** A mix comparable to labor markets by geography and trade or skill; against a benchmark group, the median. Interventions must not have discriminatory impact. Some also target the potential customer base.
+
+**Variations.** Customer Facing; Executives (variation); Exempt; High Potential; Managers; Non-Exempt; Professional (partly garbled in OCR); Successors.
+
+**Related measures.** Employee Engagement Index—Minority; Ethnic Background Staffing Breakdown; one entry garbled (OCR unclear); Net Hire Ratio—Minority (variation); Performance Rating Distribution; Performance-Based Pay Differential—Minority (variation); Promotion Rate—Minority (variation); Promotion Speed Ratio—Minority (variation); Staffing Rate—Managerial; Voluntary Termination Rate—Minority (variation).
+
+## Staffing Rate—Multilingual [438-439]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Organizations with strategies to communicate with customer segments in their native languages, and multinationals providing expatriate experiences |
+| Description | Percentage of employees at period end who speak more than one language |
+| Sourcing | HRIS personal data table or a separate language table; depends on self-identification, and some employees may hesitate to disclose languages to avoid being tied to an ethnic group |
+
+: Profile summary {.striped}
+
+$$\text{Staffing Rate—Multilingual} = \frac{\text{End of Period Headcount}_{\text{Multilingual}}}{\text{End of Period Headcount}} \times 100$$
+
+**Reading it.** A result of 15% means 15% of employees speak at least two languages. Language-specific variants are possible (for example Staffing Rate—Spanish Speaking). Growing language diversity among customers leads organizations to track language skills, especially in call centers, sales, marketing, and other customer-facing roles. It also helps multinationals track expatriate candidates and language gaps in functions or roles. Organizations with strong skills in a language may support conversation groups or clubs to help fluency and engagement.
+
+**Analysis.** For customer communication, by job functions that face customers or develop customer material, alongside analysis of the customer base. For expatriate programs, by location and the job titles or families likely to take part. Also by language and fluency level.
+
+**Limitations.** May not separate conversational ability from true oral and written fluency; further analysis is needed to match languages to the customer base.
+
+**Targets.** Many organizations mirror the languages of their existing and desired customers and of relevant labor markets. Without that information, aim between the median and the 75th percentile of a comparable group, depending on the role language plays in strategy. Interventions must not have discriminatory impact on protected employees or customers.
+
+**Variations.** Contact Center; Customer Facing; Expatriates; Managers; Revenue Generating (partly cut off in OCR).
+
+**Related measures.** Cross-Function Mobility; Cross-Geography Mobility; Educational Attainment Breakdown; Market Opportunity Index; New Products & Services Revenue per FTE; Operating Revenue per FTE; Staffing Rate—Customer Facing; Staffing Rate—Revenue Generating.
+
+# Structural [441-444]
+
+## Average Span of Control [442-443]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Organizations with rapid growth or shrinkage in workforce size, or concerned about hierarchical balance |
+| Description | Average number of direct reports for each supervisor |
+| Sourcing | Supervisory organizational hierarchy, an HRIS field for direct manager, or a performance management system that records reporting relationships |
+
+: Profile summary {.striped}
+
+$$\text{Average Span of Control} = \frac{\text{Total Span of Control (All Supervisors)}}{\text{End of Period Headcount (Supervisors)}}$$
+
+**Reading it.** A result of eight means supervisors average eight direct reports. A high span may stretch supervisors too thin for coaching, development, and feedback. A very low span may mean inefficiency and excess overhead, and with many levels, bureaucracy and slow reaction to markets. Results tend to be higher in labor-intensive industries such as manufacturing and lower in professional industries such as financial services, information technology, and professional services.
+
+**Analysis.** By organizational unit, function, and geography to see norms; by supervisor level to see how spans change up the organization.
+
+**Limitations.** Does not show quality of people management, manager stability, number of hierarchical levels, career paths, the cost of the hierarchy, or inefficiencies from multilayered structures.
+
+**Targets.** Vary by level: on the front line (call centers, shop floors) supervisors may manage 10 to 20, while the most senior ranks may have just a few. The overall target aggregates these. Against a benchmark group with similar structures, many target the median.
+
+**Variations.** Contact Center; Corporate; Executives; Field; High Performers; High Potential; LDP Participants; Low Performers; Revenue Generating; Successors; VP.
+
+**Related measures.** Average Workforce Tenure—Managers; Cross-Functional Mobility—Managers; Employee Engagement Index; Employee Satisfaction with Leadership; Employment Brand Strength; Manager Instability Rate; Manager Quality Index; Positions Without Ready Candidates Rate; Staffing Rate—Managerial; Successor Pool Coverage; Upward Review Rate; Voluntary Termination Rate—Managers (variation); one further entry garbled (OCR unclear).
+
+## Customer-Facing Time Rate [444]
+
+Only the left page is in this extract; the right-hand page is in the next file.
+
+| Item | Summary |
+|---|---|
+| Application | Organizations where direct customer interaction drives performance, or with many customer-facing employees |
+| Description | Workdays devoted to customer-facing activities as a percentage of total workdays |
+| Sourcing | Requires employee time tracking (periodic estimates, hourly timesheets, or similar). Customer-facing time is flagged in a timesheet field or derived by mapping activity codes. |
+
+: Profile summary {.striped}
+
+$$\text{Customer-Facing Time Rate} = \frac{\text{Workdays (Customer Facing)}}{\text{Workdays}} \times 100$$
+
+**Reading it.** Share of work time spent on customer-facing activities. Many organizations treat it as an indicator of lean organizational design: a higher result means less "overhead" and a more efficient workforce. It may also reflect a healthy customer focus, where more direct contact brings customer needs into service, product development, and distribution. Likely in organizations with customer contact beyond sales (contact centers, customer relations, consultants, underwriters, service representatives), such as financial services, retail, professional services, and some technology and consumer product firms. It resembles Staffing Rate—Customer Facing but is stricter: an employee in a customer-facing role may spend only 10% of time with customers, and this measure counts actual time.

@@ -1,0 +1,256 @@
+---
+title: "The Metrics Standard: Capability and Performance Management Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 149-168"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `08-149-168.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Capability [149-151]
+
+Capability is the skills of employees and the performance of job roles, plus the process of developing those skills and performance levels. The category has four groups of measures.
+
+| Group | What the measures cover |
+|---|---|
+| Performance Management | The appraisal process, ratings assigned through appraisals, and the link between ratings and pay |
+| Education and Development | Formal education of employees and the prevalence of development programs |
+| Management and Leadership | Quality of managers and leaders, and outcomes of succession management |
+| Training | Volume, type, cost, and effectiveness of training courses provided |
+
+: Capability groups {.striped}
+
+## Measures in this section
+
+The capability measures index (page 151) is only partly legible in the OCR; entries for Performance Management and Management and Leadership are missing.
+
+| Group | Measures (book page) |
+|---|---|
+| Performance Management | Average Performance Appraisal Rating (154); Employee Turnaround Rate (156); Employee Upgrade Rate (158); High Performer Growth Rate (160); Peer Review Rate (162); Performance Appraisal Participation Rate (164); Performance Rating Distribution (166); Performance-Based Pay Differential (168) |
+| Education and Development | Development Program Penetration Rate (178); Educational Attainment Breakdown (180); Staffing Rate—Graduate Degree (182); Staffing Rate—High Potential (184); Tuition Reimbursement Request Rate (186) |
+| Training | Average Training Class Size (208); E-Learning Abandonment Rate (210); Employee Satisfaction with Training (212); Training Channel Delivery Mix (214); Training Course Content Breakdown (216); Training Expense per Employee (218); Training Hours per FTE (220); Training Hours per Occurrence (222); Training Penetration Rate (224); one entry at 226 (OCR unclear); Training Staffing Ratio (OCR unclear, 228); Training Total Compensation Expense Rate (230) |
+
+: Measure index for this extract {.striped}
+
+# Performance Management [153]
+
+Profiles below cover pages 154-168. The profile on pages 168-169 begins in this extract; its right-hand page is not included.
+
+## Average Performance Appraisal Rating [154-155]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Most useful where ratings are assigned accurately and distributions are not forced; also useful while changing performance management processes or tools |
+| Description | Average rating of performance appraisals delivered in the period |
+| Formula | See below |
+| Sourcing | System or table holding performance data; each appraisal occurrence is counted, so an employee appraised twice a year contributes both ratings |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Performance Appraisal Rating} = \frac{\text{Total Performance Appraisal Rating}}{\text{Performance Appraisal Occurrences}}
+$$
+
+**Reading it.** The mean rating across appraisals in the period. Qualitative ratings (e.g., Meets, Exceeds) must be converted to numbers. It is of little use where bell curves or percentage quotas are enforced, unless monitoring adherence. Appraisals tell employees how they match expectations, inform development, promotion and pay, and in aggregate expose training needs. The measure is most reliable where each scale level is clearly defined and managers are trained; then very high or low unit results can point to exceptional or poor practices in managing, training, setting expectations or hiring.
+
+**Analysis.** By tenure, division, function, salary band or job family. Manager ratings can proxy managerial performance; new-hire ratings can proxy staffing effectiveness.
+
+**Limitations.** Accurate only if managers judge and apply ratings accurately. A single average hides the range of performance (see Performance Rating Distribution). Says nothing about effects on morale, retention or future performance.
+
+**Targets.** A high and rising average is a common target, but without scrupulous rating integrity trends may reflect unreliable ratings and "grade creep". Benchmarks are affected by scale length and forced-distribution practices.
+
+**Variations.** Average Performance Appraisal Rating: Exec (OCR unclear); High Potential; High Tenure; Managers; Mid Tenure; Non-Exempt; Peer; Successors; Upward.
+
+**Related measures.** Compensation Satisfaction Index; Employee Engagement Index; Employee Turnaround Rate; Employee Upgrade Rate; High Performer Growth Rate; Organization Tenure Staffing Breakdown; Performance Rating Distribution; Performance-Based Pay Differential; Promotion Rate; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Termination Rate—High Performers (variation); Work Units per FTE.
+
+## Employee Turnaround Rate [156-157]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-M, Data-M |
+| Application | Most useful where the continued performance of poor performers is monitored, especially with active improvement efforts or intensive improvement plans |
+| Description | Percentage of employees with a poor rating at the previous review whose rating rose in the period |
+| Formula | See below |
+| Sourcing | Current and previous rating from the performance data system or table |
+
+: Profile summary {.striped}
+
+$$
+\text{Employee Turnaround Rate} = \frac{\text{Appraisal Participants, Previous Rating Low, Rating Increase}}{\text{Appraisal Participants, Previous Rating Low}} \times 100
+$$
+
+**Reading it.** Share of previously "low" performers who now hold a non-low rating (20% means one in five). If ratings are accurate, it shows how well the organization improves poor performers, whether through own effort, coaching, training, or a mix. High may mean improvement efforts work or low ratings motivate; low may mean efforts are ineffective, employees cannot improve, or ratings do not motivate. It covers only people still present for the current review; leavers are excluded.
+
+**Analysis.** By division, function and manager, to see where rehabilitation succeeds.
+
+**Limitations.** Does not show how many employees perform poorly, nor the size of the improvement. Depends on rating accuracy.
+
+**Targets.** Rating schemes differ, so relative targets are hard; absolute targets are more likely. Organizations with active improvement plans are likely to aim for 50 to 100%.
+
+**Variations.** Employee Turnaround Rate: Customer Facing; Exempt; High Potential; High Tenure; Low Tenure; Managers; Mid Tenure; Non-Exempt.
+
+**Related measures.** Development Program Penetration Rate; Employee Engagement Index; Employee Upgrade Rate; Manager Instability Rate; Manager Quality Index; New Hire Performance Satisfaction; Organization Tenure Staffing Breakdown; Performance Rating Distribution; Performance-Based Pay Differential; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Training Course Content Breakdown; Training Hours per FTE.
+
+## Employee Upgrade Rate [158-159]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M |
+| Application | Most useful where significant resources go to employee development and returns are to be gauged |
+| Description | Percentage of appraisal participants rated higher than at their previous rating |
+| Formula | See below |
+| Sourcing | Current and previous rating from the performance data system or table |
+
+: Profile summary {.striped}
+
+$$
+\text{Employee Upgrade Rate} = \frac{\text{Appraisal Participants, Rating Increase}}{\text{Appraisal Participants}} \times 100
+$$
+
+**Reading it.** Share of participants whose rating went up (15% means 15%). With accurate ratings it signals improving performance and where. It matters for bonus and other rating-linked pay. Where managers lack skill or will, rising upgrades not balanced by downgrades can signal rating inflation and need for retraining. Falling results may reflect performance problems, or changed roles and expectations (e.g., a high-performing Director rated medium after promotion to Vice President).
+
+**Analysis.** By division, function and job family for development strength; by tenure, employment type and EEO category to anticipate poor-performance pockets; by manager or unit for process control and managerial development.
+
+**Limitations.** Does not show downgrades (see Employee Downgrade Rate) or the size of improvement. Depends on rating accuracy.
+
+**Targets.** Relative targets are hard. For performance trends, meet or exceed Employee Downgrade Rate; for process monitoring, set absolute targets from process goals.
+
+**Variations.** Employee Downgrade Rate; Employee Upgrade Rate: Customer Facing; Exempt; High Potential; High Tenure; Low Tenure; Managers; Mid Tenure; Non-Exempt.
+
+**Related measures.** Bonus Actual to Potential Rate; Employee Engagement Index; Employee Turnaround Rate; High Performer Growth Rate; Manager Quality Index; Organization Tenure Staffing Breakdown; Performance Rating Distribution; Performance-Based Pay Differential; Promotion Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Upward Salary Change Rate; Work Units per FTE.
+
+## High Performer Growth Rate [160-161]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Rate; Bench-M, Data-M |
+| Application | Most useful for tracking high performers to find skilled people managers, and for calibrating use of high ratings |
+| Description | Percentage of appraisal participants moving up to a "high" rating from a previous non-high rating |
+| Formula | See below |
+| Sourcing | Current and previous rating from the performance data system; the employer defines "high", typically the top 10 to 20% of performers |
+
+: Profile summary {.striped}
+
+$$
+\text{High Performer Growth Rate} = \frac{\text{Appraisal Participants, Rating High}}{\text{Appraisal Participants, Previous Rating Non-High}} \times 100
+$$
+
+**Reading it.** Share of previously non-high performers who now receive a high rating. Improvement can come from growing comfort in a role or from coaching. It may signal readiness for promotion or new challenges, and informs pay and awards. New high performers may be emerging high-potentials or succession candidates; units that routinely produce them may point to managers with strong development skills to benchmark. It can also flag units to investigate for rating inflation. After promotion or transfer, ratings may take time to recover, so high-potential flags can also help track development.
+
+**Analysis.** By division, function and manager; by function, job type or job family to find strong skill areas.
+
+**Limitations.** Does not show how many high performers left the category, or the size of the high-performing population. Depends on rating accuracy.
+
+**Targets.** Relative targets are hard; absolute targets are set from past distributions, upgrade patterns and rating guidelines. High targets suit organizations with rapid promotion cycles or less stability; low targets suit stable settings or longer promotion cycles.
+
+**Variations.** High Performer Growth Rate: Customer Facing; Exempt; High Potential; High Tenure; Low Tenure; Managers; Mid Tenure; Non-Exempt; Revenue Generating.
+
+**Related measures.** Bonus Actual to Potential Rate; Employee Engagement Index—High Performers (variation); Manager Quality Index; Market Compensation Ratio—High Performers (variation); Organization Tenure Staffing Breakdown; Performance Rating Distribution; Performance-Based Pay Differential; Promotion Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Termination Rate—High Performers (variation); Upward Salary Change Rate; Work Units per FTE.
+
+## Peer Review Rate [162-163]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where peer reviews are part of performance management, especially if recently introduced or not yet widely adopted |
+| Description | Employees appraised partly through peer review as a percentage of those eligible |
+| Formula | See below |
+| Sourcing | HRIS performance table or separate system; define how long a review stays active: cumulative over the review cycle, or a rolling 6- or 12-month percentage |
+
+: Profile summary {.striped}
+
+$$
+\text{Peer Review Rate} = \frac{\text{End of Period Headcount, Peer Review}}{\text{End of Period Headcount, Eligible for Peer Review}} \times 100
+$$
+
+**Reading it.** Share of eligible employees who received a peer review (70% means 70%). Results depend on whether the practice is mandatory or left to managers; high results mean high compliance or adoption. Peer reviews add a 360-degree view covering job performance and peer behavior (cooperation, support, group decisions), may give feedback managers cannot, and can inform the supervisor's own review.
+
+**Analysis.** By location, function, management level and division, where participation gaps tend to cluster.
+
+**Limitations.** Says nothing about review results or feedback effectiveness, or what share of staff is eligible. Directly measures volume, only indirectly quality.
+
+**Targets.** Relative targets are hard. Mandated peer reviews imply a 100% target; otherwise targets follow awareness and feedback culture, and voluntary adoption is generally low.
+
+**Variations.** Peer Review Rate: Exempt; High Performers; Low Performers; Managers; Mid Performers; Non-Exempt; Total Workforce.
+
+**Related measures.** Average Workweek; Employee Engagement Index; Employment Brand Strength; Manager Instability Rate; Manager Quality Index; Overtime Rate; Performance Appraisal Participation Rate; Performance Rating Distribution; Performance-Based Pay Differential; PTO Utilization Rate; Self Review Rate; Unscheduled Absence Rate; Upward Review Rate.
+
+## Performance Appraisal Participation Rate [164-165]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where a target share of the eligible population should be appraised periodically |
+| Description | Percentage of eligible employees who received an appraisal in the period |
+| Formula | See below |
+| Sourcing | HRIS performance table or separate system; define review active period (cumulative over the cycle, or rolling 6- or 12-month) |
+
+: Profile summary {.striped}
+
+$$
+\text{Performance Appraisal Participation Rate} = \frac{\text{End of Period Headcount, Appraisal Eligible, Performance Appraisal}}{\text{End of Period Headcount, Appraisal Eligible}} \times 100
+$$
+
+**Reading it.** Share of appraisal-eligible employees actually appraised (80% means 80%). Eligibility often excludes new hires, temporary staff, some bargaining-agreement groups and others. Appraisals give employees feedback and engagement, give the employer a check against goals, expose training needs, and inform promotion and pay. Timeliness and quality keep those processes efficient. Used to monitor compliance with a coverage goal (often 100%) and find units, locations or job groups falling short.
+
+**Analysis.** By location, function, management level and division, where gaps often occur.
+
+**Limitations.** Shows only that appraisals occurred, not accuracy, feedback quality, development messages, or ratings outcomes.
+
+**Targets.** Typically absolute, at or near 100% of the eligible population.
+
+**Variations.** Performance Appraisal Participation Rate: Exec (OCR unclear); High Potential; High Tenure; Low Tenure; Managers; Mid Tenure; Non-Exempt (one further variation OCR unclear).
+
+**Related measures.** Average Performance Appraisal Rating; Compensation Satisfaction Index; Development Program Penetration Rate; Employee Satisfaction with Leadership; HR Customer Satisfaction; Manager Instability Rate; Manager Quality Index; Market Compensation Ratio; Peer Review Rate; Performance Contingent Pay Prevalence; Performance Rating Distribution; Return on Human Investment Ratio; Self Review Rate; Upward Review Rate.
+
+## Performance Rating Distribution [166-167]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Volume, Composition; Bench-M, Data-M |
+| Application | Widely useful for gauging performance trends and monitoring the appraisal process |
+| Description | Distribution of appraisal occurrences by rating |
+| Formula | See below |
+| Sourcing | Performance data system or table; every appraisal occurrence in the period counts, so two appraisals for one person count twice |
+
+: Profile summary {.striped}
+
+$$
+\text{Performance Rating Distribution} = \frac{\text{Performance Appraisal Occurrences, [Rating]}}{\text{Performance Appraisal Occurrences}} \times 100
+$$
+
+**Reading it.** Percentage of appraisals at each rating, shown as a stacked bar. With accurate ratings it indicates overall performance and, over time, improvement and its pockets. As a process control it shows whether forced distributions are followed and whether inflation exists; a high or rising share of top ratings may mean managers are being "nice" or avoiding development conversations.
+
+**Analysis.** By division, function and job family for strong skills and future gaps; manager ratings as a proxy for managerial quality; new-hire ratings as a proxy for staffing effectiveness; by manager or unit for process control review.
+
+**Limitations.** Accurate only if ratings are accurate. Does not show the number of reviews done, feedback quality, expectation accuracy, or quality of developmental conversations.
+
+**Targets.** Being a breakdown, targets are set per component (e.g., share rated "Far Exceeds Expectations"). Generally absolute, based on forced or recommended distributions or achievable improvement, allowing for rating accuracy.
+
+**Variations.** Performance Rating Distribution: Customer Facing; Exempt; High Potential; High Tenure; Low Tenure; Managers; Mid Tenure; Non-Exempt; Revenue Generating; Successors.
+
+**Related measures.** Average Performance Appraisal Rating; Compensation Satisfaction Index; Employee Engagement Index; Employee Turnaround Rate; Employee Upgrade Rate; High Performer Growth Rate; Organization Tenure Staffing Breakdown; Performance-Based Pay Differential; Promotion Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Termination Breakdown by Performance Rating.
+
+## Performance-Based Pay Differential [168-169]
+
+Only the left page (168) is in this extract; icons, Analysis, Limitations, Targets, Variations and Related measures are on page 169.
+
+| Item | Summary |
+|---|---|
+| Icons | Not in this extract |
+| Application | Most useful where there are goals or philosophies on pay differentiated by performance, or a belief that pay drives engagement and commitment of performance strata |
+| Description | Ratio of high performers' direct (cash) compensation to that of non-high performers |
+| Formula | See below |
+| Sourcing | Ratings from the performance data system; compensation ideally from payroll tables, with pay codes grouped as base, variable, overtime and other; a variant can use annual salary fields |
+
+: Profile summary {.striped}
+
+$$
+\text{Performance-Based Pay Differential} = \frac{\text{Average Direct Compensation, High Performers}}{\text{Average Direct Compensation, Non-High Performers}}
+$$
+
+**Reading it.** Answers how much more high performers earn than others, using wages, bonus and other cash. A result of 1.5 means \$1.50 for every \$1.00 earned by non-high performers. Pay structures reward and signal the value of high performance and are thought to motivate; research shows pay for performance affects retention more than performance, and both high and low performers value it. Consider employee perceptions: those who feel their performance was misjudged may be frustrated by performance-based pay.

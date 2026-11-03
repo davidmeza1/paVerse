@@ -1,0 +1,356 @@
+---
+title: "The Metrics Standard: HRIT, Contact Center, and Payroll Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 385-414"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `017-385-414.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Where text was not legible, this is marked "OCR unclear".
+:::
+
+# HRIT [385-391]
+
+HRIT measures relate to the timeliness and quality of data entry transactions in HR information systems and to the level of investment in HR technology. The extract opens with the right-hand page of HR Technology Expense Rate.
+
+## HR Technology Expense Rate (continued) [385]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+
+: Profile summary {.striped}
+
+**Analysis.** By HR functional area (such as recruiting or compensation) or by individual system or application.
+
+**Limitations.** Shows only the relative weight of HR technology spending, not actual amounts. Does not imply spending is well directed or that high spend means sophistication. Does not compare technology with non-technology operating expense.
+
+**Targets.** Based on the organization's other technology investments; targets may be lower in technology-intensive industries (with larger non-HR technology spend), so compare among like industries. A high-investment period or technology as a differentiator suggests the 75th percentile of a benchmark group; strict cost limiting suggests the 25th.
+
+**Variations.** Compensation; HRIS; Payroll; Performance Management; one further entry garbled (OCR unclear).
+
+**Related measures.** HR Customer Satisfaction; HRIT Average Days to Entry; HRIT Late Transaction Rate; HRIT Transaction Error Rate; Net Hire Ratio; Operating Expense per FTE—Information Technology (listed in the book as a variation); Performance Appraisal Participation Rate; Self-Service Penetration Rate; Training Channel Delivery Mix.
+
+## HRIT Average Days to Entry [386-387]
+
+| Item | Summary |
+|---|---|
+| Icons | Time, Ratio; Bench-E, Data-E |
+| Application | Organizations whose reporting needs timely transactions, or whose reporting has been hampered by late data entry |
+| Description | Average days elapsed from action occurrence to HRIT transaction entry |
+| Sourcing | HRIS system logs, or a combination of action entry dates and effective dates |
+
+: Profile summary {.striped}
+
+$$\text{HRIT Average Days to Entry} = \frac{\text{Total Days to Entry}}{\text{HRIT Transactions}}$$
+
+**Reading it.** A transfer on the 1st entered on the 9th has eight days to entry. Faster entry means systems and periodic reports reflect the workforce more accurately; late entries make reports wrong, force restating of history, or are never captured, and managers may act on incomplete lists. High results can reflect inefficient processes (paperwork passing through four sets of hands), poor adherence to or understanding of procedures, or backlogs.
+
+**Analysis.** By transaction type to find which are prone to delay; by geography or organizational unit.
+
+**Limitations.** Does not show how many transactions miss target ranges or reporting deadlines, entry quality, cost of late entry, transaction volumes, or the effect of peak periods.
+
+**Targets.** Often set per action type (hires, terminations, transfers, pay increases), based on when information reaches data entry, report dependencies, and reasonable batching and workflow delays. Most organizations move toward the 25th percentile of a benchmark group.
+
+**Variations.** Hire; Job Change; Leave; Personal Change; Promotion; Self-Service; Termination.
+
+**Related measures.** External Hire Rate; HR Customer Satisfaction; HR Technology Expense Rate; HRIT Late Transaction Rate; HRIT Transaction Error Rate; Internal Hire Rate; Self-Service Penetration Rate; Termination Rate.
+
+## HRIT Late Transaction Rate [388-389]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Rate; Bench-H, Data-M |
+| Application | Organizations whose reporting needs timely transactions, or whose reporting has been hampered by late data entry |
+| Description | Percentage of HRIT transactions entered late |
+| Sourcing | HRIS system logs, or a combination of action entry dates and effective dates |
+
+: Profile summary {.striped}
+
+$$\text{HRIT Late Transaction Rate} = \frac{\text{Late HRIT Transactions}}{\text{HRIT Transactions}} \times 100$$
+
+**Reading it.** Share of transactions entered after the target period, set as a number of days after the action or as a month-end or quarter-end close; 5% means 5% were late. Same timeliness and reporting concerns as Average Days to Entry. A high share calls for checking whether target dates are reasonable or for interventions; causes can be inefficient processes, poor adherence, lack of understanding, or backlogs.
+
+**Analysis.** By transaction type; by geography or organizational unit.
+
+**Limitations.** Does not show how late late transactions are, entry quality, cost of late entry, transaction volumes, or peak-period effects.
+
+**Targets.** Typically toward the 25th percentile of a benchmark group. An absolute target is near zero, allowing for delays in notice reaching data entry staff and reasonable batching and workflow delays.
+
+**Variations.** Hire; Job Change; Leave; Personal Change; Promotion; Self-Service; Termination.
+
+**Related measures.** External Hire Rate; HR Customer Satisfaction; HR Technology Expense Rate; HRIT Average Days to Entry; HRIT Transaction Error Rate; Internal Hire Rate; Self-Service Penetration Rate; Termination Rate.
+
+## HRIT Transaction Error Rate [390-391]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Rate; Bench-E, Data-M |
+| Application | Organizations with weak HRIT capabilities, past transaction quality issues, or possibly understaffed HRIT units |
+| Description | Percentage of HRIT transactions processed in which an error occurred |
+| Sourcing | HRIS system logs; errors identified by isolating correction entries or by periodic audits of transaction samples |
+
+: Profile summary {.striped}
+
+$$\text{HRIT Transaction Error Rate} = \frac{\text{HRIT Transaction Errors}}{\text{HRIT Transactions}} \times 100$$
+
+**Reading it.** Indicates quality and the volume of rework; 3% means 3 in 100 transactions contain an error. Errors reduce staff efficiency through rework, waste other employees' time, and distort reports (history must be restated or errors are never captured). To improve, investigate root causes (process noncompliance, entry mistakes, system or programming bugs) and weigh the cost of fixing a cause against the cost of the intervention.
+
+**Analysis.** By transaction type; by geography or organizational unit.
+
+**Limitations.** Does not show operational cost or productivity loss from errors, or time to detect and correct them. Errors may be found long after they occur, and undetected errors are not counted, so the true volume may be understated.
+
+**Targets.** Minimize toward near zero; if a benchmark group exists, move toward the 25th percentile.
+
+**Variations.** Hire; Job Change; Leave; Personal Change; Promotion; Termination.
+
+**Related measures.** External Hire Rate; HR Customer Satisfaction; HR Technology Expense Rate; HRIT Average Days to Entry; HRIT Late Transaction Rate; Internal Hire Rate; Self-Service Penetration Rate; Termination Rate.
+
+# Contact Center [393-403]
+
+Contact center measures relate to the efficiency and effectiveness of an employee service center. Self-Service Penetration Rate appears within this group in the book.
+
+## Average Handle Time [394-395]
+
+| Item | Summary |
+|---|---|
+| Icons | Time, Ratio; Bench-M, Data-E |
+| Application | Organizations operating an employee service center |
+| Description | Average agent work time per call |
+| Sourcing | Contact center phone systems and time-tracking tools |
+
+: Profile summary {.striped}
+
+$$\text{Average Handle Time} = \frac{\text{Total Work Time}}{\text{Total Calls}}$$
+
+**Reading it.** Average representative work time per call, including call time and post-call work; can include fax or e-mail transactions. Driven by rep knowledge and skills, customer education, and process and systems efficiency. A high result may show skill gaps, slow processes or systems, or poorly educated callers. Transaction complexity strongly affects it (benefits enrollment takes longer than profile changes), so read trends with complexity in mind. Lower handle time cuts cost by freeing capacity, but monitor it with resolution rates and quality measures so quality and satisfaction do not suffer.
+
+**Analysis.** By representative, rep tenure, manager, department, and center; by transaction type to find where skills, education, or systems need work.
+
+**Limitations.** Shows only representative work time, not handling quality, speed of answer, or customer satisfaction.
+
+**Targets.** Consider the transaction mix and supporting processes and systems. Usually set in absolute terms, benchmarked against similar operations where possible, and may be set by transaction type (for example address changes versus medical claim inquiries).
+
+**Variations.** High-Performing Reps; High-Tenure Reps; Low-Performing Reps; Low-Tenure Reps.
+
+**Related measures.** Contact Center Satisfaction; HR Expense per FTE; HR Technology Expense Rate; One-Call Resolution Rate; Self-Service Penetration Rate; Service Level.
+
+## Contact Center Satisfaction [396-397]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction, Index; Bench-H, Data-M |
+| Application | Organizations operating an employee service center |
+| Description | Relative measure of employee satisfaction with the contact center |
+| Formula | Survey results |
+| Sourcing | Responses to employee survey questions, most useful when collected right after a contact center transaction |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or set of questions for employees who contacted the service center. It gives subjective views of timeliness and quality (rep knowledge, helpfulness, courtesy, speed of answer, call time against expectations), complementing Service Level and One-Call Resolution Rate. Results are influenced by employee expectations and by experience with other channels: employees recently cut off from generalists, or frustrated by a failed web self-service attempt, may arrive dissatisfied. Surveys are often run by touch-tone phone right after a call, by online questions for e-mail or online transactions, by e-mail or mail, or as part of a larger employee survey.
+
+**Analysis.** By representative, rep tenure, manager, department, and center; by respondent characteristics (employment level, pay grade, gender, age, tenure, job title).
+
+**Limitations.** Subjective, so it should be supplemented by objective measures; depends on survey design and delivery. Does not show transaction volume or operational efficiency.
+
+**Targets.** Depend on the scale used. Benchmarks apply only if other organizations use comparable questions and methods. Aim as high as reasonably achievable.
+
+**Variations.** The first entries are garbled in OCR (OCR unclear; appears to include Benefits Transactions and Compensation Transactions). Legible: Development Transactions; Payroll Transactions.
+
+**Related measures.** Average Handle Time; Benefits Satisfaction Index; Compensation Satisfaction Index; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; HR Technology Expense Rate; One-Call Resolution Rate; Self-Service Penetration Rate; Service Level.
+
+## One-Call Resolution Rate [398-399]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Time, Rate; Bench-M, Data-H |
+| Application | Organizations operating an employee service center |
+| Description | Percentage of contact center transactions resolved within one call |
+| Sourcing | Contact center phone systems and time-tracking tools; hard to collect because follow-up contacts are difficult to link to earlier transactions |
+
+: Profile summary {.striped}
+
+$$\text{One-Call Resolution Rate} = \frac{\text{Contacts Resolved in One Call}}{\text{Total Contacts}} \times 100$$
+
+**Reading it.** Share of transactions (phone, e-mail, or online) completed in a single contact. Common reasons for non-resolution: incomplete or incorrect information from the rep, an unprepared caller, rep knowledge gaps requiring follow-up, complex transactions needing several contacts, and system problems. Remedies include rep skills, caller education, process efficiency, and system quality. It signals operational efficiency and may lead contact center satisfaction, but should be read with Average Handle Time; for example, doubling call length could raise resolution without improving overall efficiency.
+
+**Analysis.** By representative, rep tenure, manager, department, and center; by transaction type.
+
+**Limitations.** Does not show handling time or customer satisfaction. It measures contact quality, though some quality aspects may not be exposed.
+
+**Targets.** Higher is better; aim as close to 100% as is possible given system downtime, error rates, unprepared callers, and transaction complexity, balanced with cost and timeliness targets.
+
+**Variations.** Benefits Transactions; Compensation Transactions (partly garbled in OCR); Development Transactions; Payroll Transactions.
+
+**Related measures.** Average Handle Time; Benefits Satisfaction Index; Compensation Satisfaction Index; Contact Center Satisfaction; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; HR Technology Expense Rate; Self-Service Penetration Rate; Service Level.
+
+## Self-Service Penetration Rate [400-401]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-H |
+| Application | Organizations that have implemented employee self-service technologies for HR transactions |
+| Description | HR transactions conducted via self-service as a percentage of all HR transactions |
+| Sourcing | Hard to collect: contact center and generalist activity plus self-service tracking. Defining which transactions count and how they are categorized is a major challenge (for example web FAQs or multiple requests in one call). |
+
+: Profile summary {.striped}
+
+$$\text{Self-Service Penetration Rate} = \frac{\text{HR Transactions Conducted via Self-Service}}{\text{Number of HR Transactions}} \times 100$$
+
+**Reading it.** Share of HR transactions employees perform themselves rather than through a contact center or other HR contact. Self-service reduces HR's transactional burden and may be more convenient (no hold times, off-hours access). It improves overall efficiency only if employees do not spend excessive effort; if a highly paid professional takes twice as long to self-serve, productivity can fall. Organizations should weigh costs and benefits, educate employees, and provide supporting technology and help.
+
+**Analysis.** By transaction type (address changes, life-event benefits changes); by employee characteristics (tenure, age, gender, pay grade, level, geography) where identifiers are captured, to find adoption drivers.
+
+**Limitations.** Does not show how many HR transactions are or are not available via self-service, productivity gains, employee satisfaction with the tools, or changes in transaction quality or timeliness.
+
+**Targets.** Based on the number and type of transactions available, with allowance for ramp-up of new self-service transactions. Typically below 100%, since complex transactions need human involvement. May be set per transaction type, such as 80% of address changes or 50% of life-event benefits changes.
+
+**Variations.** Self-Service Availability Rate; Self-Service Penetration Rate—Benefits Transactions and—Compensation Transactions (names partly garbled in OCR); —Development Transactions; —Payroll Transactions.
+
+**Related measures.** Average Handle Time; Benefits Satisfaction Index; Compensation Satisfaction Index; Contact Center Satisfaction; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; HR Technology Expense Rate; One-Call Resolution Rate; Service Level.
+
+## Service Level [402-403]
+
+| Item | Summary |
+|---|---|
+| Icons | Time, Rate; Bench-M, Data-E |
+| Application | Organizations operating an employee service center |
+| Description | Percentage of calls answered within a specified number of seconds |
+| Sourcing | Contact center phone systems |
+
+: Profile summary {.striped}
+
+$$\text{Service Level} = \frac{\text{Calls Answered Within Specified Seconds}}{\text{Total Calls}} \times 100$$
+
+**Reading it.** An organization sets a time threshold (for example 20 seconds) and a target share of calls (for example 80%); the measure reports the actual share (for example 67%). It tracks caller wait times, which affect satisfaction, and helps with workforce planning, scheduling, and training by exposing peak periods and understaffed or inefficient areas. It should not be used alone: reps judged solely on it may cut calls short, so monitor quality and resolution too.
+
+**Analysis.** By peak and slow calling hours, representative, manager, transaction area (if segregated), and center.
+
+**Limitations.** Does not show handling quality, call length once answered, or staffing cost to meet targets. Does not show the "tail" of calls that miss the target (the remaining 20% could wait 23 seconds or 23 minutes).
+
+**Targets.** Vary with service philosophy, transaction types, staffing, and call volume. Usually set for the whole center, though peak versus slow hours or transaction types may differ. Often written as two numbers such as "80/20" (80% of calls answered within 20 seconds); a longer time threshold generally comes with a higher percentage target, though not for every organization. For e-mail or fax, the time component is likely in hours or days.
+
+**Variations.** 20 seconds; 40 seconds; 60 seconds; Nonpeak Hours; Peak Hours.
+
+**Related measures.** Average Handle Time; Contact Center Satisfaction; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; HR Technology Expense Rate; One-Call Resolution Rate; Self-Service Penetration Rate.
+
+# Payroll [405-414]
+
+Payroll measures relate to the volume, cost, and quality of payroll processes.
+
+## Average Overpayment Value [406-407]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-E |
+| Application | Organizations with past overpayment issues or a strong focus on error-free pay runs |
+| Description | Average value of overpayments for the reporting period |
+| Sourcing | Correction actions or other notations; periodic audits of payroll transaction samples (for example of outsourced payroll); transaction data from payroll systems |
+
+: Profile summary {.striped}
+
+$$\text{Average Overpayment Value} = \frac{\text{Total Value of Overpayments}}{\text{Overpayments}}$$
+
+**Reading it.** Mean amount overpaid per overpayment; a result of \$100.00 means each overpayment exceeds what was due by \$100.00 on average. Read with Overpayment Rate to gauge magnitude. Unrecoverable amounts are a direct loss; recoveries still cost productivity and employee goodwill. Some overpayments affect tens to thousands of employees. Investigate root causes (noncompliance, entry mistakes, system bugs) and consider magnitude when prioritizing fixes.
+
+**Analysis.** Across payroll operations if there are several; by error type.
+
+**Limitations.** Does not show operating expense, lost productivity, or satisfaction impact; nor payroll operating cost. Reflects only known or audited overpayments, so some go undetected.
+
+**Targets.** Near zero; if a benchmark group exists, move toward the 25th percentile. Set together with Overpayment Rate: a small value that occurs often is still costly, so manage both downward.
+
+**Variations.** Benefits; Bonus; Reimbursement; Wages.
+
+**Related measures.** Bonus Receipt Rate; HR Customer Satisfaction; HR Expense Breakdown—Type; HR Staffing Breakdown; Overpayment Rate; Overtime Rate; Payroll Error Rate; Payroll Expense per Employee; Upward Salary Change Rate.
+
+## Direct Deposit Participation Rate [408-409]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Organizations that encourage but do not mandate direct deposit |
+| Description | Payees receiving direct deposits as a percentage of total payees |
+| Sourcing | Payroll databases, in house or at a third-party provider |
+
+: Profile summary {.striped}
+
+$$\text{Direct Deposit Participation Rate} = \frac{\text{Payees Receiving Direct Deposits}}{\text{Payees}} \times 100$$
+
+**Reading it.** Share of payees paid by direct deposit instead of paper check. Direct deposit saves paper, printing, processing, and distribution cost and saves employees a trip to the bank, so many organizations encourage maximum participation. Many also offer electronic pay stubs; a variation tracks that participation.
+
+**Analysis.** By age, tenure, employment level, pay grade, pay frequency, and geography.
+
+**Limitations.** Compares participants with all payees, ignoring that direct deposit may not be available to all. Does not show cost savings versus paper checks.
+
+**Targets.** Based on availability by geography, workforce characteristics and banking relationships, and estimated savings at various participation levels. Usually absolute rather than relative, though benchmarking availability among talent competitors helps.
+
+**Variations.** Electronic Pay Stub Participation Rate; Hourly; Low Tenure; Part Time; Salaried.
+
+**Related measures.** Average Overpayment Value; Average Workforce Tenure; HR Customer Satisfaction; HR Expense Breakdown—Type; Overpayment Rate; Payroll Error Rate; Payroll Expense per FTE; Staffing Rate—Part Time; Staffing Rate—Temporary; Termination Rate—< 1-Year Tenure.
+
+## Overpayment Rate [410-411]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (right-page icon strip not captured) |
+| Application | Organizations with past overpayment issues or a strong focus on error-free pay runs |
+| Description | Percentage of paychecks processed in which an overpayment occurred |
+| Sourcing | Correction actions or other notations; periodic audits of payroll transaction samples; transaction data from payroll systems |
+
+: Profile summary {.striped}
+
+$$\text{Overpayment Rate} = \frac{\text{Overpayments}}{\text{Total Checks Processed}} \times 100$$
+
+**Reading it.** Share of paychecks that include an overpayment; 1% means 1 in 100. Read with Average Overpayment Value. Recoverability, productivity cost, morale effects, and root-cause approach are as for that measure; frequency of overpayment can guide prioritization.
+
+**Analysis.** Across payroll operations; by error type.
+
+**Limitations.** Does not show financial loss, operating expense, productivity, or satisfaction impact, nor payroll cost. Reflects only known or audited overpayments.
+
+**Targets.** Near zero; if a benchmark group exists, move toward the 25th percentile. Set with Average Overpayment Value, since rare but large overpayments are also costly; manage both downward.
+
+**Variations.** Benefits; Bonus; Reimbursement; Wages.
+
+**Related measures.** Average Overpayment Value; Bonus Receipt Rate; HR Customer Satisfaction; HR Expense Breakdown—Type; HR Staffing Breakdown; Overtime Rate; Payroll Error Rate; Payroll Expense per Employee; Upward Salary Change Rate.
+
+## Payroll Error Rate [412-413]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Rate; Bench-M, Data-M |
+| Application | Organizations with past payroll errors or a focus on error-free pay runs |
+| Description | Percentage of paychecks processed in which an error occurred |
+| Sourcing | Corrective actions or other notations; periodic audits of payroll transaction samples; transaction data from payroll systems |
+
+: Profile summary {.striped}
+
+$$\text{Payroll Error Rate} = \frac{\text{Payroll Errors}}{\text{Total Checks Processed}} \times 100$$
+
+**Reading it.** Errors against all checks processed (paper or electronic); 1% means 1 in 100 paychecks has an error. It gauges process excellence and service quality. Payroll errors are highly visible, can affect many employees, and are costly to fix and damaging to satisfaction. Investigate root causes and weigh frequency and magnitude of error types when prioritizing.
+
+**Analysis.** Across payroll operations; by error type.
+
+**Limitations.** Does not show financial loss, operating expense, productivity, or satisfaction impact, nor payroll cost. Reflects only known or audited errors.
+
+**Targets.** Near zero; if a benchmark group exists, move toward the 25th percentile.
+
+**Variations.** Benefits; Bonus; Overpayment; Reimbursement; Underpayment; Wages.
+
+**Related measures.** Average Overpayment Value; Bonus Receipt Rate; Direct Deposit Participation Rate; HR Customer Satisfaction; HR Expense Breakdown—Type; Overpayment Rate; Overtime Rate; Payroll Expense per Employee; Upward Salary Change Rate.
+
+## Payroll Expense per Employee [414]
+
+Only the left page is in this extract; the right-hand page is in the next file.
+
+| Item | Summary |
+|---|---|
+| Application | Organizations improving payroll processes or with traditionally inefficient payroll functions |
+| Description | Average payroll expense per employee |
+| Sourcing | Financial ledger tables; may use the cost of an in-house payroll function or fees paid to an outsourcing provider |
+
+: Profile summary {.striped}
+
+$$\text{Payroll Expense per Employee} = \frac{\text{Payroll Expense}}{\text{Average Headcount}}$$
+
+**Reading it.** Cost per employee of administering paychecks and staffing payroll. Payroll is a transactional function where efficiency matters: simplify processes, cut waste, reduce errors and rework, and go paperless. Track over time, but a falling result may reflect economies of scale in a growing workforce rather than better efficiency, and a shrinking workforce can raise the result if overhead cannot flex.

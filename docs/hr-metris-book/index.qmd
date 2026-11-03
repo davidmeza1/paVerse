@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+These chapters are OCR conversions of scanned excerpts of *The Metrics Standard* (Corporate Leadership Council, 2005). They are structured and condensed study notes, not a replacement for the original book.
+
+Chapters follow the source PDFs in book-page order: front matter and method first, then the measure profiles by category.
+
+- Formulas, measure names, icon ratings and targets follow the printed book.
+- Prose is paraphrased. "OCR unclear" marks anything the scan did not allow us to read.
+- A few measures are split across neighbouring chapters, because the PDFs were cut mid-spread.

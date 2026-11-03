@@ -1,0 +1,276 @@
+---
+title: "The Metrics Standard: Management and Leadership and Training Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 189-208"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `010-189-208.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Capability: Management and Leadership [189]
+
+Page 189 is the divider for the Management and Leadership group. Measures here relate to the quality of managers and leaders and to succession management outcomes.
+
+| Measure | Book page |
+|---|---|
+| Cross-Function Mobility—Managers | 190 |
+| Employee Satisfaction with Leadership | 192 |
+| LDP Prevalence Rate | 194 |
+| Manager Instability Rate | 196 |
+| Manager Quality Index | 198 |
+| Positions Without Ready Candidates Rate | 200 |
+| Successor Pool Coverage | 202 |
+| Successor Pool Growth Rate | 204 |
+
+: Measures in this group {.striped}
+
+## Cross-Function Mobility—Managers [190-191]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-M |
+| Application | Most useful where cross-function moves of managers are seen as strong development, or cross-functional skills are prized |
+| Description | Internal movements of managers between functions as a percentage of all internal movements of managers |
+| Formula | See below |
+| Sourcing | HRIS job table for internal movements; function ideally a job table field (deriving it from job family or organizational structure is less accurate); managers identified via a managerial flag, the EEO category "Officials and Managers", or the supervisory hierarchy |
+
+: Profile summary {.striped}
+
+$$
+\text{Cross-Function Mobility—Managers} = \frac{\text{Internal Movements, Managers, Cross Function}}{\text{Internal Movements, Managers}} \times 100
+$$
+
+**Reading it.** Share of manager internal moves (transfer, promotion or demotion) that cross functions, e.g., Finance to Marketing or Call Center to Sales. A result of 40% means 40% of moves crossed functions and 60% stayed within one. Such moves broaden skill sets, widen exposure and networks, and may improve retention or engagement of managers who feel stuck. They require new processes, networks, perspectives and knowledge areas, building leadership qualities and career options; leaders rate new functions and lines of business as key development mechanisms.
+
+**Analysis.** By tenure, performance rating, ethnic background, gender, manager level, job function and pay grade; by organizational unit to find units that encourage and support such development.
+
+**Limitations.** Does not show whether moves are promotions, transfers or demotions, nor volume relative to the managerial population (only relative to all manager moves). Does not show move success, who initiated it, or productivity costs of moves and vacancies.
+
+**Targets.** Vary with internal movement strategy and policy; absolute targets can reflect succession risk and key-skill coverage. Organizations that value cross-function moves broadly aim toward the 75th percentile of a benchmark group. Benchmarks are limited by differing function definitions and possibly inaccurate function assignments.
+
+**Variations.** Cross-Function Mobility—Managers: High Performers; High Potential; High Tenure; Low Tenure; Mid Tenure; Successors.
+
+**Related measures.** Cross-Function Mobility; Development Program Penetration Rate; Employee Satisfaction with Leadership; Internal Hire Rate; LDP Prevalence Rate; Manager Instability Rate; Manager Quality Index; Positions Without Ready Candidates Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Staffing Rate—Managerial; Successor Pool Coverage.
+
+*Source note: CLC, Voice of the Leader (2001), and CLC research.*
+
+## Employee Satisfaction with Leadership [192-193]
+
+The title is not legible on page 192; it is taken from the text, the variations and cross-references.
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction, Index; Bench-H, Data-M (leading icon partly OCR unclear) |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Gauge of employee satisfaction with organizational leaders |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or question set whose title varies by survey. Unlike Manager Quality Index (direct managers), it covers leaders of the employee's business line, function and area and of the organization overall. Questions typically address leader competencies (communication, subject mastery, employee development, personality, decision making), ability to inspire confidence, trust and performance, and appropriateness of business strategy. These opinions affect the employment brand, offer fit and commitment, and in turn productivity, morale and turnover.
+
+**Analysis.** In aggregate and by individual leadership characteristic; by employee characteristics such as performance rating, pay grade, tenure, age, employment level, gender, ethnic background, job family and function.
+
+**Limitations.** Depends on survey design and delivery; point-in-time (e.g., a senior official's termination for fraud). One aspect of the employee relationship; commitment, engagement and other factors also matter.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys. Aim as high as reasonably achievable in context.
+
+**Variations.** Employee Satisfaction with Leadership: Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers; Non-Exempt; Successors.
+
+**Related measures.** Average Span of Control; Employee Commitment Index; Function Staffing Breakdown; LDP Prevalence Rate; Manager Instability Rate; Manager Quality Index; Offer Fit Index; Positions Without Ready Candidates Rate; Staffing Rate—Managerial; Successor Pool Coverage; Upward Review Rate.
+
+## LDP Prevalence Rate [194-195]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where future-leader development is a focus and leadership development plans (LDPs) are available |
+| Description | Percentage of managers with a Leadership Development Plan in place |
+| Formula | See below |
+| Sourcing | Performance, development or succession management database; otherwise tracked manually by managers or HR; to count as "in place", a plan should be updated at least annually |
+
+: Profile summary {.striped}
+
+$$
+\text{LDP Prevalence Rate} = \frac{\text{End of Period Headcount, Manager, LDP}}{\text{End of Period Headcount, Manager}} \times 100
+$$
+
+**Reading it.** Share of managers with an LDP. Surveyed leaders rated simply having a plan among the most important factors in ensuring development. Plans may include executive coaching, courses, supervisory experience, new functions or business lines, mentoring and more, aimed at competencies or skills needing improvement. Most beneficial when pursued and monitored by the individual, supervisor, and perhaps a coach. High results suggest strong enforcement or active leader interest; low results suggest poor understanding or enforcement, or passive interest.
+
+**Analysis.** By populations where LDPs are wanted: job title, pay grade, high-potential flag, number of direct reports, performance rating, unit, geography; by gender, ethnic background, age and function for diversity of current and future leaders.
+
+**Limitations.** Shows existence only, not adequacy, depth, or how well plans are pursued. LDPs are one of many development tools.
+
+**Targets.** Best set within relevant populations, e.g., 100% at Vice President level and above, 80% at Director level, or by pay grade, high-potential flag, direct reports, rating, unit, geography.
+
+**Variations.** LDP Prevalence Rate: Female; High Performers; High Potential; High Tenure; Low Tenure; Mid Tenure; Minority; Successors.
+
+**Related measures.** Development Program Penetration Rate; Employee Retention Index; Employee Satisfaction with Leadership; Manager Quality Index; Organization Tenure Staffing Breakdown; Positions Without Ready Candidates Rate; Return on Human Investment Ratio; Staffing Rate—Managerial; Successor Pool Coverage; Training Expense per Employee; Training Hours per FTE; Training Penetration Rate; Voluntary Termination Rate.
+
+*Source note: CLC, Voice of the Leader (2001), and CLC research.*
+
+## Manager Instability Rate [196-197]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Rate; Bench-H, Data-M |
+| Application | Most useful with high turnover or internal movement among managers, or when diagnosing manager quality issues |
+| Description | Percentage of employees who had more than one manager in the most recent 12 months |
+| Formula | See below |
+| Sourcing | HRIS job tables or performance management tables that record supervisor-subordinate relationships and changes |
+
+: Profile summary {.striped}
+
+$$
+\text{Manager Instability Rate} = \frac{\text{End of Period Headcount, >1 Supervisor in Previous 1-Year Period}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce that had a change of direct supervisor in the past year (30% means 30%). Stability brings consistent priorities and continuity of development; a change can reduce productivity, morale and perceived leadership quality, and replacements need ramp-up time. Excessive stability can also harm: insular thinking, less innovation, and development plateaus or career ceilings for managers.
+
+**Analysis.** By unit, function and geography to find unstable pockets; by employee tenure, age, level, gender, ethnic background, rating and job family to find those at risk of poor continuity; by Manager Quality Index to see the stability-quality relationship.
+
+**Limitations.** Does not show whether managers left the unit internally or the company, the relative volume of managers or spans of control, perceptions of manager quality, or whether a change happened once or repeatedly.
+
+**Targets.** Consider desired manager movement among units and expected managerial turnover. Relative targets are likely between the 25th percentile and the median, avoiding high instability.
+
+**Variations.** Manager Instability Rate: Customer Facing; High Performers; Low Tenure; Revenue Generating.
+
+**Related measures.** Average Span of Control; Cross-Function Mobility—Managers; Employee Commitment Index; Employee Satisfaction with Leadership; HR Customer Satisfaction; Manager Quality Index; Offer Fit Index; Promotion Rate; Promotion Speed Ratio; Staffing Rate—Managerial; Upward Mobility; Upward Review Rate; Voluntary Termination Rate.
+
+## Manager Quality Index [198-199]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Index; Bench-M, Data-M |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Relative measure of employees' perceptions of manager quality |
+| Formula | Survey results |
+| Sourcing | Responses to employee survey questions; performance management data if used (performance tables or systems), possibly manual retrieval from 360-degree tools |
+
+: Profile summary {.striped}
+
+**Reading it.** The book uses the CLC Employee Preferences Survey index; alternatives are performance management tools or a mix with survey data. It aggregates employee satisfaction with direct managers across 10 dimensions (knowledge, skill, personality and more) and can be broken down to show strengths and weaknesses. Manager quality strongly shapes offer fit, which in turn affects commitment, engagement and likelihood to stay.
+
+**Analysis.** In aggregate and by individual managerial characteristic; by manager characteristics such as pay grade or title to assess bench strength by level; by employee characteristics (tenure, age, level, gender, ethnic background, job family, function).
+
+**Limitations.** Depends on survey design; point-in-time (e.g., after pointed developmental feedback). Commitment, engagement, retention likelihood, market opportunity and offer fit are not represented.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys. Aim as high as reasonably achievable.
+
+**Variations.** Manager Quality Index: Exempt; High Performers; High Potential; High Tenure; Low Tenure; Mid Tenure; Non-Exempt.
+
+**Related measures.** Average Span of Control; Employee Commitment Index; Employee Engagement Index; Employee Retention Index; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Market Opportunity Index; Offer Fit Index; Organization Tenure Staffing Breakdown; Successor Pool Coverage; Training Course Content Breakdown; Voluntary Termination Rate.
+
+*Source note: CLC Solutions research and CLC research.*
+
+## Positions Without Ready Candidates Rate [200-201]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-M, Data-M |
+| Application | Most useful where potential successors for managerial positions are identified |
+| Description | Percentage of managerial positions with no "ready" successor candidate identified |
+| Formula | See below |
+| Sourcing | Succession management table or system that records successors and their readiness |
+
+: Profile summary {.striped}
+
+$$
+\text{Positions Without Ready Candidates Rate} = \frac{\text{End of Period Headcount, Manager, Succession-Applicable, No Ready Candidate}}{\text{End of Period Headcount, Manager, Succession-Applicable}} \times 100
+$$
+
+**Reading it.** Share of succession-applicable manager positions lacking a candidate ready to step in immediately (20% means 20%). Without a ready candidate, a sudden vacancy means a non-ready candidate or an external search, which can be slow and costly, turn over quickly, and lack company history. Not every managerial role needs a successor pool; low-level or common-skill roles may not, whereas critical, hard-to-replace or key authority roles should have one.
+
+**Analysis.** By managerial level (Director, VP, SVP), function, job family, unit and geography, to see coverage and anticipate gaps.
+
+**Limitations.** Usefulness depends on correct identification of successors and their readiness.
+
+**Targets.** Likely near zero: even if some key roles are filled externally, an internal candidate helps ensure a sound selection. Benchmarks are unlikely to be useful given differing populations and practices.
+
+**Variations.** Positions Without Ready Candidates Rate: (first variation OCR unclear); 60+ Years Old (OCR reading); Senior Executive; SVP; one further entry OCR unclear.
+
+**Related measures.** Development Program Penetration Rate; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Organization Tenure Staffing Breakdown; Staffing Rate—50+ Years Old; Staffing Rate—Executive (variation); Staffing Rate—High Potential; Successor Pool Coverage; Successor Pool Growth Rate; Training Course Content Breakdown; Voluntary Termination Rate. A preceding entry is OCR unclear.
+
+## Successor Pool Coverage [202-203]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-H, Data-M |
+| Application | Most useful where potential successors for managerial positions are identified |
+| Description | Average number of employees in the managerial succession pool per manager |
+| Formula | See below |
+| Sourcing | Succession management table or system, which may also flag succession-applicable positions |
+
+: Profile summary {.striped}
+
+$$
+\text{Successor Pool Coverage} = \frac{\text{End of Period Headcount, Successor Pool}}{\text{End of Period Headcount, Manager, Succession-Applicable}} \times 100
+$$
+
+**Reading it.** Number of successors compared with managers whose positions need succession focus; 100% means as many potential successors as such positions. A small pool suggests too few skills and experience internally, forcing external hiring with excess cost, missing corporate history and cultural shift. People in the pool can be developed for the next generation of leaders. Only critical, hard-to-replace or key authority roles need a pool.
+
+**Analysis.** By managerial level (Director, VP, SVP), function, job family, unit and geography.
+
+**Limitations.** Depends on correct identification of successors. A broad pool does not guarantee readiness. Measures breadth, not depth: it does not show range of skills or readiness for the same position.
+
+**Targets.** Based on the number of ready successors needed per position, their readiness, and expected turnover of both pool members and managers. Benchmarks are unlikely to be useful.
+
+**Variations.** Successor Pool Coverage: Early Career; Late Career; Mid Career; Senior Executive; SVP; VP.
+
+**Related measures.** Development Program Penetration Rate; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Organization Tenure Staffing Breakdown; Positions Without Ready Candidates Rate; Staffing Rate—50+ Years Old; Staffing Rate—Executive (variation); Staffing Rate—High Potential; Successor Pool Growth Rate; Training Course Content Breakdown; Voluntary Termination Rate.
+
+## Successor Pool Growth Rate [204-205]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where potential successors for managerial positions are identified |
+| Description | Relative growth rate of the succession pool |
+| Formula | See below |
+| Sourcing | Succession management table or system |
+
+: Profile summary {.striped}
+
+$$
+\text{Successor Pool Growth Rate} = \frac{\text{Headcount, Successor Pool} - \text{Headcount, Successor Pool, Prior Year}}{\text{Headcount, Successor Pool, Prior Year}} \times 100
+$$
+
+**Reading it.** Percentage change in pool size from last year (5% means 5% larger). Indicates how well the organization developed people to the point of naming them successors in the past year. It nets out removals, so additions must exceed terminations or removals for growth to be positive. A small pool signals insufficient internal skills and risks external hiring costs and cultural shift.
+
+**Analysis.** By managerial level (Director, VP, SVP), function, job family, unit and geography, to follow ongoing pool development.
+
+**Limitations.** Depends on correct identification of successors. Does not show churn within the pool, only its size versus last year. Measures breadth, not depth or readiness.
+
+**Targets.** Based on the number of ready successors needed per position, their readiness, and expected turnover of pool members and managers. Benchmarks are unlikely to be useful.
+
+**Variations.** Successor Pool Growth Rate: Early Career; Female; Late Career; Mid Career; Minority.
+
+**Related measures.** Development Program Penetration Rate; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Net Hire Ratio; Organization Tenure Staffing Breakdown; Positions Without Ready Candidates Rate; Staffing Rate—50+ Years Old; Staffing Rate—Executive (variation); Staffing Rate—High Potential; Successor Pool Coverage; Training Course Content Breakdown; Voluntary Termination Rate.
+
+# Capability: Training [207]
+
+Page 207 is the divider for the Training group. Training measures relate to the volume, type, cost and effectiveness of courses the organization provides. The next profile starts at the end of this extract; its right-hand page (209) is not included.
+
+## Average Training Class Size [208-209]
+
+Only the left page (208) is in this extract; icons, Analysis, Limitations, Targets, Variations and Related measures are on page 209.
+
+| Item | Summary |
+|---|---|
+| Icons | Not in this extract |
+| Application | Most useful where both large and small classes can be run and course efficacy is managed through class size |
+| Description | Average number of employees trained per class offered |
+| Formula | See below |
+| Sourcing | Training database with enrollment and participation figures; most accurate if it captures actual participation (cancellations, no-shows) |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Training Class Size} = \frac{\text{Total Training Participants}}{\text{Courses Conducted}}
+$$
+
+**Reading it.** Size of the average class. Ideal size depends on subject and type of training, but many organizations hold that about 20 to 25 people balances personal attention with scalable cost. Studies mostly find no significant link between smaller classes and achievement; there are few benefits below 20, and instructor quality is the biggest driver of outcomes. Managerial development or personal skills courses may benefit from more attention; software navigation or basic orientation can suit larger, cheaper classes.

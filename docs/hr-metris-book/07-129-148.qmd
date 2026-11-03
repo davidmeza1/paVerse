@@ -1,0 +1,253 @@
+---
+title: "The Metrics Standard: Satisfaction and Cost of Turnover Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 129-148"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `07-129-148.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Satisfaction (continued) [129-137]
+
+The survey-based index measures below are all drawn from the CLC Solutions Employee Preferences Survey. Each is distinct from the others: commitment is attachment to the firm, engagement is discretionary effort in daily work, retention is intent to leave, market opportunity is perceived outside job options, and offer fit is alignment of the employment offer with employee preferences.
+
+## Employee Commitment Index [128-129]
+
+Only the facing (right) page 129 is in this extract; the left page with Application, Description, Formula, Interpretation and Sourcing is not included.
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction (partly OCR unclear), Index; Bench-M, Data-M |
+| Application | Not in this extract |
+| Description | Not in this extract |
+| Formula | Not in this extract (survey-based index) |
+| Sourcing | Not in this extract |
+
+: Profile summary {.striped}
+
+**Analysis.** Break down by demographic, structural, geographic and other dimensions when the data allow. This is needed to target action at low-result groups. Splitting by employee characteristics works only if those fields are in the survey or responses can be linked to an employee identifier.
+
+**Limitations.** Depends on survey design and delivery. Results are a point-in-time view and can reflect temporary events (e.g., a recent layoff). Commitment is only one aspect of the employee relationship; engagement, likelihood of retention, perceived market opportunity, offer fit and perceived manager quality are not captured.
+
+**Targets.** Depend on the scale used. Benchmarks apply only if other organizations use comparable questions and methods. Aim for as much commitment as is reasonably achievable in context.
+
+**Variations.** Employee Commitment Index: Exempt; High Performer; High Potential; Managers; Minority; Non-Exempt.
+
+**Related measures.** Age Staffing Breakdown; Average Voluntary Termination Value; Employee Engagement Index; Employee Retention Index; Employment Brand Strength; Internal Hire Rate; Manager Quality Index; Market Opportunity Index; Offer Fit Index; Organization Tenure Staffing Breakdown; Promotion Rate; Promotion Speed Ratio; Voluntary Termination Rate.
+
+## Employee Engagement Index [130-131]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction (partly OCR unclear), Index; Bench-M, Data-M |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Relative measure of employees' engagement in their work |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** Question sets differ by survey; the book uses the CLC Employee Preferences Survey index. It captures the effort and enthusiasm put into daily work, i.e., discretionary effort. It differs from retention (intent to leave, job search) and commitment (attachment to the firm). Engagement is shaped by perceived offer fit and affects likelihood of leaving, so declining results foreshadow turnover. Drill into rewards, expectation setting, management, culture and other causes. Aggregated indices are easier to act on than question-by-question detail, and no single "satisfaction" figure suffices; a set of indices is needed.
+
+**Analysis.** Break down by demographic, structural, geographic and other dimensions to improve low-result groups, provided those fields are in the survey or linkable by employee identifier.
+
+**Limitations.** Depends on survey quality; point-in-time (e.g., a recent unsuccessful project can skew it). Commitment, retention likelihood, market opportunity, offer fit and manager quality are not represented.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys. Aim as high as reasonably achievable.
+
+**Variations.** Employee Engagement Index: Exempt; Female; High Performer; High Potential; Managers; Minority; Non-Exempt.
+
+**Related measures.** Age Staffing Breakdown; Average Voluntary Termination Value; Employee Commitment Index; Employee Retention Index; Employment Brand Strength; Internal Hire Rate; Manager Quality Index; Market Opportunity Index; Offer Fit Index; Organization Tenure Staffing Breakdown; Promotion Rate; Promotion Speed Ratio; Voluntary Termination Rate.
+
+## Employee Retention Index [132-133]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction (partly OCR unclear), Index; Bench-M, Data-M |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Relative measure of the likelihood that employees will remain with the organization |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** Based on questions about intent to leave within the next year and actual job-search behavior. It is a predictive indicator of future termination, influenced by commitment, engagement, offer fit and perceived outside opportunities. Declining results likely signal rising turnover; study offer fit, engagement and other drivers for root causes. Use an aggregated index rather than question-level detail.
+
+**Analysis.** Break down by demographic, structural, geographic and other dimensions to target low-result groups, if survey fields or an employee identifier allow.
+
+**Limitations.** Depends on survey design; point-in-time (e.g., after pointed developmental feedback). Engagement, commitment, market opportunity, offer fit and manager quality are not represented.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys. Aim for a level consistent with targets for Termination Rate and related measures.
+
+**Variations.** Employee Retention Index: Exempt; High Performer; High Potential; Managers; Minority; Non-Exempt.
+
+**Related measures.** Age Staffing Breakdown; Average Voluntary Termination Value; Employee Commitment Index; Employee Engagement Index; Employment Brand Strength; Internal Hire Rate; Manager Quality Index; Market Opportunity Index; Offer Fit Index; Organization Tenure Staffing Breakdown; Promotion Rate; Promotion Speed Ratio; Voluntary Termination Rate.
+
+## Market Opportunity Index [134-135]
+
+| Item | Summary |
+|---|---|
+| Icons | Index; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Relative measure of employees' perceptions of labor market opportunities outside the organization |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** Gauges whether employees think a new job would be easy or hard to find, a proxy for the pull of a tight labor market. It reflects an external factor the firm cannot control. Low results are likely to hurt commitment and intent to stay; the organization can examine how it stands against outside options for at-risk employees.
+
+**Analysis.** Break down by demographic, structural, geographic and other dimensions to focus action, if survey fields or an employee identifier allow.
+
+**Limitations.** Depends on survey design; point-in-time (e.g., recent peer turnover). Engagement, commitment, retention likelihood, offer fit and manager quality are not represented.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys and are most useful for employers in similar labor markets.
+
+**Variations.** Market Opportunity Index: Exempt; High Performer; High Potential; Managers; Minority; Non-Exempt.
+
+**Related measures.** Age Staffing Breakdown; Average Voluntary Termination Value; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Commitment Index; Employee Engagement Index; Employee Retention Index; Employment Brand Strength; Internal Hire Rate; Manager Quality Index; Offer Fit Index; Organization Tenure Staffing Breakdown; Promotion Rate; Promotion Speed Ratio; Voluntary Termination Rate.
+
+## Offer Fit Index [136-137]
+
+| Item | Summary |
+|---|---|
+| Icons | Index; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Broadly applicable; most useful where periodic employee surveys are run or planned |
+| Description | Relative measure of employees' perceptions of offer fit with the organization |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** Measures alignment between the organization's value proposition and employee preferences, aggregated across 26 job factors. It is also diagnostic: it can be broken down to show which elements of the offer fit employees' preferences better or worse. High fit (pay and benefits, work-life balance, work environment, etc.) supports commitment, engagement and retention.
+
+**Analysis.** Break down by demographic, structural, geographic and other dimensions to improve fit among low-result groups, if survey fields or an employee identifier allow.
+
+**Limitations.** Depends on survey design; point-in-time (e.g., recent benefit plan changes). Engagement, commitment, retention likelihood, market opportunity and manager quality are not represented.
+
+**Targets.** Depend on the scale; benchmarks need comparable surveys. If the current workforce is the desired one, aim as high as reasonably achievable.
+
+**Variations.** Offer Fit Index: Exempt; High Performer; High Potential; Managers; Minority; Non-Exempt.
+
+**Related measures.** Age Staffing Breakdown; Average Voluntary Termination Value; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Commitment Index; Employee Engagement Index; Employee Retention Index; Employment Brand Strength; Internal Hire Rate; Manager Quality Index; Market Opportunity Index; Organization Tenure Staffing Breakdown; Promotion Rate; Promotion Speed Ratio; Voluntary Termination Rate.
+
+# Retention: Cost of Turnover [139]
+
+Page 139 is the divider for the Retention category, group "Cost of Turnover". The measures below estimate what terminations cost, using a firm-chosen model (commonly one times annual salary per termination). Costs include departure (e.g., accrued vacation), vacancy (temporary help, advertising), new hire (screening, relocation, salary increase), and indirect costs (morale, lost productivity, recruiter time, ramp-up).
+
+## Average Termination Value [140-141]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio (first icon OCR unclear); Bench-M, Data-H |
+| Application | Broadly useful for monitoring the strain of turnover |
+| Description | Average value of each termination in the period |
+| Formula | See below |
+| Sourcing | Termination action reason or date in the HRIS job table; salary field if a salary multiple is used; possibly financial ledgers |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Termination Value} = \frac{\text{Total Termination Value}}{\text{Terminations}}
+$$
+
+**Reading it.** The average cost of one termination. True cost varies by employee and context: voluntary exits are often assumed costlier than involuntary ones, high-tenure or high-performing leavers costlier still, and firings (replaced) costlier than layoffs (not replaced). Costs are hard to isolate, so firms build their own models. Helps find areas where reducing turnover would save the most. The main sourcing challenge is organizational consensus on one cost approach.
+
+**Analysis.** By separation reason, and by tenure, age, ethnic background, gender, performance rating, employment level, EEO job category, job function, pay grade, organizational unit and geography.
+
+**Limitations.** An estimate, not an exact amount; more accurate when the model differentiates termination types. Does not show turnover volume relative to workforce size.
+
+**Targets.** Derived from Termination Rate targets plus expected cost mix. Never zero, since some turnover is desirable. Against benchmarks, aim toward the 25th percentile (low cost), valid only with similar cost approaches.
+
+**Variations.** Average Termination Value: < 1-Year Tenure; < 30 Days Tenure; < 90 Days Tenure; Exempt; High Performer; High Potential; Managers; Non-Exempt.
+
+**Related measures.** Average Voluntary Termination Value; External Hire Rate; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Termination Rate; Termination Value per FTE; Turnover Cost Rate—< 1-Year Tenure; Unscheduled Absence Days per Employee.
+
+## Average Voluntary Termination Value [142-143]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio (first icon OCR unclear); Bench-M, Data-H |
+| Application | Broadly useful for monitoring the strain of voluntary turnover |
+| Description | Average value of each voluntary termination in the period |
+| Formula | See below |
+| Sourcing | As for Average Termination Value (HRIS job table, salary field, ledgers) |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Voluntary Termination Value} = \frac{\text{Total Termination Value, Voluntary}}{\text{Terminations, Voluntary}}
+$$
+
+**Reading it.** The average cost of one voluntary exit. Costs vary: leavers who are high-tenure, high-performing, or highly skilled (e.g., biomedical engineers vs. delivery drivers) cost more. Commonly modeled as a multiple of annual salary, often one times. Unlike Termination Value per FTE (total cost relative to workforce size), this shows the cost per exit; a rising trend means each exit is getting costlier. Voluntary turnover is seen as more controllable, so cost-reduction efforts focus on it.
+
+**Analysis.** By voluntary termination reason, and by tenure, age, ethnic background, gender, performance rating, employment level, EEO job category, job function, pay grade, organizational unit and geography.
+
+**Limitations.** An estimate; more accurate when the model separates types (replaced or not, high or low performer). Does not show turnover volume relative to workforce size.
+
+**Targets.** Based on Voluntary Termination Rate targets plus expected cost mix (e.g., high performer vs. low, retirement vs. resignation). Never zero. Benchmarks: aim toward the 25th percentile, if approaches are similar.
+
+**Variations.** Average Involuntary Termination Value (variation); Average Voluntary Termination Value: < 1-Year Tenure; High Performer; Non-Exempt; No-Show; Retirement (some further variations OCR unclear).
+
+**Related measures.** Employee Retention Index; External Hire Rate—Replacement Positions; Manager Quality Index; Market Opportunity Index; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Termination Value per FTE; Turnover Cost Rate—< 1-Year Tenure; Voluntary Termination Rate.
+
+## Termination Value per FTE [144-145]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio (first icon OCR unclear); Bench-M, Data-H |
+| Application | Broadly useful for monitoring the strain of turnover |
+| Description | Value of all terminations in the period per full-time equivalent employee |
+| Formula | See below |
+| Sourcing | As for Average Termination Value (HRIS job table, salary field, ledgers) |
+
+: Profile summary {.striped}
+
+$$
+\text{Termination Value per FTE} = \frac{\text{Total Termination Value}}{\text{FTE}}
+$$
+
+**Reading it.** Total turnover cost relative to workforce size. Cost modeling caveats are as for Average Termination Value. Where Average Termination Value gives the cost of one exit, this shows whether turnover costs are rising or falling on a relative basis. A rise can mean more relative turnover volume or costlier terminations.
+
+**Analysis.** By separation reason, and by tenure, age, ethnic background, gender, performance rating, employment level, EEO job category, job function, pay grade, organizational unit and geography.
+
+**Limitations.** An estimate, not exact; more accurate when the model distinguishes termination types. Does not separately show turnover volume.
+
+**Targets.** Based on Termination Rate targets plus expected cost mix. Never zero. Benchmarks: aim toward the 25th percentile if approaches are similar.
+
+**Variations.** Termination Value per FTE: Involuntary; Retirement; Voluntary.
+
+**Related measures.** Average Termination Value; Net Hire Ratio; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Termination Rate; Turnover Cost Rate—< 1-Year Tenure; Work Units per FTE.
+
+## Turnover Cost Rate—< 1-Year Tenure [146-147]
+
+The title is not legible on page 146; it is taken from the formula, the variations and the related-measure cross-references.
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio (first icon OCR unclear); Bench-M, Data-H |
+| Application | Most useful where low-tenure employees traditionally show high turnover |
+| Description | Turnover cost of employees with under one year of tenure as a percentage of total turnover cost |
+| Formula | See below |
+| Sourcing | As for Average Termination Value; tenure from a service date (or adjusted service date) or the most recent hire action date |
+
+: Profile summary {.striped}
+
+$$
+\text{Turnover Cost Rate}_{<1\text{-Year Tenure}} = \frac{\text{Total Termination Value, < 1-Year Tenure}}{\text{Total Termination Value}}
+$$
+
+**Reading it.** Share of termination costs driven by employees with under a year of service (40% means 40% of all termination costs). It does not say whether low-tenure turnover cost is high or low. Early exits cost like others but may signal recruiting or onboarding failures, so a higher result means more cost potentially preventable through better recruiting and onboarding. The text refers to this idea as New Hire Turnover Contribution.
+
+**Analysis.** By separation reason, and by age, ethnic background, gender, performance rating, employment level, EEO job category, job function, pay grade, organizational unit and geography.
+
+**Limitations.** An estimate, not exact; more accurate when the model distinguishes termination types. Does not show low-tenure turnover volume relative to workforce size.
+
+**Targets.** Based on Termination Rate—< 1-Year Tenure or New Hire Turnover Contribution targets plus the expected cost gap between high- and low-tenure exits. Low-tenure costs can fall without this rate falling if other tenure groups improve too. Benchmarks are valid only with similar cost approaches, and only if read alongside termination rates.
+
+**Variations.** Turnover Cost Rate: < 30 Days Tenure; < 90 Days Tenure; Exempt; Non-Exempt.
+
+**Related measures.** Average Involuntary Termination Value (variation); Average Voluntary Termination Value; External Hire Rate; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Turnover Contribution; Offer Acceptance Rate; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Staffing Rate—< 1-Year Tenure.

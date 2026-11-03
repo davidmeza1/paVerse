@@ -1,0 +1,257 @@
+---
+title: "The Metrics Standard: Internal Movement Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 49-68"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `03-49-68.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Internal Movement [49]
+
+Internal Movement (part of Staffing) covers the movement of employees between roles inside the organization: transfers, promotions, and demotions.
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Career Path Ratio | 50 |
+| Cross-Function Mobility | 52 |
+| Internal Hire Rate | 54 |
+| Internal Placement Rate | 56 |
+| Lateral Mobility | 58 |
+| Promotion Rate | 60 |
+| Promotion Speed Ratio | 62 |
+| Transfer Rate | 64 |
+| Upward Mobility | 66 |
+
+: Measure index {.striped}
+
+## Career Path Ratio [50-51]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio; Bench-E, Data-E |
+| Application | Organizations that see internal movement as a developmental opportunity, or that focus on promotions to gauge internal grooming of managers, performance management controls, or compensation cost management |
+| Description | Number of employees promoted internally for every employee transferred to a new position |
+| Formula | Promotions / Transfers |
+| Sourcing | Job table of an HRIS; alternatively only transfers documented as filling a requisition in a recruitment system (harder to capture and benchmark) |
+
+: Profile summary {.striped}
+
+$$\text{Career Path Ratio} = \frac{\text{Promotions}}{\text{Transfers}}$$
+
+**Reading it.** A ratio of .5 (1:2) means two transfers for each promotion. Promotions signal strong performance and readiness for more responsibility, and act as recognition and reward. Transfers broaden skills and networks, but too much movement costs productivity through vacancies and ramp-up time. Comparing upward with lateral moves shows the mix of movement on offer, which affects engagement, retention, and employment brand. High results mean frequent promotions or rare lateral moves; low results mean tightly controlled promotions or abundant lateral opportunity.
+
+**Analysis.** By tenure, ethnic background, gender, employment level, job function, and pay grade. To spot performance management control issues, by organizational unit, manager, and performance rating.
+
+**Limitations.** Gives no volume relative to workforce size. Does not separate transfers between related cost centers, functions, or diverse units. Does not say whether promotions come through normal reviews or moves into other units, nor at what level they occur. Ignores productivity costs of movement and vacancies.
+
+**Targets.** Depend on performance management strategy and policy. Liberal use of promotions (or high-growth organizations grooming managers) suggests moving toward the 75th percentile of a benchmark; limited promotions or a focus on cross-functional expertise suggests the 25th percentile. Other employers' policies may differ substantially.
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; Internal Hire Rate; Internal Placement Rate; Promotion Rate; Promotion Speed Ratio; Transfer Rate; Upward Salary Change Rate; Voluntary Termination Rate.
+
+## Cross-Function Mobility [52-53]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-H, Data-M |
+| Application | Organizations that see internal movement as developmental, or that build skills of high-potential employees through diverse experience |
+| Description | Movements between functions as a percentage of total internal movements |
+| Sourcing | Job table of an HRIS; function ideally stored as a field, otherwise derived from job families or organizational structure (less accurate) |
+
+: Profile summary {.striped}
+
+$$\text{Cross-Function Mobility} = \frac{\text{Internal Movements}_{\text{Function Change}}}{\text{Internal Movements}} \times 100$$
+
+**Reading it.** Internal movements are transfers, promotions, and demotions. A result of 40% means 40% of internal moves crossed functions (for example Finance to Marketing) and 60% stayed within a function. Cross-function moves broaden skills most, since they bring new processes, networks, perspectives, and knowledge areas. Many organizations see this as especially important for high-potential employees groomed for management, and it may help retention and engagement.
+
+**Analysis.** By tenure, performance rating, ethnic background, gender, employment level, job function, and pay grade. By organizational unit to find managers who encourage this kind of development.
+
+**Limitations.** Does not show whether moves were promotions, transfers, or demotions. Measures cross-function moves only relative to all internal movements, not workforce size. Does not show success of the move or whether it was employee- or organization-driven. Ignores productivity costs of movement.
+
+**Targets.** Depend on internal movement strategy. Organizations that value cross-function moves target the 75th percentile of a relevant benchmark. Benchmarks are of limited use because functional categories vary and functional assignments in systems may be inaccurate.
+
+**Variations.** Cross-Business Unit Mobility; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt; Cross-Geography Mobility.
+
+**Related measures.** Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; Internal Hire Rate; Internal Placement Rate; Manager Instability Rate; Positions Without Ready Candidates Rate; Promotion Rate; Promotion Speed Ratio; Successor Pool Coverage; Transfer Rate; Voluntary Termination Rate.
+
+## Internal Hire Rate [54-55]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with strategies to use internal talent to reduce turnover and improve development opportunities |
+| Description | Percentage of employees who moved internally during the period, including transfers, promotions, and demotions |
+| Sourcing | Job table of an HRIS |
+
+: Profile summary {.striped}
+
+$$\text{Internal Hire Rate} = \frac{\text{Internal Movements}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** A rate of 40% means 40% of employees experienced a transfer, promotion, or demotion in the period. Internal moves develop employees and cut costs when people who would have left find roles internally. Demotions are rare and not a sign of development. Excess movement risks productivity loss from vacancies and ramp-up, so development and agility benefits must be balanced against identity crises among employees.
+
+**Analysis.** By demographic or positional characteristics used to monitor development: tenure, age, ethnic background, gender, supervisor, organizational unit, and job family.
+
+**Limitations.** Does not show how far roles are filled internally versus externally. Treats upward, lateral, and downward moves alike. Does not show which moves may have prevented a likely termination.
+
+**Targets.** Depend on internal movement strategy. Heavy users of internal movement target the 75th percentile of a benchmark, or roughly 30 to 50% per year (counting all transfers, promotions, and demotions).
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Cross-Business Unit Mobility (variation); Cross-Function Mobility; Cross-Geography Mobility (variation); Development Program Penetration Rate; External Hire Rate; Internal Placement Rate; Manager Instability Rate; New Position Recruitment Rate; Promotion Rate; Promotion Speed Ratio; Transfer Rate; Voluntary Termination Rate.
+
+## Internal Placement Rate [56-57]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-E, Data-E |
+| Application | Organizations that frequently fill positions internally or have strategies to use internal talent for development and cost reduction |
+| Description | Internal hires as a percentage of total hires |
+| Sourcing | Job table of an HRIS for external hires and internal movements; alternatively only internal hires documented as filling a requisition (harder to capture and benchmark) |
+
+: Profile summary {.striped}
+
+$$\text{Internal Placement Rate} = \frac{\text{Internal Hires}}{\text{External Hires} + \text{Internal Hires}} \times 100$$
+
+**Reading it.** A rate of 60% means 60% of appointments to vacancies came from internal talent. Internal hires aid development and efficiency, but filling too many roles internally may forgo superior external talent and hurt long-term productivity, even while speeding short-term ramp-up. Comparing external candidates with internal employees who have a performance history makes the balance hard. Similar to Recruitment Source Ratio, which relates internal and external hires as two separate components (whole to whole), whereas this measure is part to whole.
+
+**Analysis.** By positional or structural dimensions: job function, job family, employment level, pay grade, managerial levels, and organizational units.
+
+**Limitations.** Shows internal and external hire volumes only relative to each other, not to workforce size. Gives no hiring cost or hire quality. Does not show which moves may have prevented a likely termination.
+
+**Targets.** Depend on how much hiring reflects headcount growth; fast-growing organizations need many external hires. Slower-growing organizations that favor internal hiring target the 75th percentile of a benchmark, or roughly 60 to 80% per year.
+
+**Variations.** Executives; Exempt; Managers; Non-Exempt.
+
+**Related measures.** Career Path Ratio; Cross-Function Mobility; External Hire Rate; Manager Instability Rate; Net Hire Ratio; New Position Recruitment Rate; Recruitment Source Ratio; Rehire Rate; Voluntary Termination Rate.
+
+## Lateral Mobility [58-59]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations that see internal movement as developmental or as a cost-effective alternative to promotions in flat hierarchies |
+| Description | Transfers as a percentage of all internal movements (transfers, promotions, and demotions) |
+| Sourcing | Job table of an HRIS; alternatively only transfers documented as filling a requisition in a recruitment system (harder to capture and benchmark) |
+
+: Profile summary {.striped}
+
+$$\text{Lateral Mobility} = \frac{\text{Transfers}}{\text{Internal Movements}} \times 100$$
+
+**Reading it.** A result of 40% means 40% of internal moves were transfers and 60% were promotions and demotions. Lateral moves build experience across functions and units and can aid retention and engagement, but excessive movement costs productivity. The mix of moves is part of the employer's offer, affecting engagement, retention, and brand. Low results typically mean lateral moves are rare or promotions frequent; high results mean abundant lateral opportunity or tightly controlled promotions. Volume of movement relative to workforce size is needed for a full reading.
+
+**Analysis.** By tenure, ethnic background, gender, employment level, job function, and pay grade. To spot performance management control issues, by organizational unit, manager, and performance rating.
+
+**Limitations.** Gives no transfer volume relative to workforce size. Does not separate transfers between related cost centers, functions, or diverse units. Ignores productivity costs of movement and vacancies.
+
+**Targets.** Depend on performance management strategy and policy. Liberal use of transfers suggests the 75th percentile of a benchmark; limited use suggests the 25th percentile. Other employers' policies may differ substantially.
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; Internal Hire Rate; Internal Placement Rate; Manager Instability Rate; Promotion Rate; Promotion Speed Ratio; Transfer Rate; Upward Salary Change Rate; Voluntary Termination Rate.
+
+## Promotion Rate [60-61]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-E, Data-E |
+| Application | Organizations monitoring promotions, internal grooming of managers, performance management controls and assessment, or compensation cost management |
+| Description | Percentage of employees promoted during the period |
+| Sourcing | Job table of an HRIS |
+
+: Profile summary {.striped}
+
+$$\text{Promotion Rate} = \frac{\text{Promotions}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** A 5% rate means 5% of employees were promoted in the period. Promotions ideally signal strong performance and readiness, and serve as recognition and reward. A high rate may reflect strong performance and managerial strength, but also weak performance management controls or a one-time adjustment for span of control or market competitiveness. A low rate may mean few deserved promotion or that circumstances limit them. Interpret within the employer's own policies.
+
+**Analysis.** By tenure, ethnic background, gender, employment level, job function, and pay grade, to understand rising managers and high performers. For control issues, by organizational unit, manager, and performance rating.
+
+**Limitations.** Does not compare promotions with other internal moves such as transfers. Does not show whether promotions come through normal reviews or moves into other units, nor their hierarchical level. Ignores accompanying changes in pay or responsibility.
+
+**Targets.** Depend on performance management strategy and policy. Liberal promotion suggests the 75th percentile of a benchmark, or about 10 to 15% per year; limited promotion suggests the 25th percentile, or about 2 to 5% per year. Other employers' policies may differ substantially.
+
+**Variations.** Exempt; Female; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; High Performer Growth Rate; Internal Placement Rate; Manager Instability Rate; Performance Rating Distribution; Positions Without Ready Candidates Rate; Promotion Speed Ratio; Successor Pool Coverage; Transfer Rate; Upward Salary Change Rate; Voluntary Termination Rate.
+
+## Promotion Speed Ratio [62-63]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations in fast-paced industries with rapid turnover of high performers, or concerned that promotion speed drives undesirable turnover |
+| Description | Average position tenure, in years, prior to promotion |
+| Sourcing | Job table of an HRIS; also requires identifying when employees moved into positions to compute tenure in position |
+
+: Profile summary {.striped}
+
+$$\text{Promotion Speed Ratio} = \frac{\text{Total Position Tenure Prior to Promotion}}{\text{Promotions}}$$
+
+**Reading it.** Covers employees promoted in the period. Someone promoted two years after hire into a position scores two years; someone who transfers after one year and is promoted a year later scores one year. Traditional norms expect a couple of years in position, but a growing number of organizations, especially in fast-changing or low-tenure industries, run faster cycles because high performers leave if upward development is slow. The measure can check that promotion is fast enough to keep strong performers engaged, or that people spend enough time in a role to be ready for the next one.
+
+**Analysis.** By age, tenure, employment level, job function, and pay grade, to understand rising managers and high performers. For control issues, by organizational unit, manager, and performance rating.
+
+**Limitations.** Covers only promotions that occur; employees never promoted are excluded. Does not show whether promotions come through normal reviews or moves into other units, nor their hierarchical level.
+
+**Targets.** Depend on promotion strategy and norms. Employers in markets expecting fast cycles, or using fast promotion as a brand differentiator, target the 25th percentile of the benchmark. Others target the median.
+
+**Variations.** Exempt; Female; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; High Performer Growth Rate; Internal Hire Rate; Performance Rating Distribution; Positions Without Ready Candidates Rate; Promotion Rate; Staffing Rate—Managerial; Successor Pool Coverage; Transfer Rate; Voluntary Termination Rate.
+
+## Transfer Rate [64-65]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-E, Data-E |
+| Application | Organizations that regard internal movement as a strong developmental opportunity |
+| Description | Percentage of employees transferred during the period |
+| Sourcing | Job table of an HRIS; alternatively only transfers documented as filling a requisition in a recruitment system (harder to capture and benchmark) |
+
+: Profile summary {.striped}
+
+$$\text{Transfer Rate} = \frac{\text{Transfers}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** A 20% rate means 20% of employees transferred internally in the period. Transfers give experience in new functions or units, broaden skills and networks, and can improve retention and engagement, thereby lowering turnover costs and helping the employment brand. Excessive movement, though, costs productivity through vacancies and ramp-up, so benefits must be balanced against identity crises among employees.
+
+**Analysis.** By demographic or positional characteristics used to monitor development: tenure, age, ethnic background, gender, organizational unit, and job family. Analysis by manager can show pockets with strong or weak employee development.
+
+**Limitations.** Does not show transfers filling internal positions relative to positions filled externally. Does not separate transfers between related cost centers, functions, or diverse units. Does not show which moves may have prevented a likely termination.
+
+**Targets.** Depend on internal movement strategy. Heavy users of transfers for development target the 75th percentile of a benchmark, or roughly 20 to 30% per year (counting lateral transfers but excluding pay changes and transfers from organizational structure remappings).
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; Internal Hire Rate; Internal Placement Rate; Lateral Mobility; Manager Instability Rate; Promotion Rate; Promotion Speed Ratio; Upward Salary Change Rate; Voluntary Termination Rate.
+
+## Upward Mobility [66-67]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Rate; Bench-E, Data-E |
+| Application | Organizations monitoring promotions, internal grooming of managers, performance management controls and assessment, or compensation cost management |
+| Description | Promotions as a percentage of all internal movements (promotions, transfers, and demotions) |
+| Sourcing | Job table of an HRIS; alternatively only transfers documented as filling a requisition in a recruitment system (harder to capture and benchmark) |
+
+: Profile summary {.striped}
+
+$$\text{Upward Mobility} = \frac{\text{Promotions}}{\text{Internal Movements}} \times 100$$
+
+**Reading it.** A result of 40% means 40% of internal moves were promotions and 60% were transfers and demotions. Promotions ideally signal strong performance and serve as recognition and reward. Comparing upward with lateral and downward moves shows the mix of movement on offer, which affects engagement, retention, and brand. A high result means frequent promotions or rare lateral moves; a low result means tightly controlled promotions or abundant lateral opportunity. Movement volume relative to workforce size is needed for a full reading. Demotions are rare and seldom affect results meaningfully.
+
+**Analysis.** By tenure, ethnic background, gender, employment level, job function, and pay grade. For control issues, by organizational unit, manager, and performance rating.
+
+**Limitations.** Gives no promotion volume relative to workforce size. Does not show whether promotions come through normal reviews or moves into other units, nor their hierarchical level.
+
+**Targets.** Depend on performance management strategy and policy. Liberal promotion suggests the 75th percentile of a benchmark, or about 40% or higher per year; limited promotion suggests the 25th percentile, or about 25% or lower per year. Other employers' policies may differ substantially.
+
+**Variations.** Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Cross-Function Mobility; Development Program Penetration Rate; Employee Engagement Index; Employee Retention Index; Internal Placement Rate; Manager Instability Rate; Performance Rating Distribution; Positions Without Ready Candidates Rate; Promotion Rate; Promotion Speed Ratio; Staffing Rate—Managerial; Successor Pool Coverage; Transfer Rate; Voluntary Termination Rate.

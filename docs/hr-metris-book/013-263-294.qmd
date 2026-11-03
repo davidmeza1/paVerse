@@ -1,0 +1,432 @@
+---
+title: "The Metrics Standard: Compensation, Benefits, and Equity Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 263-294"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `013-263-294.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The first profile continues from the previous extract (`012-233-262`).
+:::
+
+# Compensation (continued) [263-269]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Overtime Expense per FTE (right-hand page only) | 263 |
+| Overtime Rate | 264 |
+| Total Compensation Expense per FTE | 266 |
+| Upward Salary Change Rate | 268 |
+
+: Measure index for this section {.striped}
+
+## Overtime Expense per FTE (continued) [263]
+
+The left-hand profile (application, description, formula, interpretation, sourcing) is on book page 262 in the previous extract.
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Ratio; Bench-M, Data-M |
+
+: Profile summary {.striped}
+
+**Analysis.** By plants, business units, functions, or job families that use the most overtime; by age, tenure, pay grade, union agreement, and performance rating to see who receives the bulk of overtime pay.
+
+**Limitations.** Does not compare overtime with other compensation expenses, show why overtime was needed (absence, workflow variation, etc.), or show whether it was money well spent (for example, avoiding recruiting costs or meeting critical customer demand).
+
+**Targets.** Cost-containing organizations often aim between the 25th and 50th percentiles of similar workforces. One that deliberately uses overtime to avoid adding headcount, at least temporarily, might target the 75th percentile.
+
+**Variations.** High Performers; High Tenure; Hourly; Low Tenure; Part Time; Salaried; Overtime Hours per FTE.
+
+**Related measures.** Compensation Value of Unscheduled Absences; Direct Comp Operating Expense Rate; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Other Labor Rate; Overtime Rate; Return on Human Investment Ratio; Staffing Rate—Temporary; Unscheduled Absence Days per Employee. (One more item at the top of the list is OCR unclear.)
+
+## Overtime Rate [264-265]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Rate; Bench-M, Data-M |
+| Application | Organizations that use overtime regularly or have significant hourly workforces. |
+| Description | Overtime expense as a percentage of total direct compensation expense |
+| Formula | Overtime Expense / Direct Compensation Expense × 100 |
+| Sourcing | Payroll records of actual cash paid; otherwise estimate overtime from hours and average overtime wage, and other direct pay from salary and bonus-potential fields |
+
+: Profile summary {.striped}
+
+$$
+\text{Overtime Rate} = \frac{\text{Overtime Expense}}{\text{Direct Compensation Expense}} \times 100
+$$
+
+**Reading it.** A result of 10% means overtime is 10% of all cash pay. Shows the effect of overtime on take-home pay and whether its share is rising or falling. Organizations expect some overtime for busy periods and absences, balancing understaffing costs against overstaffing costs. Low results suggest steady demand, low absence, or few eligible employees (in overtime-heavy industries, possibly overstaffing). Excessive overtime may signal volatile demand, planning errors, absences, or understaffing, and can lower profit and morale.
+
+**Analysis.** By plants, units, functions, or job families that use the most overtime; by age, tenure, pay grade, union agreement, and performance rating to see where overtime is a significant part of pay.
+
+**Limitations.** Does not show total overtime spend, why overtime occurred, or whether it was well spent.
+
+**Targets.** Cost-containing organizations often aim between the 25th and 50th percentiles of similar workforces; those intentionally using overtime to avoid growing headcount might aim for the 75th.
+
+**Variations.** High Performers; High Tenure; Hourly; Low Tenure; Part Time; Salaried (first item OCR garbled).
+
+**Related measures.** Compensation Value of Unscheduled Absences; Direct Comp Operating Expense Rate; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Other Labor Rate; Overtime Expense per FTE; Return on Human Investment Ratio; Staffing Rate—Temporary; Unscheduled Absence Days per Employee. (First list item OCR unclear.)
+
+## Total Compensation Expense per FTE [266-267]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost; Cost, Ratio expected from the pattern of sibling measures) |
+| Application | Organizations where compensation is a primary operating expense, running cost containment, or monitoring pay by job family. |
+| Description | Average total compensation expense (direct, benefits, equity) per FTE |
+| Formula | Total Compensation Expense / FTE |
+| Sourcing | Benefits and equity from financial ledgers; direct pay from payroll by pay code (or approximated from salary and bonus-potential fields) |
+
+: Profile summary {.striped}
+
+$$
+\text{Total Compensation Expense per FTE} = \frac{\text{Total Compensation Expense}}{\text{FTE}}
+$$
+
+**Reading it.** Average cash, benefits, and equity compensation per FTE: the best gauge of total organizational workforce cost, though managers have few frames of reference for it. Compensation and benefits are the most important part of the offer to employees, so employers watch for "expense creep"; rises are expected when hiring more skilled staff or in tight markets. Direct Compensation Expense per FTE or Average Annual Salary per FTE may better show whether wages are reasonable.
+
+**Analysis.** By geography, job family, and job type; by unit for operating expense and policy compliance.
+
+**Limitations.** Does not show market match or satisfaction, nor a relative view against other operating expenditures.
+
+**Targets.** As for other compensation measures: well above competitors, toward the 75th percentile; shifting to low-cost locations, below the median.
+
+**Variations.** Executives; Exempt; High Performers; High Tenure; Low Tenure; Managers; Non-Exempt; Part Time (list start OCR partly garbled).
+
+**Related measures.** Age Staffing Breakdown; Average Hourly Rate; Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Market Compensation Ratio; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; Operating Profit per FTE; Organization Tenure Staffing Breakdown; Other Labor Rate; Performance-Based Pay Differential; Return on Human Investment Ratio; Total Compensation Breakdown (variation).
+
+## Upward Salary Change Rate [268-269]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Rate; Bench-E, Data-E |
+| Application | Organizations monitoring or restricting salary increases because of financial hardship or other reasons. |
+| Description | Percentage of employees receiving base salary increases in the period |
+| Formula | End of Period Headcount.Base Salary Increase / End of Period Headcount × 100 |
+| Sourcing | Change actions to annual salary fields in an HRIS or payroll system |
+
+: Profile summary {.striped}
+
+$$
+\text{Upward Salary Change Rate} = \frac{\text{End of Period Headcount.Base Salary Increase}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce with a base salary increase. Helps check managers' adherence to salary guidelines and to performance-management rules on which ratings may get raises. Less useful where cost-of-living raises always go to everyone; a merit-only variant then shows how far raises beyond that are applied.
+
+**Analysis.** By business unit and performance rating; by age, tenure, pay grade, level, and job family.
+
+**Limitations.** Shows prevalence, not the size of increases, comparison with the labor market, or total compensation cost.
+
+**Targets.** Depend on purpose. Cost containment: very low. Compliance monitoring: follow the guidelines. No restrictions: near 100%, allowing for some poor performers and new hires.
+
+**Variations.** Downward Salary Change Rate; Merit Raise Rate; > 3%; Executives; Exempt; High Performers; High Potential; High Tenure; Low Performers; Low Tenure; Managers; Mid Performers; Non-Exempt.
+
+**Related measures.** Average Annual Salary per FTE; Compensation Satisfaction Index; Direct Comp Operating Expense Rate; Employee Upgrade Rate; Operating Profit per FTE; Operating Revenue per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Promotion Rate; Return on Human Investment Ratio.
+
+# Benefits [271]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Benefits Expense per FTE | 272 |
+| Benefits Expense Type Breakdown | 274 |
+| Benefits Operating Expense Rate | 276 |
+| Benefits Satisfaction Index | 278 |
+| Benefits Total Compensation Rate | 280 |
+
+: Measure index for this section {.striped}
+
+## Benefits Expense per FTE [272-273]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-M, Data-M |
+| Application | Organizations concerned about benefit cost trends or actively managing benefits costs. |
+| Description | Average benefits expense (organization's contribution) per FTE |
+| Formula | Benefits Expense / FTE |
+| Sourcing | Payroll tables or financial ledgers; less accurately, a markup percentage on salary or other pay |
+
+: Profile summary {.striped}
+
+$$
+\text{Benefits Expense per FTE} = \frac{\text{Benefits Expense}}{\text{FTE}}
+$$
+
+**Reading it.** Employer-paid benefits cost relative to workforce size, excluding employee-paid amounts; useful for year-over-year trends. New benefits come to be seen as basic expectations that the employer must fund, challenging amid rising health care costs. High results may mean benefits are a key attraction and retention tool, or that costs are not contained; low results, little emphasis on benefits or tight management.
+
+**Analysis.** By benefit type or program; by geography, business unit, union agreement, or other dimension with separately designed or funded benefits.
+
+**Limitations.** Silent on benefit quality, satisfaction, which benefits employees value most, or whether rises come from inflation, expanded offerings, or cost discipline.
+
+**Targets.** Based on expected cost inflation, how discretionary and tightly managed expenses are, and gaps versus the desired offer. Relative targets are easier: exceptional benefits, toward the 75th percentile; parity with peers, the median.
+
+**Variations.** Executive; Full Time; High Tenure; Low Tenure; Medical; Part Time; Retirement; Work-Life.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense Type Breakdown; Benefits Satisfaction Index; Benefits Total Compensation Rate; Compensation Value of Unscheduled Absences; Direct Compensation per FTE; Offer Acceptance Rate; Offer Fit Index; PTO Utilization Rate; Schedule Flexibility Rate; Staffing Rate—Part Time; Staffing Rate—Temporary; Work-Related Injury Return Ratio.
+
+## Benefits Expense Type Breakdown [274-275]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Composition; Bench-M, Data-M |
+| Application | Organizations concerned about benefit cost trends or actively managing benefits costs. |
+| Description | Organizational costs of employee benefits by type |
+| Formula | Benefits Expense.[Benefit Type] / Benefits Expense × 100 |
+| Sourcing | Payroll tables or financial ledgers by benefit type |
+
+: Profile summary {.striped}
+
+$$
+\text{Benefits Mix}_{type} = \frac{\text{Benefits Expense.[Benefit Type]}}{\text{Benefits Expense}} \times 100
+$$
+
+**Reading it.** Composition of benefits spend (medical, dental, disability, life, child care, commuting, concierge, tuition reimbursement, etc.), shown as a stacked bar. Tracks where money goes and the nature of the employment offer. With satisfaction and perceived-value data it helps judge whether allocations are appropriate.
+
+**Analysis.** By geography, business unit, union agreement, or other dimension with separately designed or funded benefits.
+
+**Limitations.** No absolute amounts per benefit type; no information on overall satisfaction or which benefits employees value most.
+
+**Targets.** Set per component (for example, share spent on health care or on executive perquisites), considering spend volume, how discretionary and tightly managed it is, and gaps versus the desired offer.
+
+**Variations.** Executives; Full Time; High Tenure; Low Tenure; Part Time.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense per FTE; Benefits Satisfaction Index; Benefits Total Compensation Rate; Compensation Value of Unscheduled Absences per FTE; Direct Compensation per FTE; Offer Acceptance Rate; Offer Fit Index; PTO Utilization Rate; Schedule Flexibility Rate; Staffing Rate—Part Time; Work-Related Injury Return Ratio.
+
+## Benefits Operating Expense Rate [276-277]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations where benefits are a significant expense or that want several perspectives on benefits cost management. |
+| Description | Benefits expense as a percentage of operating expense |
+| Formula | Benefits Expense / Operating Expense × 100 |
+| Sourcing | Benefits from payroll tables or ledgers; operating expense from ledgers |
+
+: Profile summary {.striped}
+
+$$
+\text{Benefits Operating Expense Rate} = \frac{\text{Benefits Expense}}{\text{Operating Expense}} \times 100
+$$
+
+**Reading it.** A result of 5% means benefits are 5% of operating expense. A gauge of cost management as health care costs rise, flagging expense creep that may reflect market forces or poor management. Trends need root-cause checks because other expenses may change (for example, falling faster than benefits).
+
+**Analysis.** By organizational unit and geography; by subcomponent (medical, retiree medical, work-life, etc.).
+
+**Limitations.** Does not show competitiveness versus talent rivals, satisfaction, absolute or per-employee cost change, or whether increases come from inflation, expansion, or discipline.
+
+**Targets.** Relative: parity with peers, the median; tight management, the 25th percentile. Absolute targets from common-sized income statements, budgets, and forecasts, varying widely by industry.
+
+**Variations.** Dental; Executive Perquisites; Medical; Retiree Medical; Retirement; Work-Life.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense per FTE; Benefits Satisfaction Index; Benefits Total Compensation Rate; Direct Compensation Expense per FTE; Direct Comp Operating Expense Rate; Offer Acceptance Rate; Offer Fit Index; PTO Utilization Rate; Schedule Flexibility Rate; Staffing Rate—Part Time; Work-Related Injury Return Ratio.
+
+## Benefits Satisfaction Index [278-279]
+
+| Item | Summary |
+|---|---|
+| Icons | Satisfaction, Index; Bench-M, Data-M |
+| Application | Organizations that survey employees on satisfaction with benefits. |
+| Description | Relative measure of employees' satisfaction with benefits provided |
+| Formula | Survey results |
+| Sourcing | Survey results; deeper analysis needs confidential rather than anonymous surveys, or some personal or job attributes attached |
+
+: Profile summary {.striped}
+
+**Reading it.** Overall satisfaction with benefits (medical, dental, disability, child care, commuting, concierge, tuition reimbursement, etc.); variations may report single questions or subindexes. Periodic surveys show how benefits compare with expectations and help refine value-cost trade-offs. The index typically covers claims handling, coverage, co-payments, premiums, call center help, communication, information, and enrollment, judged against personal needs and perceived offerings elsewhere.
+
+**Analysis.** By age, gender, tenure, pay grade, employment type and level; by benefit type or program, geography, business unit, union agreement, or other separately designed or funded dimension.
+
+**Limitations.** Only as accurate as surveyed perceptions; no information on the nature, cost, or usage of programs.
+
+**Targets.** Depend on the scale; benchmarks need comparable questions and methods. Full satisfaction is unrealistic ("more is better" for all benefits), so aim for as much alignment of offerings and needs as the context and value-cost trade-offs allow.
+
+**Variations.** Executive; Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers; Medical; Non-Exempt; Part Time; Work-Life.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense per FTE; Benefits Expense Type Breakdown; Compensation Satisfaction Index; Contact Center Satisfaction; HR Customer Satisfaction; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; PTO Utilization Rate; Schedule Flexibility Rate; Staffing Rate—Part Time.
+
+## Benefits Total Compensation Rate [280-281]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Rate; Bench-M, Data-M |
+| Application | Organizations concerned about benefit cost trends or actively managing benefits costs. |
+| Description | Benefits expense as a percentage of compensation and benefits expenses |
+| Formula | Benefits Expense / Total Compensation Expense × 100 |
+| Sourcing | Benefits from payroll tables or ledgers (or a markup percentage, less accurate); other compensation from ledgers or payroll |
+
+: Profile summary {.striped}
+
+$$
+\text{Benefits Total Compensation Rate} = \frac{\text{Benefits Expense}}{\text{Total Compensation Expense}} \times 100
+$$
+
+**Reading it.** A result of 30% means benefits are 30% of total spend on compensation and benefits (employer-paid only). Gives year-over-year trends relative to other compensation. Low: tight benefits management, high pay, or de-emphasized benefits. High: low salaries and bonuses, uncontained benefits costs, or benefits as an attraction tool. A rising value may show imbalanced cost inflation across pay types or in cost sharing between employer and employees.
+
+**Analysis.** By benefit type or program; by geography, business unit, union agreement, or other dimension; by age, tenure, employment type and level, and pay grade.
+
+**Limitations.** Does not show the magnitude of benefit or pay costs, benefit quality, overall satisfaction, or which benefits are most valued.
+
+**Targets.** Depend on the pay and benefits strategy. Higher cash pay than peers with fewer benefits: aim for the 25th percentile. More benefits at the same cash pay: between the 50th and 75th.
+
+**Variations.** Benefits Direct Compensation Rate; Executive; Full Time; High Tenure; Low Tenure; Medical; Part Time; Work-Life.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense per FTE; Benefits Expense Type Breakdown; Benefits Operating Expense Rate; Benefits Satisfaction Index; Direct Compensation Expense per FTE; Operating Expense per FTE; Return on Human Investment Ratio; Staffing Rate—Part Time; Staffing Rate—Temporary; Total Compensation Expense per FTE.
+
+# Equity [283]
+
+## Measures in this section
+
+| Measure | Book page |
+|---|---|
+| Average Number of Options per Employee | 284 |
+| Equity Incentive Value per Employee | 286 |
+| Net Proceeds of Options per Employee Exercising | 288 |
+| Number of Options Exercised per Employee | 290 |
+| Stock Incentive Eligibility Rate | 292 |
+
+: Measure index for this section {.striped}
+
+## Average Number of Options per Employee [284-285]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (icon row lost; Bench/Data grades not legible) |
+| Application | Organizations with stock incentive bonus plans or that otherwise grant options. |
+| Description | Average number of stock options granted per eligible employee in the period |
+| Formula | Stock Options.Granted / Average Headcount.Stock Option Eligible × 100 (as printed; the × 100 appears in the OCR text) |
+| Sourcing | Third-party or plan administrator data if grants are not tracked in compensation tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Average Number of Options per Employee} = \frac{\text{Stock Options.Granted}}{\text{Average Headcount.Stock Option Eligible}} \times 100
+$$
+
+**Reading it.** A result of 100 means option-eligible employees received 100 options on average. Options differ from straight bonuses because they gain value as share price rises, giving employees a personal stake in the stock. The measure tracks volume granted, hints at whether performance criteria were met, shows the scale of equity compensation, and shows potential dilution.
+
+**Analysis.** By age, tenure, performance rating, level, pay grade, job title, and unit, to see who is focused on stock price and who is most hurt by poor stock performance (risk of disengagement or turnover).
+
+**Limitations.** Only an indirect measure of engagement; does not show options vested or exercised, or their value.
+
+**Targets.** Absolute only, based on plan structure and criteria, strike-price strategy, and market conditions; benchmark targets are not useful and absolute ones need periodic revision.
+
+**Variations.** Executives (partly garbled in OCR); High Performers; Low Performers; Managers; Non-Exempt; Average Number of Performance Shares per Employee; Average Number of Restricted Shares per Employee; Average Number of Shares Granted per Employee.
+
+**Related measures.** Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Stock Ownership Percentage; Equity Incentive Value per Employee; Market Capitalization per FTE; Market Compensation Ratio; Net Proceeds of Options per Employee Exercising; Number of Options Exercised per Employee; Offer Fit Index; Operating Profit per FTE; Stock Incentive Eligibility Rate.
+
+## Equity Incentive Value per Employee [286-287]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-H, Data-M |
+| Application | Organizations with stock incentive bonus plans. |
+| Description | Average value of equity incentives granted or earned per eligible employee |
+| Formula | Equity Incentive Value / Average Headcount.Equity Incentive Eligible |
+| Sourcing | Third-party or plan administrator data if not tracked in compensation tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Equity Incentive Value per Employee} = \frac{\text{Equity Incentive Value}}{\text{Average Headcount.Equity Incentive Eligible}}
+$$
+
+**Reading it.** Value of stock incentives (options, restricted stock, stock appreciation rights, performance shares, etc.) granted or earned per eligible employee, using Black-Scholes or other valuation. Like options, these give employees a stake in share price. Tracks the magnitude of equity pay and its effect on compensation packages, employer cost, and outstanding shares.
+
+**Analysis.** As for options: by age, tenure, performance rating, level, pay grade, job title, and unit.
+
+**Limitations.** Indirect measure of engagement; no information on volume of options or shares granted, vested, or exercised.
+
+**Targets.** Absolute only; benchmark targets are not useful; revise periodically with the market.
+
+**Variations.** Executives; Exempt; Granted Shares; High Performers; Managers; Performance Appreciation Rights; Performance Shares; Restricted Stock.
+
+**Related measures.** Average Number of Options per Employee; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Stock Ownership Percentage; Market Capitalization per FTE; Market Compensation Ratio; Net Proceeds of Options per Employee Exercising; Number of Options Exercised per Employee; Offer Fit Index; Operating Profit per FTE; Stock Incentive Eligibility Rate.
+
+## Net Proceeds of Options per Employee Exercising [288-289]
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Ratio; Bench-H, Data-M |
+| Application | Organizations with stock option bonus plans, especially where equity is a major part of total compensation. |
+| Description | Net proceeds from exercised stock options per employee who exercised in the period |
+| Formula | Stock Option Net Proceeds / Headcount.Stock Option Eligible.Exercised |
+| Sourcing | Third-party or plan administrator data if not tracked in compensation tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Net Proceeds per Employee Exercising} = \frac{\text{Stock Option Net Proceeds}}{\text{Headcount.Stock Option Eligible.Exercised}}
+$$
+
+**Reading it.** Average amount received by employees exercising options. Net proceeds equal (sale price minus strike price) times options exercised. Unlike grant value, it reflects realized cash compensation, since holding periods and market swings affect exercise value. Helps evaluate total compensation and whether option programs create employee wealth.
+
+**Analysis.** By age, tenure, ethnic background, performance rating, level, pay grade, job title, and unit, to see who has high or low equity compensation.
+
+**Limitations.** No information on number of options exercised or their share of options outstanding; none on satisfaction with option plans or on influence on individual performance.
+
+**Targets.** Depend on options outstanding, strike and market prices, and exercise behavior; benchmark targets would be difficult.
+
+**Variations.** Exempt; High Performers; Low Performers; Managers; Non-Exempt.
+
+**Related measures.** Average Number of Options per Employee; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Stock Ownership Percentage; Equity Incentive Value per Employee; Market Capitalization per FTE; Market Compensation Ratio; Number of Options Exercised per Employee; Offer Fit Index; Operating Profit per FTE; Stock Incentive Eligibility Rate.
+
+## Number of Options Exercised per Employee [290-291]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Ratio; Bench-H, Data-E |
+| Application | Organizations with stock option bonus plans or that otherwise grant options. |
+| Description | Average number of stock options exercised per option-eligible employee |
+| Formula | Stock Options.Exercised / End of Period Headcount.Stock Option Eligible |
+| Sourcing | Third-party or plan administrator data if not tracked in compensation tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Options Exercised per Employee} = \frac{\text{Stock Options.Exercised}}{\text{End of Period Headcount.Stock Option Eligible}}
+$$
+
+**Reading it.** Options exercised per eligible employee in the period. Shows employee behavior and realized compensation. Employees exercise to hold or sell, once vested, at an expected near-term peak, when planning to leave, or to fund personal spending. Understanding the pattern helps assess reasons for exercising and the effect on retention, outstanding shares, and shareholder relations.
+
+**Analysis.** By age, tenure, ethnic background, performance rating, level, pay grade, job title, and unit, to see who realizes equity pay or may face funding needs.
+
+**Limitations.** No prices or net proceeds; no comparison with total options outstanding; no information on satisfaction or influence on individual performance.
+
+**Targets.** Based on options outstanding, strike and market prices, and exercise behavior. Some companies hope for a steady result, though spikes are likely from market price and vesting. Benchmark targets are not useful.
+
+**Variations.** Executives; Exempt; High Performers; Low Performers; Managers; Non-Exempt.
+
+**Related measures.** Average Number of Options per Employee; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Stock Ownership Percentage; Equity Incentive Value per Employee; Market Capitalization per FTE; Market Compensation Ratio; Net Proceeds of Options per Employee Exercising; Offer Fit Index; Operating Profit per FTE; Stock Incentive Eligibility Rate.
+
+## Stock Incentive Eligibility Rate [292-293]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-H, Data-M |
+| Application | Organizations with stock incentive bonus plans. |
+| Description | Percentage of employees eligible to receive stock-based incentives |
+| Formula | End of Period Headcount.Stock Incentive Eligible / End of Period Headcount × 100 |
+| Sourcing | Compensation or performance management tables |
+
+: Profile summary {.striped}
+
+$$
+\text{Stock Incentive Eligibility Rate} = \frac{\text{End of Period Headcount.Stock Incentive Eligible}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce eligible for stock incentives (options, restricted stock, appreciation rights, performance shares, etc.), showing how widely such programs apply. High values mean many employees have a stake in raising share price; low values mean incentives are limited to senior managers or executives seen as most able to affect it.
+
+**Analysis.** By age, tenure, performance rating, level, pay grade, job title, and unit, to see who is focused on stock price and who is most hurt by poor stock performance.
+
+**Limitations.** Only an indirect measure of engagement; says nothing about volume or value of options or shares granted, vested, or exercised.
+
+**Targets.** Depend on emphasis on employee ownership and desired exclusivity. Wide ownership and broad bonus use: toward the 75th percentile. Stock incentives kept as an exclusive perquisite: below the median. Absolute targets are likely by group; near 100% for executives, much lower for nonmanagers.
+
+**Variations.** Executives; Exempt; High Performers; High Potential; Low Performers; Managers; Non-Exempt; Revenue Generating.
+
+**Related measures.** Average Number of Options per Employee; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Ownership Rate; Employee Stock Ownership Percentage; Equity Incentive Value per Employee; Market Compensation Ratio; Net Proceeds of Options per Employee Exercising; Number of Options Exercised per Employee; Offer Fit Index; Operating Profit per FTE.

@@ -1,0 +1,241 @@
+---
+title: "The Metrics Standard: Staffing and Recruitment Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 27-48"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `02-27-48.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Staffing [27-29]
+
+Staffing is the movement of people into job roles from internal or external sources. The category has three groups of measures.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Recruitment | Hiring activity: the volume of new hires from internal and external sources, and the growth or shrinkage of the workforce | Hiring activity; rehires; workforce growth |
+| Internal Movement | Movement of employees around the organization or within their own cost centers | Transfers; promotions; demotions |
+| Staffing Effectiveness | The mechanics of recruiting (screening, interviewing, making offers) and the delivery of quality candidates to hiring managers | Interviewing; offers; new hire quality |
+
+: Staffing groups {.striped}
+
+## Measures in this section
+
+| Group | Measures (book page) |
+|---|---|
+| Recruitment | Employment Brand Strength (32); External Hire Rate (34); Net Hire Ratio (36); New Position Recruitment Rate (38); New Position Recruitment Ratio (40); Recruitment Source Breakdown (42); Recruitment Source Ratio (44); Rehire Rate (46) |
+| Internal Movement (starts at 49) | Career Path Ratio (50); Cross-Function Mobility (page not legible, OCR unclear); Internal Hire Rate (54); Internal Placement Rate (56); Lateral Mobility (page not legible, OCR unclear); Promotion Rate (60); Promotion Speed Ratio (62); Transfer Rate (64); Upward Mobility (66) |
+
+: Measure index for this extract {.striped}
+
+# Recruitment [31]
+
+## Employment Brand Strength [32-33]
+
+| Item | Summary |
+|---|---|
+| Icons | Quality, Satisfaction, Index; Bench-H, Data-H |
+| Application | Broadly applicable. Most useful with high turnover, weak employee commitment, or low Offer Acceptance Ratios. |
+| Description | Relative measure of how attractive the employment value proposition is |
+| Formula | Survey results (an index of survey questions and/or quantitative metrics) |
+| Sourcing | Responses to employee and applicant surveys, plus externally produced documents |
+
+: Profile summary {.striped}
+
+**Reading it.** The employment brand helps attract and retain talent. Its components are pay and benefits, work environment, work-life balance, culture, and product or company brand strength. An index typically draws on three perspectives:
+
+1. Internal perception of the offer, and how close it is to reality.
+2. External perception, usually from applicants (hired, passed over, or rejecting offers).
+3. Media coverage and other external information about the organization.
+
+Hires tend to know less about the organization than about the job itself. Awareness of risk-taking and development opportunities may affect performance after hire.
+
+**Analysis.** By function, business unit, and geography. Also by respondent characteristics such as employment level, pay grade, gender, ethnic background, age, tenure, and job title.
+
+**Limitations.** Value depends on index design and survey quality. The measure says nothing about workforce productivity or about any link between brand and organizational performance. Survey results are a snapshot and can reflect temporary events.
+
+**Targets.** Depend on the scale used. Benchmarks apply only if other organizations use comparable questions and methods. Aim as high as is reasonable for the context.
+
+**Variations.** Population cuts: under 30, 40+, high performers, high potential, high tenure, low performers, low tenure, minority, part time.
+
+**Related measures.** Applicant Ratio; Average Workforce Tenure; Benefits Satisfaction Index; Compensation Satisfaction Index; External Complaint Factor; Market Capitalization per FTE; Market Compensation Ratio; Market Opportunity Index; Offer Acceptance Rate; Offer Fit Index; Operating Profit per FTE; Referral Rate; Voluntary Termination Rate.
+
+## External Hire Rate [34-35]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Monitoring workforce "churn", the rate at which new employees enter, and hiring volume as an outcome of recruitment |
+| Description | External hires as a percentage of average headcount in the period |
+| Sourcing | Action codes in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{External Hire Rate} = \frac{\text{External Hires}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** The result shows how new the workforce is and how much recruiting the staffing function does. Read alongside Termination Rate, it shows churn, meaning how much certain groups are passing through a revolving door. A very low figure may mean low turnover or a shrinking workforce, and it can foster insularity. A very high figure may mean expansion or high turnover, and carries large direct and indirect costs: hiring costs, ramp-up productivity, and dilution of culture.
+
+**Analysis.** By age, ethnic background, employment level, job family, and organizational unit.
+
+**Limitations.** It does not show how many hires replace leavers or fill new positions, how long hires stay, or how many were rehires. It does not measure how efficiently requisitions are filled.
+
+**Targets.** Most external hires replace leavers, so hire rates track termination rates. A common target is to move toward the 25th percentile of a benchmark group. Fast-growing organizations, or those changing their workforce through hiring, will aim higher (50th percentile or more). Absolute targets should reflect Termination Rate targets and growth or contraction plans.
+
+**Variations.** Under 30; 50+; exempt; minority; non-exempt; replacement positions.
+
+**Related measures.** Average Annual Salary per FTE; Internal Hire Rate; New Position Recruitment Rate; Offer Acceptance Rate; On-Time Talent Delivery Factor; Organization Tenure Staffing Breakdown; Recruitment Cost per Hire; Referral Conversion Rate; Rehire Rate; Termination Rate (including the under-1-year tenure variation).
+
+## Net Hire Ratio [36-37]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-E, Data-E |
+| Application | Tracking headcount over time to support cost management or growth strategy |
+| Description | Number of external hires for every termination in the period |
+| Sourcing | Action codes in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{Net Hire Ratio} = \frac{\text{External Hires}}{\text{Terminations}}$$
+
+**Reading it.** A result below 1 means the workforce is contracting, and above 1 means it is growing. It helps track adherence to growth or contraction strategy and set HR priorities. Growing organizations may focus on onboarding and assimilation. Contracting ones may focus on productivity from a smaller workforce, retaining key skills, and morale. It works poorly by business unit or job group, because it ignores internal transfers.
+
+**Analysis.** Slices by gender and ethnic background help with diversity. Slices by age can show an aging workforce from retirements.
+
+**Limitations.** It shows only the relative size of hires and terminations, not their magnitude. A year with 500 hires and 500 terminations has the same ratio as one with 5,000 and 5,000.
+
+**Targets.** Usually absolute and tied to the growth or contraction plan: below 1 when contracting, above 1 when growing.
+
+**Variations.** Under 30; 50+; exempt; female; minority; non-exempt.
+
+**Related measures.** Average Termination Value; External Hire Rate; Manager Instability Rate; New Position Recruitment Rate; Organization Tenure Staffing Breakdown; Recruitment Cost per Hire; Successor Pool Growth Rate; Termination Rate (and the under-1-year variation).
+
+## New Position Recruitment Rate [38-39]
+
+| Item | Summary |
+|---|---|
+| Icons | Not legible in the scan |
+| Application | Organizations facing rapid change in industry or product/market focus that want job roles to keep pace |
+| Description | Hires (internal and external) into newly created positions as a percentage of average headcount |
+| Sourcing | A new/replacement field in a recruiting system or HRIS; easiest if each position has its own requisition record |
+
+: Profile summary {.striped}
+
+$$\text{New Position Recruitment Rate} = \frac{\text{Hires.New Positions}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** A "new position" need not be a new title. Growing a team of four analysts to five also counts. A low result can mean a mature industry with stable roles, or a failure to exploit new opportunities. A high result can mean agility, while an extremely high rate can mean poor management of role flexibility. A high rate does not prove headcount is growing, because other positions may be cut. Net Hire Ratio is the better measure of expansion or contraction.
+
+**Analysis.** By organizational unit, job function, employment level, and geography.
+
+**Limitations.** It covers new-position hires only. It does not show replacement hiring or overall hiring or turnover.
+
+**Targets.** Benchmark targets depend on the pace of change in the industry. Many organizations aim for the median. Those valuing stable roles may aim for the 25th percentile, and those valuing agility the 75th. Growing headcount tends to raise the rate.
+
+**Variations.** Corporate; customer facing; exempt; field; managers; non-exempt; part time.
+
+**Related measures.** Average Annual Salary per FTE; Average Time to Fill; External Hire Rate; Net Hire Ratio; New Position Recruitment Ratio; New Products & Services Revenue per FTE; On-Time Talent Delivery Factor; Operating Revenue per FTE; R&D Expense Rate; Recruitment Cost per Hire.
+
+## New Position Recruitment Ratio [40-41]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Same as the Rate version: organizations in fast-changing industries |
+| Description | Ratio of new-position hires to replacement hires, internal and external |
+| Sourcing | Same as the Rate version |
+
+: Profile summary {.striped}
+
+$$\text{New Position Recruitment Ratio} = \frac{\text{Hires.New Positions}}{\text{Hires.Replacement Positions}}$$
+
+**Reading it.** Among all hires, how many are into new positions versus replacing someone who left or transferred. A result of 0.5 means one new-position hire for every two replacement hires. The interpretation of low and high values is as for the Rate version. If hires don't keep pace with terminations, headcount shrinks even when the ratio is high.
+
+**Analysis.** By organizational unit, job function, employment level, and geography.
+
+**Limitations.** Because the data isn't compared to workforce size, it does not show overall hiring or turnover volume. It also does not show differences in time or cost to fill new versus replacement positions.
+
+**Targets.** Benchmark targets depend on industry change and termination rates. The 25th, median, and 75th percentile logic matches the Rate version.
+
+**Variations.** Same population cuts as the Rate version.
+
+**Related measures.** The same set as the Rate version, plus Internal Hire Rate and New Position Recruitment Rate.
+
+## Recruitment Source Breakdown [42-43]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-M, Data-M |
+| Application | Organizations using multiple channels to publicize jobs and attract candidates |
+| Description | Distribution of external hires by recruitment source (referral, rehire, agency, and so on) |
+| Sourcing | A recruiting system, from the application or from orientation or onboarding surveys. If the first-heard source isn't captured, the application channel can be tracked instead (the "Applications" variation). |
+
+: Profile summary {.striped}
+
+$$\text{Recruitment Source Breakdown} = \frac{\text{External Hires.[Source Group]}}{\text{External Hires}} \times 100$$
+
+**Reading it.** It shows the composition of external hires by the channel through which they first learned of the job. That may differ from the channel used to apply. It is usually shown as a stacked bar. The book lists possible sources: current or former employees, contact by the organization, the employer's website, a recruiting agency, third-party job sites, college career centers, recruiting events, newspaper ads, informational interviews, and help-wanted signs. Source may not affect hire performance much, but some channels are linked to retention intent: employee referrals, informational interviews, direct contact, the employer's own website, and agencies. The measure can also help monitor vendor relationships, technology investment, and recruiting cost, which varies widely across channels.
+
+**Analysis.** By employment level, job function, job family, job title, and pay grade, and by organizational unit or geography.
+
+**Limitations.** It covers hired applicants only, with no applicant volumes, yield, quality, cost, cycle time, or hire satisfaction by channel.
+
+**Targets.** Set per channel, weighing channel cost (vendor fees, commissions, technology, internal support), historical yield, and the performance and retention of hires from each.
+
+**Variations.** Applications; executives; exempt; graduate; managers; minority; multilingual; non-exempt.
+
+**Related measures.** Average Annual Salary per FTE; External Hire Rate; New Hire Failure Factor; New Hire Performance Satisfaction; New Hire Satisfaction with Recruiting; New Hire Turnover Contribution; Offer Acceptance Rate; On-Time Delivery Factor; Recruitment Cost per Hire; Recruitment Expense Breakdown; Sign-On Bonus Rate.
+
+Sources cited: Recruiting Roundtable 2003 New Hire Survey; CLC research.
+
+## Recruitment Source Ratio [44-45]
+
+| Item | Summary |
+|---|---|
+| Icons | Not legible in the scan |
+| Application | Organizations that often fill roles internally or have a strategy of hiring internal talent to cut turnover and aid development |
+| Description | Number of internal hires for every external hire |
+| Sourcing | The job table of an HRIS. Alternatively, count only internal hires that fill a requisition in a recruiting system, which is harder to capture and to benchmark. |
+
+: Profile summary {.striped}
+
+$$\text{Recruitment Source Ratio} = \frac{\text{Internal Hires}}{\text{External Hires}}$$
+
+**Reading it.** A ratio of 4 means four internal appointments for every external hire. Internal hires usually include transfers, promotions, and demotions. Many organizations see them as developmental and cost-efficient, since staff who might have left find roles internally. Demotions are rare. Over-reliance on internal hiring may mean passing on better external talent, trading long-term productivity for faster short-term ramp-up. Internal Placement Rate is similar but expresses internal hires as a share of all hires (part to whole), while this ratio compares two components (whole to whole).
+
+**Analysis.** By position or structure: job function, job family, employment level, pay grade, managerial level, organizational unit.
+
+**Limitations.** It shows relative volumes only, not hires relative to workforce size. It says nothing about cost or quality of hiring, or about which internal moves might have prevented a termination.
+
+**Targets.** Depend on growth and internal movement policy. Slow-growing organizations that use internal hires heavily might target the 75th percentile, or about 2.0 to 3.0 in absolute terms.
+
+**Variations.** Executives; exempt; managers; non-exempt.
+
+**Related measures.** Average Time to Fill; Career Path Ratio; Cross-Function Mobility; External Hire Rate; Internal Hire Rate; Internal Placement Rate; Net Hire Ratio; New Position Recruitment Rate; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Recruitment Cost per Hire; Termination Rate.
+
+## Rehire Rate [46-47]
+
+| Item | Summary |
+|---|---|
+| Icons | Rate; Bench-E, Data-E (volume icon assumed, not legible) |
+| Application | Organizations that gain from hiring former employees, especially those with alumni tracking or networks |
+| Description | Rehires as a percentage of total external hires |
+| Sourcing | An HRIS job table, where rehires usually have their own action codes |
+
+: Profile summary {.striped}
+
+$$\text{Rehire Rate} = \frac{\text{Rehires}}{\text{External Hires}} \times 100$$
+
+**Reading it.** Rehires typically need less recruiting and onboarding investment, ramp up faster, and already know the company. Offers usually go to alumni who performed well, which reduces uncertainty. The rate can gauge the success of alumni initiatives. It can also lag labor market changes and lead onboarding and productivity costs. A rising rate with steady hiring and no new rehire program may suggest the organization's offer has improved relative to competitors.
+
+**Analysis.** To isolate populations targeted by rehire initiatives (job function, job family, age, geography), and by organizational unit and employment level.
+
+**Limitations.** It is relative to total external hires, not workforce size. It does not show the former employee's tenure or how long they were away.
+
+**Targets.** Often better set as absolute figures because of differences in hiring volume and rehire quality. Where benchmark groups are comfortable, the 75th percentile is a target. Organizations that rely on rehires may aim for 10 to 20% per year.
+
+**Variations.** Under 30; 40+; 50+; customer facing; exempt; managers; non-exempt; part time; revenue generating; seasonal.
+
+**Related measures.** Age Staffing Breakdown; Average Interviews per Hire, Average Time to Fill, Offer Acceptance Ratio and Recruitment Cost per Hire (each in a rehire variation); Hire Rate; Operating Profit per FTE; Organization Tenure Staffing Breakdown.

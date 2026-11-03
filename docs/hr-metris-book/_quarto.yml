@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Metrics Standard: 200 Core Human Capital Measures"
+  subtitle: "Corporate Leadership Council (2005), OCR-converted study notes"
+  chapters:
+    - index.qmd
+    - 01-start-26.qmd
+    - 02-27-48.qmd
+    - 03-49-68.qmd
+    - 04-69-84.qmd
+    - 05-85-106.qmd
+    - 06-107-128.qmd
+    - 07-129-148.qmd
+    - 08-149-168.qmd
+    - 09-169-188.qmd
+    - 010-189-208.qmd
+    - 011-209-232.qmd
+    - 012-233-262.qmd
+    - 013-263-294.qmd
+    - 014-295-324.qmd
+    - 015-325-354.qmd
+    - 016-355-384.qmd
+    - 017-385-414.qmd
+    - 018-415-444.qmd
+    - 019-445-474.qmd
+    - 020-475-504.qmd
+    - 021-505-527-end.qmd
+  search: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3

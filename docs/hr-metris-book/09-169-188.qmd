@@ -1,0 +1,269 @@
+---
+title: "The Metrics Standard: Performance Management and Education and Development Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 169-188"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `09-169-188.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted.
+:::
+
+# Capability: Performance Management (continued) [169-175]
+
+## Performance-Based Pay Differential (right page) [168-169]
+
+The left page (168) is in the previous extract (`08-149-168`); only the facing page 169 is summarized here.
+
+| Item | Summary |
+|---|---|
+| Icons | Cost, Quality, Ratio; Bench-M, Data-M |
+| Application | See the previous extract (page 168) |
+| Description | Ratio of high performers' direct compensation to that of non-high performers |
+| Formula | See the previous extract (page 168) |
+| Sourcing | See the previous extract (page 168) |
+
+: Profile summary {.striped}
+
+**Analysis.** By subgroups with segmented market pay or satisfaction (function, job type, job family, geography), and by pay band, grade and tenure to find weak points in pay structures.
+
+**Limitations.** Separates only high from non-high performers, not average from low. Does not show pay relative to the labor market, or pay satisfaction. Valid only if ratings are judged and applied correctly.
+
+**Targets.** Consider the pay-for-performance philosophy and market norms (which often vary by industry, function or skill, so targets can be set at job or skill level). Using pay for performance as a strong employment-brand differentiator implies aiming toward the 75th percentile of a benchmark group; following market norms implies the median. An absolute target would be at least 1.0.
+
+**Variations.** Performance-Based Pay Differential: Exempt (partly OCR unclear); High Potential; High Tenure; Managers; Mid Tenure; Minority; Revenue Generating.
+
+**Related measures.** Bonus Actual to Potential Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Employee Engagement Index; Employee Retention Index; Manager Instability Rate; Manager Quality Index; Market Compensation Ratio; Operating Profit per FTE; Performance Contingent Pay Prevalence; Performance Rating Distribution; Return on Human Investment Ratio; one further entry (OCR unclear).
+
+*Source note: CLC, Building the High-Performance Workforce (2002), and CLC research.*
+
+## Performance Contingent Pay Prevalence [170-171]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where some performance-based pay exists or a target level of coverage is wanted |
+| Description | Percentage of employees whose total compensation depends at least partly on individual performance |
+| Formula | See below |
+| Sourcing | Individual-level compensation or payroll data with an indicator of pay linked to individual performance; usually viewed by calendar or fiscal year, as the share who have received or are eligible for such pay during the year |
+
+: Profile summary {.striped}
+
+$$
+\text{Performance Contingent Pay Prevalence} = \frac{\text{End of Period Headcount, Performance Contingent Compensation}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce with wage or bonus pay tied to individual performance. The idea is that employees will be more motivated if they see the link between goals and money, believe goals are reachable and the reward sufficient. Research shows pay for performance affects retention more than performance, and both high and low performers value it. High results send a strong signal in the employment offer but mean compensation costs and programs vary year to year and need coordination with performance management. Closely related to Bonus Eligibility Rate, which covers all bonuses (including unit or firm based) and is a Compensation and Benefits measure; this one covers only pay tied to individual performance.
+
+**Analysis.** By subgroups with segmented market pay or satisfaction (function, job type, job family, geography), and by pay band, grade and tenure to find weak points.
+
+**Limitations.** Counts who is covered, not what share of their pay is performance-linked or how large the high/low pay gap is.
+
+**Targets.** To differentiate the employment brand or drive retention, aim toward the 75th percentile of talent competitors. Absolute targets, e.g., 100% in particular units, functions, titles or the whole organization, are also possible.
+
+**Variations.** Performance Contingent Pay Prevalence: Exempt; High Tenure; High Potential; Low Tenure; Managers; Mid Tenure; Non-Exempt; Revenue Generating; Successors.
+
+**Related measures.** Bonus Actual to Potential Rate; Bonus Eligibility Rate; Compensation Satisfaction Index; Direct Compensation Breakdown; Direct Compensation Expense per FTE; Employee Engagement Index; Employee Retention Index; Market Compensation Ratio; Operating Profit per FTE; Performance Rating Distribution; Performance-Based Pay Differential; Return on Human Investment Ratio; Work Units per FTE; one entry (OCR unclear).
+
+*Source note: CLC, Building the High-Performance Workforce (2002), and CLC research.*
+
+## Self Review Rate [172-173]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-M (leading icon OCR unclear) |
+| Application | Most useful where regular self reviews are part of performance management, especially if recent or not yet widely adopted |
+| Description | Percentage of eligible employees whose performance is appraised using a self review |
+| Formula | See below |
+| Sourcing | HRIS performance table or separate system; define how long a review stays active: cumulative over the cycle, or rolling 6- or 12-month |
+
+: Profile summary {.striped}
+
+$$
+\text{Self Review Rate} = \frac{\text{End of Period Headcount, Self Reviews}}{\text{End of Period Headcount, Eligible for Self Review}} \times 100
+$$
+
+**Reading it.** Share of eligible employees who completed a self review (70% means 70%). Results vary by whether the practice is mandatory or left to managers or employees; high results mean high adoption. Self reviews calibrate the employee's view against the manager's, help gain buy-in, show where expectations need explaining, help resolve disputes, expose inaccuracies in manager-written reviews, and raise self-awareness of performance.
+
+**Analysis.** By location, function, management level and division, where participation gaps often cluster.
+
+**Limitations.** Says nothing about self review results or effectiveness, or what share of staff is eligible. Directly measures volume, only indirectly quality.
+
+**Targets.** Relative targets are hard. Mandated self reviews imply 100%; otherwise targets follow awareness and review culture.
+
+**Variations.** Self Review Rate: Exempt; High Performers; Low Performers; Managers; Mid Performers; Non-Exempt; Total Workforce.
+
+**Related measures.** Average Workweek; Employee Engagement Index; Employee Retention Index; Manager Instability Rate; Manager Quality Index; Overtime Rate; Peer Review Rate; Performance Appraisal Participation Rate; Performance Rating Distribution; Performance-Based Pay Differential; Return on Human Investment Ratio; Upward Review Rate; Voluntary Termination Rate.
+
+## Upward Review Rate [174-175]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-M (leading icon OCR unclear) |
+| Application | Most useful where upward reviews are part of performance management, especially if recent or not yet widely adopted |
+| Description | Percentage of eligible managers appraised through an upward review |
+| Formula | See below |
+| Sourcing | HRIS performance table or separate system; define how long a review stays active: cumulative over the cycle, or rolling 6- or 12-month |
+
+: Profile summary {.striped}
+
+$$
+\text{Upward Review Rate} = \frac{\text{Managers, Upward Reviews}}{\text{Managers, Eligible for Upward Review}} \times 100
+$$
+
+**Reading it.** Share of eligible supervisory managers who received an upward review (70% means 70%). Results vary by whether the practice is mandatory or voluntary. Upward reviews are done by direct reports, individually or collectively, and mainly address supervisory performance. They give feedback the supervisor's own manager cannot observe, show how direct reports see them, and inform the downward review.
+
+**Analysis.** By location, function, management level and division, where participation gaps often cluster.
+
+**Limitations.** Says nothing about upward review results or effectiveness, or what share of managers is eligible. Directly measures volume, only indirectly quality.
+
+**Targets.** Relative targets are hard. Where upward reviews are in place for some or all supervisors, target 100%; otherwise follow awareness and feedback culture.
+
+**Variations.** Upward Review Rate: High Potential; High Tenure; Low Tenure; Mid Tenure; Successors; Total Workforce.
+
+**Related measures.** Average Span of Control; Development Program Penetration Rate; Employee Engagement Index; Employee Satisfaction with Leadership; LDP Prevalence Rate; Manager Instability Rate; Manager Quality Index; Performance Appraisal Participation Rate; Performance Rating Distribution; Return on Human Investment Ratio; Self Review Rate; Staffing Rate—Managerial; Voluntary Termination Rate.
+
+# Capability: Education and Development [177]
+
+Page 177 is the divider for the Education and Development group. Measures covered: Development Program Penetration Rate (178), Educational Attainment Breakdown (180), Staffing Rate—Graduate Degree (182), Staffing Rate—High Potential (184), Tuition Reimbursement Request Rate (186).
+
+## Development Program Penetration Rate [178-179]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where performance philosophy focuses on development and specific development programs exist |
+| Description | Percentage of eligible employees participating in development programs |
+| Formula | See below |
+| Sourcing | Performance, learning, or succession management database; otherwise tracked manually by supervisors or HR in a development program database |
+
+: Profile summary {.striped}
+
+$$
+\text{Development Program Penetration Rate} = \frac{\text{Development Program Participants}}{\text{End of Period Headcount, Eligible for Development Programs}} \times 100
+$$
+
+**Reading it.** Reports how extensively the eligible workforce takes part in programs such as supervisory skills, rotations for multifunctional skills, mentoring or networking. All employees could benefit, and programs prepare future leaders and help engage and retain at-risk high-potentials, but few organizations can afford to enroll everyone. Limiting access can be more cost effective and preserves the programs' status as a reward for performance or potential. Interpret in light of resources and whether programs serve everyone or only high-potentials.
+
+**Analysis.** By job title, pay grade, high-potential flag, organization or position tenure, number of direct reports, performance rating, organizational unit and geography; by gender, ethnic background and age to monitor diversity of future leaders; and by program type to see which are most popular.
+
+**Limitations.** Shows enrollment, not adequacy, depth, or success at retaining or advancing employees.
+
+**Targets.** Based on available resources, program nature and desired exclusivity. Benchmarks are weak for direct comparison because programs differ widely, but are informative about competitors' talent practices.
+
+**Variations.** Development Program Penetration Rate: Successors; All Employees; Exempt; High Performers; High Potential; High Tenure; Low Tenure; Managers (the last entry is partly OCR unclear).
+
+**Related measures.** Age Staffing Breakdown; Average Workforce Tenure; Cross-Functional Mobility—Managers; Employee Engagement Index; Employee Satisfaction with Training; LDP Prevalence Rate; Manager Quality Index; Promotion Speed Ratio; Return on Human Investment Ratio; Staffing Rate—High Potential; Successor Pool Coverage; Training Course Content Breakdown; Training Expense per Employee; Training Penetration Rate.
+
+## Educational Attainment Breakdown [180-181]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful where a minimum share of high school, university or advanced degrees is wanted |
+| Description | Distribution of headcount by educational attainment (high school, university, advanced degree, etc.) |
+| Formula | See below |
+| Sourcing | Employee personal data table; often self-reported at hire, and later attainment may not be captured, limiting accuracy |
+
+: Profile summary {.striped}
+
+$$
+\text{Educational Attainment Breakdown} = \frac{\text{End of Period Headcount, [Degree Level]}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Shown as a stacked bar of the workforce by education level. Higher education may correlate with a more knowledgeable workforce, but also with higher pay and, in some economies, more labor-market competition. Analysis within functions (engineering, finance, customer service) shows academic or certification levels of key groups and differing cultural norms; for example, benefits or training can be targeted differently to a high-school-educated versus a college-educated customer service team.
+
+**Analysis.** By function, job family, job title or performance rating to find skill pockets and see how outside education affects performance; by geography to inform recruiting and university programs.
+
+**Limitations.** Indirect proxy for skill and knowledge; does not convey skill, performance or value added. Degrees may be in unrelated fields (a relevance variation might be needed). Does not show compensation cost.
+
+**Targets.** A breakdown, so set per component (e.g., share with high school diplomas or doctorates), possibly by unit, category or function. Strategy-driven: minimizing contact-center pay costs might aim for the 25th percentile of university-degree share; expert product knowledge might aim for the 75th.
+
+**Variations.** Educational Attainment Breakdown: Customer Facing (partly OCR unclear); Exempt; High Performers; Managers; Non-Exempt; Revenue Generating; Successors.
+
+**Related measures.** Age Staffing Breakdown; Average Annual Salary per FTE; Average Termination Value; Direct Compensation Expense per FTE; Function Staffing Breakdown; New Hire Turnover Contribution; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Sign-On Bonus Rate; Staffing Rate—Graduate Degree; Training Course Content Breakdown; Tuition Reimbursement Request Rate.
+
+## Staffing Rate—Graduate Degree [182-183]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-M (leading icon OCR unclear) |
+| Application | Most useful where large or strategically significant groups work in functions that benefit from graduate education |
+| Description | Percentage of employees with a graduate degree or higher |
+| Formula | See below |
+| Sourcing | Employee personal data table; often self-reported at hire, and later attainment may not be captured |
+
+: Profile summary {.striped}
+
+$$
+\text{Staffing Rate—Graduate Degree} = \frac{\text{End of Period Headcount, Graduate Degree}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce with a graduate or equivalent advanced degree. Degrees are an imperfect proxy for knowledge and skill, more apt for jobs requiring certification or training (medical staff, pharmaceutical research) than for manufacturing line workers. In suitable settings it finds skill pockets or areas needing more education to meet strategic goals.
+
+**Analysis.** By function, job family, job title or performance rating; by geography to guide recruiting and university programs.
+
+**Limitations.** Indirect proxy for skill; does not convey skill, performance or value added; the degree may not be job relevant; does not show compensation cost.
+
+**Targets.** Organization-wide if the aim is overall upskilling, otherwise by function or job family. Against benchmarks: a more educated workforce as a differentiator means the 75th percentile; a competitive footing means the median; a low-cost model means the 25th.
+
+**Variations.** Staffing Rate—Graduate Degree: Customer Facing; Exempt; High Performers; Low Tenure; Managers; Revenue Generating; Successors.
+
+**Related measures.** Age Staffing Breakdown; Average Annual Salary per FTE; Average Sign-On Bonus Expense; Average Termination Value; Direct Compensation Expense per FTE; Educational Attainment Breakdown; Function Staffing Breakdown; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Sign-On Bonus Rate; Training Course Content Breakdown; Tuition Reimbursement Request Rate.
+
+## Staffing Rate—High Potential [184-185]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful for improving the value of the current workforce, or where the number of high-potentials should scale with workforce size |
+| Description | Percentage of the workforce designated high potential |
+| Formula | See below |
+| Sourcing | High-potential flag in the HRIS personal characteristics table; otherwise a spreadsheet list or a succession or development database |
+
+: Profile summary {.striped}
+
+$$
+\text{Staffing Rate—High Potential} = \frac{\text{End of Period Headcount, High Potential}}{\text{End of Period Headcount}} \times 100
+$$
+
+**Reading it.** Share classed as "high potential" (HIPO). Definitions vary: likely future leaders per direct managers, or formal competency and promotability criteria, sometimes restricted to certain job levels. Either way the group needs monitoring for development and retention. Tracking its size relative to the workforce, especially as the organization grows, helps ensure enough future leaders are being groomed. High results may mean strong hires, successful development, or broad criteria, and should be matched with development resources. Low results may mean strict criteria, weak recruitment, or inadequate development.
+
+**Analysis.** By gender, ethnic background and age to monitor diversity of current and future leaders; by organizational unit, geography, tenure, pay grade, title, function and job family to see succession gaps and development pockets.
+
+**Limitations.** Only as good as the accuracy of the designation. Does not show volume in key skills or job levels, turnover or engagement of the group, nor ensure proper development.
+
+**Targets.** Rarely relative, given varying definitions. Absolute targets reflect capacity to monitor and develop the group and forward succession needs (including expected leader turnover and retirements). Typically 1 to 10% of the whole workforce, or up to 20% or more of a specific job level.
+
+**Variations.** Staffing Rate—High Potential: Exempt; High Performers; High Tenure; Low Tenure; Managers; Mid Performers; Non-Exempt; Successors.
+
+**Related measures.** Average Workweek; Development Program Penetration Rate; Employee Engagement Index; Function Staffing Breakdown; LDP Prevalence Rate; Performance Rating Distribution; Positions Without Ready Candidates Rate; Promotion Speed Ratio; Return on Human Investment Ratio; Stock Incentive Eligibility Rate; Successor Pool Coverage; Training Course Content Breakdown; Training Expense per Employee; Voluntary Termination Rate.
+
+## Tuition Reimbursement Request Rate [186-187]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Cost, Rate; Bench-M, Data-M (leading icon OCR unclear) |
+| Application | Most useful to expand tuition reimbursement for upskilling, or to contract it for cost or other reasons |
+| Description | Distinct employees submitting tuition reimbursement requests as a percentage of the workforce |
+| Formula | See below |
+| Sourcing | Often housed separately in the unit processing requests, or in HRIS or payroll tables that identify distinct requesters in a period |
+
+: Profile summary {.striped}
+
+$$
+\text{Tuition Reimbursement Request Rate} = \frac{\text{Distinct Employees, Tuition Reimbursement Requests}}{\text{Average Headcount}} \times 100
+$$
+
+**Reading it.** Share of the workforce using the tuition reimbursement program. Program terms vary (eligible degrees or certifications, grade requirements, process, "stay or repay" clauses), and use also depends on industry education norms and workforce age. Three uses: evaluate overall program success (a rise generally means employees are gaining skills), assess an awareness campaign, and assess the impact of policy changes (e.g., if requests fall after job-relevancy restrictions, employees may have been using the program for unrelated skills).
+
+**Analysis.** By subgroups with differing education orientation (job family, function, age, geography, tenure), and by organizational unit and manager to find pockets where outside development is encouraged or discouraged.
+
+**Limitations.** Does not show program cost, the degrees or certifications pursued, application relevance and quality, or returns in skills or retention.
+
+**Targets.** Absolute rather than benchmark-based, informed by past results and goals to expand or contract use or change education levels. Selective programs might target 1 to 3%; high-usage programs 3 to 10%, varying by industry, workforce age and other factors.
+
+**Variations.** Tuition Reimbursement Request Rate: Bachelor Programs; Certification Programs; Exempt; Graduate Programs; High Performers; High Potential; Managers; Non-Exempt.
+
+**Related measures.** Benefits Satisfaction Index; Educational Attainment Breakdown; Employee Retention Index; Employment Brand Strength; Function Staffing Breakdown; HR Customer Satisfaction; Organization Tenure Staffing Breakdown; Promotion Rate; Return on Human Investment Ratio; Staffing Rate—Graduate Degree; Staffing Rate—Multilingual; Training Expense per Employee; Training Hours per FTE; Voluntary Termination Rate.

@@ -1,0 +1,335 @@
+---
+title: "The Metrics Standard: Employee Relations, Health and Safety, and HR Profile Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 325-354"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `015-325-354.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. Where icons or text were not legible, this is marked "OCR unclear".
+:::
+
+# Employee Relations [325-328]
+
+The excerpt opens with the right-hand page of a measure whose left page falls before this extract, then continues with one more measure.
+
+## Grievance Time to Resolve (continued) [325]
+
+Only the right-hand page is in this extract; the measure header, formula and description are not included.
+
+| Item | Summary |
+|---|---|
+| Icons | Time, Ratio; Bench-M, Data-M |
+
+: Profile summary {.striped}
+
+**Analysis.** By type of grievance, to judge process efficiency across kinds of complaint. Also useful for patterns by organizational unit or manager.
+
+**Limitations.** Does not show how often grievances occur, how satisfied employees are with outcomes, or what share leads to external complaints. Does not capture cost or the effect on morale, commitment, and productivity.
+
+**Targets.** Balance responsiveness and speed against thoroughness and risk management, so set targets by grievance type. For example, payroll grievances might take a few days, while sexual harassment grievances might take a few to several weeks to allow investigation.
+
+**Variations.** Compensation; Contract Dispute; Corporate; Discrimination; Exempt; Field; Harassment; Manager Dispute; Managers; Non-Exempt (the first entry, partly cut off in OCR, appears to read "Benefits"/"Compensation"; OCR unclear). The list may continue beyond those shown.
+
+**Related measures.** ADR Success Rate; Employee Commitment Index; Employee Satisfaction with Leadership; External Complaint Factor; Grievance Time to Resolve (OCR unclear); Manager Quality Index; Operating Expense per FTE.
+
+## Industrial Dispute Absence Days per FTE [326-327]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-M, Data-M |
+| Application | Most useful where employees are under collective bargaining agreements, especially with strained union-employer relations |
+| Description | Average unscheduled industrial dispute absence days per full-time equivalent employee |
+| Sourcing | Absence tables in timekeeping or payroll systems, or separate databases; dispute-related absence types may sit in employee relations tables |
+
+: Profile summary {.striped}
+
+$$\text{Industrial Dispute Absence Days per FTE} = \frac{\text{Unscheduled Absence Days (Industrial Dispute)}}{\text{FTE}}$$
+
+**Reading it.** Counts workdays missed per FTE because of strikes, lockouts, and optionally "sick-outs" attributed to disputes. Unscheduled absence brings direct costs (overtime, temporary pay), indirect costs (lost revenue, customer frustration), and productivity losses. Dispute absences are especially costly because they involve many employees at once. The measure tracks how well bargaining and employee relations practices avoid them.
+
+**Analysis.** By collective bargaining agreement or union population, to see which relationships are most strained.
+
+**Limitations.** Does not show direct or indirect costs, the status of bargaining at the time, or the length of absences.
+
+**Targets.** Typically zero. Organizations may tolerate disputes for negotiating reasons but aim for good bargaining outcomes without them.
+
+**Variations.** Lockout; Sick-Out; Strike.
+
+**Related measures.** ADR Success Rate; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Commitment Index; Employee Satisfaction with Leadership; External Complaint Factor; Grievance Time to Resolve; Manager Quality Index; Market Compensation Ratio; Operating Expense per FTE; Overtime Expense per FTE; Staffing Rate—Union Employees; Unscheduled Absence Rate.
+
+# Environment [329]
+
+## Health and Safety [329]
+
+Measures in this group, as profiled below: Average Time Lost per H&S Incident (330); H&S Expense Breakdown (332); H&S Expense per FTE (334); H&S Incident Type Breakdown (336); H&S Incidents per 100 FTEs (338); Lost Time Incident Rate (340); Workers Compensation Premium per FTE (342); Work-Related Injury Return Ratio (344).
+
+### Average Time Lost per H&S Incident [330-331]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (right-page icon strip not captured) |
+| Application | Organizations with relatively high risk of health and safety (H&S) incidents, such as machinery or physical labor |
+| Description | Average working days lost per H&S incident |
+| Sourcing | H&S data tables; HRIS job tables and payroll or attendance systems for injury-related absences and leaves |
+
+: Profile summary {.striped}
+
+$$\text{Average Time Lost per H\&S Incident} = \frac{\text{Working Days Lost}}{\text{H\&S Incidents}}$$
+
+**Reading it.** Indicates incident severity and, indirectly, the effectiveness of safety programs, procedures, training, and protective equipment. Safe workplaces support well-being, productivity, and compliance; incidents cause injury, lost output, and costs such as disability payments and replacements. A higher result means longer absences and higher personal and organizational cost.
+
+**Analysis.** By geography or site, job family, title, function, and incident type; also by age and tenure profile to reveal patterns that need more safety training.
+
+**Limitations.** Does not show incident frequency or type of injury. It is an indirect, not direct, cost measure, and ignores effects on commitment, engagement, and employment brand.
+
+**Targets.** Near zero; less time lost means better well-being, productivity, and cost. Zero may be unreachable but severity is always minimized.
+
+**Variations.** Auto (OCR unclear, first entry garbled); Chemical; Construction; High Tenure; Low Tenure; Machinery; Plant; Slip and Fall; Workplace Violence.
+
+**Related measures.** Age Staffing Breakdown; Compensation Value of Unscheduled Absences per FTE; H&S Expense Breakdown; H&S Expense per FTE; H&S Incident Type Breakdown; H&S Incidents per 100 FTEs (partly garbled in OCR); Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### H&S Expense Breakdown [332-333]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with a defined H&S function, in HR or elsewhere |
+| Description | H&S expense by type (prevention, rehabilitation, compensation, other) as a percentage of total H&S expense |
+| Sourcing | Financial ledgers, H&S data tables, or outsourced third-party providers |
+
+: Profile summary {.striped}
+
+$$\text{H\&S Expense Breakdown}_{\text{Type}} = \frac{\text{H\&S Expense}_{\text{Type}}}{\text{H\&S Expense}} \times 100$$
+
+**Reading it.** Shows the composition of H&S costs, typically as a stacked bar: preventative (training, awareness), operational (staff salaries), workers compensation or insurance, and rehabilitation. It helps judge how much spending is planned versus driven by incident frequency and severity. A high preventative share with low compensation and rehabilitation share suggests prevention works; the reverse signals a need to step up prevention.
+
+**Analysis.** By geography or site where feasible.
+
+**Limitations.** Says nothing about incident volume or severity, total H&S spend, costs to employees, productivity costs, or effects on commitment, engagement, and brand.
+
+**Targets.** Set per expense type; types are interrelated and always total 100%. For example, a low workers compensation share may go with a high preventative share.
+
+**Variations.** Corporate; Plant.
+
+**Related measures.** Age Staffing Breakdown; Average Time Lost per H&S Incident; H&S Expense per FTE; H&S Incident Type Breakdown; H&S Incidents per 100 FTEs; Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Training Channel Delivery Mix; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### H&S Expense per FTE [334-335]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with a defined H&S function, in HR or elsewhere |
+| Description | Average occupational health and safety cost per employee |
+| Sourcing | Financial ledgers, H&S data tables, or outsourced third-party providers |
+
+: Profile summary {.striped}
+
+$$\text{H\&S Expense per FTE} = \frac{\text{H\&S Expense}}{\text{FTE}}$$
+
+**Reading it.** Cost of the H&S function relative to workforce size; for example, \$1,000 means H&S cost equals \$1,000 per FTE. Costs include preventative, operational, workers compensation or insurance, and rehabilitation items. Some investment is necessary for well-being and compliance. High spend should be read with incident rate and severity measures to tell whether it reflects many incidents or preventative investment that keeps incidents low.
+
+**Analysis.** By geography or site; by expense type or area (for example workers compensation versus safety training).
+
+**Limitations.** Does not show incident volume or severity, costs to employees, productivity costs, or effects on commitment, engagement, and brand.
+
+**Targets.** Balance operating efficiency against the spending needed for prevention. Benchmark targets may work best per component, for example the 25th percentile for workers compensation costs but the median for preventative spending.
+
+**Variations.** Corporate; Operational; Plant; Preventative; Rehabilitation; Training; Workers Compensation.
+
+**Related measures.** Age Staffing Breakdown; Average Time Lost per H&S Incident; Compensation Value of Unscheduled Absences per FTE; H&S Expense Breakdown; H&S Incident Type Breakdown; H&S Incidents per 100 FTEs; Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Training Channel Delivery Mix; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### H&S Incident Type Breakdown [336-337]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with relatively high risk of H&S incidents, such as machinery or physical labor |
+| Description | H&S incidents by type as a percentage of total H&S incidents |
+| Sourcing | H&S data tables |
+
+: Profile summary {.striped}
+
+$$\text{H\&S Incident Type Breakdown}_{\text{Type}} = \frac{\text{H\&S Incidents}_{\text{Type}}}{\text{H\&S Incidents}} \times 100$$
+
+**Reading it.** Shows the mix of incident types in a period, typically as a stacked bar. Helps focus training and other interventions on the incident types posing greatest risk.
+
+**Analysis.** By geography or site, job family, title, function, and other position dimensions; and by severity in cost or absence length, to target corrective action, training, and process redesign.
+
+**Limitations.** Does not show severity (injury, cost, productivity) or effects on commitment, engagement, and brand.
+
+**Targets.** Set per incident type; typically equal or near zero for each. Fewer incidents mean better well-being, productivity, and cost.
+
+**Variations.** 1st shift; 2nd shift; Corporate; Delivery; Exempt; High Tenure; Low Tenure; Manufacturing; Non-Exempt; Plant.
+
+**Related measures.** Age Staffing Breakdown; Compensation Value of Unscheduled Absences per FTE; H&S Expense Breakdown; H&S Expense per FTE; H&S Incidents per 100 FTEs; Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### H&S Incidents per 100 FTEs [338-339]
+
+The measure name heading is not captured in the OCR text for this page; it is taken from the description, formula, and variations.
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with relatively high risk of H&S incidents, such as machinery or physical labor |
+| Description | H&S incidents per 100 full-time equivalent employees |
+| Sourcing | H&S data tables |
+
+: Profile summary {.striped}
+
+$$\text{H\&S Incidents per 100 FTEs} = \frac{\text{H\&S Incidents}}{100 \text{ FTEs}}$$
+
+**Reading it.** A result of 3.0 means three incidents per 100 FTEs. This is a common workforce safety gauge and the primary safety measure reported to regulators. It helps assess safety program effectiveness and overall workplace safety.
+
+**Analysis.** By geography or site, job family, title, function, and other position dimensions; by incident type and severity (cost or absence length).
+
+**Limitations.** Without further analysis, does not show severity or effects on commitment, engagement, and brand.
+
+**Targets.** Equal or near zero; organizations always aim to minimize occurrences.
+
+**Variations.** 1st Shift; 2nd Shift; Auto; Chemical; Construction; Exempt; High Tenure; Low Tenure; Machinery; Non-Exempt; Slip and Fall; Workplace Violence.
+
+**Related measures.** Age Staffing Breakdown; Average Time Lost per H&S Incident; H&S Expense Breakdown; H&S Expense per FTE; H&S Incident Type Breakdown; Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### Lost Time Incident Rate [340-341]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear |
+| Application | Organizations with relatively high risk of H&S incidents, such as machinery or physical labor |
+| Description | H&S incidents resulting in lost time, per FTE |
+| Sourcing | H&S data tables; HRIS job tables and payroll or attendance systems for leave status |
+
+: Profile summary {.striped}
+
+$$\text{Lost Time Incident Rate} = \frac{\text{H\&S Incidents (Lost Time)}}{\text{FTE}}$$
+
+**Reading it.** Counts incidents causing lost work time (sick days, disability leave) per FTE. A result of .10 means one lost-time incident for every 10 FTEs. It helps judge the severity of incidents that occur and overall success in keeping the workplace safe.
+
+**Analysis.** By geography or site, job family, title, function, and other position dimensions; by incident type.
+
+**Limitations.** Does not show duration or organizational cost of lost time, or effects on commitment, engagement, and brand.
+
+**Targets.** Equal or near zero.
+
+**Variations.** Auto; Chemical; Construction; Corporate; High Tenure; Low Tenure; Machinery; Plant; Slip and Fall; Workplace Violence.
+
+**Related measures.** Age Staffing Breakdown; Compensation Value of Unscheduled Absences per FTE; H&S Expense Breakdown; H&S Expense per FTE; H&S Incident Type Breakdown; H&S Incidents per 100 FTEs; Organization Tenure Staffing Breakdown; Training Course Content Breakdown; Workers Compensation Premium per FTE; Work-Related Injury Return Ratio.
+
+### Workers Compensation Premium per FTE [342-343]
+
+| Item | Summary |
+|---|---|
+| Icons | Ratio (partly legible; rest OCR unclear) |
+| Application | Organizations with substantial workers compensation costs or relatively high H&S risk |
+| Description | Workers compensation premium paid per FTE |
+| Sourcing | Financial ledgers, H&S data tables, or outsourced third-party providers |
+
+: Profile summary {.striped}
+
+$$\text{Workers Compensation Premium per FTE} = \frac{\text{Workers Compensation Premium}}{\text{FTE}}$$
+
+**Reading it.** Cost of workers compensation insurance relative to workforce size, whether self-insured or insured externally. It is a lagging indicator of workforce health and safety, since premiums follow earlier incidents. It is also tracked as an operating expense. Insured organizations' costs also vary with insurer rating plans and rules.
+
+**Analysis.** By geography or site, noting that differences may reflect insurer rating plans as well as H&S practices and injury experience.
+
+**Limitations.** Does not show the volume of incidents drawing on the program, costs to employees, productivity costs, or effects on commitment, engagement, and brand.
+
+**Targets.** Against a benchmark group, commonly move toward the 25th percentile, implying lower cost and a likely safer, healthier workforce.
+
+**Variations.** Premium per FTE by location (the first entry is partly cut off; OCR unclear).
+
+**Related measures.** Age Staffing Breakdown; Average Time Lost per H&S Incident; H&S Expense Breakdown; H&S Expense per FTE; H&S Incident Type Breakdown; H&S Incidents per 100 FTEs; Organization Tenure Staffing Breakdown; Work-Related Injury Return Ratio.
+
+### Work-Related Injury Return Ratio [344-345]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Ratio; Bench-M, Data-M |
+| Application | Organizations with relatively high risk of H&S incidents, such as machinery or physical labor |
+| Description | Employees returning from disability leave for every resignation while on disability leave |
+| Sourcing | H&S data tables; HRIS job tables and payroll or attendance systems for disability leave status |
+
+: Profile summary {.striped}
+
+$$\text{Work-Related Injury Return Ratio} = \frac{\text{Disability Returns}}{\text{Disability Resignations}}$$
+
+**Reading it.** A result of 3.0 means three employees returned for every one who terminated during disability leave; below one means terminations outnumber returns. Work injuries cost the employee (pain, wages) and the organization (premiums, lost productivity, replacement costs, morale). The ratio indirectly reflects injury severity, on the assumption that milder injuries lead to returns and severe ones to termination, and can show the success of rehabilitation programs or disability benefits.
+
+**Analysis.** By geography or site, job family, title, function, and other position dimensions; by incident type and severity (cost or absence length).
+
+**Limitations.** Does not show financial or productivity costs, disability length, or injury type without further analysis, or effects on commitment, engagement, and brand.
+
+**Targets.** Typically a maximum result. A higher share of returns means better employee well-being and lower costs, so the aim is to minimize injuries that end in termination.
+
+**Variations.** < 30 Days; 30+ Days; Auto; Chemical; Construction; Exempt; High Tenure; Low Tenure; Machinery; Non-Exempt; Slip and Fall; Workplace Violence.
+
+**Related measures.** Age Staffing Breakdown; Benefits Expense per FTE; Benefits Expense Type Breakdown; Compensation Value of Unscheduled Absences per FTE; H&S Expense Breakdown; H&S Expense per FTE; H&S Incident Type Breakdown; Lost Time Incident Rate; Organization Tenure Staffing Breakdown; Staffing Rate—Union Employees; Workers Compensation Premium per FTE.
+
+# HR Service Delivery [347-348]
+
+HR Service Delivery is the transactional business of HR that directly touches employees and enables their ongoing employment. The section has these groups.
+
+| Group | What the measures cover | Measures |
+|---|---|---|
+| HR Profile | Volume of HR staff, their functional assignments, and their movement and dispersion | HR Staff Mix; HR Function Centralization; HR Customer Satisfaction (names partly legible; the first entry is OCR unclear) |
+| HR Expense | Costs of running the HR function and any revenue tied to its functional model | HR Budget; HR Expense Types; HR Function Expenses; HR Revenue |
+| HRIT | Timeliness and quality of data entry in HR information systems, and level of investment in HR technology | Technology Expenses; Data Entry Timeliness; Data Entry Quality |
+| Contact Center | Efficiency and effectiveness of an employee service center | Call Responsiveness; Call Quality; Caller Satisfaction |
+| Payroll | Volume, cost, and quality of payroll processes | Overpayments; Payroll Errors; Direct Deposit |
+
+: HR Service Delivery groups {.striped}
+
+## Measures in this section [349]
+
+The contents page is only partly legible, so page numbers are given only where clear.
+
+| Group | Measures (book page) |
+|---|---|
+| HR Expense | HR Expense Breakdown—Function (370); HR Expense Breakdown—Type (page OCR unclear); HR Expense per FTE (page OCR unclear); HR Operating Expense Rate (376); HR Revenue Expense Rate (378); HR Revenue per HR Employee (380) |
+| Contact Center | Average Handle Time (page OCR unclear); Contact Center Satisfaction (396); One-Call Resolution Rate (page OCR unclear); Contact Center Self-Service Penetration Rate (400); Service Level (page OCR unclear) |
+
+: Measure index for this extract {.striped}
+
+# HR Profile [351]
+
+## HR Corporate Staffing Ratio [352-353]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Ratio; Bench-H, Data-M |
+| Application | Organizations with a partly or fully decentralized HR model across business units or locations |
+| Description | Corporate HR FTEs for every field HR FTE |
+| Sourcing | Functional tag on jobs in HRIS tables (or less accurately, organizational assignment); corporate versus field status from a further tag, reporting structure, location, or organizational unit |
+
+: Profile summary {.striped}
+
+$$\text{HR Corporate Staffing Ratio} = \frac{\text{Corporate HR FTE}}{\text{Field HR FTE}}$$
+
+**Reading it.** Compares HR staff in corporate units to deployed "field" HR staff in divisions or regions (the terms can be adapted to the organization's model). Co-location may help HR serve business partners, but decentralization can make it harder to spread HR strategy and communications and can reduce staff cohesion and coordination. The ratio helps assess how well a chosen decentralization model works.
+
+**Analysis.** By division for large organizations with separate HR functions; break field staff down by location or business unit; by HR functional area to see which functions are centralized.
+
+**Limitations.** Does not compare HR decentralization with that of non-HR staff, nor show coordination costs, the cost of separation from business partners, or the overall cost of the model.
+
+**Targets.** Depend on the intended model: below one for highly decentralized, above one for highly centralized. Benchmark targets are unlikely to be useful because structures vary widely, though benchmarks show how others are organized.
+
+**Variations.** Managers; Generalists; Recruiting; Training.
+
+**Related measures.** Development Program Penetration Rate; External Hire Rate; Grievance Rate; HR Customer Satisfaction; HR Expense Breakdown—Function; HR Expense per FTE; HR Staffing Breakdown; HR Staffing Coverage Ratio; On-Time Talent Delivery Factor; Recruitment Cost per Hire; Staffing Rate—Corporate; Training Staff Ratio.
+
+## HR Customer Satisfaction [354]
+
+Only the left page is in this extract; the right-hand page is in the next file.
+
+| Item | Summary |
+|---|---|
+| Application | Broadly applicable across all organizations |
+| Description | Relative measure of employees' satisfaction with the HR function |
+| Formula | Survey results |
+| Sourcing | Responses to one or more employee survey questions |
+
+: Profile summary {.striped}
+
+**Reading it.** A survey index or set of questions on satisfaction with HR support and service, either inside a general employee survey or in a separate HR survey. It gives subjective views of HR timeliness, quality, and value, covering programs, interactions with HR staff, and HR's contribution to business goals. It complements quantitative measures and helps target improvements. Fixes may involve processes, staff skills, technology, or programs, but poor results can reflect employees' and managers' understanding of HR rather than real gaps, in which case education and communication are the better response.

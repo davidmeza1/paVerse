@@ -1,0 +1,236 @@
+---
+title: "The Metrics Standard: Retention Measure Profiles"
+subtitle: "Corporate Leadership Council (2005), book pages 107-128"
+format: html
+toc: true
+toc-depth: 3
+---
+
+::: {.callout-note}
+Converted from the scanned PDF `06-107-128.pdf` by OCR, then restructured and condensed into summaries. Formulas, icon ratings, and measure names follow the book. Each profile is paraphrased, not reproduced in full. Blank pages and page furniture are omitted. The scan ends after the left-hand page of the last profile (Employee Commitment Index), so its right-hand page is absent.
+:::
+
+# Retention [107-111]
+
+Retention is the internal engagement and satisfaction of employees and their eventual termination of employment. The category has three groups of measures.
+
+| Group | What the measures cover | Themes |
+|---|---|---|
+| Turnover | The rate at which employees terminate their employment and the reasons behind terminations | Voluntary terminations; involuntary terminations; retention |
+| Employee Engagement | Employees' satisfaction with and engagement in their employment, and their perceptions of personal fit with the organization's employment "offer" | Employee satisfaction; commitment; engagement; offer fit |
+| Cost of Turnover | Organizational costs associated with employee turnover, such as replacement costs and lost productivity | Average termination cost; composition of termination costs |
+
+: Retention groups {.striped}
+
+## Measures in this section
+
+| Group | Measures (book page) |
+|---|---|
+| Turnover | Involuntary Termination Rate (112); New Hire Turnover Contribution (114); Retention Rate (116); Termination Breakdown by Performance Rating (118); Termination Rate (120); Termination Reason Breakdown (122); Voluntary Termination Rate (124) |
+| Employee Engagement (starts at 127) | Employee Commitment Index (128); Employee Engagement Index (page not legible, OCR unclear); Market Opportunity Index (134); Offer Fit Index (page not legible, OCR unclear) |
+
+: Measure index for this extract {.striped}
+
+# Turnover [111]
+
+## Involuntary Termination Rate [112-113]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Broadly applicable. Especially useful where poor performers are routinely terminated or occasional layoffs occur. |
+| Description | Involuntary terminations as a percentage of average headcount |
+| Sourcing | Termination action reason or termination date field in a job table; involuntary mapped to layoffs, terminations for cause, and other employer-initiated terminations |
+
+: Profile summary {.striped}
+
+$$\text{Involuntary Termination Rate} = \frac{\text{Terminations}_{\text{Involuntary}}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** Captures employer-initiated exits relative to workforce size, arising from performance management, skill adjustments, or downsizing. A result of 15% means involuntary terminations equalled 15% of the workforce. Layoffs rarely need replacements, so they bring little recruiting cost, but they can hurt the morale and productivity of those who remain, and ongoing layoffs can signal strategic, financial, or workforce-planning problems. Terminations for performance usually must be replaced, with productivity, recruiting, and onboarding costs, and may point to failures in recruiting (unqualified hires), onboarding (inadequate training), or performance management. The measure also lags the effectiveness of those processes; action reason codes and manager interviews help locate the causes.
+
+**Analysis.** Organizational unit, tenure, performance rating, job family, job function, employment level, ethnic background, age, and gender.
+
+**Limitations.** Does not show specific reasons or whether terminations were preventable, and gives only an indirect view of process failures and costs. Expenses and productivity losses must be estimated separately.
+
+**Targets.** Most organizations aim for the 25th percentile or below of a relevant benchmark group. Higher targets are acceptable during temporary fluctuations (e.g., layoffs) or when working down from a very high result over several years.
+
+**Variations.** < 1-Year Tenure; < 30 Days Tenure; < 90 Days Tenure; Exempt; Layoff; Low Performers; Non-Exempt; Performance.
+
+**Related measures.** Average Involuntary Termination Value (variation); External Hire Rate—Replacement Positions (variation); Offer Acceptance Rate; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Unscheduled Absence Days per Employee; Voluntary Termination Rate.
+
+## New Hire Turnover Contribution [114-115]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-M, Data-E |
+| Application | Most useful where short-tenure employees traditionally show relatively high turnover |
+| Description | Terminations of short-tenure employees as a percentage of total terminations in the period |
+| Sourcing | Termination action reason or date in an HRIS job table; tenure from a service date (or adjusted service date) or the most recent hire action |
+
+: Profile summary {.striped}
+
+$$\text{New Hire Turnover Contribution} = \frac{\text{Terminations}_{\text{Short Tenure}}}{\text{Terminations}} \times 100$$
+
+**Reading it.** Shows how much of total turnover comes from short-tenure employees (30% means 30% of terminations), not whether that turnover is high or low. Most organizations see their highest termination rates among short-tenure staff. Such exits cost the same as others but may also signal recruiting and onboarding failures, so a higher result means more preventable terminations. Low-to-moderate turnover organizations often define short tenure as under one year for exempt/salaried and under six months for nonexempt/hourly staff. High-turnover organizations may use under 90 days (exempt) and under 30 days (nonexempt). Other models exist.
+
+**Analysis.** Performance rating, job family, job function, organizational unit, employment level, age, ethnic background, and gender, to tailor recruiting and onboarding interventions.
+
+**Limitations.** Ignores the volume of new hire turnover relative to workforce size, the specific reasons for leaving, and costs. Those must be analyzed or estimated separately.
+
+**Targets.** Organizations focus more on termination rate targets. Short-tenure turnover can fall without changing this measure if other tenure groups improve too. Where targets are set, they reflect a desired mix of turnover among low-, mid-, and high-tenure staff, and benchmarks matter only alongside termination rates.
+
+**Variations.** Exempt; Involuntary; Managers; Minority; Non-Exempt; Voluntary.
+
+**Related measures.** Employment Brand Strength; External Hire Rate; Involuntary Termination Rate; New Hire Failure Factor; New Hire Performance Satisfaction; Offer Acceptance Rate; Organization Tenure Staffing Breakdown; Staffing Rate—< 1-Year Tenure; Voluntary Termination Rate.
+
+## Retention Rate [116-117]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Most useful for organizations whose turnover targets are framed as retaining existing employees rather than reducing turnover |
+| Description | Percentage of all headcount during the period that did not terminate |
+| Sourcing | Termination action reason or date in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{Retention Rate} = \frac{\text{Start of Period Headcount} + \text{External Hires} - \text{Terminations}}{\text{Start of Period Headcount} + \text{External Hires}} \times 100$$
+
+**Reading it.** Gives the share of everyone present at any point in the period who is still employed at its end ("what percentage of all the people who walked through our doors this year are still here?"). A result of 80% means 80% of start-of-period staff plus hires remain. High turnover carries departure, vacancy, and new-hire costs, lost knowledge, possible skill loss, and strain on remaining staff. Very low turnover can breed insularity, stagnant skills and ideas, and weak performance management. Unlike Termination Rate, which compares terminations to average headcount, this views retained staff against total headcount, a more positive framing some organizations prefer. Variants use only average or start-of-period headcount as the denominator.
+
+**Analysis.** Organizational unit, tenure, performance rating, grade, job family, job function, employment level, ethnic background, age, and gender; helps spot skill gaps, diversity issues, and strategic threats.
+
+**Limitations.** Does not separate employee-initiated from organization-initiated exits or give reasons. It does not fully capture churn because replacement hiring is not considered, and it indicates turnover costs only indirectly.
+
+**Targets.** Most organizations aim for the 75th percentile or above of a relevant benchmark group, often an absolute 90-95% at the total organization level. Lower targets suit temporary fluctuations (e.g., reorganizations) or a gradual climb from a very low result.
+
+**Variations.** < 1-Year Tenure; Exempt; High Performers; High Potential; Low Performers; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Termination Value; Compensation Satisfaction Index; Employee Engagement Index; Employee Retention Index; External Hire Rate; Manager Quality Index; Market Opportunity Index; New Hire Turnover Contribution; Offer Acceptance Rate; Offer Fit Index; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Termination Rate; Termination Reason Breakdown.
+
+## Termination Breakdown by Performance Rating [118-119]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Quality, Composition; Bench-H, Data-M |
+| Application | Most useful where performance ratings are applied reasonably accurately and consistently |
+| Description | Distribution of terminations in the period by the performance rating of the terminating employees |
+| Sourcing | Terminations from an HRIS job table; ratings (as of termination) from performance management tables or separate performance systems |
+
+: Profile summary {.striped}
+
+$$\text{Share}_{r} = \frac{\text{Terminations}_{[\text{Performance Rating } r]}}{\text{Terminations}} \times 100$$
+
+**Reading it.** Shows the rating mix of leavers, e.g., 20% A-rated, 50% B, 30% C. It helps organizations retain top performers and manage out poor ones. Many top-performer exits suggest the employment offer is falling short for them; too few poor-performer exits suggest poor performance is tolerated. Results must be read against Performance Rating Distribution: 20% of exits being A performers is more worrying if only 10% of staff are rated A than if 30% are.
+
+**Analysis.** Tenure, age, employment type, employment level, job family, job function, and EEO category; by manager or unit to assess how poor performers are handled.
+
+**Limitations.** Gives no overall volume or cost of turnover, or how cost differs by rating. It is only as good as the accuracy and consistency of managers' ratings.
+
+**Targets.** Targets are set for each component and must reflect the rating distribution of all employees. Typically the share of A-employee terminations is aimed below their share of the workforce; for C employees it may be higher if the organization aims to manage out poor performers.
+
+**Variations.** Exempt; High Performers; Layoff; Minority; Non-Exempt; Voluntary (some variation names OCR unclear; the printed list also shows the "Involuntary" type).
+
+**Related measures.** Average Performance Appraisal Rating; Average Termination Value—High Performers (variation); Average Termination Value—High Potential (variation); Employee Engagement Index—High Performers (variation); Employee Retention Index—High Performers (variation); Involuntary Termination Rate; Manager Quality Index—High Performers (variation); Market Opportunity Index—High Performers (variation); Offer Fit Index—High Performers (variation); Performance Rating Distribution; Performance-Based Pay Differential; Voluntary Termination Rate.
+
+## Termination Rate [120-121]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Broadly useful for monitoring the adequacy of the employment "offer" and the strain turnover places on the organization |
+| Description | Terminations in the reporting period as a percentage of average headcount |
+| Sourcing | Termination action reason or date in an HRIS job table |
+
+: Profile summary {.striped}
+
+$$\text{Termination Rate} = \frac{\text{Terminations}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** Total turnover, voluntary and involuntary. A result of 20% means exits equalled 20% of average workforce size; over 100% means exits exceeded average headcount. High turnover brings departure, vacancy, and new-hire costs, lost knowledge, possible skill loss, and morale and workload strain. Very low turnover can breed insularity and signal ineffective performance management. It gives an indirect view of turnover cost, staffing demands, culture, and employment brand, but action planning needs it split into Voluntary Termination Rate (gaps in the offer) and Involuntary Termination Rate (gaps in hiring, onboarding, and performance management).
+
+**Analysis.** Organizational unit, tenure, performance rating, grade, job family, job function, employment level, ethnic background, age, and gender; helps monitor skill gaps, diversity issues, and strategic threats.
+
+**Limitations.** Does not separate employee- from organization-initiated exits, give reasons (e.g., poor manager, compensation, returning to school), fully measure churn (replacement hiring is ignored), or show costs directly.
+
+**Targets.** Targets are most useful for the voluntary and involuntary components, though a target equal to the sum of the two also works. Most organizations aim for the 25th percentile or lower of a benchmark group, often an absolute 5-10% depending on industry and labor market. Higher targets suit temporary fluctuations (e.g., reorganizations) or a gradual reduction from a very high result.
+
+**Variations.** < 1-Year Tenure; < 30 Days Tenure; < 90 Days Tenure; 40+ Years Old; Exempt; Female; High Performers; High Potential; High Tenure; Managers; Minority; Non-Exempt.
+
+**Related measures.** Average Termination Value; Compensation Satisfaction Index; Employee Retention Index; External Hire Rate; Involuntary Termination Rate; Manager Quality Index; Market Opportunity Index; Offer Acceptance Rate; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating; Voluntary Termination Rate.
+
+## Termination Reason Breakdown [122-123]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Composition; Bench-E, Data-E |
+| Application | Most useful for organizations that want to track the reasons employees leave |
+| Description | Distribution of terminations in the period by type of termination |
+| Sourcing | Termination action reason or date in a job table; voluntary mapped to retirements, resignations, and other employee-initiated exits; involuntary to layoffs, terminations for cause, and other employer-initiated exits |
+
+: Profile summary {.striped}
+
+$$\text{Share}_{k} = \frac{\text{Terminations}_{[\text{Termination Reason } k]}}{\text{Terminations}} \times 100$$
+
+**Reading it.** Shows the mix of exits, typically as a stacked bar of voluntary versus involuntary shares of total terminations. It does not show volume, but voluntary and involuntary exits differ in cost, management and HR involvement, and effect on the remaining workforce. High involuntary shares prompt a look for process failures; high voluntary shares prompt a look at engagement and commitment. Voluntary-only or involuntary-only variations show the mix of reasons within each, guiding retention work, recruiting and onboarding, performance management and discipline, or workforce planning.
+
+**Analysis.** Tenure, performance rating, job family, job function, organizational unit, employment level, age, ethnic background, and gender.
+
+**Limitations.** Shows no volume relative to workforce size, only relative to other types. It does not separate desirable from undesirable turnover unless action reasons capture that, and it gives only an indirect view of costs.
+
+**Targets.** Targets are needed per component. Voluntary: e.g., retirement, dissatisfaction with managers, return to school. Involuntary: e.g., policy violations, layoffs, failure to meet performance expectations.
+
+**Variations.** Involuntary Termination Reason Breakdown; Termination Reason Breakdown—Exempt; —High Performers; —High Potential; —Low Performers; —Managers; —Minority; —Non-Exempt; Voluntary Termination Reason Breakdown (one printed variation name OCR unclear).
+
+**Related measures.** Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Commitment Index; Employee Engagement Index; Employee Retention Index; Employment Brand Strength; Involuntary Termination Rate; Manager Quality Index; Market Opportunity Index; New Hire Turnover Contribution; Offer Acceptance Rate; Offer Fit Index; Termination Breakdown by Performance Rating; Voluntary Termination Rate.
+
+## Voluntary Termination Rate [124-125]
+
+| Item | Summary |
+|---|---|
+| Icons | Volume, Rate; Bench-E, Data-E |
+| Application | Broadly applicable. Especially useful with a large workforce in high-turnover positions (e.g., call center reps) or recruiting from talent markets prone to cyclical shifts. |
+| Description | Voluntary terminations in the reporting period as a percentage of average headcount |
+| Sourcing | Termination action reason or date in a job table; voluntary mapped to retirements, resignations, and other employee-initiated terminations |
+
+: Profile summary {.striped}
+
+$$\text{Voluntary Termination Rate} = \frac{\text{Terminations}_{\text{Voluntary}}}{\text{Average Headcount}} \times 100$$
+
+**Reading it.** Employee-initiated exits such as resignation or retirement; 15% means voluntary exits equalled 15% of the workforce. Replaced leavers create departure, vacancy, and new-hire costs, lost knowledge, possible skill loss, and strain on remaining staff. Very low voluntary turnover can encourage insularity and mask weak performance management. The measure helps approximate replacement and productivity costs and lags employment brand and offer fit; action reason codes (e.g., poor manager, compensation, returning to school) and exit surveys locate problems. It also informs workforce planning: voluntary trends predict recruiting needs, and natural attrition can be used to reduce staff numbers.
+
+**Analysis.** Organizational unit, tenure, performance rating, grade, job family, job function, employment level, ethnic background, age, and gender; helps monitor skill gaps, diversity issues, and strategic threats.
+
+**Limitations.** Does not give specific reasons or say whether exits were desirable. It gives only an indirect view of offer fit and turnover costs.
+
+**Targets.** Most organizations aim for the 25th percentile or lower of a benchmark group of similar talent pools. Higher targets suit temporary fluctuations (e.g., early retirement options) or a gradual reduction from a very high result.
+
+**Variations.** < 1-Year Tenure; < 30 Days Tenure; < 90 Days Tenure; Dissatisfaction with Work Environment; Exempt; Female; High Performers; High Potential; High Tenure; Managers; Minority; Non-Exempt; No-Show; Retirement.
+
+**Related measures.** Average Voluntary Termination Value; Benefits Satisfaction Index; Compensation Satisfaction Index; Employee Engagement Index; Employee Retention Index; Employment Brand Strength; External Hire Rate—Replacement Positions (variation); Involuntary Termination Rate; Manager Quality Index; Market Opportunity Index; New Hire Turnover Contribution; Operating Expense per FTE; Organization Tenure Staffing Breakdown; Return on Human Investment Ratio; Termination Breakdown by Performance Rating.
+
+# Employee Engagement [127]
+
+## Employee Commitment Index [128]
+
+| Item | Summary |
+|---|---|
+| Icons | OCR unclear (right-hand page not in the scan) |
+| Application | Broadly applicable. Most useful for organizations that run, or plan to run, periodic employee surveys. |
+| Description | Relative measure of employees' commitment to the organization |
+| Sourcing | Responses to one or more questions on employee surveys |
+
+: Profile summary {.striped}
+
+$$\text{Employee Commitment Index} = \text{Survey Results}$$
+
+**Reading it.** Commitment is usually measured by survey, and each survey uses different questions or methods. The book uses this index as a sample because it is the measure in CLC Solutions' Employee Preferences Survey and benchmarks. It gauges attachment and commitment to the firm, based on questions such as the desire to spend a career there and views of it as a great place to work. It is distinct from retention (intention to leave and job-search behavior) and from engagement (effort and enthusiasm in daily work). Commitment is partly shaped by perceived external market opportunity and offer fit and directly affects the likelihood of staying, so a declining index is likely to drive turnover, especially when the labor market looks favorable. Poor results can be probed for employment brand, leadership, or internal process causes. Aggregated indices are easier to act on than question-by-question detail, and no single "satisfaction" figure suffices; several indices are needed for a holistic view.
+
+**Analysis.** OCR unclear (right-hand page not in the scan).
+
+**Limitations.** OCR unclear (right-hand page not in the scan).
+
+**Targets.** OCR unclear (right-hand page not in the scan).
+
+**Variations.** OCR unclear (right-hand page not in the scan).
+
+**Related measures.** OCR unclear (right-hand page not in the scan).
