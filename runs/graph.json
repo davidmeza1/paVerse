@@ -1,0 +1,1233 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-26T17:29:43.078Z",
+  "sources": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "reference/HR-METRICS-AND-ANALYTICS.pdf",
+    "README.md",
+    "reference/hr-metris/09-169-188.pdf",
+    "reference/hr-metris/010-189-208.pdf",
+    "reference/hr-metris/HR_Metric_Standards_low copy.pdf",
+    "reference/hr-metris/02-27-48.pdf",
+    "reference/hr-metris/03-49-68.pdf",
+    "reference/hr-metris/07-129-148.pdf",
+    "reference/hr-metris/04-69-84.pdf",
+    "reference/hr-metris/021-505-527-end.pdf",
+    "reference/hr-metris/018-415-444.pdf",
+    "reference/hr-metris/015-325-354.pdf",
+    "reference/hr-metris/017-385-414.pdf",
+    "reference/hr-metris/016-355-384.pdf",
+    "reference/hr-metris/013-263-294.pdf",
+    "reference/hr-metris/020-475-504.pdf",
+    "reference/hr-metris/05-85-106.pdf",
+    "reference/hr-metris/01-start-26.pdf",
+    "reference/hr-metris/HR_Metric_Standards.pdf",
+    "reference/hr-metris/HR_Metric_Standards_low.pdf",
+    "reference/hr-metris/014-295-324.pdf",
+    "reference/hr-metris/08-149-168.pdf",
+    "reference/hr-metris/012-233-262.pdf",
+    "reference/hr-metris/019-445-474.pdf",
+    "reference/hr-metris/06-107-128.pdf",
+    "reference/hr-metris/011-209-232.pdf",
+    "spec/padm/padm-v0.md"
+  ],
+  "entities": [
+    {
+      "id": "sec_rtk_token_saver_rule_agents_",
+      "name": "RTK Token Saver Rule (agents)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 2,
+      "evidence": "# RTK Token Saver Rule (agents)"
+    },
+    {
+      "id": "sec_rtk_rust_token_killer_optimization_rule",
+      "name": "RTK (Rust Token Killer) Optimization Rule",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 4,
+      "evidence": "## RTK (Rust Token Killer) Optimization Rule"
+    },
+    {
+      "id": "sec_output_token_optimization",
+      "name": "Output & Token Optimization",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 15,
+      "evidence": "### Output & Token Optimization"
+    },
+    {
+      "id": "sec_3_tier_hybrid_web_research_scraping_policy_upstream_fastcrw_crw_lightpanda_io_browser_",
+      "name": "3-Tier Hybrid Web Research & Scraping Policy (Upstream: fastcrw/crw & lightpanda-io/browser)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 21,
+      "evidence": "## 3-Tier Hybrid Web Research & Scraping Policy (Upstream: fastcrw/crw & lightpanda-io/browser)"
+    },
+    {
+      "id": "sec_mandatory_semantic_knowledge_graph_first_policy_token_saver_enforcement_",
+      "name": "Mandatory Semantic Knowledge Graph First Policy (Token Saver Enforcement)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 34,
+      "evidence": "## Mandatory Semantic Knowledge Graph First Policy (Token Saver Enforcement)"
+    },
+    {
+      "id": "sec_1_code_based_files_codegraphcontext_upstream_codegraphcontext_codegraphcontext_",
+      "name": "1. Code-Based Files -> CodeGraphContext (Upstream: CodeGraphContext/CodeGraphContext)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 37,
+      "evidence": "### 1. Code-Based Files -> CodeGraphContext (Upstream: CodeGraphContext/CodeGraphContext)"
+    },
+    {
+      "id": "ent_code_query_engine_",
+      "name": "Code Query Engine:",
+      "type": "Component/Requirement",
+      "description": "For all code architecture, symbol definitions, function signatures, call hierarchies (callers/callees), class inheritance, and module dependencies, AI agents MUST query the CodeGraphContext index (/co",
+      "source": "AGENTS.md",
+      "line": 38,
+      "evidence": "- **Code Query Engine:** For all code architecture, symbol definitions, function signatures, call hierarchies (callers/callees), class inheritance, and module d"
+    },
+    {
+      "id": "ent_zero_waste_fallback_",
+      "name": "Zero-Waste Fallback:",
+      "type": "Component/Requirement",
+      "description": "NEVER dump or read entire source code files or directory trees into LLM prompt context when answering code questions. Only fall back to localized file reads (and then only targeted slices) if the know",
+      "source": "AGENTS.md",
+      "line": 39,
+      "evidence": "- **Zero-Waste Fallback:** NEVER dump or read entire source code files or directory trees into LLM prompt context when answering code questions. Only fall back "
+    },
+    {
+      "id": "ent_live_synchronization_",
+      "name": "Live Synchronization:",
+      "type": "Component/Requirement",
+      "description": "The project code graph is continuously kept updated via background incremental sync / `cgc watch` / on-save triggers.",
+      "source": "AGENTS.md",
+      "line": 40,
+      "evidence": "- **Live Synchronization:** The project code graph is continuously kept updated via background incremental sync / `cgc watch` / on-save triggers."
+    },
+    {
+      "id": "sec_2_non_code_files_jevgraph_upstream_chenmingtang830_jevgraph_",
+      "name": "2. Non-Code Files -> JevGraph (Upstream: chenmingtang830/jevgraph)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 42,
+      "evidence": "### 2. Non-Code Files -> JevGraph (Upstream: chenmingtang830/jevgraph)"
+    },
+    {
+      "id": "ent_document_query_engine_only_",
+      "name": "Document Query Engine ONLY:",
+      "type": "Component/Requirement",
+      "description": "JevGraph is strictly designated for non-code files (documentation, Markdown specs, PRDs, PDFs, Word docs `.docx`, slides `.pptx`, text `.txt`).",
+      "source": "AGENTS.md",
+      "line": 43,
+      "evidence": "- **Document Query Engine ONLY:** JevGraph is strictly designated for non-code files (documentation, Markdown specs, PRDs, PDFs, Word docs `.docx`, slides `.ppt"
+    },
+    {
+      "id": "ent_bounded_evidence_",
+      "name": "Bounded Evidence:",
+      "type": "Component/Requirement",
+      "description": "When ingesting large specs, PRDs, PDFs, or architectural documentation, build or query bounded evidence-backed knowledge graphs (/jevgraph-build, /jevgraph-query) with character-level page maps instea",
+      "source": "AGENTS.md",
+      "line": 44,
+      "evidence": "- **Bounded Evidence:** When ingesting large specs, PRDs, PDFs, or architectural documentation, build or query bounded evidence-backed knowledge graphs (/jevgra"
+    },
+    {
+      "id": "ent_strict_separation_",
+      "name": "Strict Separation:",
+      "type": "Component/Requirement",
+      "description": "NEVER use JevGraph for source code AST indexing; code files are strictly handled by CodeGraphContext.",
+      "source": "AGENTS.md",
+      "line": 45,
+      "evidence": "- **Strict Separation:** NEVER use JevGraph for source code AST indexing; code files are strictly handled by CodeGraphContext."
+    },
+    {
+      "id": "sec_headroom_context_compression_upstream_headroomlabs_ai_headroom_",
+      "name": "Headroom Context Compression (Upstream: headroomlabs-ai/headroom)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 48,
+      "evidence": "## Headroom Context Compression (Upstream: headroomlabs-ai/headroom)"
+    },
+    {
+      "id": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "name": "Anti-Slop Filter & Quality Rules (Upstream: miqdadbadjuber/anti-slop)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 52,
+      "evidence": "## Anti-Slop Filter & Quality Rules (Upstream: miqdadbadjuber/anti-slop)"
+    },
+    {
+      "id": "ent_filter_not_style_guide_",
+      "name": "Filter, Not Style Guide:",
+      "type": "Component/Requirement",
+      "description": "Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges).",
+      "source": "AGENTS.md",
+      "line": 54,
+      "evidence": "- **Filter, Not Style Guide:** Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges)."
+    },
+    {
+      "id": "ent_liveliness_grounding_",
+      "name": "Liveliness & Grounding:",
+      "type": "Component/Requirement",
+      "description": "Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility.",
+      "source": "AGENTS.md",
+      "line": 55,
+      "evidence": "- **Liveliness & Grounding:** Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility."
+    },
+    {
+      "id": "ent_dedicated_skills_",
+      "name": "Dedicated Skills:",
+      "type": "Component/Requirement",
+      "description": "Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SKILL.md`, `skills/antislop-layoutmobile/SKILL.md`, `skills/antisl",
+      "source": "AGENTS.md",
+      "line": 56,
+      "evidence": "- **Dedicated Skills:** Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SK"
+    },
+    {
+      "id": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "name": "Output & Generation Token Saver Rule (Ponytail Mode: FULL)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 59,
+      "evidence": "## Output & Generation Token Saver Rule (Ponytail Mode: FULL)"
+    },
+    {
+      "id": "ent_yagni_shortest_diff_",
+      "name": "YAGNI & Shortest Diff:",
+      "type": "Component/Requirement",
+      "description": "Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins.",
+      "source": "AGENTS.md",
+      "line": 60,
+      "evidence": "- **YAGNI & Shortest Diff:** Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins."
+    },
+    {
+      "id": "ent_terse_responses_",
+      "name": "Terse Responses:",
+      "type": "Component/Requirement",
+      "description": "Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature walkthroughs.",
+      "source": "AGENTS.md",
+      "line": 61,
+      "evidence": "- **Terse Responses:** Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature wa"
+    },
+    {
+      "id": "sec_terse_agent_directives",
+      "name": "Terse Agent Directives",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 63,
+      "evidence": "## Terse Agent Directives"
+    },
+    {
+      "id": "sec_context_optimization_compact_diffs_outlines_",
+      "name": "Context Optimization (Compact Diffs & Outlines)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 67,
+      "evidence": "## Context Optimization (Compact Diffs & Outlines)"
+    },
+    {
+      "id": "sec_ecc_context_management_compaction_protocol_upstream_affaan_m_ecc_",
+      "name": "ECC Context Management & Compaction Protocol (Upstream: affaan-m/ECC)",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 71,
+      "evidence": "## ECC Context Management & Compaction Protocol (Upstream: affaan-m/ECC)"
+    },
+    {
+      "id": "sec_upstream_engine_integration_latency_guardrails_standards",
+      "name": "Upstream Engine Integration & Latency Guardrails Standards",
+      "type": "Section/Module",
+      "description": "Specification section from AGENTS.md",
+      "source": "AGENTS.md",
+      "line": 77,
+      "evidence": "## Upstream Engine Integration & Latency Guardrails Standards"
+    },
+    {
+      "id": "sec_claude_md",
+      "name": "CLAUDE.md",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 1,
+      "evidence": "# CLAUDE.md"
+    },
+    {
+      "id": "sec_what_this_is",
+      "name": "What this is",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 5,
+      "evidence": "## What this is"
+    },
+    {
+      "id": "sec_commands",
+      "name": "Commands",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 9,
+      "evidence": "## Commands"
+    },
+    {
+      "id": "sec_install_all_three_packages_from_source_required_before_running_the_demo_install_order_doesn_t_matter_",
+      "name": "Install all three packages from source (required before running the demo; install order doesn't matter)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 14,
+      "evidence": "# Install all three packages from source (required before running the demo; install order doesn't matter)"
+    },
+    {
+      "id": "sec_test_check_one_package_swap_the_path_for_pkg_pa_synthetic_or_pkg_attrition_",
+      "name": "Test / check one package (swap the path for pkg/pa.synthetic or pkg/attrition)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 17,
+      "evidence": "# Test / check one package (swap the path for pkg/pa.synthetic or pkg/attrition)"
+    },
+    {
+      "id": "sec_single_test_file",
+      "name": "Single test file",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 21,
+      "evidence": "# Single test file"
+    },
+    {
+      "id": "sec_regenerate_rd_namespace_after_editing_roxygen_comments",
+      "name": "Regenerate Rd/NAMESPACE after editing roxygen comments",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 24,
+      "evidence": "# Regenerate Rd/NAMESPACE after editing roxygen comments"
+    },
+    {
+      "id": "sec_end_to_end_smoke_test_stops_with_non_zero_exit_on_any_failed_check_and_full_report",
+      "name": "End-to-end smoke test (stops with non-zero exit on any failed check) and full report",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 27,
+      "evidence": "# End-to-end smoke test (stops with non-zero exit on any failed check) and full report"
+    },
+    {
+      "id": "sec_architecture",
+      "name": "Architecture",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 34,
+      "evidence": "## Architecture"
+    },
+    {
+      "id": "sec_conventions_that_matter",
+      "name": "Conventions that matter",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 60,
+      "evidence": "## Conventions that matter"
+    },
+    {
+      "id": "ent_turnover_denominator_is_never_implicit_",
+      "name": "Turnover denominator is never implicit.",
+      "type": "Component/Requirement",
+      "description": "`attr_rate()` takes a required `definition` (`\"beginning_headcount\"`, `\"avg_headcount\"`, `\"exposure\"`); the same data yields three different rates. `exposure` is padm's canonical default (spec §7). Do",
+      "source": "CLAUDE.md",
+      "line": 62,
+      "evidence": "- **Turnover denominator is never implicit.** `attr_rate()` takes a required `definition` (`\"beginning_headcount\"`, `\"avg_headcount\"`, `\"exposure\"`); the same d"
+    },
+    {
+      "id": "sec_rtk_token_saver_rule_claude_",
+      "name": "RTK Token Saver Rule (claude)",
+      "type": "Section/Module",
+      "description": "Specification section from CLAUDE.md",
+      "source": "CLAUDE.md",
+      "line": 67,
+      "evidence": "# RTK Token Saver Rule (claude)"
+    },
+    {
+      "id": "sec_paverse",
+      "name": "paVerse",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 1,
+      "evidence": "# paVerse"
+    },
+    {
+      "id": "sec_what_s_here",
+      "name": "What's here",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 11,
+      "evidence": "## What's here"
+    },
+    {
+      "id": "sec_the_reference_pipeline",
+      "name": "The reference pipeline",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 27,
+      "evidence": "## The reference pipeline"
+    },
+    {
+      "id": "sec_running_the_demo",
+      "name": "Running the demo",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 47,
+      "evidence": "## Running the demo"
+    },
+    {
+      "id": "sec_1_install_the_three_packages_from_source",
+      "name": "1. Install the three packages from source",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 53,
+      "evidence": "# 1. Install the three packages from source"
+    },
+    {
+      "id": "sec_2_run_the_pipeline_headless_ci_style_smoke_test_exits_non_zero_on_any_failed_check_",
+      "name": "2. Run the pipeline headless (CI-style smoke test; exits non-zero on any failed check)",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 56,
+      "evidence": "# 2. Run the pipeline headless (CI-style smoke test; exits non-zero on any failed check)"
+    },
+    {
+      "id": "sec_3_render_the_full_report_with_narrative_tables_and_plots",
+      "name": "3. Render the full report with narrative, tables, and plots",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 59,
+      "evidence": "# 3. Render the full report with narrative, tables, and plots"
+    },
+    {
+      "id": "sec_verifying_the_packages",
+      "name": "Verifying the packages",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 66,
+      "evidence": "## Verifying the packages"
+    },
+    {
+      "id": "sec_why_r_first",
+      "name": "Why R first",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 80,
+      "evidence": "## Why R first"
+    },
+    {
+      "id": "sec_not_in_scope_yet",
+      "name": "Not in scope yet",
+      "type": "Section/Module",
+      "description": "Specification section from README.md",
+      "source": "README.md",
+      "line": 88,
+      "evidence": "## Not in scope yet"
+    },
+    {
+      "id": "sec_d_i_q_d_d_7d_w_a_ei7s_s0_o_m_d_m_2_h_ik9a_t_r_b_ru_x_u_bwn_a_q_c2_5r_ze_e_d_i9_p_h_u_q_a_9",
+      "name": "Dݡ\u0003�i�q��\u001b�\u0010��dӮd{\u0003¦�7d��?�\t��{W�\u0006�a�\u0018�'�EI7s�s0ɖo�\u0015�����M������!\u001c�d,�Ӝ�M˂\u0007̥\u001f���?�2κჯ�\u000eӋh��-����ik9a�tų��R�\u0001����}�b.RU\u0017X=���ۄ\u000bU�Bwn���a@q���!��ƱC2�Ë5R���ze��e\u0015�D\\i9�P��^}}H�����ہ<\u001f����\u000f��u\u000e����q�\u0012��͏aڕ����%����9",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/09-169-188.pdf",
+      "source": "reference/hr-metris/09-169-188.pdf",
+      "line": 17437,
+      "evidence": "# Dݡ\u0003�i�q��\u001b�\u0010��dӮd{\u0003¦�7d��?�\t��{W�\u0006�a�\u0018�'�EI7s�s0ɖo�\u0015�����M��*����!\u001c�d,�Ӝ�M˂\u0007̥\u001f���?�2κჯ�\u000eӋh��-����ik9a�tų��R�\u0001����}#�b.RU\u0017X=���ۄ\u000bU�Bwn���a@q���!��ƱC2�Ë5R���ze�"
+    },
+    {
+      "id": "sec__o_m_i_d_z_hij_i_s_v_p_d_jg_8_m_y_a6x_81_s_r_w_g_2_f_xd_w_l7_g_z_vwgh_p_c_g_i_wg_k_c_dg_n_k_g_2_q_r_l7_zb_k_1_lk0_m_h_8_y_c_24g_pd_y_j_g_k_i_d_6r_u_9t_a_h_j_io_qe_u_qo_o_94_t_d_0_tm_j_u8_j_t_w_r_gdg_pk_s_8_7_m_m_f_kb_by_x_m_q_4z_g_y_5_",
+      "name": "���\u0014o�m���I^D Z��,HIJ\f�i�(�;\"�~�\u0003s�V�pD(Ͻ\\��JG��|8$�\u001e��m)Y;�\u001a��a6XД��81\u0001\u001b��\u0000����\u001e\t]ڑ�;�S'�.���R\u001e�w�\u0015G���\u001d2�f-�;/�xd�?�\u0010W�@�L7��\u0010\u0012�G(z�\u000e��:VWGH�\u000bP@��\u0005C�g$i~�wg��K�)c+���=\u0007\u001aDg�\u0004��n$k�\u001e�g��2�Q��{��r�l7�\u0013ZB\u001ek�@\u0003{���1���lK0��\u0019\u0019��Mӡ�\u0005h\t8��.�\u0001Y�,�=���?�C�\u0019+24GÃ��\u000bPd������y�|\u001e<\u001e���J�g���K+�����I�D)6r�U�\u0010�\u001b9T�-�a��h�˷J,io;��|��(\u0019\bQE\u000f����۽���u�͢����\u0011�qo\b��o�Ч�94���T�d��0(�tM��j���u8\u0000��@�/�J~\u0017獏�T�W�R����\u0004/�\u001d��\u0018�\u0003-[Ü��{��GdG�pK��s�8%�%7�-�m��Ήm\u0017F.�kB�by\u001ax�m�Q\u000f�{�4z���g�y^��5��",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/09-169-188.pdf",
+      "source": "reference/hr-metris/09-169-188.pdf",
+      "line": 18792,
+      "evidence": "#\f���\u0014o�m���I^D Z��,HIJ\f�i�(�;\"�~�\u0003s�V�pD(Ͻ\\��JG�_�|8$�\u001e��m)Y;�\u001a��a6XД��`81#\u0001\u001b��\u0000����\u001e\t]ڑ�;�S'�.���R\u001e�w�\u0015G���\u001d2�f-�;/�xd�?�\u0010W�@�L7��\u0010\u0012�G(z�\u000e��:VWGH�\u000bP@��\u0005C�g$"
+    },
+    {
+      "id": "sec__u_oen_p_z_j0d_y_x_m_z_v_l",
+      "name": "�U\u0002�\u0005|��'��&OEn~�{p��Z=�J0d�%�ʹY�\u001b.���ږ�X}M�����Z\bٍV\u0007�ǝL",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/010-189-208.pdf",
+      "source": "reference/hr-metris/010-189-208.pdf",
+      "line": 18182,
+      "evidence": "# �U\u0002�\u0005|��'��&OEn~�{p��Z=�J0d�%�ʹY�\u001b.���ږ�X}M�����Z\bٍ_V\u0007�ǝ_L"
+    },
+    {
+      "id": "sec__lk_y_c_u_e_1_rtm_z",
+      "name": "%�\tLK��\u0018�\u0012y��c����uڍ�����e�1\u0019RTm\u0019�z",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards_low copy.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards_low copy.pdf",
+      "line": 65972,
+      "evidence": "#\t%�\tLK��\u0018�\u0012y��c����uڍ�����e�1\u0019RTm\u0019�z"
+    },
+    {
+      "id": "sec__yk1_f_r_u_t_zq_w_u_t_t_y_u_m_luc_x_z_r_y6_0_g_h_n_gp_j_2_2g_a_q_f_l_j_v_3_i_w_ur_5_22_o_7a_h_q_1c_rg_g_n_v_u_t_h_w_zp_h_m_k_w_9_m_dj_d_q_u_t_hb1_w_e_a_u_8_l_d_ol_",
+      "name": "�YK1-��F\u0015[�\u0006R\u0011��\u0017u�\"T?zQ�=\u0018w\u0007���U��\f�%��\u0003t�t\u001e�y�\u0000���u��,m\u0015�\u0005��lUc�\u0006<.x<z�R@��Ε\u0013�y6�0^$���G|(h�N��:\u0001��gP���\u0011����[�<�J�&�2\u001f2G\u0018\u0000\u0002\u0006�ϿA]��ּ���\u0000�q\u0016�����f�\u0006 \u0015�,�\u0007��\u000e����\u000e\u0000\u0014�ƨl\u001ej��<V�3�;�\"�\u0016i\u000e�\u001cw>�ur\u00015��:-���\u0002��22\t�O<7a�h@q^\t\u0011$�1C$rG\u0010\u001e\\��g<|��\u0000N{��v�+��uē��t��H��;̹ ���\u0017��w��zP�h汵��M��K��ڣw$��9?�m\f\u0003�dj���%�ʂ�D��q�\u0003$�U�t�hB1�+w���e\u0013\u0019A/���\u0010�\u0010u�8<��l�D����oL������ԟ�\u0015\u0014\f��",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards_low copy.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards_low copy.pdf",
+      "line": 135122,
+      "evidence": "#\u000b�YK1-��F\u0015[�\u0006R\u0011��\u0017u�\"T?zQ�=\u0018w\u0007���U��\f�%��\u0003t`�t\u001e�y�\u0000�#��u��,m\u0015�\u0005��lUc�\u0006<.x<z�R@��Ε\u0013�y6�0^$���G|(h�N��:\u0001��gP���\u0011����[�<�J�&�2\u001f2G\u0018\u0000\u0002\u0006�ϿA]��ּ���\u0000�q\u0016�����f�\u0006 \u0015�,�\u0007"
+    },
+    {
+      "id": "sec__6_md_z5_s_k_qkb_a_z_w_3_n_c_l_xy7o_nr_4_q_8_e_4_6g_b_wcp_pb_ct_5c_e1c_b_b7_f_mhb_ei_3_wh_wqb_l_j_o_h_f_o_",
+      "name": "\u00186�\b\u0000MD\u0001\u0000z5.\u0004ǅS\f����\u0011k���qKb���a�Z,���{�W�[%����3�\u001a\u0007n�C\u0018/\u000f��ݵ��l��\u001d\u001d��XY7o��\u0007˗�'��߿nr'\u0012�4[�q����\u0018��8-�E���\u0000�4%\u0007�6g�����B\u0018~�\u001d\u0000�wCP�pb�-��ݔ{%��\t�ct��� �[��5C�$ÉE1C>\u0016\"b��\u0004B7�\u0001@�\u001bf\u0016\u001cMhb���@�Ei\u0014���^3 wH�\u0011\u000b���\u0014')[�wqb\u000f\u0019�l�j[�\u001co[\b�\u0002��\u0004^��h�F�O���",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/021-505-527-end.pdf",
+      "source": "reference/hr-metris/021-505-527-end.pdf",
+      "line": 5170,
+      "evidence": "#\u000b\u00186�\b\u0000MD\u0001\u0000z5.\u0004ǅS\f����\u0011k���qKb���a�Z,���{�W�[%����3�\u001a\u0007n�C\u0018/\u000f��ݵ��l��\u001d\u001d��XY7o��\u0007˗�'��*߿nr'\u0012�4[�q����\u0018��8-�E���*\u0000�4%\u0007*�6g��`���B\u0018~�\u001d\u0000�wCP�pb�-��ݔ{%��\t�ct��� �[��5"
+    },
+    {
+      "id": "sec_1e_f_sfh_3_v_c_h_js_h_gq_i",
+      "name": "1E�F�ȅ��~\u0018sfh�3��v���C\u0013H\u0000��JS�H�gq��\t+,I",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/018-415-444.pdf",
+      "source": "reference/hr-metris/018-415-444.pdf",
+      "line": 18492,
+      "evidence": "#\f1E�F�ȅ��~*\u0018sfh�3��v���C\u0013H\u0000��JS�H�gq��\t+,I"
+    },
+    {
+      "id": "sec__7_l_l_n_x_s_z_5s_2_g_l_s_3_dj_y3_r_o_u_l_tp_k_n_dk_2_v_b_",
+      "name": "?�-祦]7.�l$��L��>N�?���{�ȅ���x]�S�z<�^�5s\u0014�|2�%��g��Ħ��/\u0016�LS\u001d�\u00033���dj\u001fY3��ϫrϙO�.U)�>)�L�\f\u0013Tp�\u0015�k���N��DK�ڒ'2����?v�� b�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/018-415-444.pdf",
+      "source": "reference/hr-metris/018-415-444.pdf",
+      "line": 38247,
+      "evidence": "# ?�-祦]7.�l$#��L��>N�?���{�ȅ���x]�S�z<�^�5s\u0014�|2�%��g��Ħ��/\u0016�#LS\u001d�\u00033���dj#\u001fY3��ϫrϙO�.U)�>)�L�\f\u0013Tp�\u0015�k���N��DK�ڒ'2����?v�� b�"
+    },
+    {
+      "id": "sec_yt_g16g_5_",
+      "name": "YTì\\G16g�\u000f5�%\u001f",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/018-415-444.pdf",
+      "source": "reference/hr-metris/018-415-444.pdf",
+      "line": 39440,
+      "evidence": "# YTì\\G16g�\u000f5�%\u001f"
+    },
+    {
+      "id": "sec__e_hh_h_9_g5_x_bib_o",
+      "name": "\u0010����\b�҄�e�\u0019�hH�+�\u0017�\u0010�H�;޷\u000b\u001a�\u001b\u0000<�\u00009\u000f\u0012g5֚���\u0000x|�BiB:�\fO",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/015-325-354.pdf",
+      "source": "reference/hr-metris/015-325-354.pdf",
+      "line": 14259,
+      "evidence": "#\u000b\u0010����\b�҄�e�\u0019`�hH�+�\u0017�\u0010�H�;޷\u000b\u001a�\u001b\u0000<�\u00009\u000f\u0012g5֚���\u0000x|�B*iB:�\fO"
+    },
+    {
+      "id": "sec__f_g_bz5_4_3_bb_i_m_h2_u_t_d_",
+      "name": "&\u0002���F�G]�BZ5���4�\u0012�3���BB�I�M�\u0017~/h2�U��T�\u0018\u0013\u001d��D��",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/017-385-414.pdf",
+      "source": "reference/hr-metris/017-385-414.pdf",
+      "line": 6233,
+      "evidence": "# &\u0002��*�F�G]�*BZ5���4�\u0012�3���BB�I�M�\u0017~/h2�U��T�\u0018_\u0013\u001d��D��"
+    },
+    {
+      "id": "sec_i_8_g_s_h_q_y_t_py_k_1_5_t_k_rm_j_e_",
+      "name": "I�8��G>s�Hݴ\u0018\u0011\u0016�\u0019��q���YӘt��py��\u0006���k��\u000e����ʪ��1���5��]���tչ\u001e�K<�%�=\u0005\u0006�\u0003�Rm�դ�J\u0003&�(e��",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/017-385-414.pdf",
+      "source": "reference/hr-metris/017-385-414.pdf",
+      "line": 10807,
+      "evidence": "#\tI�8��G>s�Hݴ\u0018\u0011\u0016�\u0019��q���YӘt��py��\u0006���k��\u000e����ʪ��1���5��]���tչ\u001e�K<�%�=\u0005\u0006�\u0003�Rm�դ�J\u0003&�(e��"
+    },
+    {
+      "id": "sec__s_q_7_gj_s_wb_o_m_7f_t_q_j_p_l_j_ef_h_y_v_wg_j_c_x_q_npy_a6_q_0_k_g_x_l_1_ll_k_z_w_0_o_j_n_ub_xp_j_2_l_q_r_tvhp_p_",
+      "name": "���s���Q.�ʚ�7��'<�GJ=|��s�wB�ēO����\u000bȣm>���7F�\u0015�T�q�\u0013�j��\u0011��\u0018\u0007�p\u0014l��,�J��EF����h���=\\\b��������y���\"�=]�\u000e?+v�?�,;�WG��j�C�\u000e�!�]!x/q��\u0007ذЏ؉�\\nPy��a6\u0019�\u0007Q\u0002�0�k�=\u0001g\u0003�X\u0017L�\u000e��1�lLĶ\u001a|�\u0003�k+�Z$���W\u000f\u0012�\u001a0��\u0016���o\u0001\u001d�J�N�����/ub���XP�\"J���2��l���?q�r�TvHp��P�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/017-385-414.pdf",
+      "source": "reference/hr-metris/017-385-414.pdf",
+      "line": 30564,
+      "evidence": "#\u000b���s���Q.�ʚ�7��'<�GJ=|��s�wB�ēO����\u000bȣm>���7F�\u0015�T�q�\u0013�j��\u0011��\u0018\u0007�p\u0014l��,�J��EF����h���*=\\\b��������y���\"�=]�\u000e?+v�?�,;�WG��j�C�\u000e�!�]!x/q��\u0007ذЏ؉_�\\nPy��a6\u0019�\u0007Q\u0002�0�k�=\u0001"
+    },
+    {
+      "id": "sec__c_i_w_p_4_4_o_9t_y_z_f_ld_l_b",
+      "name": "�\u0019&C\u001e]\u000ei����}�����\u001b%W�P�4[4\u000e�:\u0001�\u0006���\u0012�O\u0001���9T��y\u0000,Ѥ�:�=�Zۖ\u000f�����\u001e��/\u0017<���F{��чLd<��-�L�B",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/017-385-414.pdf",
+      "source": "reference/hr-metris/017-385-414.pdf",
+      "line": 36430,
+      "evidence": "# �\u0019&#C`\u001e]\u000ei����}�����\u001b%W�P�4[4\u000e�:\u0001�\u0006���\u0012�O\u0001���9T��y\u0000,Ѥ�:�=�Zۖ\u000f�����\u001e��/\u0017<���F{��чL#d<��-�L�B"
+    },
+    {
+      "id": "sec__f_3_4_t_c_vq_l_5_l7_r_6_8_b_kt_e_",
+      "name": "�F<\b��3?��4���T+�C¯;\u001d����VQ����L\u0017!!�;5\"���l7���\u001dR�~}����[�\u0019��\f���6\u0011�8�\u001d\u000b��ˌb����]kT��E��������",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/016-355-384.pdf",
+      "source": "reference/hr-metris/016-355-384.pdf",
+      "line": 35836,
+      "evidence": "#\f�F<\b��3?��4��#�T+�C¯;\u001d����VQ��`��L\u0017!!�;5\"���l7���\u001dR�~}����[�\u0019��\f���6\u0011�8�\u001d\u000b��ˌb����]kT��E��������"
+    },
+    {
+      "id": "sec__2_yx_6_q_3_s_o_4_ra_i_q",
+      "name": "�2+��\u0016��<Yx��\f\u0005�6'�����Q����)~�3|��s�o�4\u0004��\u0007rA+I\t�!Q",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/013-263-294.pdf",
+      "source": "reference/hr-metris/013-263-294.pdf",
+      "line": 2149,
+      "evidence": "#\u000b�2+��_\u0016��<Yx��\f\u0005�6'�����Q����)~�3|��s�o�4\u0004��\u0007rA+I\t�!Q"
+    },
+    {
+      "id": "sec__cif_m_z_y_n_t6_z_f_nbs_8_8_y_twp_v_8_3b_k_7_c_z_d_4_6v_3_u1_e_i_n_4p_hgy_c_s_u_nv_v_j_a_u_us_4_w_l_z_q5_z_z_8_z_ro_rv_r_u",
+      "name": "�Cif^�ē֐�M\t��z�y߬n�t6�ï�z��f��Nbs��\u00188�8�y}tWP�v����8��3B�k�\u0005)���+������׿�@��\u001e\u0003�\u001d:�>7�c�z�D�4�6v�3\u001dU1��+��e��i��n$4p�hGY\u0016�C��S\\��@�u�'�nv�v�\u001ej\u0001���ۣ'����Ű\u000fa��\u0000����޳�u��\u001a/US%\u001f���'\u0000���4���&W\u0005L������\u0000\u0013z�<�q5��Z>z�>��ï�8'Z��=>��Ro�rV�\u0006�^��܂r�\b�U",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/013-263-294.pdf",
+      "source": "reference/hr-metris/013-263-294.pdf",
+      "line": 27927,
+      "evidence": "#\u000b\r�Cif^�ē֐�M\t��z�y߬n�t6�ï�z��f��Nbs��\u0018_8�8�y}tWP�v����8*��3B�k�\u0005)���+������׿�@��\u001e\u0003�\u001d:�>7�c�z�D�4�6v�3\u001dU1��+��e��i��n$4p�hGY\u0016�C��S\\��@�u�'�nv�v�\u001ej\u0001���ۣ'����Ű"
+    },
+    {
+      "id": "sec__o_",
+      "name": ".��Ͻ�O�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/013-263-294.pdf",
+      "source": "reference/hr-metris/013-263-294.pdf",
+      "line": 44139,
+      "evidence": "#\r.��Ͻ�O�"
+    },
+    {
+      "id": "sec_3_8m_o_7_a_s_v_r_h_x_d_xq_nd_5w8_v_zxd_n_xk_hm_d_eq_s_9_l_x_d_d_9_w_l_k_w_vg_q7_q_ha_z8_z_52e_c_d_n_mc_d_s_zj_is_g_5_z_0_t_",
+      "name": "3޼�%8m���.��]��o���Ԡ�¶7�A{s��v�~�>\u0016� r��>�����\t�\u0012H�X�]\u0004�>�D�xqڲ�\u0011\u0000�Nd�5W8;�,V\u001aZxD\u0013�N���\u0002���xkꁉHm>�>�կ\b\f�D�EQ�@;�s/9\u0017�l\f��@�\u0010x�\t��\u0000%D�d����9\u0019���W�l\b�KW�\u0000�VG�Q7�!Q�(\u001cHA�\u0018�\b'���\u0014\u001b�z8����Z�Ą\u001d~�52e�����C����d\u0018�N����Mc�d�~s�\u0003ZJ\u0000?�����螣���Is�g�!�\u00125\t��\u0006z\u0000\u000f0�ã��>T�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/020-475-504.pdf",
+      "source": "reference/hr-metris/020-475-504.pdf",
+      "line": 36912,
+      "evidence": "#\t3޼�%8m���*.��]��o���Ԡ�¶7�A{s��v�~�>\u0016� r��>�����\t�\u0012H�X�]\u0004�>�D�xqڲ�\u0011\u0000�Nd�5W8;�,V\u001aZxD\u0013�N`���\u0002���xkꁉHm>�>�կ\b\f�D�EQ�@;�s`/9\u0017�l\f��@�\u0010x�\t��\u0000%D�d����9\u0019���W�l\b�K#W�"
+    },
+    {
+      "id": "sec__",
+      "name": "��",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/05-85-106.pdf",
+      "source": "reference/hr-metris/05-85-106.pdf",
+      "line": 13636,
+      "evidence": "#\t��"
+    },
+    {
+      "id": "sec_o_z_j_o_i_d_en_ci_ay_dl_x_3_q_ua_r_7_r_d_w_9_x_0_c_h_",
+      "name": "o�Z���jȬo��\u0005I�d�݈����en,�ci�\bAYܓDl�\u000e�x�3��}���\u001a�;�>��Q�\u001b?�$\t����Ua\t�\u0010�r�7�R& d\u0011\b���]wʳ��ȵ9�;x�[}\u0012�\"�0쮑�����\u0007�\"���c�H�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/05-85-106.pdf",
+      "source": "reference/hr-metris/05-85-106.pdf",
+      "line": 36586,
+      "evidence": "# o�Z���jȬo��\u0005I�d_�݈����en,�ci�\bAYܓDl�\u000e�x�3��}���\u001a�;�>��Q�\u001b?�$\t����Ua\t�\u0010�r�7�R& d\u0011\b���]wʳ��ȵ9�;x�[}\u0012�\"�0쮑�����\u0007�\"���c�H�"
+    },
+    {
+      "id": "sec__n_lh_v_",
+      "name": ">�n]Lh��\t�\\��v}",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 226711,
+      "evidence": "#\t>�n]Lh��\t�\\��v}"
+    },
+    {
+      "id": "sec_k_efm_n_m_l_i_z_f_vs_u_v_7_x_x_k_g_ov",
+      "name": "K\u0002\f�EFM\u0006�\u0002N�M�l,,\u001c�i{{�ÎZ\u0018�/f:��vs�u\u001dV&\u0000��7\u0004X���=�\u0015'Ǆ���x:���kۼ�g\u0013Ov",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 318694,
+      "evidence": "#\u000bK\u0002\f�EFM_\u0006�\u0002N�M�l,,\u001c�i{{�ÎZ\u0018�/f:��`vs�u\u001dV&\u0000��7`\u0004X���=�\u0015'Ǆ���x:���kۼ�g\u0013Ov"
+    },
+    {
+      "id": "sec__3c_3i_h_0_4_me_y_z_i_k_",
+      "name": "\u001e�3c�3i�=���H��<�?�0\u0003�4��mE�Y�Z�\u0010;\"<i���\u0003<�)K\u000f",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 333365,
+      "evidence": "#\u000b\u001e�3c�3i�=���H��<�?�0\u0003�4��mE�Y�Z�\u0010;\"<i���\u0003<�)K\u000f"
+    },
+    {
+      "id": "sec__c_1",
+      "name": "\u001dC$1",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 483084,
+      "evidence": "#\u000b\u001dC$1"
+    },
+    {
+      "id": "sec_e_l_4f_s_k_zy_63_",
+      "name": "e��~?+�LԤ4f�\u0007S\u0015/k��Zy&\u0013�\u000563�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 484947,
+      "evidence": "#\te��~*?+�LԤ4f�\u0007S\u0015/k��Zy&\u0013�\u000563�"
+    },
+    {
+      "id": "sec__c_x3i_w3d_f_rq_h_",
+      "name": "�C��\u001aX3i����\u0017��W3d�\u0012\u001dF��\u001b��RQ�\u0014\u000b���H����",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 488735,
+      "evidence": "#\t�C��\u001aX3i����\u0017��W3d�\u0012\u001dF��\u001b��RQ�\u0014\u000b���H����"
+    },
+    {
+      "id": "sec__z_t_v_6_kth_p_w_a1_s_c_fp_g_l_q3_me_z_d_r_lc_bq_0_o_x_5_6_c_i_z_m8_c_ej_ec_n_d_",
+      "name": "��\u0002\f�\u001c��z�t���\u0010�\u0012�V�6�ภKTH�P\u0002�+\u0002�W�A1\u0016�ۺ�S��/C����Fp�,\"$\u0010\u0013G\b�\u0011$�L\u0011$q3\u0011����mE\u0018��Z�d��R�\u000b��$�\u0015�{�[�lc\u0010\u0012\u0001\u001c\u0017�Bq��\u0005�0\b�\\�o���x�\u000b5^6\u0001\u0015\u0018��c���İ\u0017�\u000f��\u0011����\u0018z��M8�\u000f�+�c\u000fEj\u0015���\u0000�\u0002Ec���+��N\u001cD�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 683342,
+      "evidence": "#\r��\u0002\f�\u001c��z�t���\u0010�\u0012�V�6�ภKTH�P\u0002�+\u0002�W�A1\u0016�ۺ�S��/C����Fp�,\"$\u0010\u0013G\b�\u0011$�L\u0011$q3\u0011����mE\u0018��Z�d��R�\u000b_��$�\u0015�{�[�lc\u0010\u0012\u0001\u001c\u0017�Bq��\u0005�0\b�\\�o���x�\u000b5^6\u0001\u0015\u0018��c���İ\u0017�\u000f��\u0011����\u0018z��M8�\u000f�+�"
+    },
+    {
+      "id": "sec_i_e_z_c_o_yj_a_f_q_e_z_jqc_2_n_v_j_g_7_e_z_f_ij_x_x_8_z_y_k_q_x_s_k_7_on_2_ua_0_8_yp_a_x_a_n_h_f_d_o_pt_",
+      "name": "I(e:��z;��c�\u0019o}�YJկ�\u0016�$\u0019��a�=F;��q�E$�П�Z�~Jqc�\u00112��N\u0013\u0000�\u000e\u001a��禮�v\u0011J����g!�]��ǜ7���\u000ee�\u0012�z�f�����\u000fij��?:����\u001bX�\u0010X�-8/�z�>y�k��!�\u000fQ��=>\u0016� ��x�s\u0005\u0015���k\u0000\t�7\u0011�ON��\u000b���\"2��\u0016ua\u0016\u00110�8@��YP��A�\\�:�x<\u0015�a��n�H��\u0018�\"�%��f,<\u0005��\u0002���D�\u0005O��pt�.!�",
+      "type": "Section/Module",
+      "description": "Specification section from reference/hr-metris/HR_Metric_Standards.pdf",
+      "source": "reference/hr-metris/HR_Metric_Standards.pdf",
+      "line": 734580,
+      "evidence": "#\rI(e:��z;�_�c�\u0019o}�YJկ�\u0016�$\u0019��a�=F;��q�E$�П�Z�~Jqc�\u00112��N\u0013\u0000�\u000e\u001a��禮�v\u0011J����g!�]��ǜ7���\u000ee�\u0012�z�_f�����\u000fij��?:����\u001bX�\u0010X�-_8/�z�>y�k��!�\u000fQ��=>\u0016� ��x�s\u0005\u0015���k\u0000\t�7\u0011�ON��\u000b�"
+    },
+    {
+      "id": "sec_padm_people_analytics_data_model",
+      "name": "padm — People-Analytics Data Model",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 1,
+      "evidence": "# padm — People-Analytics Data Model"
+    },
+    {
+      "id": "sec_1_architecture_event_sourced_spine_derived_snapshots",
+      "name": "1. Architecture: event-sourced spine, derived snapshots",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 16,
+      "evidence": "## 1. Architecture: event-sourced spine, derived snapshots"
+    },
+    {
+      "id": "sec_2_source_tables",
+      "name": "2. Source tables",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 32,
+      "evidence": "## 2. Source tables"
+    },
+    {
+      "id": "sec_2_1_paperson",
+      "name": "2.1 paperson",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 36,
+      "evidence": "### 2.1 `pa_person`"
+    },
+    {
+      "id": "sec_2_2_paevent",
+      "name": "2.2 paevent",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 49,
+      "evidence": "### 2.2 `pa_event`"
+    },
+    {
+      "id": "sec_2_3_paorgunit",
+      "name": "2.3 paorgunit",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 72,
+      "evidence": "### 2.3 `pa_org_unit`"
+    },
+    {
+      "id": "sec_2_4_pajob",
+      "name": "2.4 pajob",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 85,
+      "evidence": "### 2.4 `pa_job`"
+    },
+    {
+      "id": "sec_2_5_paposition_optional_full_conformance_only_",
+      "name": "2.5 paposition (optional — full conformance only)",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 96,
+      "evidence": "### 2.5 `pa_position` (optional — `full` conformance only)"
+    },
+    {
+      "id": "sec_3_derived_tables",
+      "name": "3. Derived tables",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 110,
+      "evidence": "## 3. Derived tables"
+    },
+    {
+      "id": "sec_3_1_paassignment",
+      "name": "3.1 paassignment",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 115,
+      "evidence": "### 3.1 `pa_assignment`"
+    },
+    {
+      "id": "sec_3_2_paheadcountsnapshot",
+      "name": "3.2 paheadcountsnapshot",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 131,
+      "evidence": "### 3.2 `pa_headcount_snapshot`"
+    },
+    {
+      "id": "sec_4_conventions",
+      "name": "4. Conventions",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 142,
+      "evidence": "## 4. Conventions"
+    },
+    {
+      "id": "ent_naming_",
+      "name": "Naming.",
+      "type": "Component/Requirement",
+      "description": "`snake_case` throughout. `_id` for keys, `_date` for `Date`, `_dt` reserved for",
+      "source": "spec/padm/padm-v0.md",
+      "line": 144,
+      "evidence": "- **Naming.** `snake_case` throughout. `_id` for keys, `_date` for `Date`, `_dt` reserved for"
+    },
+    {
+      "id": "ent_dates_",
+      "name": "Dates.",
+      "type": "Component/Requirement",
+      "description": "Timezone-free `Date`, never `POSIXct`, unless a future `_dt` column is introduced",
+      "source": "spec/padm/padm-v0.md",
+      "line": 146,
+      "evidence": "- **Dates.** Timezone-free `Date`, never `POSIXct`, unless a future `_dt` column is introduced"
+    },
+    {
+      "id": "ent_intervals_",
+      "name": "Intervals.",
+      "type": "Component/Requirement",
+      "description": "Half-open `[valid_from, valid_to)`. Open-ended intervals use `NA` for",
+      "source": "spec/padm/padm-v0.md",
+      "line": 148,
+      "evidence": "- **Intervals.** Half-open `[valid_from, valid_to)`. Open-ended intervals use `NA` for"
+    },
+    {
+      "id": "ent_fte_",
+      "name": "FTE.",
+      "type": "Component/Requirement",
+      "description": "Numeric in `(0, 1]`. Multi-job persons are out of scope for v0 (each `pa_event`",
+      "source": "spec/padm/padm-v0.md",
+      "line": 150,
+      "evidence": "- **FTE.** Numeric in `(0, 1]`. Multi-job persons are out of scope for v0 (each `pa_event`"
+    },
+    {
+      "id": "ent_currency_",
+      "name": "Currency.",
+      "type": "Component/Requirement",
+      "description": "Any `*_amount` column pairs with a `*_currency` column (ISO 4217). No implicit",
+      "source": "spec/padm/padm-v0.md",
+      "line": 152,
+      "evidence": "- **Currency.** Any `*_amount` column pairs with a `*_currency` column (ISO 4217). No implicit"
+    },
+    {
+      "id": "ent_missingness_",
+      "name": "Missingness.",
+      "type": "Component/Requirement",
+      "description": "Use the language-native missing value (`NA` in R, `pd.NA`/`None` in Python),",
+      "source": "spec/padm/padm-v0.md",
+      "line": 154,
+      "evidence": "- **Missingness.** Use the language-native missing value (`NA` in R, `pd.NA`/`None` in Python),"
+    },
+    {
+      "id": "sec_5_sensitivity_tiers",
+      "name": "5. Sensitivity tiers",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 157,
+      "evidence": "## 5. Sensitivity tiers"
+    },
+    {
+      "id": "ent_tier_0_structural_public_",
+      "name": "Tier 0 — structural/public.",
+      "type": "Component/Requirement",
+      "description": "IDs, dates, org/job structure. Safe to aggregate and display",
+      "source": "spec/padm/padm-v0.md",
+      "line": 161,
+      "evidence": "- **Tier 0 — structural/public.** IDs, dates, org/job structure. Safe to aggregate and display"
+    },
+    {
+      "id": "ent_tier_1_restricted_",
+      "name": "Tier 1 — restricted.",
+      "type": "Component/Requirement",
+      "description": "Pay, manager identity, regretted-attrition judgment. Requires",
+      "source": "spec/padm/padm-v0.md",
+      "line": 163,
+      "evidence": "- **Tier 1 — restricted.** Pay, manager identity, regretted-attrition judgment. Requires"
+    },
+    {
+      "id": "ent_tier_2_protected_class_",
+      "name": "Tier 2 — protected class.",
+      "type": "Component/Requirement",
+      "description": "Gender, ethnicity, age (via `birth_date`), disability status.",
+      "source": "spec/padm/padm-v0.md",
+      "line": 165,
+      "evidence": "- **Tier 2 — protected class.** Gender, ethnicity, age (via `birth_date`), disability status."
+    },
+    {
+      "id": "sec_6_conformance_levels",
+      "name": "6. Conformance levels",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 174,
+      "evidence": "## 6. Conformance levels"
+    },
+    {
+      "id": "ent__core_",
+      "name": "`core`",
+      "type": "Component/Requirement",
+      "description": "— `pa_person` (id only) + `pa_event` + `pa_org_unit`, required columns only. Enough",
+      "source": "spec/padm/padm-v0.md",
+      "line": 178,
+      "evidence": "- **`core`** — `pa_person` (id only) + `pa_event` + `pa_org_unit`, required columns only. Enough"
+    },
+    {
+      "id": "ent__extended_",
+      "name": "`extended`",
+      "type": "Component/Requirement",
+      "description": "— adds `pa_job`, pay fields, and optional `pa_person`/`pa_event` columns.",
+      "source": "spec/padm/padm-v0.md",
+      "line": 180,
+      "evidence": "- **`extended`** — adds `pa_job`, pay fields, and optional `pa_person`/`pa_event` columns."
+    },
+    {
+      "id": "ent__full_",
+      "name": "`full`",
+      "type": "Component/Requirement",
+      "description": "— adds `pa_position`. Required for position-managed organizations.",
+      "source": "spec/padm/padm-v0.md",
+      "line": 182,
+      "evidence": "- **`full`** — adds `pa_position`. Required for position-managed organizations."
+    },
+    {
+      "id": "sec_7_the_turnover_denominator_open_question_resolved_for_v0_",
+      "name": "7. The turnover denominator (open question, resolved for v0)",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 188,
+      "evidence": "## 7. The turnover denominator (open question, resolved for v0)"
+    },
+    {
+      "id": "ent_beginning_headcount",
+      "name": "Beginning headcount",
+      "type": "Component/Requirement",
+      "description": "— simplest, but overstates rate in fast-growing orgs (denominator is",
+      "source": "spec/padm/padm-v0.md",
+      "line": 194,
+      "evidence": "- **Beginning headcount** — simplest, but overstates rate in fast-growing orgs (denominator is"
+    },
+    {
+      "id": "ent_average_headcount",
+      "name": "Average headcount",
+      "type": "Component/Requirement",
+      "description": "— `(beginning + ending) / 2`. Common in HR reporting; not exposure-",
+      "source": "spec/padm/padm-v0.md",
+      "line": 196,
+      "evidence": "- **Average headcount** — `(beginning + ending) / 2`. Common in HR reporting; not exposure-"
+    },
+    {
+      "id": "ent_exposure_time_person_months_person_days_",
+      "name": "Exposure time (person-months/person-days)",
+      "type": "Component/Requirement",
+      "description": "— sum of active time each person contributed",
+      "source": "spec/padm/padm-v0.md",
+      "line": 198,
+      "evidence": "- **Exposure time (person-months/person-days)** — sum of active time each person contributed"
+    },
+    {
+      "id": "sec_8_non_goals_for_v0",
+      "name": "8. Non-goals for v0",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 207,
+      "evidence": "## 8. Non-goals for v0"
+    },
+    {
+      "id": "sec_9_versioning",
+      "name": "9. Versioning",
+      "type": "Section/Module",
+      "description": "Specification section from spec/padm/padm-v0.md",
+      "source": "spec/padm/padm-v0.md",
+      "line": 213,
+      "evidence": "## 9. Versioning"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sec_1_code_based_files_codegraphcontext_upstream_codegraphcontext_codegraphcontext_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_code_query_engine_",
+      "evidence": "- **Code Query Engine:** For all code architecture, symbol definitions, function signatures, call hierarchies (callers/callees), class inheritance, and module d",
+      "source_file": "AGENTS.md",
+      "line": 38
+    },
+    {
+      "source": "sec_1_code_based_files_codegraphcontext_upstream_codegraphcontext_codegraphcontext_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_zero_waste_fallback_",
+      "evidence": "- **Zero-Waste Fallback:** NEVER dump or read entire source code files or directory trees into LLM prompt context when answering code questions. Only fall back ",
+      "source_file": "AGENTS.md",
+      "line": 39
+    },
+    {
+      "source": "sec_1_code_based_files_codegraphcontext_upstream_codegraphcontext_codegraphcontext_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_live_synchronization_",
+      "evidence": "- **Live Synchronization:** The project code graph is continuously kept updated via background incremental sync / `cgc watch` / on-save triggers.",
+      "source_file": "AGENTS.md",
+      "line": 40
+    },
+    {
+      "source": "sec_2_non_code_files_jevgraph_upstream_chenmingtang830_jevgraph_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_document_query_engine_only_",
+      "evidence": "- **Document Query Engine ONLY:** JevGraph is strictly designated for non-code files (documentation, Markdown specs, PRDs, PDFs, Word docs `.docx`, slides `.ppt",
+      "source_file": "AGENTS.md",
+      "line": 43
+    },
+    {
+      "source": "sec_2_non_code_files_jevgraph_upstream_chenmingtang830_jevgraph_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_bounded_evidence_",
+      "evidence": "- **Bounded Evidence:** When ingesting large specs, PRDs, PDFs, or architectural documentation, build or query bounded evidence-backed knowledge graphs (/jevgra",
+      "source_file": "AGENTS.md",
+      "line": 44
+    },
+    {
+      "source": "sec_2_non_code_files_jevgraph_upstream_chenmingtang830_jevgraph_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_strict_separation_",
+      "evidence": "- **Strict Separation:** NEVER use JevGraph for source code AST indexing; code files are strictly handled by CodeGraphContext.",
+      "source_file": "AGENTS.md",
+      "line": 45
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_filter_not_style_guide_",
+      "evidence": "- **Filter, Not Style Guide:** Run purpose tests before aesthetic choices (reject ungrounded neon glows, fake metrics, generic sparkle badges).",
+      "source_file": "AGENTS.md",
+      "line": 54
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_liveliness_grounding_",
+      "evidence": "- **Liveliness & Grounding:** Rely on `DESIGN.md` or explicit brief for design soul; enforce WCAG AA human accessibility.",
+      "source_file": "AGENTS.md",
+      "line": 55
+    },
+    {
+      "source": "sec_anti_slop_filter_quality_rules_upstream_miqdadbadjuber_anti_slop_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_dedicated_skills_",
+      "evidence": "- **Dedicated Skills:** Read `skills/antislop/SKILL.md` (core), `skills/antislop-ui/SKILL.md`, `skills/antislop-copywriting/SKILL.md`, `skills/antislop-human/SK",
+      "source_file": "AGENTS.md",
+      "line": 56
+    },
+    {
+      "source": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_yagni_shortest_diff_",
+      "evidence": "- **YAGNI & Shortest Diff:** Only write code that must exist. Reach for standard library before custom code or new dependencies. Shortest working diff wins.",
+      "source_file": "AGENTS.md",
+      "line": 60
+    },
+    {
+      "source": "sec_output_generation_token_saver_rule_ponytail_mode_full_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_terse_responses_",
+      "evidence": "- **Terse Responses:** Code first. At most 3 short lines of explanation: what was skipped, when to add it. No essays, no unsolicited design tours, no feature wa",
+      "source_file": "AGENTS.md",
+      "line": 61
+    },
+    {
+      "source": "sec_conventions_that_matter",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_turnover_denominator_is_never_implicit_",
+      "evidence": "- **Turnover denominator is never implicit.** `attr_rate()` takes a required `definition` (`\"beginning_headcount\"`, `\"avg_headcount\"`, `\"exposure\"`); the same d",
+      "source_file": "CLAUDE.md",
+      "line": 62
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_naming_",
+      "evidence": "- **Naming.** `snake_case` throughout. `_id` for keys, `_date` for `Date`, `_dt` reserved for",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 144
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_dates_",
+      "evidence": "- **Dates.** Timezone-free `Date`, never `POSIXct`, unless a future `_dt` column is introduced",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 146
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_intervals_",
+      "evidence": "- **Intervals.** Half-open `[valid_from, valid_to)`. Open-ended intervals use `NA` for",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 148
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_fte_",
+      "evidence": "- **FTE.** Numeric in `(0, 1]`. Multi-job persons are out of scope for v0 (each `pa_event`",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 150
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_currency_",
+      "evidence": "- **Currency.** Any `*_amount` column pairs with a `*_currency` column (ISO 4217). No implicit",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 152
+    },
+    {
+      "source": "sec_4_conventions",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_missingness_",
+      "evidence": "- **Missingness.** Use the language-native missing value (`NA` in R, `pd.NA`/`None` in Python),",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 154
+    },
+    {
+      "source": "sec_5_sensitivity_tiers",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_tier_0_structural_public_",
+      "evidence": "- **Tier 0 — structural/public.** IDs, dates, org/job structure. Safe to aggregate and display",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 161
+    },
+    {
+      "source": "sec_5_sensitivity_tiers",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_tier_1_restricted_",
+      "evidence": "- **Tier 1 — restricted.** Pay, manager identity, regretted-attrition judgment. Requires",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 163
+    },
+    {
+      "source": "sec_5_sensitivity_tiers",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_tier_2_protected_class_",
+      "evidence": "- **Tier 2 — protected class.** Gender, ethnicity, age (via `birth_date`), disability status.",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 165
+    },
+    {
+      "source": "sec_6_conformance_levels",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent__core_",
+      "evidence": "- **`core`** — `pa_person` (id only) + `pa_event` + `pa_org_unit`, required columns only. Enough",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 178
+    },
+    {
+      "source": "sec_6_conformance_levels",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent__extended_",
+      "evidence": "- **`extended`** — adds `pa_job`, pay fields, and optional `pa_person`/`pa_event` columns.",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 180
+    },
+    {
+      "source": "sec_6_conformance_levels",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent__full_",
+      "evidence": "- **`full`** — adds `pa_position`. Required for position-managed organizations.",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 182
+    },
+    {
+      "source": "sec_7_the_turnover_denominator_open_question_resolved_for_v0_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_beginning_headcount",
+      "evidence": "- **Beginning headcount** — simplest, but overstates rate in fast-growing orgs (denominator is",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 194
+    },
+    {
+      "source": "sec_7_the_turnover_denominator_open_question_resolved_for_v0_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_average_headcount",
+      "evidence": "- **Average headcount** — `(beginning + ending) / 2`. Common in HR reporting; not exposure-",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 196
+    },
+    {
+      "source": "sec_7_the_turnover_denominator_open_question_resolved_for_v0_",
+      "relation": "DEFINES_REQUIREMENT",
+      "target": "ent_exposure_time_person_months_person_days_",
+      "evidence": "- **Exposure time (person-months/person-days)** — sum of active time each person contributed",
+      "source_file": "spec/padm/padm-v0.md",
+      "line": 198
+    }
+  ],
+  "stats": {
+    "total_sources": 29,
+    "total_entities": 108,
+    "total_relations": 27,
+    "token_savings_estimate": "85-95%"
+  }
+}
